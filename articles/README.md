@@ -4,6 +4,7 @@
 
 | 日期 | 文章 | 原文 Markdown | 公众号 HTML | 排版 Markdown |
 | --- | --- | --- | --- | --- |
+| 2026-09-27 | 佛陀如何改变了我的女司机同事？ | [2026-09-27-fotuo-ruhe-gaibian-nv-siji-tongshi/article.md](2026-09-27-fotuo-ruhe-gaibian-nv-siji-tongshi/article.md) | [2026-09-27-fotuo-ruhe-gaibian-nv-siji-tongshi/wechat.html](2026-09-27-fotuo-ruhe-gaibian-nv-siji-tongshi/wechat.html) | [2026-09-27-fotuo-ruhe-gaibian-nv-siji-tongshi/wechat.md](2026-09-27-fotuo-ruhe-gaibian-nv-siji-tongshi/wechat.md) |
 | 2026-09-26 | 佛陀如何教育自己的儿子？ | [2026-09-26-fotuo-jiaoyu-luohouluo/article.md](2026-09-26-fotuo-jiaoyu-luohouluo/article.md) | [2026-09-26-fotuo-jiaoyu-luohouluo/wechat.html](2026-09-26-fotuo-jiaoyu-luohouluo/wechat.html) | [2026-09-26-fotuo-jiaoyu-luohouluo/wechat.md](2026-09-26-fotuo-jiaoyu-luohouluo/wechat.md) |
 | 2026-09-25 | 如果佛陀看见π | [2026-09-25-ruguo-fotuo-kanjian-pi/article.md](2026-09-25-ruguo-fotuo-kanjian-pi/article.md) | [2026-09-25-ruguo-fotuo-kanjian-pi/wechat.html](2026-09-25-ruguo-fotuo-kanjian-pi/wechat.html) | [2026-09-25-ruguo-fotuo-kanjian-pi/wechat.md](2026-09-25-ruguo-fotuo-kanjian-pi/wechat.md) |
 | 2026-09-24 | 马斯克的佛性是什么？ | [2026-09-24-musk-de-yuanli/article.md](2026-09-24-musk-de-yuanli/article.md) | [2026-09-24-musk-de-yuanli/wechat.html](2026-09-24-musk-de-yuanli/wechat.html) | [2026-09-24-musk-de-yuanli/wechat.md](2026-09-24-musk-de-yuanli/wechat.md) |

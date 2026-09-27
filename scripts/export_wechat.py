@@ -46,7 +46,7 @@ SUMMARY_STYLE = (
     "margin:0 auto 8px;color:#68736A;font-size:14px;line-height:1.8;"
     "text-align:center;"
 )
-DIVIDER_URL = urljoin(SITE_BASE, "assets/wulai-wechat-divider.png")
+DIVIDER_URL = urljoin(SITE_BASE, "assets/seprator.png")
 
 HIGHLIGHTS = {
     "2026-09-24-fuxue-yu-qingshang": [
@@ -78,6 +78,12 @@ HIGHLIGHTS = {
         "善意里有没有悄悄混进控制。",
         "我是在帮助孩子形成自己的判断，还是努力让他成为我认为正确的样子？",
         "这两件事，也许就是教育和控制之间最重要的分界线。",
+    ],
+    "2026-09-27-fotuo-ruhe-gaibian-nv-siji-tongshi": [
+        "高速上开车，安全第一。",
+        "此刻最应该做什么，就把这件事情做好。",
+        "事情发生的时候全然去做，事情过去以后，不再让心继续抓着它。",
+        "但他的生活，已经先把法讲了一遍。",
     ],
 }
 
