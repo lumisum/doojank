@@ -10,7 +10,7 @@
 <p style="margin:2px 0 12px;color:#8C724C;font-size:12px;line-height:1.5;letter-spacing:2px;text-align:center;">无来 · 修学随笔</p>
 <p style="margin:0 auto 12px;color:#18372F;font-size:24px;font-weight:700;line-height:1.5;text-align:center;letter-spacing:0.4px;">佛陀如何改变了我的女司机同事？</p>
 <p style="margin:0 auto 8px;color:#68736A;font-size:14px;line-height:1.8;text-align:center;">从一位女同事在高速上专心驾驶的细节出发，重新理解《金刚经》第一品：修行不在生活之外，而在每一刻做好眼前该做的事。</p>
-<p style="margin:14px auto 24px;text-align:center;line-height:0;"><img src="https://lumisum.github.io/wulai/assets/seprator.png" alt="" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
+<p style="margin:14px auto 24px;text-align:center;line-height:0;"><img src="https://lumisum.github.io/wulai/assets/wulai-wechat-divider.png" alt="" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
 <p style="margin:0 0 20px;color:#354039;font-size:15px;line-height:1.95;letter-spacing:0.25px;">前两天去杭州参加一个数据峰会，我们几个人一起开车过去，开车的是一位女同事。</p>
 <p style="margin:0 0 20px;color:#354039;font-size:15px;line-height:1.95;letter-spacing:0.25px;">她平时是个挺爱说话的人。办公室里话不少，路上也能一直聊。即使是她自己开车，只要是在普通城市道路上，也完全不耽误聊天。工作、孩子、生活，想到什么都可以接着聊下去。</p>
 <p style="margin:0 0 20px;color:#354039;font-size:15px;line-height:1.95;letter-spacing:0.25px;">但我很快发现一个挺奇怪的现象。</p>
@@ -54,4 +54,4 @@
 <p style="margin:0 0 20px;color:#354039;font-size:15px;line-height:1.95;letter-spacing:0.25px;">现在反而觉得，《金刚经》第一品一开始就在提醒一件很简单的事情：很多所谓的大问题，可能本来就是无数个没有安住好的当下，一点一点堆出来的。</p>
 <p style="margin:0 0 20px;color:#354039;font-size:15px;line-height:1.95;letter-spacing:0.25px;">佛陀还没有开始讲法。</p>
 <p style="margin:0 0 20px;color:#354039;font-size:15px;line-height:1.95;letter-spacing:0.25px;"><strong style="color:#315B49;background-color:#EFF2EA;font-weight:700;padding:1px 3px;">但他的生活，已经先把法讲了一遍。</strong></p>
-<p style="margin:14px auto 24px;text-align:center;line-height:0;"><img src="https://lumisum.github.io/wulai/assets/seprator.png" alt="" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p><p style="margin:0 0 8px;color:#365344;font-size:14px;line-height:1.8;text-align:center;">愿把所思所学，带回眼前的生活。</p><p style="margin:0;color:#AB8966;font-size:12px;letter-spacing:2px;text-align:center;">无来 · 修学随笔</p></div>
+<p style="margin:14px auto 24px;text-align:center;line-height:0;"><img src="https://lumisum.github.io/wulai/assets/wulai-wechat-divider.png" alt="" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p><p style="margin:0 0 8px;color:#365344;font-size:14px;line-height:1.8;text-align:center;">愿把所思所学，带回眼前的生活。</p><p style="margin:0;color:#AB8966;font-size:12px;letter-spacing:2px;text-align:center;">无来 · 修学随笔</p></div>

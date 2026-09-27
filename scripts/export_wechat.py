@@ -46,7 +46,7 @@ SUMMARY_STYLE = (
     "margin:0 auto 8px;color:#68736A;font-size:14px;line-height:1.8;"
     "text-align:center;"
 )
-DIVIDER_URL = urljoin(SITE_BASE, "assets/seprator.png")
+DIVIDER_URL = urljoin(SITE_BASE, "assets/wulai-wechat-divider.png")
 
 HIGHLIGHTS = {
     "2026-09-24-fuxue-yu-qingshang": [
