@@ -55,6 +55,7 @@ img { max-width: 100%; height: auto; }
 .brand-mark .ui-icon { width: 22px; height: 22px; stroke-width: 1.35; }
 .site-nav { display: flex; gap: clamp(1.25rem, 3vw, 2.75rem); color: #59645d; font-size: .9rem; letter-spacing: .08em; }
 .site-nav a { display: inline-flex; align-items: center; gap: .4rem; min-height: 44px; transition: color .2s ease; }
+.site-nav .nav-short { display: none; }
 .site-nav .ui-icon { color: #a78758; font-size: 1.12rem; transition: transform .2s ease; }
 .site-nav a:hover .ui-icon, .site-nav a:focus-visible .ui-icon { transform: translateY(-2px); }
 .site-nav a:focus-visible, .practice-path a:focus-visible { outline: 2px solid var(--brass); outline-offset: 4px; }
@@ -213,9 +214,10 @@ img { max-width: 100%; height: auto; }
 
 @media (max-width: 480px) {
   .site-nav { gap: .35rem; }
-  .site-nav a { justify-content: center; width: 38px; }
-  .site-nav a span { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
-  .site-nav .ui-icon { font-size: 1.25rem; }
+  .site-nav a { justify-content: center; gap: .2rem; min-height: 38px; font-size: .68rem; letter-spacing: .02em; }
+  .site-nav .nav-label { display: none; }
+  .site-nav .nav-short { display: inline; }
+  .site-nav .ui-icon { font-size: 1.08rem; }
   .article-grid { grid-template-columns: 1fr; }
   .article-card-copy { padding: 1rem 1.1rem 1.15rem; }
   .article-card-copy h3 { font-size: .95rem; }
