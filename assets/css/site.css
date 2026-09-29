@@ -185,7 +185,7 @@ img { max-width: 100%; height: auto; }
   .hero { min-height: 560px; background-position: 61% center; }
   .hero-inner { width: calc(100% - 2.5rem); padding-top: 4rem; }
   .hero h1 { font-size: clamp(4rem, 19vw, 6rem); }
-  .hero-caption { writing-mode: horizontal-tb; right: 1.3rem; bottom: 1rem; font-size: .65rem; }
+  .hero-caption { writing-mode: horizontal-tb; right: 1.3rem; bottom: 1rem; padding: .15rem .4rem; border-radius: 2px; background: rgba(13, 34, 28, .45); color: #f8f4e9; font-size: .65rem; }
   .section-shell { width: calc(100% - 2.5rem); }
   .practice-path { grid-template-columns: 1fr; }
   .practice-path a { padding: .9rem .4rem; }
@@ -214,7 +214,7 @@ img { max-width: 100%; height: auto; }
 
 @media (max-width: 480px) {
   .site-nav { gap: .35rem; }
-  .site-nav a { justify-content: center; gap: .2rem; min-height: 38px; font-size: .68rem; letter-spacing: .02em; }
+  .site-nav a { justify-content: center; gap: .2rem; min-height: 38px; font-size: .75rem; letter-spacing: .02em; }
   .site-nav .nav-label { display: none; }
   .site-nav .nav-short { display: inline; }
   .site-nav .ui-icon { font-size: 1.08rem; }
