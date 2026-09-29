@@ -83,8 +83,7 @@ description: 无来是个人修行与学习佛法的记录，在日常生活中�
       {% for article in all_articles %}
         <a class="article-card" href="{{ article.url | relative_url }}" aria-label="阅读：{{ article.title | escape }}">
           <figure class="article-card-visual">
-            <img src="{{ article.cover | relative_url }}" alt="{{ article.cover_alt | default: article.title | escape }}" loading="lazy">
-            <span class="article-card-shade" aria-hidden="true"></span>
+            <span class="article-card-media"><img src="{{ article.cover | relative_url }}" alt="{{ article.cover_alt | default: article.title | escape }}" loading="lazy"></span>
             <figcaption class="article-card-copy">
               {% if article.date %}<time datetime="{{ article.date | date_to_xmlschema }}">{{ article.date | date: '%Y.%m.%d' }}</time>{% endif %}
               <h3>{{ article.title | escape }}</h3>
