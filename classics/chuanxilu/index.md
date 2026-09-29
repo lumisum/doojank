@@ -9,7 +9,7 @@ permalink: /classics/chuanxilu/
     <img src="{{ '/assets/scriptures/chuanxilu-banner.png' | relative_url }}" alt="明代学者王阳明在山间书斋执笔沉思，窗外是青松与晨雾。" fetchpriority="high">
     <div class="scripture-hero-shade" aria-hidden="true"></div>
     <div class="scripture-hero-copy">
-      <p class="scripture-kicker">心学 · 知行 · 致良知</p>
+      <p class="scripture-kicker with-icon"><svg class="ui-icon" aria-hidden="true"><use href="#icon-bodhi"></use></svg>心学 · 知行 · 致良知</p>
       <h1>传习录</h1>
       <p><strong>知行合一 · 致良知</strong></p>
     </div>
@@ -18,7 +18,7 @@ permalink: /classics/chuanxilu/
 
   <section class="scripture-intro section-shell" aria-labelledby="scripture-intro-title">
     <div>
-      <p class="eyebrow">王守仁与门人的问答、书信与记录</p>
+      <p class="eyebrow with-icon"><svg class="ui-icon" aria-hidden="true"><use href="#icon-sutra"></use></svg>王守仁与门人的问答、书信与记录</p>
       <h2 id="scripture-intro-title">把心学放回提问与行动之中。</h2>
     </div>
     <div class="scripture-intro-copy">
@@ -60,7 +60,7 @@ permalink: /classics/chuanxilu/
       <ol id="scripture-index-list"></ol>
     </nav>
     <div class="scripture-reading-note" data-parallel-note>
-      <span class="reading-note-mark" aria-hidden="true">☸</span>
+      <span class="reading-note-mark" aria-hidden="true"><svg class="ui-icon"><use href="#icon-dharma"></use></svg></span>
       <p><strong>读法提示</strong> · 先读原文，再看白话学习笔记如何拆解意思。遇到仍不确定的地方，可以先留下问题，回到经文、原典或可靠注疏继续查证。</p>
     </div>
     <div id="scripture-content" class="scripture-content" aria-live="polite" aria-busy="true">
@@ -68,7 +68,7 @@ permalink: /classics/chuanxilu/
     </div>
     <p id="scripture-error" class="scripture-error" hidden>原文暂时无法载入。你可以先<a href="{{ '/classics/chuanxilu/original.txt' | relative_url }}">打开原文文本</a>继续阅读。</p>
     <div class="scripture-endnote">
-      <span aria-hidden="true">☸</span>
+      <span aria-hidden="true"><svg class="ui-icon"><use href="#icon-dharma"></use></svg></span>
       <p>愿所读的智慧，回到每一次真实的选择里。</p>
       <a href="{{ '/' | relative_url }}#classics">回到无来首页</a>
     </div>

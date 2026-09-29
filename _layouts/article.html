@@ -10,7 +10,7 @@ layout: default
   <div class="article-reader">
     <div class="article-toolbar">
       <a class="article-back" href="{{ '/' | relative_url }}#articles"><span aria-hidden="true">←</span> 返回文章展览</a>
-      <span class="article-category">无来 · 修学随笔</span>
+      <span class="article-category"><svg class="ui-icon" aria-hidden="true"><use href="#icon-lotus"></use></svg>无来 · 修学随笔</span>
     </div>
     <header class="article-heading">
       <h1>{{ page.title | escape }}</h1>
@@ -19,7 +19,7 @@ layout: default
     </header>
     <div class="article-content">{{ content }}</div>
     <footer class="article-end">
-      <span class="article-end-mark" aria-hidden="true">☸</span>
+      <span class="article-end-mark" aria-hidden="true"><svg class="ui-icon"><use href="#icon-dharma"></use></svg></span>
       <p>愿把所思所学，带回眼前的生活。</p>
       <a href="{{ '/' | relative_url }}#articles">回到文章展览 <span aria-hidden="true">↗</span></a>
     </footer>

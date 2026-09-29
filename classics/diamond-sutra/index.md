@@ -9,7 +9,7 @@ permalink: /classics/diamond-sutra/
     <img src="{{ '/assets/scriptures/diamond-sutra-banner.png' | relative_url }}" alt="群山与松林在青松绿的薄雾中渐次展开，晨光落在静水上" fetchpriority="high">
     <div class="scripture-hero-shade" aria-hidden="true"></div>
     <div class="scripture-hero-copy">
-      <p class="scripture-kicker">经典 · 般若 · 无住</p>
+      <p class="scripture-kicker with-icon"><svg class="ui-icon" aria-hidden="true"><use href="#icon-lotus"></use></svg>经典 · 般若 · 无住</p>
       <h1>金刚般若波罗蜜经</h1>
       <p><strong>应无所住而生其心</strong></p>
     </div>
@@ -18,7 +18,7 @@ permalink: /classics/diamond-sutra/
 
   <section class="scripture-intro section-shell" aria-labelledby="scripture-intro-title">
     <div>
-      <p class="eyebrow">一部关于般若与无住的经典</p>
+      <p class="eyebrow with-icon"><svg class="ui-icon" aria-hidden="true"><use href="#icon-sutra"></use></svg>一部关于般若与无住的经典</p>
       <h2 id="scripture-intro-title">不抓住答案，仍然认真生活。</h2>
     </div>
     <div class="scripture-intro-copy">
@@ -62,7 +62,7 @@ permalink: /classics/diamond-sutra/
     </nav>
 
     <div class="scripture-reading-note" data-parallel-note>
-      <span class="reading-note-mark" aria-hidden="true">☸</span>
+      <span class="reading-note-mark" aria-hidden="true"><svg class="ui-icon"><use href="#icon-dharma"></use></svg></span>
       <p><strong>读法提示</strong> · 先看原文在说什么，再读白话尝试理解。若某段意思仍不确定，可以先留下问题，回到经文和可靠注疏中继续查证。</p>
     </div>
 
@@ -71,7 +71,7 @@ permalink: /classics/diamond-sutra/
     </div>
     <p id="scripture-error" class="scripture-error" hidden>经文暂时无法载入。你可以先<a href="{{ '/classics/diamond-sutra/original.txt' | relative_url }}">打开原文文本</a>继续阅读。</p>
     <div class="scripture-endnote">
-      <span aria-hidden="true">☸</span>
+      <span aria-hidden="true"><svg class="ui-icon"><use href="#icon-dharma"></use></svg></span>
       <p>愿读到的智慧，回到每一次真实的选择里。</p>
       <a href="{{ '/' | relative_url }}#classics">回到无来首页</a>
     </div>

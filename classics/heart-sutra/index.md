@@ -9,7 +9,7 @@ permalink: /classics/heart-sutra/
     <img src="{{ '/assets/scriptures/heart-sutra-banner.png' | relative_url }}" alt="传统观音菩萨形象静坐山湖之畔，晨光照亮青松绿的群山。" fetchpriority="high">
     <div class="scripture-hero-shade" aria-hidden="true"></div>
     <div class="scripture-hero-copy">
-      <p class="scripture-kicker">般若 · 观照 · 五蕴皆空</p>
+      <p class="scripture-kicker with-icon"><svg class="ui-icon" aria-hidden="true"><use href="#icon-lotus"></use></svg>般若 · 观照 · 五蕴皆空</p>
       <h1>般若波罗蜜多心经</h1>
       <p><strong>照见五蕴皆空</strong></p>
     </div>
@@ -18,7 +18,7 @@ permalink: /classics/heart-sutra/
 
   <section class="scripture-intro section-shell" aria-labelledby="scripture-intro-title">
     <div>
-      <p class="eyebrow">一部关于般若观照的短经</p>
+      <p class="eyebrow with-icon"><svg class="ui-icon" aria-hidden="true"><use href="#icon-sutra"></use></svg>一部关于般若观照的短经</p>
       <h2 id="scripture-intro-title">从身心经验看见因缘与变化。</h2>
     </div>
     <div class="scripture-intro-copy">
@@ -60,7 +60,7 @@ permalink: /classics/heart-sutra/
       <ol id="scripture-index-list"></ol>
     </nav>
     <div class="scripture-reading-note" data-parallel-note>
-      <span class="reading-note-mark" aria-hidden="true">☸</span>
+      <span class="reading-note-mark" aria-hidden="true"><svg class="ui-icon"><use href="#icon-dharma"></use></svg></span>
       <p><strong>读法提示</strong> · 先读原文，再看白话学习笔记如何拆解意思。遇到仍不确定的地方，可以先留下问题，回到经文、原典或可靠注疏继续查证。</p>
     </div>
     <div id="scripture-content" class="scripture-content" aria-live="polite" aria-busy="true">
@@ -68,7 +68,7 @@ permalink: /classics/heart-sutra/
     </div>
     <p id="scripture-error" class="scripture-error" hidden>原文暂时无法载入。你可以先<a href="{{ '/classics/heart-sutra/original.txt' | relative_url }}">打开原文文本</a>继续阅读。</p>
     <div class="scripture-endnote">
-      <span aria-hidden="true">☸</span>
+      <span aria-hidden="true"><svg class="ui-icon"><use href="#icon-dharma"></use></svg></span>
       <p>愿所读的智慧，回到每一次真实的选择里。</p>
       <a href="{{ '/' | relative_url }}#classics">回到无来首页</a>
     </div>
