@@ -38,4 +38,4 @@ cover_alt: "封面画面说明"
 
 ## 公众号导入稿
 
-将本文保存为 `articles/YYYY-MM-DD-short-title/article.md`，并把配图放在同目录的 `images/` 下。文章定稿并标记为 `published` 后，运行 `python3 scripts/export_wechat.py`，会在本篇目录生成 `wechat.md`（内联 HTML 的公众号稿）和 `wechat.html`（可预览、可复制版本），并按时间更新 `articles/README.md`。HTML 稿的开头包含 2.35:1 封面，排版遵循 [`guides/wechat-formatting.md`](../guides/wechat-formatting.md)。
+将本文保存为 `articles/YYYY-MM-DD-short-title/article.md`，并把配图放在同目录的 `images/` 下。写作时遵循 [`guides/writing-style.md`](../guides/writing-style.md)，按完整意思自然成段，不要一句一段。文章定稿并标记为 `published` 后，运行 `python3 scripts/export_wechat.py`，会在本篇目录生成 `wechat.md`（内联 HTML 的公众号稿）和 `wechat.html`（可预览、可复制版本），并按时间更新 `articles/README.md`。HTML 稿的开头包含 2.35:1 封面，排版遵循 [`guides/wechat-formatting.md`](../guides/wechat-formatting.md)。
