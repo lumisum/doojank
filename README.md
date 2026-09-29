@@ -51,7 +51,7 @@
 
 | 日期 | 文章 |
 | --- | --- |
-| 2026.09.29 | [专注，就是修行](https://lumisum.github.io/wulai/articles/insights/2026-09-29-fufa-zhuanzhu-dangxia/) |
+| 2026.09.29 | [为什么佛法里最不起眼的修行，反而最有复利？](https://lumisum.github.io/wulai/articles/insights/2026-09-29-fufa-zhuanzhu-dangxia/) |
 | 2026.09.27 | [佛陀如何让家长每天多出一小时？](https://lumisum.github.io/wulai/articles/insights/2026-09-27-fotuo-rang-jiazhang-meitian-duo-yixiaoshi/) |
 | 2026.09.27 | [佛陀如何改变了我的女司机同事？](https://lumisum.github.io/wulai/articles/insights/2026-09-27-fotuo-ruhe-gaibian-nv-siji-tongshi/) |
 | 2026.09.26 | [佛陀如何教育自己的儿子？](https://lumisum.github.io/wulai/articles/insights/2026-09-26-fotuo-jiaoyu-luohouluo/) |
