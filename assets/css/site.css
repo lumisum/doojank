@@ -233,6 +233,7 @@ img { max-width: 100%; height: auto; }
   position: relative;
   isolation: isolate;
   display: block;
+  min-width: 0;
   overflow: hidden;
   min-height: 250px;
   aspect-ratio: 3.3 / 1;
@@ -341,7 +342,7 @@ img { max-width: 100%; height: auto; }
   .scripture-showcase { min-height: 260px; aspect-ratio: 1.9 / 1; }
   .scripture-showcase-copy { left: 1.35rem; width: 82%; }
   .scripture-showcase-copy strong { font-size: clamp(1.45rem, 6vw, 2rem); }
-  .scripture-showcase-grid { grid-template-columns: 1fr; }
+  .scripture-showcase-grid { grid-template-columns: minmax(0, 1fr); }
   .scripture-showcase-grid .scripture-showcase { min-height: 250px; aspect-ratio: 1.9 / 1; }
   .scripture-showcase-grid .scripture-showcase-copy { left: 1.35rem; width: 82%; }
   .scripture-showcase-grid .scripture-showcase-copy strong { font-size: clamp(1.45rem, 6vw, 2rem); }
