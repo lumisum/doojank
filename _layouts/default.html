@@ -106,7 +106,16 @@
 
     <footer class="site-footer">
       <a class="footer-brand" href="{{ '/' | relative_url }}"><svg class="ui-icon" aria-hidden="true"><use href="#icon-dharma"></use></svg>无来</a>
-      <p>愿在每一次观照中，更清明地回到生活。</p>
+      <div class="footer-center">
+        <p>愿在每一次观照中，更清明地回到生活。</p>
+        {% if page.url == '/' %}
+        <div class="footer-visitors" id="visitor-title" aria-label="访问统计" aria-live="polite">
+          <span>累计访客 <strong id="busuanzi_site_uv">—</strong></span><span>今日访客 <strong id="busuanzi_today_uv">—</strong></span><span>阅读 <strong id="busuanzi_site_pv">—</strong> 次</span>
+          <a href="https://www.busuanzi.cc/doc.php" target="_blank" rel="noopener noreferrer" title="按服务的 IP 等规则去重，自接入起记录，域名范围统计，并非准确人数">统计说明 ↗</a>
+          <span id="visitor-status" class="visually-hidden">正在加载访问统计</span>
+        </div>
+        {% endif %}
+      </div>
       <a class="back-top" href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">回到顶部 ↑</a>
     </footer>
     <script defer src="{{ '/assets/js/visitor-counter.js' | relative_url }}"></script>
