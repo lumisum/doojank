@@ -406,6 +406,13 @@ img { max-width: 100%; height: auto; }
 .footer-visitors a { color: rgba(230,212,172,.75); font-size: .63rem; }
 .visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
 
+@font-face {
+  font-family: "Wulai Sutra Kai";
+  src: url("../fonts/wulai-sutra-kai.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
 /* A quiet, centered reading surface shared by all four classics. */
 body.pure-reading { background: #17271f; }
 .pure-reading .site-header, .pure-reading .site-footer,
@@ -423,7 +430,8 @@ body.pure-reading { background: #17271f; }
 .scripture-page[data-mode="pure"] .sutra-chapter-heading { display: flex; flex-direction: column; align-items: center; gap: .6rem; margin-bottom: 2rem; text-align: center; }
 .scripture-page[data-mode="pure"] .sutra-chapter-number { color: #bca785; }
 .scripture-page[data-mode="pure"] .sutra-chapter-title { color: #eed8bc; font-size: 1.6rem; }
-.scripture-page[data-mode="pure"] .sutra-source { max-width: none; color: #e5ddcb; font-size: calc(clamp(1.25rem, 2.2vw, 1.6rem) * var(--sutra-font-scale)); line-height: 2.35; letter-spacing: .07em; text-align: center; }
+.scripture-page[data-mode="pure"] .sutra-source { max-width: none; color: #e5ddcb; font-family: "Wulai Sutra Kai", "Kaiti SC", "KaiTi", var(--sans); font-weight: 400; font-size: calc(clamp(1.25rem, 2.2vw, 1.6rem) * var(--sutra-font-scale)); line-height: 2.35; letter-spacing: .07em; text-align: center; }
+.scripture-page[data-mode="pure"] .sutra-chapter-heading { font-family: "Wulai Sutra Kai", "Kaiti SC", "KaiTi", var(--sans); font-weight: 400; }
 .scripture-page[data-mode="pure"] .scripture-loading,
 .scripture-page[data-mode="pure"] .scripture-error { color: #eed8bc; text-align: center; }
 .pure-reader-exit { position: fixed; z-index: 100; right: 1.2rem; top: 1.2rem; padding: .55rem .9rem; border: 1px solid rgba(238,216,188,.25); border-radius: 30px; background: #21382e; color: #eed8bc; font: .75rem var(--sans); cursor: pointer; opacity: .65; }
