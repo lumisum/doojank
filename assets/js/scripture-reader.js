@@ -80,14 +80,37 @@
     });
   }
 
+  let previousMode = "parallel";
+  let previousScroll = 0;
+  const pureExit = document.querySelector("[data-pure-exit]");
   function setMode(mode) {
+    const enteringPure = mode === "pure" && page.dataset.mode !== "pure";
+    const leavingPure = mode !== "pure" && page.dataset.mode === "pure";
+    if (enteringPure) {
+      previousMode = page.dataset.mode;
+      previousScroll = window.scrollY;
+    }
     page.dataset.mode = mode;
+    document.body.classList.toggle("pure-reading", mode === "pure");
+    if (pureExit) pureExit.hidden = mode !== "pure";
     document.querySelectorAll("[data-reader-mode]").forEach((button) => {
       button.setAttribute("aria-pressed", String(button.dataset.readerMode === mode));
     });
     const parallelNote = document.querySelector("[data-parallel-note]");
-    if (parallelNote) parallelNote.hidden = mode === "original";
+    if (parallelNote) parallelNote.hidden = mode !== "parallel";
+    if (enteringPure) {
+      window.scrollTo({ top: 0, behavior: "instant" });
+      pureExit?.focus({ preventScroll: true });
+    }
+    if (leavingPure) {
+      window.scrollTo({ top: previousScroll, behavior: "instant" });
+      document.querySelector('[data-reader-mode="pure"]')?.focus({ preventScroll: true });
+    }
   }
+  pureExit?.addEventListener("click", () => setMode(previousMode));
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && page.dataset.mode === "pure") setMode(previousMode);
+  });
 
   document.querySelectorAll("[data-reader-mode]").forEach((button) => {
     button.addEventListener("click", () => setMode(button.dataset.readerMode));

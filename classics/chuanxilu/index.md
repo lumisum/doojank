@@ -5,6 +5,7 @@ description: 王守仁《传习录》三卷原文与分节白话学习笔记，�
 permalink: /classics/chuanxilu/
 ---
 <article class="scripture-page" data-mode="parallel">
+  <button type="button" class="pure-reader-exit" data-pure-exit hidden aria-label="退出纯享模式">退出纯享 <span aria-hidden="true">↗</span></button>
   <header class="scripture-hero">
     <img src="{{ '/assets/scriptures/chuanxilu-banner.png' | relative_url }}" alt="明代学者王阳明在山间书斋执笔沉思，窗外是青松与晨雾。" fetchpriority="high">
     <div class="scripture-hero-shade" aria-hidden="true"></div>
@@ -32,6 +33,7 @@ permalink: /classics/chuanxilu/
       <div class="reader-mode" role="group" aria-label="选择阅读模式">
         <button type="button" class="reader-mode-button" data-reader-mode="original" aria-pressed="false">只看原文</button>
         <button type="button" class="reader-mode-button" data-reader-mode="parallel" aria-pressed="true">原文 + 白话释义</button>
+              <button type="button" class="reader-mode-button" data-reader-mode="pure" aria-pressed="false">纯享模式</button>
       </div>
       <div class="reader-audio-control" data-audio-state="loading" role="group" aria-label="静心背景音乐">
         <audio id="scripture-audio" src="{{ '/assets/audio/wulai-reading.mp3' | relative_url }}" loop preload="none"></audio>
@@ -77,4 +79,4 @@ permalink: /classics/chuanxilu/
 <script id="scripture-source-url" type="application/json">{{ '/classics/chuanxilu/original.txt' | relative_url | jsonify }}</script>
 <script id="scripture-reader-config" type="application/json">{"sectionUnit":"节"}</script>
 <script id="scripture-notes-data" type="application/json">{{ site.data.chuanxilu | jsonify }}</script>
-<script src="{{ '/assets/js/scripture-reader.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/scripture-reader.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
