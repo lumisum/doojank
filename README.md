@@ -51,6 +51,7 @@
 
 | 日期 | 文章 |
 | --- | --- |
+| 2026.09.30 | [趁长假暂卸一身劳，借佛法照见职场愁](https://lumisum.github.io/wulai/articles/insights/2026-09-30-changjia-zhichang-chou/) |
 | 2026.09.29 | [傻孩童误把抄袭当捷径 积善果当下步步皆修行。](https://lumisum.github.io/wulai/articles/insights/2026-09-29-fufa-zhuanzhu-dangxia/) |
 | 2026.09.27 | [佛陀如何让家长每天多出一小时？](https://lumisum.github.io/wulai/articles/insights/2026-09-27-fotuo-rang-jiazhang-meitian-duo-yixiaoshi/) |
 | 2026.09.27 | [佛陀如何改变了我的女司机同事？](https://lumisum.github.io/wulai/articles/insights/2026-09-27-fotuo-ruhe-gaibian-nv-siji-tongshi/) |

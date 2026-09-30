@@ -49,6 +49,11 @@ SUMMARY_STYLE = (
 DIVIDER_URL = urljoin(SITE_BASE, "assets/wulai-wechat-divider.png")
 
 HIGHLIGHTS = {
+    "2026-09-30-changjia-zhichang-chou": [
+        "功劳可以记录，可以作为谈待遇的依据，却不必时时背在身上。",
+        "付出有它的价值，回报有它的条件。",
+        "心能放下，事仍做得起来。",
+    ],
     "2026-09-24-fuxue-yu-qingshang": [
         "情商最难的地方也许不在技巧，而在心。",
         "慈悲不是替别人找借口，更不是取消边界，而是在行为之外，再多看见一点。",
