@@ -26,13 +26,35 @@ description: 无来是个人修行与学习佛法的记录，在日常生活中�
     <p>这里记录我修行、学习佛法的过程，也记录佛法如何回到真实的日常。</p>
     <p>我相信，修学不只是寻找现成的答案，也是在每一次观照、选择与实践中，慢慢看清自己的心。文章从个人经历与理解出发，尽量以真诚、平实的文字分享体会；所写是持续学习中的阶段记录，愿与有缘人一起思考、一起前行。</p>
   </div>
-  <aside class="wechat-card">
-    <p class="eyebrow with-icon"><svg class="ui-icon" aria-hidden="true"><use href="#icon-dharma"></use></svg>公众号</p>
-    <img src="{{ '/assets/wechat-qr.jpg' | relative_url }}" alt="微信公众号「无来」二维码" width="160" height="160">
-    <h3>无来</h3>
-    <p>扫码关注微信公众号</p>
+  <aside class="community-card" aria-labelledby="community-title">
+    <p class="eyebrow with-icon"><svg class="ui-icon" aria-hidden="true"><use href="#icon-lotus"></use></svg>同修 · 同行</p>
+    <h3 id="community-title">有缘相遇，一起研习。</h3>
+    <p class="community-intro">读一篇体会，也聊一段日常。</p>
+    <div class="community-codes">
+      <figure>
+        <button class="qr-preview" type="button" data-qr-src="{{ '/assets/wechat-qr.jpg' | relative_url }}" data-qr-title="微信公众号 · 无来" aria-label="放大微信公众号无来二维码">
+          <img src="{{ '/assets/wechat-qr.jpg' | relative_url }}" alt="微信公众号「无来」二维码" width="116" height="116" loading="lazy">
+        </button>
+        <figcaption><strong>微信公众号</strong><span>无来 · 阅读与体会</span></figcaption>
+      </figure>
+      <figure>
+        <button class="qr-preview" type="button" data-qr-src="{{ '/assets/wechat-group-qr.jpg' | relative_url }}" data-qr-title="佛法研习群" aria-label="放大佛法研习微信群二维码">
+          <img src="{{ '/assets/wechat-group-qr.jpg' | relative_url }}" alt="佛法研习微信群二维码" width="116" height="116" loading="lazy">
+        </button>
+        <figcaption><strong>佛法研习群</strong><span>交流 · 共学与日用</span></figcaption>
+      </figure>
+    </div>
+    <p class="community-hint">微信扫码 · 点击二维码可放大</p>
   </aside>
 </section>
+
+<dialog class="qr-dialog" id="qr-dialog" aria-labelledby="qr-dialog-title">
+  <button class="qr-dialog-close" type="button" aria-label="关闭二维码">×</button>
+  <p class="eyebrow">同修 · 同行</p>
+  <h2 id="qr-dialog-title"></h2>
+  <img id="qr-dialog-image" alt="" width="320" height="320">
+  <p>使用微信扫一扫，或保存图片后识别二维码。</p>
+</dialog>
 
 <section id="classics" class="classics-spotlight">
   <div class="section-shell">
@@ -100,3 +122,18 @@ description: 无来是个人修行与学习佛法的记录，在日常生活中�
   <span aria-hidden="true"><svg class="ui-icon"><use href="#icon-dharma"></use></svg></span>
   <p>不急着给答案，先安静下来，看看此刻的心，也看看正在经历的生活。</p>
 </section>
+
+<section class="visitor-section section-shell" aria-labelledby="visitor-title">
+  <div class="visitor-intro">
+    <p class="eyebrow with-icon"><svg class="ui-icon" aria-hidden="true"><use href="#icon-bodhi"></use></svg>来过 · 留下一点因缘</p>
+    <h2 id="visitor-title">每一次到来，都是相遇。</h2>
+    <p>愿这些文字，陪你片刻安静。</p>
+  </div>
+  <div class="visitor-counts" aria-live="polite">
+    <div><span class="visitor-label">累计访客</span><p><strong id="busuanzi_site_uv">—</strong><small>访客</small></p></div>
+    <div><span class="visitor-label">今日访客</span><p><strong id="busuanzi_today_uv">—</strong><small>访客</small></p></div>
+    <div><span class="visitor-label">累计阅读</span><p><strong id="busuanzi_site_pv">—</strong><small>次</small></p></div>
+  </div>
+  <p class="visitor-note"><span id="visitor-status">正在迎接来访的足迹…</span> <a href="https://www.busuanzi.cc/doc.php" target="_blank" rel="noopener noreferrer">统计说明 ↗</a><br>由不蒜子统计；访客按 IP 等服务规则去重，同日重复访问不重复计入访客数。数据自接入起记录，为域名范围统计，不代表准确人数。</p>
+</section>
+<script defer src="{{ '/assets/js/home-community.js' | relative_url }}"></script>
