@@ -126,17 +126,19 @@ img { max-width: 100%; height: auto; }
 .qr-dialog img { display: block; width: 100%; height: auto; background: white; border-radius: 8px; }
 .qr-dialog > p:last-child { margin: 1rem 0 0; font-size: .75rem; color: var(--muted); }
 .qr-dialog-close { position: absolute; top: .4rem; right: .6rem; width: 36px; height: 36px; border: 0; background: transparent; color: var(--pine); cursor: pointer; font-size: 1.7rem; }
-.visitor-section { display: grid; grid-template-columns: 1fr 1.2fr; align-items: center; gap: 2rem; padding: 2rem 0 3.5rem; border-top: 1px solid #dedccc; }
-.visitor-intro .eyebrow { margin: 0 0 .5rem; color: #8c724c; }
-.visitor-intro h2 { margin: 0; color: var(--pine); font-size: 1.15rem; font-weight: 650; }
-.visitor-intro > p:last-child { margin: .45rem 0 0; color: var(--muted); font-size: .8rem; }
-.visitor-counts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
-.visitor-counts > div { min-width: 0; padding-left: 1rem; border-left: 1px solid #ddd8c8; }
-.visitor-label { color: var(--muted); font-size: .73rem; }
-.visitor-counts p { margin: .4rem 0 0; color: var(--pine); line-height: 1.2; }
-.visitor-counts strong { font-size: clamp(1.25rem, 2.4vw, 2rem); font-weight: 600; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
-.visitor-counts small { display: block; margin-top: .35rem; font-size: .65rem; color: #8c724c; }
-.visitor-note { grid-column: 1 / -1; margin: -.5rem 0 0; color: #7d857c; font-size: .68rem; line-height: 1.8; }
+ .visitor-section { display: flex; flex-direction: column; align-items: center; gap: 1.8rem; padding: 3rem 0 4rem; border-top: 1px solid #dedccc; text-align: center; }
+.visitor-intro .eyebrow { justify-content: center; margin: 0 0 .75rem; color: #8c724c; }
+.visitor-intro h2 { margin: 0; color: var(--pine); font-size: clamp(1.25rem, 3vw, 1.65rem); font-weight: 650; letter-spacing: .06em; }
+.visitor-intro > p:last-child { margin: .65rem 0 0; color: var(--muted); font-size: .8rem; }
+.visitor-counts { display: grid; width: min(100%, 780px); grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.2rem; }
+.visitor-counts > div { min-width: 0; padding: 1.6rem 1rem 1.4rem; border: 1px solid #e0dfd1; border-radius: 14px; background: linear-gradient(150deg, #faf8f1, #eff2e9); box-shadow: 0 10px 30px rgba(24, 55, 47, .04); }
+.visitor-symbol { display: grid; width: 40px; height: 40px; margin: 0 auto .9rem; place-items: center; border: 1px solid #d7cbb4; border-radius: 50%; color: #9a7f54; }
+.visitor-symbol .ui-icon { width: 22px; height: 22px; }
+.visitor-label { color: var(--muted); font-size: .75rem; letter-spacing: .08em; }
+.visitor-counts p { margin: .7rem 0 0; color: var(--pine); line-height: 1.2; }
+.visitor-counts strong { font-size: clamp(1.6rem, 4vw, 2.8rem); font-weight: 600; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+.visitor-counts small { display: block; margin-top: .5rem; font-size: .68rem; color: #8c724c; }
+.visitor-note { max-width: 650px; margin: 0; color: #7d857c; font-size: .68rem; line-height: 1.9; text-wrap: pretty; }
 .visitor-note a { color: #69795e; border-bottom: 1px solid #c9c9b8; }
 
 .articles-section { padding: clamp(4.5rem, 8vw, 7rem) 0 clamp(5rem, 8vw, 7rem); background: var(--paper); border-top: 1px solid #e9e5da; border-bottom: 1px solid #e9e5da; }
@@ -227,9 +229,10 @@ img { max-width: 100%; height: auto; }
   .practice-path-icon .ui-icon { width: 21px; height: 21px; }
   .about-section { grid-template-columns: 1fr; gap: 2.5rem; }
   .community-card { width: min(100%, 390px); justify-self: center; }
-  .visitor-section { grid-template-columns: 1fr; gap: 1.5rem; }
+  .visitor-section { gap: 1.5rem; }
   .visitor-counts { gap: .5rem; }
-  .visitor-counts > div { padding-left: .7rem; }
+  .visitor-counts > div { padding: 1.2rem .4rem; border-radius: 10px; }
+  .visitor-label { font-size: .65rem; letter-spacing: .02em; }
   .wechat-card { width: min(100%, 300px); justify-self: center; }
   .section-heading { display: block; }
   .section-heading > p { margin-top: .75rem; }
