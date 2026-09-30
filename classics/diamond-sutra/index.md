@@ -24,7 +24,7 @@ permalink: /classics/diamond-sutra/
     </div>
     <div class="scripture-intro-copy">
       <p>《金刚经》反复追问：怎样发心、行善、帮助众生，同时不被“我做了什么”“我得到了什么”牢牢困住。它的核心句是<strong>“应无所住而生其心”</strong>。这里所说的“空”不是一切都不存在，“无住”也不是冷漠或放弃，而是在看清变化与因缘之后，依然清醒地行动。</p>
-      <p>以下原文依照你提供的《金刚经》文稿整理，保留原稿章节、措辞与标点。白话部分是无来的个人学习笔记，帮助初读时抓住段落脉络，不是权威注疏；不同流传版本可能存在文字差异。需要核对另一种电子底本时，可参阅 <a href="https://dlbs.liberal.ntu.edu.tw/BDLM/sutra/html/T08/T08n0235.htm" target="_blank" rel="noopener noreferrer">CBETA《金刚般若波罗蜜经》（T08 No. 235）</a>。</p>
+      <p>以下经文采用 CBETA《金刚般若波罗蜜经》（大正藏 T08 No. 235，姚秦鸠摩罗什译）的现代标点，转换为简体，并保留最初文稿的三十二品导航。品名是阅读辅助，不是底本原有科判；底本与流传文稿个别用字、措辞可能不同。白话部分是无来的个人学习笔记，不是权威注疏。<a href="{{ '/classics/diamond-sutra/source/T08n0235.xml' | relative_url }}">查看 CBETA XML 原档</a> · <a href="https://cbetaonline.dila.edu.tw/zh/T0235_001" target="_blank" rel="noopener noreferrer">核对 CBETA 在线底本</a>。CBETA 资料限定非营利用途，本页经文整理依 CC BY-NC-SA 4.0 分享；<a href="https://cbeta.org/copyright" target="_blank" rel="noopener noreferrer">授权说明</a>。</p>
     </div>
   </section>
 

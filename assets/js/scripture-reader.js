@@ -193,7 +193,7 @@
     });
   }
 
-  fetch(sourceUrl)
+  fetch(sourceUrl, { cache: "no-cache" })
     .then((response) => {
       if (!response.ok) throw new Error("Unable to load scripture text");
       return response.text();
