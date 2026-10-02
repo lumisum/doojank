@@ -49,6 +49,12 @@ SUMMARY_STYLE = (
 DIVIDER_URL = urljoin(SITE_BASE, "assets/wulai-wechat-divider.png")
 
 HIGHLIGHTS = {
+    "2026-10-02-ai-shipin-xiang-yu-xin": [
+        "无论虚拟世界有多大，真实世界仍然是最终底座。",
+        "智能与苦没有必然关系。",
+        "语言表达与主观体验是两件事情。",
+        "AI 正在让“相”的供给远远超过一个人的注意力，而人的心并没有因此自动获得不执着的能力。",
+    ],
     "2026-09-30-changjia-zhichang-chou": [
         "功劳可以记录，可以作为谈待遇的依据，却不必时时背在身上。",
         "付出有它的价值，回报有它的条件。",

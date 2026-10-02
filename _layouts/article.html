@@ -15,8 +15,14 @@ layout: default
     <header class="article-heading">
       <h1>{{ page.title | escape }}</h1>
       {% if page.summary %}<p class="article-summary">{{ page.summary | escape }}</p>{% endif %}
-      {% if page.date %}<p class="article-meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%Y年%m月%d日' }}</time><span aria-hidden="true">·</span><span>无来 · 修学随笔</span></p>{% endif %}
+      {% if page.date %}<p class="article-meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%Y年%m月%d日' }}</time><span aria-hidden="true">·</span><span>无来 · 修学随笔</span>{% if page.reading_minutes %}<span aria-hidden="true">·</span><span>约 {{ page.reading_minutes }} 分钟阅读</span>{% endif %}</p>{% endif %}
     </header>
+    {% if page.longform %}
+    <details class="article-toc" hidden>
+      <summary><svg class="ui-icon" aria-hidden="true"><use href="#icon-sutra"></use></svg>长文导览 <span>展开章节，按需阅读</span></summary>
+      <nav aria-label="本文章节目录"><ol></ol></nav>
+    </details>
+    {% endif %}
     <div class="article-content">{{ content }}</div>
     <footer class="article-end">
       <span class="article-end-mark" aria-hidden="true"><svg class="ui-icon"><use href="#icon-dharma"></use></svg></span>
@@ -25,3 +31,4 @@ layout: default
     </footer>
   </div>
 </article>
+{% if page.longform %}<script defer src="{{ '/assets/js/article-reader.js' | relative_url }}"></script>{% endif %}

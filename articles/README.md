@@ -4,6 +4,7 @@
 
 | 日期 | 文章 | 原文 Markdown | 公众号 HTML | 排版 Markdown |
 | --- | --- | --- | --- | --- |
+| 2026-10-02 | 当“相”可以无限生成：从AI视频一直想到人类消失以后 | [2026-10-02-ai-shipin-xiang-yu-xin/article.md](2026-10-02-ai-shipin-xiang-yu-xin/article.md) | [2026-10-02-ai-shipin-xiang-yu-xin/wechat.html](2026-10-02-ai-shipin-xiang-yu-xin/wechat.html) | [2026-10-02-ai-shipin-xiang-yu-xin/wechat.md](2026-10-02-ai-shipin-xiang-yu-xin/wechat.md) |
 | 2026-09-30 | 趁长假暂卸一身劳，借佛法照见职场愁 | [2026-09-30-changjia-zhichang-chou/article.md](2026-09-30-changjia-zhichang-chou/article.md) | [2026-09-30-changjia-zhichang-chou/wechat.html](2026-09-30-changjia-zhichang-chou/wechat.html) | [2026-09-30-changjia-zhichang-chou/wechat.md](2026-09-30-changjia-zhichang-chou/wechat.md) |
 | 2026-09-29 | 傻孩童误把抄袭当捷径 积善果当下步步皆修行。 | [2026-09-29-fufa-zhuanzhu-dangxia/article.md](2026-09-29-fufa-zhuanzhu-dangxia/article.md) | [2026-09-29-fufa-zhuanzhu-dangxia/wechat.html](2026-09-29-fufa-zhuanzhu-dangxia/wechat.html) | [2026-09-29-fufa-zhuanzhu-dangxia/wechat.md](2026-09-29-fufa-zhuanzhu-dangxia/wechat.md) |
 | 2026-09-27 | 佛陀如何让家长每天多出一小时？ | [2026-09-27-fotuo-rang-jiazhang-meitian-duo-yixiaoshi/article.md](2026-09-27-fotuo-rang-jiazhang-meitian-duo-yixiaoshi/article.md) | [2026-09-27-fotuo-rang-jiazhang-meitian-duo-yixiaoshi/wechat.html](2026-09-27-fotuo-rang-jiazhang-meitian-duo-yixiaoshi/wechat.html) | [2026-09-27-fotuo-rang-jiazhang-meitian-duo-yixiaoshi/wechat.md](2026-09-27-fotuo-rang-jiazhang-meitian-duo-yixiaoshi/wechat.md) |
