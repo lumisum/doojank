@@ -32,7 +32,10 @@ STRONG_STYLE = "color:#315B49;font-weight:700;"
 HIGHLIGHT_STYLE = (
     "color:#315B49;background-color:#EFF2EA;font-weight:700;padding:1px 3px;"
 )
-LINK_STYLE = "color:#315B49;text-decoration:underline;"
+LINK_STYLE = (
+    "color:#315B49;font-weight:700;text-decoration:underline;"
+    "text-decoration-color:#8C724C;text-underline-offset:2px;"
+)
 IMAGE_STYLE = "display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"
 KICKER_STYLE = (
     "margin:2px 0 12px;color:#8C724C;font-size:12px;line-height:1.5;"
