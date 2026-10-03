@@ -12,6 +12,8 @@ exclude:
   - articles/README.md
   - articles/**/wechat.md
   - articles/**/wechat.html
+  - articles/**/production.md
+  - articles/**/images/prompts.md
   - guides
   - scripts
   - templates

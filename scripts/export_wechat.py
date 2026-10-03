@@ -52,6 +52,11 @@ SUMMARY_STYLE = (
 DIVIDER_URL = urljoin(SITE_BASE, "assets/wulai-wechat-divider.png")
 
 HIGHLIGHTS = {
+    "2026-10-03-yiqianwa-taikong-suanli-meng": [
+        "钱往哪里去，其实比话往哪里去诚实得多",
+        "名字跑到了前面，不等于事情已经成了，也不等于就是一场骗局。",
+        "让事实慢慢显出样子，本身也是一种不急的看法。",
+    ],
     "2026-10-02-ai-shipin-xiang-yu-xin": [
         "无论虚拟世界有多大，真实世界仍然是最终底座。",
         "智能与苦没有必然关系。",

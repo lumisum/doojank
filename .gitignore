@@ -1,1 +1,31 @@
 .DS_Store
+__pycache__/
+
+# Song production files stay local; article images remain tracked.
+**/songs/
+**/music/
+**/lyrics/
+**/歌曲/
+**/歌曲素材/
+**/歌词/
+**/video-covers/
+**/video-keyframes/
+**/*_背景图/
+**/*_封面/
+**/标题与描述.md
+**/歌词*.txt
+**/歌词*.md
+**/lyrics*.txt
+**/lyrics*.md
+*.srt
+*.lrc
+*.swlrc
+*.wav
+*.flac
+*.m4a
+*.mp3
+*.mp4
+*.mov
+*.webm
+# Existing website reading ambience is a site asset, not a song output.
+!assets/audio/wulai-reading.mp3
