@@ -56,12 +56,14 @@ Read this way, non-clinging does not require abandoning travel, work, or life. T
 
 *Circumstances change, and so does the mind: tea and pine shadows beside a quiet window.*
 
-Go on holiday if you can. The world is large, its landscapes worth seeing, its human places worth visiting. Simply recognize that travel often offers temporary relief. Practice works on our relationship with circumstances, so that settling inwardly need not require one particular setting.
-
 With mountains, enjoy mountains; without them, sit at the desk. Enjoy the holiday without giving work complete ownership of the mind afterward. When favorable conditions come, loosen the grip. When difficult ones come, see them clearly and decide how to respond, rather than being left only with an urge to flee.
 
 Perhaps another kind of clearing the mind becomes possible: not scattering it across Yunnan, Tibet, a beach, or a temple, but ceasing to pin it tightly to any one place.
 
-**Travel changes our surroundings for a few days. Practice changes our relationship with surroundings over a lifetime.** One can offer a brief release; the other may open a more lasting ease.
+**True freedom is not finally finding a place where I feel at ease. It is no longer needing one particular place in order to feel at ease.**
+
+That is why I am not against traveling to clear the mind during Golden Week. Quite the opposite: when it is time to go, go. Travel often gives us **a few days of relief**; the deeper work of practice is to help us gradually find **an ease that can accompany us through life**.
+
+**Travel changes our surroundings for a few days. Practice changes our relationship with surroundings over a lifetime.**
 
 Set out this Golden Week. After seeing the landscapes, perhaps ask one more question: **If I did not have to go anywhere, could I still let this mind settle?**
