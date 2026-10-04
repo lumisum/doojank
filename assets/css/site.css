@@ -483,3 +483,6 @@ html[lang="en"] .scripture-showcase-copy strong { font-size: clamp(1.1rem, 2vw, 
   html[lang="en"] .reader-mode { flex-wrap: wrap; }
   html[lang="en"] .scripture-hero h1 { font-size: clamp(1.5rem, 5.5vw, 2.2rem); }
 }
+html[lang="en"] .hero-kicker { max-width: 26em; letter-spacing: .08em; line-height: 1.7; }
+html[lang="en"] .hero-kicker .ui-icon { flex-shrink: 0; }
+html[lang="en"] .hero h1 { letter-spacing: .04em; }
