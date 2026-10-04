@@ -24,7 +24,6 @@ layout: default
       <nav aria-label="{{ t.t107 }}"><ol></ol></nav>
     </details>
     {% endif %}
-    {% if current_lang == 'en' %}<p class="translation-note">Translated from the author’s Chinese essay. Original artwork is shared across editions; English captions explain its themes.</p>{% endif %}
     <div class="article-content">{% if page.longform %}{{ content | replace: '<img ', '<img loading="lazy" decoding="async" ' }}{% else %}{{ content }}{% endif %}</div>
     <footer class="article-end">
       <span class="article-end-mark" aria-hidden="true"><svg class="ui-icon"><use href="#icon-dharma"></use></svg></span>
