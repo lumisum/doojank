@@ -1,0 +1,50 @@
+{% assign current_lang = page.lang | default: 'zh-CN' %}{% assign t = site.data.i18n[current_lang] %}{% assign home_path = '/' %}{% assign classics_path = '/classics/' %}{% assign other_lang = 'en' %}{% assign fallback_path = '/en/' %}{% if current_lang == 'en' %}{% assign home_path = '/en/' %}{% assign classics_path = '/en/classics/' %}{% assign other_lang = 'zh-CN' %}{% assign fallback_path = '/' %}{% endif %}
+{% assign language_prefix = '' %}{% if current_lang == 'en' %}{% assign language_prefix = '/en' %}{% endif %}
+
+<section class="classics-index section-shell">
+  <p class="eyebrow with-icon"><svg class="ui-icon" aria-hidden="true"><use href="#icon-sutra"></use></svg>{{ t.t79 }}</p>
+  <h1>{{ t.t67 }}</h1>
+  <p class="classics-index-intro">{{ t.library_1 }}</p>
+  <div class="scripture-showcase-grid" aria-label="{{ t.t80 }}">
+    <a class="scripture-showcase" href="{{ '/classics/diamond-sutra/' | prepend: language_prefix | relative_url }}" aria-label="{{ t.t68 }}{{ t.library_2 }}">
+      <img src="{{ '/assets/scriptures/diamond-sutra-banner.png' | relative_url }}" alt="{{ t.t62 }}" loading="lazy">
+      <span class="scripture-showcase-shade" aria-hidden="true"></span>
+      <span class="scripture-showcase-copy">
+        <span class="eyebrow with-icon"><svg class="ui-icon" aria-hidden="true"><use href="#icon-lotus"></use></svg>{{ t.t76 }}</span>
+        <strong>{{ t.t74 }}</strong>
+        <span>{{ t.t71 }}</span>
+        <span class="scripture-showcase-link">{{ t.t82 }} <span aria-hidden="true">↗</span></span>
+      </span>
+    </a>
+    <a class="scripture-showcase" href="{{ '/classics/heart-sutra/' | prepend: language_prefix | relative_url }}" aria-label="{{ t.t69 }}{{ t.library_2 }}">
+      <img src="{{ '/assets/scriptures/heart-sutra-banner.png' | relative_url }}" alt="{{ t.t63 }}" loading="lazy">
+      <span class="scripture-showcase-shade" aria-hidden="true"></span>
+      <span class="scripture-showcase-copy">
+        <span class="eyebrow with-icon"><svg class="ui-icon" aria-hidden="true"><use href="#icon-lotus"></use></svg>{{ t.t76 }}</span>
+        <strong>{{ t.t75 }}</strong>
+        <span>{{ t.t72 }}</span>
+        <span class="scripture-showcase-link">{{ t.t82 }} <span aria-hidden="true">↗</span></span>
+      </span>
+    </a>
+    <a class="scripture-showcase" href="{{ '/classics/platform-sutra/' | prepend: language_prefix | relative_url }}" aria-label="{{ t.t70 }}{{ t.library_2 }}">
+      <img src="{{ '/assets/scriptures/platform-sutra-banner.png' | relative_url }}" alt="{{ t.t66 }}" loading="lazy">
+      <span class="scripture-showcase-shade" aria-hidden="true"></span>
+      <span class="scripture-showcase-copy">
+        <span class="eyebrow with-icon"><svg class="ui-icon" aria-hidden="true"><use href="#icon-lotus"></use></svg>{{ t.t77 }}</span>
+        <strong>{{ t.t81 }}</strong>
+        <span>{{ t.t64 }}</span>
+        <span class="scripture-showcase-link">{{ t.t82 }} <span aria-hidden="true">↗</span></span>
+      </span>
+    </a>
+    <a class="scripture-showcase" href="{{ '/classics/chuanxilu/' | prepend: language_prefix | relative_url }}" aria-label="{{ t.t73 }}{{ t.library_2 }}">
+      <img src="{{ '/assets/scriptures/chuanxilu-banner.png' | relative_url }}" alt="{{ t.t61 }}" loading="lazy">
+      <span class="scripture-showcase-shade" aria-hidden="true"></span>
+      <span class="scripture-showcase-copy">
+        <span class="eyebrow with-icon"><svg class="ui-icon" aria-hidden="true"><use href="#icon-bodhi"></use></svg>{{ t.t78 }}</span>
+        <strong>{{ t.t83 }}</strong>
+        <span>{{ t.t65 }}</span>
+        <span class="scripture-showcase-link">{{ t.t82 }} <span aria-hidden="true">↗</span></span>
+      </span>
+    </a>
+  </div>
+</section>

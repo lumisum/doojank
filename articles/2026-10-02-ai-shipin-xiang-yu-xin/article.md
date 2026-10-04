@@ -1,4 +1,6 @@
 ---
+lang: zh-CN
+translation_key: 2026-10-02-ai-shipin-xiang-yu-xin
 layout: article
 title: "当“相”可以无限生成：从AI视频一直想到人类消失以后"
 date: "2026-10-02T18:30:50+08:00"

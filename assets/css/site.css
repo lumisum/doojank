@@ -458,3 +458,28 @@ body.pure-reading { background: #17271f; }
   .scripture-page[data-mode="pure"] .sutra-source { letter-spacing: .035em; line-height: 2.15; }
   .scripture-page[data-mode="pure"] .sutra-chapter-title { font-size: 1.35rem; }
 }
+
+/* English shares the same visual identity with room for longer words. */
+html[lang="en"] .site-nav,
+html[lang="en"] .hero-subtitle,
+html[lang="en"] .eyebrow,
+html[lang="en"] .article-card-copy h3,
+html[lang="en"] .article-heading h1,
+html[lang="en"] .scripture-hero h1 { letter-spacing: normal; }
+html[lang="en"] .hero-subtitle { max-width: 24em; line-height: 1.5; }
+html[lang="en"] .article-heading h1 { font-size: clamp(1.7rem, 4vw, 2.8rem); line-height: 1.22; }
+html[lang="en"] .article-content { line-height: 1.85; overflow-wrap: break-word; }
+html[lang="en"] .article-content p:has(> em:only-child) { color: #69766b; font-size: .85em; line-height: 1.6; text-align: center; margin-top: -.4rem; }
+html[lang="en"] .practice-path small { line-height: 1.5; }
+html[lang="en"] .scripture-showcase-copy strong { font-size: clamp(1.1rem, 2vw, 1.6rem); line-height: 1.3; }
+.language-switch { border: 1px solid #c4cbbf; border-radius: 999px; padding: 0 .7rem; color: var(--pine); font-weight: 600; font-size: .78rem; letter-spacing: normal; }
+.translation-note { color: #69766b; font-size: .8rem; line-height: 1.7; border-left: 2px solid #a78758; padding-left: .8rem; margin: 0 0 2rem; }
+@media (max-width: 600px) {
+  html[lang="en"] .site-nav { gap: .4rem; }
+  html[lang="en"] .site-nav .ui-icon { display: none; }
+  html[lang="en"] .brand { font-size: 1.1rem; gap: .35rem; }
+  .site-nav .language-switch { min-height: 30px; padding: 0 .5rem; }
+  html[lang="en"] .scripture-controls { gap: .75rem; }
+  html[lang="en"] .reader-mode { flex-wrap: wrap; }
+  html[lang="en"] .scripture-hero h1 { font-size: clamp(1.5rem, 5.5vw, 2.2rem); }
+}

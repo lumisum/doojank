@@ -1,4 +1,6 @@
 ---
+lang: zh-CN
+translation_key: 2026-09-24-rulai-heyi-cheng-fozu
 layout: article
 title: "如来何以成佛祖？"
 date: "2026-09-24T22:11:16+08:00"

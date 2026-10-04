@@ -1,4 +1,6 @@
 ---
+lang: zh-CN
+translation_key: classic-heart-sutra
 layout: default
 title: 般若波罗蜜多心经
 description: 《心经》玄奘译本原文与白话分段学习笔记，可切换只读原文或原文对照释义。

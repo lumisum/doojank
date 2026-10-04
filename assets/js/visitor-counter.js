@@ -6,7 +6,7 @@
   script.src = 'https://cdn.busuanzi.cc/busuanzi/3.6.9/busuanzi.min.js';
   script.defer = true;
   const showUnavailable = () => {
-    if (status) status.textContent = '统计暂未连接，稍后再来看看。';
+    if (status) status.textContent = document.documentElement.lang === 'en' ? 'Statistics are temporarily unavailable.' : '统计暂未连接，稍后再来看看。';
   };
   script.addEventListener('error', showUnavailable);
   document.head.appendChild(script);
@@ -14,7 +14,7 @@
   const count = document.getElementById('busuanzi_site_uv');
   const observer = new MutationObserver(() => {
     if (/^\d[\d,]*$/.test(count.textContent.trim())) {
-      status.textContent = '感谢每一位来访的朋友。';
+      status.textContent = document.documentElement.lang === 'en' ? 'Thank you for visiting.' : '感谢每一位来访的朋友。';
       observer.disconnect();
       clearTimeout(timeout);
     }

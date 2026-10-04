@@ -1,4 +1,6 @@
 ---
+lang: zh-CN
+translation_key: 2026-09-30-changjia-zhichang-chou
 layout: article
 title: "趁长假暂卸一身劳，借佛法照见职场愁"
 date: "2026-09-30T12:35:00+08:00"

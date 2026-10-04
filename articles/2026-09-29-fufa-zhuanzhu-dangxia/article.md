@@ -1,4 +1,6 @@
 ---
+lang: zh-CN
+translation_key: 2026-09-29-fufa-zhuanzhu-dangxia
 layout: article
 title: "傻孩童误把抄袭当捷径 积善果当下步步皆修行。"
 date: "2026-09-29T10:45:00+08:00"

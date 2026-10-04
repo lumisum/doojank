@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% assign current_lang = page.lang | default: 'zh-CN' %}{% assign t = site.data.i18n[current_lang] %}{% assign home_path = '/' %}{% assign classics_path = '/classics/' %}{% assign other_lang = 'en' %}{% assign fallback_path = '/en/' %}{% if current_lang == 'en' %}{% assign home_path = '/en/' %}{% assign classics_path = '/en/classics/' %}{% assign other_lang = 'zh-CN' %}{% assign fallback_path = '/' %}{% endif %}
 <article class="article-page">
   {% if page.cover %}
   <figure class="article-cover">
@@ -9,25 +10,26 @@ layout: default
   {% endif %}
   <div class="article-reader">
     <div class="article-toolbar">
-      <a class="article-back" href="{{ '/' | relative_url }}#articles"><span aria-hidden="true">←</span> 返回文章展览</a>
-      <span class="article-category"><svg class="ui-icon" aria-hidden="true"><use href="#icon-lotus"></use></svg>无来 · 修学随笔</span>
+      <a class="article-back" href="{{ home_path | relative_url }}#articles"><span aria-hidden="true">←</span> {{ t.t106 }}</a>
+      <span class="article-category"><svg class="ui-icon" aria-hidden="true"><use href="#icon-lotus"></use></svg>{{ t.t104 }}</span>
     </div>
     <header class="article-heading">
       <h1>{{ page.title | escape }}</h1>
       {% if page.summary %}<p class="article-summary">{{ page.summary | escape }}</p>{% endif %}
-      {% if page.date %}<p class="article-meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%Y年%m月%d日' }}</time><span aria-hidden="true">·</span><span>无来 · 修学随笔</span>{% if page.reading_minutes %}<span aria-hidden="true">·</span><span>约 {{ page.reading_minutes }} 分钟阅读</span>{% endif %}</p>{% endif %}
+      {% if page.date %}<p class="article-meta"><time datetime="{{ page.date | date_to_xmlschema }}">{% if current_lang == 'en' %}{{ page.date | date: '%B %d, %Y' }}{% else %}{{ page.date | date: '%Y年%m月%d日' }}{% endif %}</time><span aria-hidden="true">·</span><span>{{ t.t104 }}</span>{% if page.reading_minutes %}<span aria-hidden="true">·</span><span>{{ t.t111 }}{{ page.reading_minutes }} {{ t.t110 }}</span>{% endif %}</p>{% endif %}
     </header>
     {% if page.longform %}
     <details class="article-toc" hidden>
-      <summary><svg class="ui-icon" aria-hidden="true"><use href="#icon-sutra"></use></svg>长文导览 <span>展开章节，按需阅读</span></summary>
-      <nav aria-label="本文章节目录"><ol></ol></nav>
+      <summary><svg class="ui-icon" aria-hidden="true"><use href="#icon-sutra"></use></svg>{{ t.t109 }} <span>{{ t.t105 }}</span></summary>
+      <nav aria-label="{{ t.t107 }}"><ol></ol></nav>
     </details>
     {% endif %}
+    {% if current_lang == 'en' %}<p class="translation-note">Translated from the author’s Chinese essay. Original artwork is shared across editions; English captions explain its themes.</p>{% endif %}
     <div class="article-content">{% if page.longform %}{{ content | replace: '<img ', '<img loading="lazy" decoding="async" ' }}{% else %}{{ content }}{% endif %}</div>
     <footer class="article-end">
       <span class="article-end-mark" aria-hidden="true"><svg class="ui-icon"><use href="#icon-dharma"></use></svg></span>
-      <p>愿把所思所学，带回眼前的生活。</p>
-      <a href="{{ '/' | relative_url }}#articles">回到文章展览 <span aria-hidden="true">↗</span></a>
+      <p>{{ t.t103 }}</p>
+      <a href="{{ home_path | relative_url }}#articles">{{ t.t108 }} <span aria-hidden="true">↗</span></a>
     </footer>
   </div>
 </article>

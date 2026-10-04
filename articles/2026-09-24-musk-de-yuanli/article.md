@@ -1,4 +1,6 @@
 ---
+lang: zh-CN
+translation_key: 2026-09-24-musk-de-yuanli
 layout: article
 title: "马斯克的佛性是什么？"
 date: "2026-09-24T22:29:59+08:00"

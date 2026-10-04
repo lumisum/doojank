@@ -1,4 +1,6 @@
 ---
+lang: zh-CN
+translation_key: 2026-09-26-fotuo-jiaoyu-luohouluo
 layout: article
 title: "佛陀如何教育自己的儿子？"
 date: "2026-09-26T12:00:00+08:00"

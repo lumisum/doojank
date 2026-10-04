@@ -1,4 +1,6 @@
 ---
+lang: zh-CN
+translation_key: 2026-09-27-fotuo-ruhe-gaibian-nv-siji-tongshi
 layout: article
 title: "佛陀如何改变了我的女司机同事？"
 date: "2026-09-27T12:00:00+08:00"

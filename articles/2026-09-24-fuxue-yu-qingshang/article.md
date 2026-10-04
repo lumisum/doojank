@@ -1,4 +1,6 @@
 ---
+lang: zh-CN
+translation_key: 2026-09-24-fuxue-yu-qingshang
 layout: article
 title: "有了佛学基础，情商会不会提高？"
 date: "2026-09-24T21:50:15+08:00"

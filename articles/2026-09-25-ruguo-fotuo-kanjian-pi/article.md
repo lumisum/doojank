@@ -1,4 +1,6 @@
 ---
+lang: zh-CN
+translation_key: 2026-09-25-ruguo-fotuo-kanjian-pi
 layout: article
 title: "如果佛陀看见π"
 date: "2026-09-25T12:00:00+08:00"

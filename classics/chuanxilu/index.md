@@ -1,4 +1,6 @@
 ---
+lang: zh-CN
+translation_key: classic-chuanxilu
 layout: default
 title: 传习录
 description: 王守仁《传习录》三卷原文与分节白话学习笔记，可切换只读原文或原文对照释义。

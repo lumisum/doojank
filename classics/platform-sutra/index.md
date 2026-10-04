@@ -1,4 +1,6 @@
 ---
+lang: zh-CN
+translation_key: classic-platform-sutra
 layout: default
 title: 六祖坛经
 description: 《六祖坛经》CBETA 十品主文与逐品白话学习笔记，可切换只读原文或对照释义。

@@ -1,11 +1,15 @@
+{% assign current_lang = page.lang | default: 'zh-CN' %}{% assign t = site.data.i18n[current_lang] %}{% assign home_path = '/' %}{% assign classics_path = '/classics/' %}{% assign other_lang = 'en' %}{% assign fallback_path = '/en/' %}{% if current_lang == 'en' %}{% assign home_path = '/en/' %}{% assign classics_path = '/en/classics/' %}{% assign other_lang = 'zh-CN' %}{% assign fallback_path = '/' %}{% endif %}
 <!doctype html>
-<html lang="{{ site.lang | default: 'zh-CN' }}">
+<html lang="{{ current_lang }}">
   <head>
     {% assign canonical_url = page.url | absolute_url %}
     {% assign seo_description = page.description | default: page.summary | default: site.description | strip_html | normalize_whitespace | truncate: 160 %}
     {% assign social_image = page.cover | default: site.social_image | absolute_url %}
     {% assign social_image_alt = page.cover_alt | default: site.social_image_alt | default: page.title | default: site.title %}
-    {% capture seo_title %}{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}{% endcapture %}
+    {% assign site_name = site.title %}{% if current_lang == 'en' %}{% assign site_name = 'Wulai' %}{% endif %}
+    {% if current_lang == 'en' and page.cover == nil %}{% assign social_image_alt = 'Morning light, still water, and pine-green mountains — Wulai' %}{% endif %}
+    {% capture seo_title %}{% if page.title %}{{ page.title }} · {% endif %}{{ site_name }}{% endcapture %}
+{% assign counterpart = site.pages | where: 'translation_key', page.translation_key | where: 'lang', other_lang | first %}{% assign switch_path = counterpart.url | default: fallback_path %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ seo_description | escape }}">
@@ -13,10 +17,13 @@
     <meta name="theme-color" content="#18372f">
     <title>{{ seo_title | strip | escape }}</title>
     <link rel="canonical" href="{{ canonical_url | escape }}">
+    <link rel="alternate" hreflang="{{ current_lang }}" href="{{ canonical_url }}">
+    {% if counterpart %}<link rel="alternate" hreflang="{{ other_lang }}" href="{{ counterpart.url | absolute_url }}">{% endif %}
+    <link rel="alternate" hreflang="x-default" href="{% if current_lang == 'en' and counterpart %}{{ counterpart.url | absolute_url }}{% else %}{{ canonical_url }}{% endif %}">
     <link rel="sitemap" type="application/xml" href="{{ '/sitemap.xml' | absolute_url }}">
 
-    <meta property="og:locale" content="zh_CN">
-    <meta property="og:site_name" content="{{ site.title | escape }}">
+    <meta property="og:locale" content="{% if current_lang == 'en' %}en_US{% else %}zh_CN{% endif %}">
+    <meta property="og:site_name" content="{{ site_name | escape }}">
     <meta property="og:type" content="{% if page.layout == 'article' %}article{% else %}website{% endif %}">
     <meta property="og:title" content="{{ seo_title | strip | escape }}">
     <meta property="og:description" content="{{ seo_description | escape }}">
@@ -38,33 +45,34 @@
         "@context": "https://schema.org",
         "@type": "BlogPosting",
         "headline": {{ page.title | jsonify }},
+        "inLanguage": {{ current_lang | jsonify }},
         "description": {{ seo_description | jsonify }},
         "image": [{{ social_image | jsonify }}],
         "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
-        "author": {"@type": "Person", "name": {{ site.title | jsonify }}},
-        "publisher": {"@type": "Organization", "name": {{ site.title | jsonify }}},
+        "author": {"@type": "Person", "name": {{ site_name | jsonify }}},
+        "publisher": {"@type": "Organization", "name": {{ site_name | jsonify }}},
         "mainEntityOfPage": {"@type": "WebPage", "@id": {{ canonical_url | jsonify }}}
       }{% endcapture %}
       <script type="application/ld+json">{{ structured_data | strip }}</script>
-    {% elsif page.url == '/' %}
+    {% elsif page.url == '/' or page.url == '/en/' %}
       {% capture structured_data %}{
         "@context": "https://schema.org",
         "@type": "WebSite",
-        "name": {{ site.title | jsonify }},
+        "name": {{ site_name | jsonify }},
         "url": {{ canonical_url | jsonify }},
         "description": {{ seo_description | jsonify }},
-        "inLanguage": {{ site.lang | jsonify }}
+        "inLanguage": {{ current_lang | jsonify }}
       }{% endcapture %}
       <script type="application/ld+json">{{ structured_data | strip }}</script>
     {% else %}
       {% capture structured_data %}{
         "@context": "https://schema.org",
         "@type": "WebPage",
-        "name": {{ page.title | default: site.title | jsonify }},
+        "name": {{ page.title | default: site_name | jsonify }},
         "url": {{ canonical_url | jsonify }},
         "description": {{ seo_description | jsonify }},
-        "isPartOf": {"@type": "WebSite", "name": {{ site.title | jsonify }}, "url": {{ '/' | absolute_url | jsonify }}},
-        "inLanguage": {{ site.lang | jsonify }}
+        "isPartOf": {"@type": "WebSite", "name": {{ site_name | jsonify }}, "url": {{ '/' | absolute_url | jsonify }}},
+        "inLanguage": {{ current_lang | jsonify }}
       }{% endcapture %}
       <script type="application/ld+json">{{ structured_data | strip }}</script>
     {% endif %}
@@ -89,34 +97,35 @@
         <path d="M4.5 21c2.9-5.4 7.1-9 12.1-11.9"></path>
       </symbol>
     </svg>
-    <a class="skip-link" href="#main">跳到正文</a>
+    <a class="skip-link" href="#main">{{ t.t88 }}</a>
     <header class="site-header">
-      <a class="brand" href="{{ '/' | relative_url }}" aria-label="无来首页">
+      <a class="brand" href="{{ home_path | relative_url }}" aria-label="{{ t.t89 }}">
         <span class="brand-mark" aria-hidden="true"><svg class="ui-icon"><use href="#icon-dharma"></use></svg></span>
-        <span>无来</span>
+        <span>{% if current_lang == 'en' %}Wulai{% else %}无来{% endif %}</span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="{{ '/' | relative_url }}#articles" aria-label="文章时间线"><svg class="ui-icon" aria-hidden="true"><use href="#icon-bodhi"></use></svg><span class="nav-label">文章时间线</span><span class="nav-short" aria-hidden="true">文章</span></a>
-        <a href="{{ '/classics/' | relative_url }}" aria-label="经典阅读"><svg class="ui-icon" aria-hidden="true"><use href="#icon-sutra"></use></svg><span class="nav-label">经典阅读</span><span class="nav-short" aria-hidden="true">经典</span></a>
-        <a href="{{ '/' | relative_url }}#about" aria-label="关于无来"><svg class="ui-icon" aria-hidden="true"><use href="#icon-lotus"></use></svg><span class="nav-label">关于无来</span><span class="nav-short" aria-hidden="true">关于</span></a>
+      <nav class="site-nav" aria-label="{{ t.t97 }}">
+        <a href="{{ home_path | relative_url }}#articles" aria-label="{{ t.t87 }}"><svg class="ui-icon" aria-hidden="true"><use href="#icon-bodhi"></use></svg><span class="nav-label">{{ t.t87 }}</span><span class="nav-short" aria-hidden="true">{{ t.t98 }}</span></a>
+        <a href="{{ classics_path | relative_url }}" aria-label="{{ t.t90 }}"><svg class="ui-icon" aria-hidden="true"><use href="#icon-sutra"></use></svg><span class="nav-label">{{ t.t90 }}</span><span class="nav-short" aria-hidden="true">{{ t.t99 }}</span></a>
+        <a href="{{ home_path | relative_url }}#about" aria-label="{{ t.t91 }}"><svg class="ui-icon" aria-hidden="true"><use href="#icon-lotus"></use></svg><span class="nav-label">{{ t.t91 }}</span><span class="nav-short" aria-hidden="true">{{ t.t100 }}</span></a>
+        <a class="language-switch" href="{{ switch_path | relative_url }}" lang="{{ other_lang }}" hreflang="{{ other_lang }}" aria-label="{% if current_lang == 'en' %}Read this page in Chinese{% else %}阅读本页英文版{% endif %}">{% if current_lang == 'en' %}中文{% else %}EN{% endif %}</a>
       </nav>
     </header>
 
     <main id="main">{{ content }}</main>
 
     <footer class="site-footer">
-      <a class="footer-brand" href="{{ '/' | relative_url }}"><svg class="ui-icon" aria-hidden="true"><use href="#icon-dharma"></use></svg>无来</a>
+      <a class="footer-brand" href="{{ home_path | relative_url }}"><svg class="ui-icon" aria-hidden="true"><use href="#icon-dharma"></use></svg>{% if current_lang == 'en' %}Wulai{% else %}无来{% endif %}</a>
       <div class="footer-center">
-        <p>愿在每一次观照中，更清明地回到生活。</p>
-        {% if page.url == '/' %}
-        <div class="footer-visitors" id="visitor-title" aria-label="访问统计" aria-live="polite">
-          <span>累计访客 <strong id="busuanzi_site_uv">—</strong></span><span>今日访客 <strong id="busuanzi_today_uv">—</strong></span><span>阅读 <strong id="busuanzi_site_pv">—</strong> 次</span>
-          <a href="https://www.busuanzi.cc/doc.php" target="_blank" rel="noopener noreferrer" title="按服务的 IP 等规则去重，自接入起记录，域名范围统计，并非准确人数">统计说明 ↗</a>
-          <span id="visitor-status" class="visually-hidden">正在加载访问统计</span>
+        <p>{{ t.t85 }}</p>
+        {% if page.url == '/' or page.url == '/en/' %}
+        <div class="footer-visitors" id="visitor-title" aria-label="{{ t.t92 }}" aria-live="polite">
+          <span>{{ t.t93 }} <strong id="busuanzi_site_uv">—</strong></span><span>{{ t.t94 }} <strong id="busuanzi_today_uv">—</strong></span><span>{{ t.t101 }} <strong id="busuanzi_site_pv">—</strong>{{ t.t102 }}</span>
+          <a href="https://www.busuanzi.cc/doc.php" target="_blank" rel="noopener noreferrer" title="{{ t.t84 }}">{{ t.t95 }} ↗</a>
+          <span id="visitor-status" class="visually-hidden">{{ t.t86 }}</span>
         </div>
         {% endif %}
       </div>
-      <a class="back-top" href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">回到顶部 ↑</a>
+      <a class="back-top" href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">{{ t.t96 }} ↑</a>
     </footer>
     <script defer src="{{ '/assets/js/visitor-counter.js' | relative_url }}"></script>
   </body>

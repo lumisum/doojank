@@ -1,4 +1,6 @@
 ---
+lang: zh-CN
+translation_key: classic-diamond-sutra
 layout: default
 title: 金刚般若波罗蜜经
 description: 《金刚般若波罗蜜经》原文与逐品白话释义，可切换纯原文和对照阅读模式。

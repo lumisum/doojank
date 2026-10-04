@@ -1,0 +1,124 @@
+{% assign current_lang = page.lang | default: 'zh-CN' %}{% assign t = site.data.i18n[current_lang] %}{% assign home_path = '/' %}{% assign classics_path = '/classics/' %}{% assign other_lang = 'en' %}{% assign fallback_path = '/en/' %}{% if current_lang == 'en' %}{% assign home_path = '/en/' %}{% assign classics_path = '/en/classics/' %}{% assign other_lang = 'zh-CN' %}{% assign fallback_path = '/' %}{% endif %}
+{% assign language_prefix = '' %}{% if current_lang == 'en' %}{% assign language_prefix = '/en' %}{% endif %}
+
+<header id="top" class="hero" style="background-image: linear-gradient(90deg, rgba(10, 28, 23, .82) 0%, rgba(13, 34, 28, .62) 38%, rgba(13, 34, 28, .10) 74%), url('{{ '/assets/wulai-readme-hero.png' | relative_url }}')">
+  <div class="hero-inner">
+    <p class="hero-kicker"><svg class="ui-icon" aria-hidden="true"><use href="#icon-lotus"></use></svg> {{ t.t38 }}</p>
+    <h1>{% if current_lang == 'en' %}Wulai{% else %}无来{% endif %}</h1>
+    <p class="hero-subtitle">{{ t.t6 }}</p>
+    <a class="hero-link" href="#articles">{{ t.t51 }} <span aria-hidden="true">↓</span></a>
+  </div>
+  <p class="hero-caption">{{ t.t18 }}</p>
+</header>
+
+<nav class="practice-path section-shell" aria-label="{{ t.t42 }}">
+  <a href="#about"><span class="practice-path-icon" aria-hidden="true"><svg class="ui-icon"><use href="#icon-lotus"></use></svg></span><span><strong>{{ t.t58 }}</strong><small>{{ t.t12 }}</small></span><span class="practice-path-arrow" aria-hidden="true">↗</span></a>
+  <a href="#classics"><span class="practice-path-icon" aria-hidden="true"><svg class="ui-icon"><use href="#icon-sutra"></use></svg></span><span><strong>{{ t.t59 }}</strong><small>{{ t.t13 }}</small></span><span class="practice-path-arrow" aria-hidden="true">↗</span></a>
+  <a href="#articles"><span class="practice-path-icon" aria-hidden="true"><svg class="ui-icon"><use href="#icon-bodhi"></use></svg></span><span><strong>{{ t.t60 }}</strong><small>{{ t.t19 }}</small></span><span class="practice-path-arrow" aria-hidden="true">↗</span></a>
+</nav>
+
+<section id="about" class="about-section section-shell">
+  <div class="about-copy">
+    <p class="eyebrow with-icon"><svg class="ui-icon" aria-hidden="true"><use href="#icon-lotus"></use></svg>{{ t.t52 }}</p>
+    <h2>{{ t.t28 }}</h2>
+    <p>{{ t.t3 }}</p>
+    <p>{{ t.t1 }}</p>
+  </div>
+  <aside class="community-card" aria-labelledby="community-title">
+    <p class="eyebrow with-icon"><svg class="ui-icon" aria-hidden="true"><use href="#icon-lotus"></use></svg>{{ t.t43 }}</p>
+    <h3 id="community-title">{{ t.t29 }}</h3>
+    <p class="community-intro">{{ t.t14 }}</p>
+    <div class="community-codes">
+      <figure>
+        <button class="qr-preview" type="button" data-qr-src="{{ '/assets/wechat-qr.jpg' | relative_url }}" data-qr-title="{{ t.t30 }}" aria-label="{{ t.t21 }}">
+          <img src="{{ '/assets/wechat-qr.jpg' | relative_url }}" alt="{{ t.t20 }}" width="116" height="116" loading="lazy">
+        </button>
+        <figcaption><strong>{{ t.t49 }}</strong><span>{{ t.t32 }}</span></figcaption>
+      </figure>
+      <figure>
+        <button class="qr-preview" type="button" data-qr-src="{{ '/assets/wechat-group-qr.jpg' | relative_url }}" data-qr-title="{{ t.t48 }}" aria-label="{{ t.t22 }}">
+          <img src="{{ '/assets/wechat-group-qr.jpg' | relative_url }}" alt="{{ t.t31 }}" width="116" height="116" loading="lazy">
+        </button>
+        <figcaption><strong>{{ t.t48 }}</strong><span>{{ t.t33 }}</span></figcaption>
+      </figure>
+    </div>
+    <p class="community-hint">{{ t.t9 }}</p>
+  </aside>
+</section>
+
+<dialog class="qr-dialog" id="qr-dialog" aria-labelledby="qr-dialog-title">
+  <button class="qr-dialog-close" type="button" aria-label="{{ t.t50 }}">×</button>
+  <p class="eyebrow">{{ t.t43 }}</p>
+  <h2 id="qr-dialog-title"></h2>
+  <img id="qr-dialog-image" alt="" width="320" height="320">
+  <p>{{ t.t7 }}</p>
+</dialog>
+
+<section id="classics" class="classics-spotlight">
+  <div class="section-shell">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow with-icon"><svg class="ui-icon" aria-hidden="true"><use href="#icon-sutra"></use></svg>{{ t.t34 }}</p>
+        <h2>{{ t.t35 }}</h2>
+      </div>
+      <p>{{ t.t2 }}</p>
+    </div>
+    <div class="scripture-showcase-grid" aria-label="{{ t.t47 }}">
+      <a class="scripture-showcase" href="{{ '/classics/diamond-sutra/' | prepend: language_prefix | relative_url }}" aria-label="{{ t.t23 }}">
+        <img src="{{ '/assets/scriptures/diamond-sutra-banner.png' | relative_url }}" alt="{{ t.t10 }}" loading="lazy">
+        <span class="scripture-showcase-shade" aria-hidden="true"></span>
+        <span class="scripture-showcase-copy"><span class="eyebrow with-icon"><svg class="ui-icon" aria-hidden="true"><use href="#icon-lotus"></use></svg>{{ t.t44 }}</span><strong>{{ t.t39 }}</strong><span>{{ t.t26 }}</span><span class="scripture-showcase-link">{{ t.t54 }} <span aria-hidden="true">↗</span></span></span>
+      </a>
+      <a class="scripture-showcase" href="{{ '/classics/heart-sutra/' | prepend: language_prefix | relative_url }}" aria-label="{{ t.t24 }}">
+        <img src="{{ '/assets/scriptures/heart-sutra-banner.png' | relative_url }}" alt="{{ t.t11 }}" loading="lazy">
+        <span class="scripture-showcase-shade" aria-hidden="true"></span>
+        <span class="scripture-showcase-copy"><span class="eyebrow with-icon"><svg class="ui-icon" aria-hidden="true"><use href="#icon-lotus"></use></svg>{{ t.t44 }}</span><strong>{{ t.t40 }}</strong><span>{{ t.t27 }}</span><span class="scripture-showcase-link">{{ t.t54 }} <span aria-hidden="true">↗</span></span></span>
+      </a>
+      <a class="scripture-showcase" href="{{ '/classics/platform-sutra/' | prepend: language_prefix | relative_url }}" aria-label="{{ t.t25 }}">
+        <img src="{{ '/assets/scriptures/platform-sutra-banner.png' | relative_url }}" alt="{{ t.t17 }}" loading="lazy">
+        <span class="scripture-showcase-shade" aria-hidden="true"></span>
+        <span class="scripture-showcase-copy"><span class="eyebrow with-icon"><svg class="ui-icon" aria-hidden="true"><use href="#icon-lotus"></use></svg>{{ t.t45 }}</span><strong>{{ t.t53 }}</strong><span>{{ t.t15 }}</span><span class="scripture-showcase-link">{{ t.t54 }} <span aria-hidden="true">↗</span></span></span>
+      </a>
+      <a class="scripture-showcase" href="{{ '/classics/chuanxilu/' | prepend: language_prefix | relative_url }}" aria-label="{{ t.t36 }}">
+        <img src="{{ '/assets/scriptures/chuanxilu-banner.png' | relative_url }}" alt="{{ t.t8 }}" loading="lazy">
+        <span class="scripture-showcase-shade" aria-hidden="true"></span>
+        <span class="scripture-showcase-copy"><span class="eyebrow with-icon"><svg class="ui-icon" aria-hidden="true"><use href="#icon-bodhi"></use></svg>{{ t.t46 }}</span><strong>{{ t.t56 }}</strong><span>{{ t.t16 }}</span><span class="scripture-showcase-link">{{ t.t54 }} <span aria-hidden="true">↗</span></span></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="articles" class="articles-section">
+  <div class="section-shell">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow with-icon"><svg class="ui-icon" aria-hidden="true"><use href="#icon-bodhi"></use></svg>{{ t.t41 }}</p>
+        <h2>{{ t.t37 }}</h2>
+      </div>
+      <p>{{ t.t5 }}</p>
+    </div>
+
+    {% assign all_articles = site.pages | where: 'layout', 'article' | where: 'status', 'published' | where: 'lang', current_lang | sort: 'date' | reverse %}
+    <div class="article-grid">
+      {% for article in all_articles %}
+        <a class="article-card" href="{{ article.url | relative_url }}" aria-label="{{ t.t57 }}{{ article.title | escape }}">
+          <figure class="article-card-visual">
+            <span class="article-card-media"><img src="{{ article.cover | relative_url }}" alt="{{ article.cover_alt | default: article.title | escape }}" loading="lazy"></span>
+            <figcaption class="article-card-copy">
+              {% if article.date %}<time datetime="{{ article.date | date_to_xmlschema }}">{{ article.date | date: '%Y.%m.%d' }}</time>{% endif %}
+              <h3>{{ article.title | escape }}</h3>
+              <span class="article-card-read">{{ t.t55 }} <span aria-hidden="true">↗</span></span>
+            </figcaption>
+          </figure>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="closing-note">
+  <span aria-hidden="true"><svg class="ui-icon"><use href="#icon-dharma"></use></svg></span>
+  <p>{{ t.t4 }}</p>
+</section>
+
+<script defer src="{{ '/assets/js/home-community.js' | relative_url }}"></script>

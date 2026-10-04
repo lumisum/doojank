@@ -1,4 +1,6 @@
 ---
+lang: zh-CN
+translation_key: 2026-09-27-fotuo-rang-jiazhang-meitian-duo-yixiaoshi
 layout: article
 title: "佛陀如何让家长每天多出一小时？"
 date: "2026-09-27T17:15:00+08:00"

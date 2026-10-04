@@ -1,4 +1,6 @@
 ---
+lang: zh-CN
+translation_key: 2026-10-03-yiqianwa-taikong-suanli-meng
 layout: article
 title: "一千瓦的太空算力梦"
 date: "2026-10-03T11:03:31+08:00"

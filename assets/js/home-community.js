@@ -6,7 +6,7 @@
   document.querySelectorAll('[data-qr-src]').forEach(button => {
     button.addEventListener('click', () => {
       image.src = button.dataset.qrSrc;
-      image.alt = button.dataset.qrTitle + '二维码';
+      image.alt = button.dataset.qrTitle + (document.documentElement.lang === 'en' ? ' QR code' : '二维码');
       title.textContent = button.dataset.qrTitle;
       if (typeof dialog.showModal === 'function') dialog.showModal();
       else window.open(image.src, '_blank', 'noopener');

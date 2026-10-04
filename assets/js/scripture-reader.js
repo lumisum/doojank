@@ -1,4 +1,6 @@
 (() => {
+  const english = document.documentElement.lang === "en";
+  const message = (zh, en) => english ? en : zh;
   const page = document.querySelector(".scripture-page");
   const content = document.querySelector("#scripture-content");
   const error = document.querySelector("#scripture-error");
@@ -52,15 +54,16 @@
 
     const body = appendText(section, "div", "sutra-source", chapter.body);
     body.lang = "zh-CN";
-    body.setAttribute("aria-label", `${chapter.number} 经文原文`);
+    body.setAttribute("aria-label", `${chapter.number} ${message("经文原文", "Original Chinese text")}`);
 
     const noteText = noteById.get(chapter.id);
     if (noteText) {
       const note = document.createElement("aside");
       note.className = "sutra-explanation";
+      note.lang = "zh-CN";
       note.dataset.parallelNote = "";
-      note.setAttribute("aria-label", `${chapter.number} 白话释义`);
-      appendText(note, "span", "sutra-explanation-label", "白话释义 · 学习笔记");
+      note.setAttribute("aria-label", `${chapter.number} ${message("白话释义", "Chinese study notes")}`);
+      appendText(note, "span", "sutra-explanation-label", message('白话释义 · 学习笔记', 'Chinese study notes'));
       appendText(note, "p", "sutra-explanation-text", noteText);
       section.append(note);
     }
@@ -131,17 +134,17 @@
     function updateAudioState(playing, status) {
       audioControl.dataset.audioState = playing ? "playing" : "paused";
       audioToggle.setAttribute("aria-pressed", String(playing));
-      audioToggle.setAttribute("aria-label", playing ? "暂停背景音乐" : "播放背景音乐");
-      if (audioToggleLabel) audioToggleLabel.textContent = playing ? "暂停音乐" : "开启音乐";
+      audioToggle.setAttribute("aria-label", playing ? message('暂停背景音乐', 'Pause background music') : message('播放背景音乐', 'Play background music'));
+      if (audioToggleLabel) audioToggleLabel.textContent = playing ? message('暂停音乐', 'Pause music') : message('开启音乐', 'Play music');
       if (audioStatus && status) audioStatus.textContent = status;
     }
 
     async function startAudio(automatic = false) {
       try {
         await audio.play();
-        updateAudioState(true, `背景音播放中 · ${Math.round(audio.volume * 100)}%`);
+        updateAudioState(true, `${message("背景音播放中", "Music playing")} · ${Math.round(audio.volume * 100)}%`);
       } catch {
-        updateAudioState(false, automatic ? "浏览器限制自动播放，点击开启" : "音频暂时无法播放，请稍后再试");
+        updateAudioState(false, automatic ? message('浏览器限制自动播放，点击开启', 'Autoplay is blocked; press Play music') : message('音频暂时无法播放，请稍后再试', 'Audio is unavailable; please try again'));
       }
     }
 
@@ -151,19 +154,19 @@
     });
 
     audio.addEventListener("play", () => {
-      updateAudioState(true, `背景音播放中 · ${Math.round(audio.volume * 100)}%`);
+      updateAudioState(true, `${message("背景音播放中", "Music playing")} · ${Math.round(audio.volume * 100)}%`);
     });
     audio.addEventListener("pause", () => {
-      updateAudioState(false, "背景音乐已暂停");
+      updateAudioState(false, message('背景音乐已暂停', 'Music paused'));
     });
     audio.addEventListener("error", () => {
-      updateAudioState(false, "音频无法载入，请检查网络连接");
+      updateAudioState(false, message('音频无法载入，请检查网络连接', 'Unable to load audio; check your connection'));
     });
 
     audioVolume?.addEventListener("input", () => {
       audio.volume = Number(audioVolume.value);
       if (audioVolumeValue) audioVolumeValue.value = `${Math.round(audio.volume * 100)}%`;
-      if (!audio.paused && audioStatus) audioStatus.textContent = `背景音播放中 · ${Math.round(audio.volume * 100)}%`;
+      if (!audio.paused && audioStatus) audioStatus.textContent = `${message("背景音播放中", "Music playing")} · ${Math.round(audio.volume * 100)}%`;
     });
 
     startAudio(true);
@@ -206,7 +209,7 @@
       renderIndex(chapters);
 
       const count = document.querySelector("#scripture-chapter-count");
-      if (count) count.textContent = `共 ${chapters.length} ${readerConfig.sectionUnit || "品"}`;
+      if (count) count.textContent = english ? `${chapters.length} sections · Chinese text` : `共 ${chapters.length} ${readerConfig.sectionUnit || "品"}`;
       const progress = document.querySelector("#scripture-progress-bar");
       if (progress) {
         const updateProgress = () => {

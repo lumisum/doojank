@@ -6,7 +6,7 @@
 
 <p align="center">在日常里修行，在体会中写下佛法</p>
 
-<p align="center"><a href="https://lumisum.github.io/wulai/">进入「无来」阅读网站 ↗</a></p>
+<p align="center"><a href="https://lumisum.github.io/wulai/">进入「无来」阅读网站 ↗</a> · <a href="https://lumisum.github.io/wulai/en/">Read in English ↗</a></p>
 
 ---
 
@@ -51,6 +51,7 @@
 
 | 日期 | 文章 |
 | --- | --- |
+| 2026.10.04 | [十一黄金周，为什么大家都出去散心？](https://lumisum.github.io/wulai/articles/2026-10-04-shiyi-huangjinzhou-sanxin/) |
 | 2026.10.03 | [一千瓦的太空算力梦](https://lumisum.github.io/wulai/articles/2026-10-03-yiqianwa-taikong-suanli-meng/) |
 | 2026.10.02 | [当“相”可以无限生成：从AI视频一直想到人类消失以后](https://lumisum.github.io/wulai/articles/insights/2026-10-02-ai-shipin-xiang-yu-xin/) |
 | 2026.09.30 | [趁长假暂卸一身劳，借佛法照见职场愁](https://lumisum.github.io/wulai/articles/insights/2026-09-30-changjia-zhichang-chou/) |
