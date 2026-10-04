@@ -51,6 +51,7 @@
 
 | 日期 | 文章 |
 | --- | --- |
+| 2026.10.04 | [眼前万象看不尽，心中一念放不下](https://lumisum.github.io/wulai/articles/2026-10-04-yanqian-wanxiang/) · [English](https://lumisum.github.io/wulai/en/articles/2026-10-04-yanqian-wanxiang/) |
 | 2026.10.04 | [十一黄金周，为什么大家都出去散心？](https://lumisum.github.io/wulai/articles/2026-10-04-shiyi-huangjinzhou-sanxin/) |
 | 2026.10.03 | [一千瓦的太空算力梦](https://lumisum.github.io/wulai/articles/2026-10-03-yiqianwa-taikong-suanli-meng/) |
 | 2026.10.02 | [当“相”可以无限生成：从AI视频一直想到人类消失以后](https://lumisum.github.io/wulai/articles/insights/2026-10-02-ai-shipin-xiang-yu-xin/) |

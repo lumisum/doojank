@@ -13,6 +13,8 @@ exclude:
   - articles/**/wechat.md
   - articles/**/wechat.html
   - articles/**/production.md
+  - articles/**/x.md
+  - articles/**/x.html
   - articles/**/images/prompts.md
   - guides
   - scripts

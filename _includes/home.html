@@ -103,7 +103,7 @@
       {% for article in all_articles %}
         <a class="article-card" href="{{ article.url | relative_url }}" aria-label="{{ t.t57 }}{{ article.title | escape }}">
           <figure class="article-card-visual">
-            <span class="article-card-media"><img src="{{ article.cover | relative_url }}" alt="{{ article.cover_alt | default: article.title | escape }}" loading="lazy"></span>
+            <span class="article-card-media{% if article.cover_ratio == '5:2' %} article-card-media-wide{% endif %}"><img src="{{ article.cover | relative_url }}" alt="{{ article.cover_alt | default: article.title | escape }}" loading="lazy"></span>
             <figcaption class="article-card-copy">
               {% if article.date %}<time datetime="{{ article.date | date_to_xmlschema }}">{{ article.date | date: '%Y.%m.%d' }}</time>{% endif %}
               <h3>{{ article.title | escape }}</h3>

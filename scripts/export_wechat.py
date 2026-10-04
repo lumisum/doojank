@@ -52,6 +52,10 @@ SUMMARY_STYLE = (
 DIVIDER_URL = urljoin(SITE_BASE, "assets/wulai-wechat-divider.png")
 
 HIGHLIGHTS = {
+    "2026-10-04-yanqian-wanxiang": [
+        "手指在换画面，心却一直等着下一次满足。",
+        "我们怎样使用这一刻的注意力，也在影响下一刻怎样面对事情。",
+    ],
     "2026-10-03-yiqianwa-taikong-suanli-meng": [
         "钱往哪里去，其实比话往哪里去诚实得多",
         "名字跑到了前面，不等于事情已经成了，也不等于就是一场骗局。",
@@ -337,16 +341,17 @@ def write_article_index(article_paths: list[Path]) -> None:
         "",
         "按发布时间排列。每篇文章各有一个目录，内含原文、配图和可复制的 HTML 稿。",
         "",
-        "| 日期 | 文章 | 原文 Markdown | 公众号 HTML | 排版 Markdown |",
-        "| --- | --- | --- | --- | --- |",
+        "| 日期 | 文章 | 原文 Markdown | 公众号 HTML | 排版 Markdown | X 英文复制稿 |",
+        "| --- | --- | --- | --- | --- | --- |",
     ]
     for date, title, slug in records:
         day = date[:10] if date else "—"
         safe_title = title.replace("|", "\\|")
+        x_export = f"[x.html]({slug}/x.html) · [x.md]({slug}/x.md)" if (ROOT / "articles" / slug / "x.html").exists() else "—"
         rows.append(
             f"| {day} | {safe_title} | [{slug}/article.md]({slug}/article.md) "
             f"| [{slug}/wechat.html]({slug}/wechat.html) "
-            f"| [{slug}/wechat.md]({slug}/wechat.md) |"
+            f"| [{slug}/wechat.md]({slug}/wechat.md) | {x_export} |"
         )
     (ROOT / "articles" / "README.md").write_text("\n".join(rows) + "\n", encoding="utf-8")
 

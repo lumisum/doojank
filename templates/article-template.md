@@ -1,41 +1,28 @@
 ---
 layout: article
-title: "文章标题"
-date: "YYYY-MM-DDTHH:MM:SS+08:00" # 使用发布时间，精确到秒以稳定排列时间线
-summary: "公众号摘要"
+lang: zh-CN
+translation_key: YYYY-MM-DD-short-title
+title: "清楚的问题、核心判断或读者价值"
+date: "YYYY-MM-DDTHH:MM:SS+08:00" # 发布时间精确到秒
+summary: "读者面对的问题，以及本文提供的理解；避免夸大效果"
 status: draft
 permalink: /articles/YYYY-MM-DD-short-title/
 cover: /articles/YYYY-MM-DD-short-title/images/cover.png
 cover_alt: "封面画面说明"
 ---
 
-## 正文
+从具体困境、真实经历或清楚问题进入，前两三段建立阅读理由。此处及下文是待替换的写作提示，不是最终正文。
 
-从一个具体的问题、经历或观察开始。
+## 问题为什么会发生
 
-### 小标题
+沿具体过程说明原因，用准确例子帮助理解。核对关键事实，区分资料、作者体会与假设；不要重复开头。
 
-展开个人理解，尽量结合具体生活经验。引用经文或他人观点时注明出处，并区分引用与自己的体会。
+## 换一个角度理解
 
-## 结尾
+围绕本篇佛法主线，提出已经得到支撑的新认识，照见事情的条件与心的执着。佛法指导前文提问与后文实践，不仅在本节出现；不以术语替代解释，自然段通常 2–4 句。
 
-回到文章开头的问题，留下简洁的收束或可实践的提醒。
+## 可以从哪里开始
 
-## 配图安排
+回应最初的困境，留下相关的小行动、观察问题或判断依据。章节名称与数量按正文调整，不强套模板。
 
-- 封面：`images/cover.png`（2.35:1 横版）
-- 正文图 1：`images/01.png`（3:4 竖版；建议放在……）
-- 正文图 2：`images/02.png`（3:4 竖版；建议放在……）
-- 正文图 3：`images/03.png`（3:4 竖版；按需使用，建议放在……）
-- 在正文中用公开地址插图，例如：`![图片说明](https://lumisum.github.io/wulai/articles/YYYY-MM-DD-short-title/images/01.png)`
-
-## 发布信息
-
-- 微信公众号标题：
-- 作者 / 来源署名（如需）：
-- 关键词：
-- 原文链接（发布后填写）：
-
-## 公众号导入稿
-
-将本文保存为 `articles/YYYY-MM-DD-short-title/article.md`，并把配图放在同目录的 `images/` 下。写作时遵循 [`guides/writing-style.md`](../guides/writing-style.md)，按完整意思自然成段，不要一句一段。文章定稿并标记为 `published` 后，运行 `python3 scripts/export_wechat.py`，会在本篇目录生成 `wechat.md`（内联 HTML 的公众号稿）和 `wechat.html`（可预览、可复制版本），并按时间更新 `articles/README.md`。HTML 稿的开头包含 2.35:1 封面，排版遵循 [`guides/wechat-formatting.md`](../guides/wechat-formatting.md)。
+<!-- 交稿约定：中文公众号使用 2.35:1 中文封面、3:4 正文图及 wechat.html；英文 Pages / X 使用 5:2 英文封面，正文纯文字。X 另生成 x.html 富文本复制页与 x.md，标题和封面单独填写/上传。 -->

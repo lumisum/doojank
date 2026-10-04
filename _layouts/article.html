@@ -4,7 +4,7 @@ layout: default
 {% assign current_lang = page.lang | default: 'zh-CN' %}{% assign t = site.data.i18n[current_lang] %}{% assign home_path = '/' %}{% assign classics_path = '/classics/' %}{% assign other_lang = 'en' %}{% assign fallback_path = '/en/' %}{% if current_lang == 'en' %}{% assign home_path = '/en/' %}{% assign classics_path = '/en/classics/' %}{% assign other_lang = 'zh-CN' %}{% assign fallback_path = '/' %}{% endif %}
 <article class="article-page">
   {% if page.cover %}
-  <figure class="article-cover">
+  <figure class="article-cover{% if page.cover_ratio == '5:2' %} article-cover-wide{% endif %}">
     <img src="{{ page.cover | relative_url }}" alt="{{ page.cover_alt | default: page.title | escape }}">
   </figure>
   {% endif %}

@@ -174,6 +174,7 @@ img { max-width: 100%; height: auto; }
 .article-page { min-height: 70vh; padding: 0 0 clamp(4rem, 8vw, 7rem); background: var(--paper-light); }
 .article-cover { width: 100%; aspect-ratio: 2.35 / 1; margin: 0; overflow: hidden; background: var(--stone); }
 .article-cover img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center; }
+.article-cover-wide, .article-card-media-wide { aspect-ratio: 5 / 2; }
 .article-reader { width: min(1120px, calc(100% - 3rem)); margin: 0 auto; }
 .article-toolbar { min-height: 62px; display: flex; align-items: center; justify-content: space-between; gap: 1rem; border-bottom: 1px solid #e9e5da; }
 .article-back { display: inline-flex; align-items: center; gap: .55rem; color: #7f887f; font-size: .8rem; letter-spacing: .06em; transition: color .2s ease; }
