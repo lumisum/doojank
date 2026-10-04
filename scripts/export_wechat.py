@@ -189,12 +189,14 @@ def render_inline(text: str) -> str:
     return "".join(parts)
 
 
-def render_image(block: str, image_base_url: str) -> str | None:
+def render_image(block: str, article_base_url: str) -> str | None:
     match = IMAGE_RE.fullmatch(block.strip())
     if not match:
         return None
     alt, source = match.groups()
-    image_url = urljoin(image_base_url, source)
+    # Markdown paths are relative to article.md, e.g. images/01.png.
+    # Resolving against an images/ base would duplicate that directory.
+    image_url = urljoin(article_base_url, source)
     return (
         f'<p style="margin:26px 0;">'
         f'<img src="{html.escape(image_url, quote=True)}" '
@@ -239,13 +241,13 @@ def render_article_end() -> str:
     )
 
 
-def render_body(markdown: str, image_base_url: str, highlights: list[str]) -> str:
+def render_body(markdown: str, article_base_url: str, highlights: list[str]) -> str:
     blocks: list[str] = []
     for raw_block in re.split(r"\n\s*\n", markdown.strip()):
         block = raw_block.strip()
         if not block:
             continue
-        image = render_image(block, image_base_url)
+        image = render_image(block, article_base_url)
         if image:
             blocks.append(image)
             continue
@@ -365,11 +367,11 @@ def export_article(source_path: Path) -> bool:
     cover = metadata.get("cover", "")
     highlights = HIGHLIGHTS.get(source_path.parent.name, [])
     relative_article_dir = source_path.parent.relative_to(ROOT).as_posix()
-    image_base_url = urljoin(SITE_BASE, f"{relative_article_dir}/images/")
+    article_base_url = urljoin(SITE_BASE, f"{relative_article_dir}/")
     markup = "\n".join(
         part for part in [
             render_article_header(title, summary, cover),
-            render_body(body, image_base_url, highlights),
+            render_body(body, article_base_url, highlights),
             render_article_end(),
         ] if part
     )
