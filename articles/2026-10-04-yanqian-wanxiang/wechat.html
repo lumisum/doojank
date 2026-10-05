@@ -7,11 +7,12 @@
 </head>
 <body style="margin:0;background-color:#F4F4EE;">
   <div style="max-width:677px;margin:0 auto;padding:0 0 36px;background-color:#FFFFFF;">
+<aside style="padding:22px 28px;background:#EFF2EA;border-bottom:1px solid #DCE3D7;"><p style="margin:0 0 8px;color:#8C724C;font-size:12px;letter-spacing:2px;">文章导读 · CAPTION</p><p id="article-caption" style="margin:0 0 14px;color:#354039;font-size:15px;line-height:1.8;">AI 能无限造相，我们的注意力却有限。刷不停的，究竟是视频，还是对下一个新相的执迷？从佛法的无住与阳明的心意之学出发，看清注意力如何被牵走，把一念留给真正认定的事。</p><button type="button" id="copy-caption" style="border:0;border-radius:6px;padding:9px 16px;background:#18372F;color:#fff;font-size:14px;cursor:pointer;">复制导读 / Caption</button><p id="caption-status" role="status" aria-live="polite" style="margin:10px 0 0;color:#365344;font-size:13px;"></p></aside>
 <p style="margin:0 0 24px;line-height:0;"><img src="https://lumisum.github.io/wulai/articles/2026-10-04-yanqian-wanxiang/images/cover-v3.png" alt="AI因注意力机制异常强大，而人类的注意力却涣散了" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
 <div style="padding:0 24px 8px;">
 <p style="margin:2px 0 12px;color:#8C724C;font-size:12px;line-height:1.5;letter-spacing:2px;text-align:center;">无来 · 修学随笔</p>
 <p style="margin:0 auto 12px;color:#18372F;font-size:24px;font-weight:700;line-height:1.5;text-align:center;letter-spacing:0.4px;">AI因注意力机制异常强大，而人类的注意力却涣散了</p>
-<p style="margin:0 auto 8px;color:#68736A;font-size:14px;line-height:1.8;text-align:center;">AI 让造相的成本接近于零，人执迷的不再是某一个相，而是下一个新相。意落在哪里，哪里就构成一个人的现实——有限的一念，不该被无限的新相牵着走。</p>
+<p style="margin:0 auto 8px;color:#68736A;font-size:14px;line-height:1.8;text-align:center;">AI 能无限造相，我们的注意力却有限。刷不停的，究竟是视频，还是对下一个新相的执迷？从佛法的无住与阳明的心意之学出发，看清注意力如何被牵走，把一念留给真正认定的事。</p>
 <p style="margin:14px auto 24px;text-align:center;line-height:0;"><img src="https://lumisum.github.io/wulai/assets/wulai-wechat-divider.png" alt="" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
 <p style="margin:0 0 20px;color:#354039;font-size:15px;line-height:1.95;letter-spacing:0.25px;">刷视频的时候，最容易被忽略的一件事，是我们正在怎样对待自己的心。</p>
 <p style="margin:0 0 20px;color:#354039;font-size:15px;line-height:1.95;letter-spacing:0.25px;">一开始，可能只是想休息几分钟。看见一个有趣的，停下来；下一个更有趣，再看一会儿。等到终于放下手机，时间已经过去不少。可眼前那些原本要做的事情，并没有因此变得容易。有时反而更不想做了，还想再看一点。</p>
@@ -51,5 +52,39 @@
 <p style="margin:0 0 20px;color:#354039;font-size:15px;line-height:1.95;letter-spacing:0.25px;"><strong style="color:#315B49;background-color:#EFF2EA;font-weight:700;padding:1px 3px;">万相可以无限生成，我这一念，却不能随便交出去。</strong></p>
 <p style="margin:14px auto 24px;text-align:center;line-height:0;"><img src="https://lumisum.github.io/wulai/assets/wulai-wechat-divider.png" alt="" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p><p style="margin:0 0 8px;color:#365344;font-size:14px;line-height:1.8;text-align:center;">愿把所思所学，带回眼前的生活。</p><p style="margin:0;color:#AB8966;font-size:12px;letter-spacing:2px;text-align:center;">无来 · 修学随笔</p></div>
   </div>
+<script>
+(() => {
+  const button = document.getElementById('copy-caption');
+  const caption = document.getElementById('article-caption');
+  const status = document.getElementById('caption-status');
+  if (!button || !caption || !status) return;
+  button.addEventListener('click', async () => {
+    const text = caption.textContent.trim();
+    const english = document.documentElement.lang === 'en';
+    let copied = false;
+    try {
+      await navigator.clipboard.writeText(text);
+      copied = true;
+    } catch (_) {
+      const selection = window.getSelection();
+      const range = document.createRange();
+      range.selectNodeContents(caption);
+      selection.removeAllRanges();
+      selection.addRange(range);
+      const listener = event => {
+        if (!event.clipboardData) return;
+        event.clipboardData.setData('text/plain', text);
+        event.preventDefault();
+      };
+      document.addEventListener('copy', listener);
+      try { copied = document.execCommand('copy'); } catch (_) {}
+      finally { document.removeEventListener('copy', listener); }
+    }
+    status.textContent = copied
+      ? (english ? 'Caption copied.' : '导读已复制，可粘贴到公众号摘要。')
+      : (english ? 'Caption selected. Press ⌘C or Ctrl+C to copy.' : '导读已选中，请按 ⌘C 或 Ctrl+C 复制。');
+  });
+})();
+</script>
 </body>
 </html>

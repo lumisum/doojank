@@ -1,7 +1,7 @@
 <!--
 无来微信公众号图文排版稿。封面已置于正文开头；公众号标题和摘要字段可另行填写。
 标题：AI因注意力机制异常强大，而人类的注意力却涣散了
-摘要：AI 让造相的成本接近于零，人执迷的不再是某一个相，而是下一个新相。意落在哪里，哪里就构成一个人的现实——有限的一念，不该被无限的新相牵着走。
+摘要：AI 能无限造相，我们的注意力却有限。刷不停的，究竟是视频，还是对下一个新相的执迷？从佛法的无住与阳明的心意之学出发，看清注意力如何被牵走，把一念留给真正认定的事。
 正文图片和装饰图为网站公开链接；粘贴后请检查图片，必要时在公众号后台重新上传。
 -->
 
@@ -9,7 +9,7 @@
 <div style="padding:0 24px 8px;">
 <p style="margin:2px 0 12px;color:#8C724C;font-size:12px;line-height:1.5;letter-spacing:2px;text-align:center;">无来 · 修学随笔</p>
 <p style="margin:0 auto 12px;color:#18372F;font-size:24px;font-weight:700;line-height:1.5;text-align:center;letter-spacing:0.4px;">AI因注意力机制异常强大，而人类的注意力却涣散了</p>
-<p style="margin:0 auto 8px;color:#68736A;font-size:14px;line-height:1.8;text-align:center;">AI 让造相的成本接近于零，人执迷的不再是某一个相，而是下一个新相。意落在哪里，哪里就构成一个人的现实——有限的一念，不该被无限的新相牵着走。</p>
+<p style="margin:0 auto 8px;color:#68736A;font-size:14px;line-height:1.8;text-align:center;">AI 能无限造相，我们的注意力却有限。刷不停的，究竟是视频，还是对下一个新相的执迷？从佛法的无住与阳明的心意之学出发，看清注意力如何被牵走，把一念留给真正认定的事。</p>
 <p style="margin:14px auto 24px;text-align:center;line-height:0;"><img src="https://lumisum.github.io/wulai/assets/wulai-wechat-divider.png" alt="" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
 <p style="margin:0 0 20px;color:#354039;font-size:15px;line-height:1.95;letter-spacing:0.25px;">刷视频的时候，最容易被忽略的一件事，是我们正在怎样对待自己的心。</p>
 <p style="margin:0 0 20px;color:#354039;font-size:15px;line-height:1.95;letter-spacing:0.25px;">一开始，可能只是想休息几分钟。看见一个有趣的，停下来；下一个更有趣，再看一会儿。等到终于放下手机，时间已经过去不少。可眼前那些原本要做的事情，并没有因此变得容易。有时反而更不想做了，还想再看一点。</p>

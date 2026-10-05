@@ -29,10 +29,14 @@ blockquote{margin:24px 0;padding-left:18px;border-left:3px solid var(--copper)}
 <p class="instructions">Copy the title into the title field, then copy the formatted body into the X Articles editor. Upload the English cover separately (5:2). X controls the final typography; check headings and emphasis after pasting.</p>
 <div class="actions"><button type="button" id="copy-body">Copy formatted body</button>
 <button type="button" id="copy-title">Copy title</button>
+<button type="button" id="copy-caption">Copy caption</button>
 <a class="cover-link" href="images/cover-en-v3.png" download>English cover · 5:2</a></div>
 <p id="copy-status" role="status" aria-live="polite"></p>
 <noscript><p class="instructions">Select the title or article body below and copy it using your browser.</p></noscript>
 </header><h1 id="article-title">AI Has Attention Now. Ours Has Scattered.</h1>
+<aside style="padding:18px 20px;margin-bottom:28px;background:#eff2ea;border-left:3px solid var(--copper);">
+<p class="label">ARTICLE CAPTION</p><p id="article-caption" style="margin-bottom:0;font-size:15px;line-height:1.7;">AI can generate endless images. Your attention is finite. Are you watching videos, or chasing the next new appearance? Buddhist non-clinging and Wang Yangming’s understanding of intention offer a way to see what pulls your mind away—and return to what truly matters.</p>
+<p id="caption-status" role="status" aria-live="polite" style="margin:10px 0 0;font-size:13px;color:var(--pine);"></p></aside>
 <article id="article-body"><p>When we scroll through videos, the easiest thing to overlook is what we are doing to our own minds.</p>
 <p>It may begin as a few minutes of rest. Something interesting appears, so we stop. The next one is more interesting, so we watch a little longer. By the time the phone is finally put down, a good deal of time has passed — and the things we meant to do have not become any easier. Sometimes we want to do them even less. We would rather watch a little more.</p>
 <p>Lately, seeing more and more AI-generated video has made me more concerned about this. Animals talk. Historical figures walk into modern life. Things that could never happen are made to look as if we had seen them with our own eyes. The images grow stranger, the stories more unexpected, and there is almost always a new scene waiting.</p>
@@ -107,4 +111,37 @@ async function copyArticle(includeTitle) {
 }
 document.getElementById('copy-body').addEventListener('click', () => copyArticle(false));
 document.getElementById('copy-title').addEventListener('click', () => copyArticle(true));
+</script><script>
+(() => {
+  const button = document.getElementById('copy-caption');
+  const caption = document.getElementById('article-caption');
+  const status = document.getElementById('caption-status');
+  if (!button || !caption || !status) return;
+  button.addEventListener('click', async () => {
+    const text = caption.textContent.trim();
+    const english = document.documentElement.lang === 'en';
+    let copied = false;
+    try {
+      await navigator.clipboard.writeText(text);
+      copied = true;
+    } catch (_) {
+      const selection = window.getSelection();
+      const range = document.createRange();
+      range.selectNodeContents(caption);
+      selection.removeAllRanges();
+      selection.addRange(range);
+      const listener = event => {
+        if (!event.clipboardData) return;
+        event.clipboardData.setData('text/plain', text);
+        event.preventDefault();
+      };
+      document.addEventListener('copy', listener);
+      try { copied = document.execCommand('copy'); } catch (_) {}
+      finally { document.removeEventListener('copy', listener); }
+    }
+    status.textContent = copied
+      ? (english ? 'Caption copied.' : '导读已复制，可粘贴到公众号摘要。')
+      : (english ? 'Caption selected. Press ⌘C or Ctrl+C to copy.' : '导读已选中，请按 ⌘C 或 Ctrl+C 复制。');
+  });
+})();
 </script></body></html>

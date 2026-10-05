@@ -10,7 +10,7 @@ import re
 from pathlib import Path
 from urllib.parse import urlsplit
 
-from export_wechat import parse_frontmatter, render_inline
+from export_wechat import caption_copy_script, parse_frontmatter, render_inline
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -74,10 +74,14 @@ blockquote{margin:24px 0;padding-left:18px;border-left:3px solid var(--copper)}
 <p class="instructions">Copy the title into the title field, then copy the formatted body into the X Articles editor. Upload the English cover separately (5:2). X controls the final typography; check headings and emphasis after pasting.</p>
 <div class="actions"><button type="button" id="copy-body">Copy formatted body</button>
 <button type="button" id="copy-title">Copy title</button>
+<button type="button" id="copy-caption">Copy caption</button>
 <a class="cover-link" href="__COVER__" download>English cover · 5:2</a></div>
 <p id="copy-status" role="status" aria-live="polite"></p>
 <noscript><p class="instructions">Select the title or article body below and copy it using your browser.</p></noscript>
 </header><h1 id="article-title">__TITLE__</h1>
+<aside style="padding:18px 20px;margin-bottom:28px;background:#eff2ea;border-left:3px solid var(--copper);">
+<p class="label">ARTICLE CAPTION</p><p id="article-caption" style="margin-bottom:0;font-size:15px;line-height:1.7;">__CAPTION__</p>
+<p id="caption-status" role="status" aria-live="polite" style="margin:10px 0 0;font-size:13px;color:var(--pine);"></p></aside>
 <article id="article-body">__BODY__</article>
 </main><script>
 const status = document.getElementById('copy-status');
@@ -132,6 +136,7 @@ def export(slug: str) -> None:
         raise ValueError("X exports require the English edition.")
     markup = body_markup(body)
     title = metadata["title"]
+    summary = metadata.get("summary", "")
     directory = ROOT / "articles" / slug
     cover = metadata.get("cover", f"/articles/{slug}/images/cover-en.png")
     parsed_cover = urlsplit(cover)
@@ -141,7 +146,9 @@ def export(slug: str) -> None:
     page = (
         PAGE.replace("__TITLE__", html.escape(title))
         .replace("__COVER__", html.escape(cover, quote=True))
+        .replace("__CAPTION__", html.escape(summary))
         .replace("__BODY__", markup)
+        .replace("</body>", caption_copy_script() + "</body>")
     )
     (directory / "x.html").write_text(page, encoding="utf-8")
     (directory / "x.md").write_text(f"# {title}\n\n{body}\n", encoding="utf-8")

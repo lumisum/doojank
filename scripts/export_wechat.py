@@ -309,7 +309,44 @@ def make_markdown_export(title: str, summary: str, markup: str) -> str:
     )
 
 
-def make_html_export(title: str, markup: str) -> str:
+def caption_copy_script() -> str:
+    return """<script>
+(() => {
+  const button = document.getElementById('copy-caption');
+  const caption = document.getElementById('article-caption');
+  const status = document.getElementById('caption-status');
+  if (!button || !caption || !status) return;
+  button.addEventListener('click', async () => {
+    const text = caption.textContent.trim();
+    const english = document.documentElement.lang === 'en';
+    let copied = false;
+    try {
+      await navigator.clipboard.writeText(text);
+      copied = true;
+    } catch (_) {
+      const selection = window.getSelection();
+      const range = document.createRange();
+      range.selectNodeContents(caption);
+      selection.removeAllRanges();
+      selection.addRange(range);
+      const listener = event => {
+        if (!event.clipboardData) return;
+        event.clipboardData.setData('text/plain', text);
+        event.preventDefault();
+      };
+      document.addEventListener('copy', listener);
+      try { copied = document.execCommand('copy'); } catch (_) {}
+      finally { document.removeEventListener('copy', listener); }
+    }
+    status.textContent = copied
+      ? (english ? 'Caption copied.' : '导读已复制，可粘贴到公众号摘要。')
+      : (english ? 'Caption selected. Press ⌘C or Ctrl+C to copy.' : '导读已选中，请按 ⌘C 或 Ctrl+C 复制。');
+  });
+})();
+</script>"""
+
+
+def make_html_export(title: str, markup: str, summary: str = "") -> str:
     return "\n".join(
         [
             "<!doctype html>",
@@ -321,8 +358,14 @@ def make_html_export(title: str, markup: str) -> str:
             "</head>",
             '<body style="margin:0;background-color:#F4F4EE;">',
             '  <div style="max-width:677px;margin:0 auto;padding:0 0 36px;background-color:#FFFFFF;">',
+            ('<aside style="padding:22px 28px;background:#EFF2EA;border-bottom:1px solid #DCE3D7;">'
+             '<p style="margin:0 0 8px;color:#8C724C;font-size:12px;letter-spacing:2px;">文章导读 · CAPTION</p>'
+             f'<p id="article-caption" style="margin:0 0 14px;color:#354039;font-size:15px;line-height:1.8;">{html.escape(summary)}</p>'
+             '<button type="button" id="copy-caption" style="border:0;border-radius:6px;padding:9px 16px;background:#18372F;color:#fff;font-size:14px;cursor:pointer;">复制导读 / Caption</button>'
+             '<p id="caption-status" role="status" aria-live="polite" style="margin:10px 0 0;color:#365344;font-size:13px;"></p></aside>') if summary else "",
             f"{markup}",
             "  </div>",
+            caption_copy_script() if summary else "",
             "</body>",
             "</html>",
             "",
@@ -380,7 +423,7 @@ def export_article(source_path: Path) -> bool:
         make_markdown_export(title, summary, markup), encoding="utf-8"
     )
     (source_path.parent / "wechat.html").write_text(
-        make_html_export(title, markup), encoding="utf-8"
+        make_html_export(title, markup, summary), encoding="utf-8"
     )
     return True
 
