@@ -49,25 +49,26 @@ PAGE = """<!doctype html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>__TITLE__ · X article</title>
 <style>
-:root{color-scheme:light;--pine:#18372f;--ivory:#f6f3eb;--copper:#ab8966}
-*{box-sizing:border-box}body{margin:0;background:var(--ivory);color:#354039;
+:root{color-scheme:dark;--pine:#62d9ff;--ivory:#09111f;--copper:#a793ff;--ink:#e6edf9;--muted:#98abc5;--line:#29415d}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 80% 0,#172a46,transparent 55%),var(--ivory);color:#ced9e9;
 font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
-main{max-width:760px;margin:40px auto;padding:36px;background:#fff;border-top:4px solid var(--pine)}
-.tools{padding-bottom:26px;border-bottom:1px solid #e5e8e0;margin-bottom:30px}
-.label{font-size:12px;letter-spacing:2px;color:#826c51}.instructions{font-size:14px;line-height:1.7;color:#68736a}
-.actions{display:flex;gap:10px;flex-wrap:wrap}button,.cover-link{border:1px solid #c8d2c7;
-border-radius:6px;padding:10px 15px;background:#fff;color:var(--pine);font:inherit;font-size:14px;cursor:pointer}
-button:first-child{background:var(--pine);color:#fff;border-color:var(--pine)}
-button:hover,.cover-link:hover{box-shadow:0 2px 8px #17201818}.cover-link{text-decoration:none}
+main{max-width:760px;margin:40px auto;padding:36px;background:#0f1b2e;border:1px solid var(--line);border-top:3px solid var(--pine);border-radius:14px;box-shadow:inset 0 1px #ffffff12,0 20px 55px #0005}
+.tools{padding-bottom:26px;border-bottom:1px solid var(--line);margin-bottom:30px}
+.label{font-size:12px;letter-spacing:2px;color:var(--pine)}.instructions{font-size:14px;line-height:1.7;color:var(--muted)}
+.actions{display:flex;gap:10px;flex-wrap:wrap}button,.cover-link{border:1px solid var(--line);
+border-radius:8px;padding:10px 15px;background:linear-gradient(145deg,#203752,#14253b);color:#c9eeff;font:inherit;font-size:14px;cursor:pointer;box-shadow:inset 0 1px #ffffff12,0 4px 12px #0002}
+button:first-child{background:var(--pine);color:#09111f;border-color:var(--pine)}
+button:hover,.cover-link:hover{border-color:var(--pine);box-shadow:0 5px 16px #62d9ff15}.cover-link{text-decoration:none}
+button:focus-visible,a:focus-visible{outline:2px solid var(--pine);outline-offset:4px}
 #copy-status{min-height:22px;margin:12px 0 0;color:var(--pine);font-size:13px}
-h1{font-size:32px;line-height:1.25;margin:0 0 30px;color:var(--pine)}
+h1{font-size:32px;line-height:1.3;margin:0 0 30px;color:var(--ink)}
 #article-body{font-size:17px;line-height:1.85}p{margin:0 0 20px}
-h2{font-size:23px;line-height:1.4;margin:36px 0 18px;color:var(--pine)}
-h3{font-size:20px;line-height:1.4;margin:28px 0 16px;color:var(--pine)}
+h2{font-size:23px;line-height:1.4;margin:36px 0 18px;color:var(--ink)}
+h3{font-size:20px;line-height:1.4;margin:28px 0 16px;color:var(--ink)}
 strong{font-weight:700;color:var(--pine)}a{color:var(--pine);text-decoration:underline}
 blockquote{margin:24px 0;padding-left:18px;border-left:3px solid var(--copper)}
-@media(max-width:600px){main{margin:0;padding:24px 20px}h1{font-size:27px}h2{font-size:21px}}
-@media print{.tools{display:none}body{background:#fff}main{margin:0;border:0;padding:0}}
+@media(max-width:600px){main{margin:0;padding:24px 20px;border-radius:0}h1{font-size:27px}h2{font-size:21px}}
+@media print{.tools{display:none}body,main{background:#fff;color:#111}main{margin:0;border:0;padding:0;box-shadow:none}h1,h2,h3,strong,a{color:#111}}
 </style></head><body><main>
 <header class="tools">
 <p class="label">WULAI · X ARTICLES</p>
@@ -79,7 +80,7 @@ blockquote{margin:24px 0;padding-left:18px;border-left:3px solid var(--copper)}
 <p id="copy-status" role="status" aria-live="polite"></p>
 <noscript><p class="instructions">Select the title or article body below and copy it using your browser.</p></noscript>
 </header><h1 id="article-title">__TITLE__</h1>
-<aside style="padding:18px 20px;margin-bottom:28px;background:#eff2ea;border-left:3px solid var(--copper);">
+<aside style="padding:18px 20px;margin-bottom:28px;background:#162b45;border-left:3px solid var(--copper);">
 <p class="label">ARTICLE CAPTION</p><p id="article-caption" style="margin-bottom:0;font-size:15px;line-height:1.7;">__CAPTION__</p>
 <p id="caption-status" role="status" aria-live="polite" style="margin:10px 0 0;font-size:13px;color:var(--pine);"></p></aside>
 <article id="article-body">__BODY__</article>

@@ -13,40 +13,40 @@ ROOT = Path(__file__).resolve().parents[1]
 SITE_BASE = "https://lumisum.github.io/wulai/"
 
 PARAGRAPH_STYLE = (
-    "margin:0 0 20px;color:#354039;font-size:15px;line-height:1.95;"
+    "margin:0 0 20px;color:#CED9E9;font-size:15px;line-height:1.95;"
     "letter-spacing:0.25px;"
 )
 HEADING_STYLE = (
-    "margin:34px 0 18px;padding-left:12px;border-left:3px solid #AB8966;"
-    "color:#18372F;font-size:18px;font-weight:700;line-height:1.65;"
+    "margin:34px 0 18px;padding-left:12px;border-left:3px solid #A793FF;"
+    "color:#E6EDF9;font-size:18px;font-weight:700;line-height:1.65;"
 )
 SUBHEADING_STYLE = (
-    "margin:26px 0 14px;color:#365344;font-size:16px;font-weight:700;"
+    "margin:26px 0 14px;color:#b7cce6;font-size:16px;font-weight:700;"
     "line-height:1.6;"
 )
 QUOTE_STYLE = (
-    "margin:24px 0;padding:15px 17px;border-left:3px solid #AB8966;"
-    "background-color:#F5F5EF;color:#365344;font-size:15px;line-height:1.9;"
+    "margin:24px 0;padding:15px 17px;border-left:3px solid #A793FF;"
+    "background-color:#182B45;color:#b7cce6;font-size:15px;line-height:1.9;"
 )
-STRONG_STYLE = "color:#315B49;font-weight:700;"
+STRONG_STYLE = "color:#62D9FF;font-weight:700;"
 HIGHLIGHT_STYLE = (
-    "color:#315B49;background-color:#EFF2EA;font-weight:700;padding:1px 3px;"
+    "color:#62D9FF;background-color:#162B45;font-weight:700;padding:1px 3px;"
 )
 LINK_STYLE = (
-    "color:#315B49;font-weight:700;text-decoration:underline;"
-    "text-decoration-color:#8C724C;text-underline-offset:2px;"
+    "color:#62D9FF;font-weight:700;text-decoration:underline;"
+    "text-decoration-color:#91ADC9;text-underline-offset:2px;"
 )
 IMAGE_STYLE = "display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"
 KICKER_STYLE = (
-    "margin:2px 0 12px;color:#8C724C;font-size:12px;line-height:1.5;"
+    "margin:2px 0 12px;color:#91ADC9;font-size:12px;line-height:1.5;"
     "letter-spacing:2px;text-align:center;"
 )
 TITLE_STYLE = (
-    "margin:0 auto 12px;color:#18372F;font-size:24px;font-weight:700;"
+    "margin:0 auto 12px;color:#E6EDF9;font-size:24px;font-weight:700;"
     "line-height:1.5;text-align:center;letter-spacing:0.4px;"
 )
 SUMMARY_STYLE = (
-    "margin:0 auto 8px;color:#68736A;font-size:14px;line-height:1.8;"
+    "margin:0 auto 8px;color:#98ABC5;font-size:14px;line-height:1.8;"
     "text-align:center;"
 )
 DIVIDER_URL = urljoin(SITE_BASE, "assets/wulai-wechat-divider.png")
@@ -176,7 +176,7 @@ def render_inline(text: str) -> str:
             parts.append(f"<em>{html.escape(emphasis, quote=False)}</em>")
         elif code is not None:
             parts.append(
-                f'<span style="color:#5D685F;background-color:#F3F2EC;">'
+                f'<span style="color:#C9DEEF;background-color:#182B45;">'
                 f"{html.escape(code, quote=False)}</span>"
             )
         else:
@@ -235,9 +235,9 @@ def render_article_header(title: str, summary: str, cover: str) -> str:
 def render_article_end() -> str:
     return (
         render_divider()
-        + '<p style="margin:0 0 8px;color:#365344;font-size:14px;line-height:1.8;'
+        + '<p style="margin:0 0 8px;color:#b7cce6;font-size:14px;line-height:1.8;'
         'text-align:center;">愿把所思所学，带回眼前的生活。</p>'
-        '<p style="margin:0;color:#AB8966;font-size:12px;letter-spacing:2px;'
+        '<p style="margin:0;color:#A793FF;font-size:12px;letter-spacing:2px;'
         'text-align:center;">无来 · 修学随笔</p></div>'
     )
 
@@ -260,7 +260,7 @@ def render_body(markdown: str, article_base_url: str, highlights: list[str]) -> 
                 continue
             style = HEADING_STYLE if len(heading.group(1)) == 1 or len(heading.group(1)) == 2 else SUBHEADING_STYLE
             blocks.append(
-                f'<p style="{style}"><span style="color:#AB8966;font-size:12px;">◦</span> '
+                f'<p style="{style}"><span style="color:#A793FF;font-size:12px;">◦</span> '
                 f'{render_inline(label)}</p>'
             )
             continue
@@ -271,7 +271,7 @@ def render_body(markdown: str, article_base_url: str, highlights: list[str]) -> 
                 f'<li style="{PARAGRAPH_STYLE}">{render_inline(item)}</li>' for item in items
             )
             blocks.append(
-                f'<ul style="margin:0 0 20px;padding-left:1.4em;color:#354039;">{rendered_items}</ul>'
+                f'<ul style="margin:0 0 20px;padding-left:1.4em;color:#CED9E9;">{rendered_items}</ul>'
             )
             continue
 
@@ -281,7 +281,7 @@ def render_body(markdown: str, article_base_url: str, highlights: list[str]) -> 
                 f'<li style="{PARAGRAPH_STYLE}">{render_inline(item)}</li>' for item in items
             )
             blocks.append(
-                f'<ol style="margin:0 0 20px;padding-left:1.4em;color:#354039;">{rendered_items}</ol>'
+                f'<ol style="margin:0 0 20px;padding-left:1.4em;color:#CED9E9;">{rendered_items}</ol>'
             )
             continue
 
@@ -356,13 +356,13 @@ def make_html_export(title: str, markup: str, summary: str = "") -> str:
             '  <meta name="viewport" content="width=device-width, initial-scale=1">',
             f"  <title>{html.escape(title)}</title>",
             "</head>",
-            '<body style="margin:0;background-color:#F4F4EE;">',
-            '  <div style="max-width:677px;margin:0 auto;padding:0 0 36px;background-color:#FFFFFF;">',
-            ('<aside style="padding:22px 28px;background:#EFF2EA;border-bottom:1px solid #DCE3D7;">'
-             '<p style="margin:0 0 8px;color:#8C724C;font-size:12px;letter-spacing:2px;">文章导读 · CAPTION</p>'
-             f'<p id="article-caption" style="margin:0 0 14px;color:#354039;font-size:15px;line-height:1.8;">{html.escape(summary)}</p>'
-             '<button type="button" id="copy-caption" style="border:0;border-radius:6px;padding:9px 16px;background:#18372F;color:#fff;font-size:14px;cursor:pointer;">复制导读 / Caption</button>'
-             '<p id="caption-status" role="status" aria-live="polite" style="margin:10px 0 0;color:#365344;font-size:13px;"></p></aside>') if summary else "",
+            '<body style="margin:0;background-color:#09111F;">',
+            '  <div style="max-width:677px;margin:0 auto;padding:0 0 36px;background-color:#0F1B2E;border:1px solid #29415D;border-radius:14px;overflow:hidden;font-family:PingFang SC,Microsoft YaHei,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;">',
+            ('<aside style="padding:22px 28px;background:#162B45;border-bottom:1px solid #29415D;">'
+             '<p style="margin:0 0 8px;color:#91ADC9;font-size:12px;letter-spacing:2px;">文章导读 · CAPTION</p>'
+             f'<p id="article-caption" style="margin:0 0 14px;color:#CED9E9;font-size:15px;line-height:1.8;">{html.escape(summary)}</p>'
+             '<button type="button" id="copy-caption" style="border:0;border-radius:6px;padding:9px 16px;background:#62D9FF;color:#09111F;font-size:14px;cursor:pointer;">复制导读 / Caption</button>'
+             '<p id="caption-status" role="status" aria-live="polite" style="margin:10px 0 0;color:#b7cce6;font-size:13px;"></p></aside>') if summary else "",
             f"{markup}",
             "  </div>",
             caption_copy_script() if summary else "",
@@ -421,6 +421,11 @@ def export_article(source_path: Path) -> bool:
     )
     if metadata.get("visual_mode") == "cover-only":
         markup = markup.replace(render_divider(), "")
+    markup = (
+        '<section style="background-color:#0F1B2E;color:#CED9E9;padding:0 0 28px;'
+        'font-family:PingFang SC,Microsoft YaHei,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;">'
+        + markup + "</section>"
+    )
     (source_path.parent / "wechat.md").write_text(
         make_markdown_export(title, summary, markup), encoding="utf-8"
     )
