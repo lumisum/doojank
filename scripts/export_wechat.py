@@ -53,8 +53,9 @@ DIVIDER_URL = urljoin(SITE_BASE, "assets/wulai-wechat-divider.png")
 
 HIGHLIGHTS = {
     "2026-10-04-yanqian-wanxiang": [
-        "手指在换画面，心却一直等着下一次满足。",
-        "我们怎样使用这一刻的注意力，也在影响下一刻怎样面对事情。",
+        "所以真正让人停不下来的，不是某一条视频，而是新异本身。",
+        "AI 用注意力创造智能，人却把自己的注意力交给了 AI。",
+        "万相可以无限生成，我这一念，却不能随便交出去。",
     ],
     "2026-10-03-yiqianwa-taikong-suanli-meng": [
         "钱往哪里去，其实比话往哪里去诚实得多",

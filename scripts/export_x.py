@@ -5,8 +5,10 @@ from __future__ import annotations
 
 import argparse
 import html
+import posixpath
 import re
 from pathlib import Path
+from urllib.parse import urlsplit
 
 from export_wechat import parse_frontmatter, render_inline
 
@@ -72,7 +74,7 @@ blockquote{margin:24px 0;padding-left:18px;border-left:3px solid var(--copper)}
 <p class="instructions">Copy the title into the title field, then copy the formatted body into the X Articles editor. Upload the English cover separately (5:2). X controls the final typography; check headings and emphasis after pasting.</p>
 <div class="actions"><button type="button" id="copy-body">Copy formatted body</button>
 <button type="button" id="copy-title">Copy title</button>
-<a class="cover-link" href="images/cover-en.png" download>English cover · 5:2</a></div>
+<a class="cover-link" href="__COVER__" download>English cover · 5:2</a></div>
 <p id="copy-status" role="status" aria-live="polite"></p>
 <noscript><p class="instructions">Select the title or article body below and copy it using your browser.</p></noscript>
 </header><h1 id="article-title">__TITLE__</h1>
@@ -131,7 +133,16 @@ def export(slug: str) -> None:
     markup = body_markup(body)
     title = metadata["title"]
     directory = ROOT / "articles" / slug
-    page = PAGE.replace("__TITLE__", html.escape(title)).replace("__BODY__", markup)
+    cover = metadata.get("cover", f"/articles/{slug}/images/cover-en.png")
+    parsed_cover = urlsplit(cover)
+    if not parsed_cover.scheme and not parsed_cover.netloc and parsed_cover.path.startswith("/"):
+        local_cover = posixpath.relpath(parsed_cover.path.lstrip("/"), f"articles/{slug}")
+        cover = parsed_cover._replace(path=local_cover).geturl()
+    page = (
+        PAGE.replace("__TITLE__", html.escape(title))
+        .replace("__COVER__", html.escape(cover, quote=True))
+        .replace("__BODY__", markup)
+    )
     (directory / "x.html").write_text(page, encoding="utf-8")
     (directory / "x.md").write_text(f"# {title}\n\n{body}\n", encoding="utf-8")
     print(f"Generated x.html and x.md for {slug}.")
