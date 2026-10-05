@@ -5,12 +5,12 @@
 正文图片和装饰图为网站公开链接；粘贴后请检查图片，必要时在公众号后台重新上传。
 -->
 
-<section style="background-color:#0F1B2E;color:#CED9E9;padding:0 0 28px;font-family:PingFang SC,Microsoft YaHei,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;"><p style="margin:0 0 24px;line-height:0;"><img src="https://lumisum.github.io/wulai/articles/2026-09-30-changjia-zhichang-chou/images/cover.png" alt="趁长假暂卸一身劳，借佛法照见职场愁" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
+<section id="wechat-body" style="background-color:#0F1B2E;color:#CED9E9;padding:0 0 28px;font-family:PingFang SC,Microsoft YaHei,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;"><p style="margin:0 0 24px;line-height:0;"><img src="https://lumisum.github.io/wulai/articles/2026-09-30-changjia-zhichang-chou/images/cover.png" alt="趁长假暂卸一身劳，借佛法照见职场愁" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
 <div style="padding:0 24px 8px;">
-<p style="margin:2px 0 12px;color:#91ADC9;font-size:12px;line-height:1.5;letter-spacing:2px;text-align:center;">无来 · 修学随笔</p>
-<p style="margin:0 auto 12px;color:#E6EDF9;font-size:24px;font-weight:700;line-height:1.5;text-align:center;letter-spacing:0.4px;">趁长假暂卸一身劳，借佛法照见职场愁</p>
-<p style="margin:0 auto 8px;color:#98ABC5;font-size:14px;line-height:1.8;text-align:center;">长假离开了工位，心却还在等待认可与回报。借《六祖坛经》照见功劳背后的执着，分清工作与生活，让心放下，让事继续。</p>
-<p style="margin:14px auto 24px;text-align:center;line-height:0;"><img src="https://lumisum.github.io/wulai/assets/wulai-wechat-divider.png" alt="" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
+<p style="margin:2px 0 12px;color:#91ADC9;font-size:12px;line-height:1.5;letter-spacing:2px;text-align:left;">无来 · 个人观察</p>
+<p id="wechat-title" style="margin:0 auto 12px;color:#E6EDF9;font-size:24px;font-weight:700;line-height:1.5;text-align:left;letter-spacing:0.4px;">趁长假暂卸一身劳，借佛法照见职场愁</p>
+<p style="margin:18px 0 26px;padding:14px 16px;background-color:#162B45;border-left:2px solid #62D9FF;color:#B7CCE6;font-size:14px;line-height:1.8;text-align:left;">长假离开了工位，心却还在等待认可与回报。借《六祖坛经》照见功劳背后的执着，分清工作与生活，让心放下，让事继续。</p>
+<p style="margin:26px 0;border-top:1px solid #29415D;line-height:0;font-size:0;"></p>
 <p style="margin:0 0 20px;color:#CED9E9;font-size:15px;line-height:1.95;letter-spacing:0.25px;">十一长假到了，也该歇一歇。可离开了工位，心里的工作未必停下来。奖金为什么没有我的份？成绩为什么没被看见？越想放松，越想起那些不痛快。</p>
 <p style="margin:0 0 20px;color:#CED9E9;font-size:15px;line-height:1.95;letter-spacing:0.25px;">在职场多年，我总觉得自己缺少突破。最近读到《六祖坛经》两句话，才发现：有一部分困住我的东西，就在自己心里。</p>
 <p style="margin:24px 0;padding:15px 17px;border-left:3px solid #A793FF;background-color:#182B45;color:#b7cce6;font-size:15px;line-height:1.9;">有我罪即生，亡功福无比。</p>
@@ -49,4 +49,4 @@
 <p style="margin:0 0 20px;color:#CED9E9;font-size:15px;line-height:1.95;letter-spacing:0.25px;">这个长假，身体歇下来，心也可以歇一歇。看看自己还背着哪些功劳，又在等待谁的回音。松开之后，再自在地生起自己的心。</p>
 <p style="margin:0 0 20px;color:#CED9E9;font-size:15px;line-height:1.95;letter-spacing:0.25px;">---</p>
 <p style="margin:0 0 20px;color:#CED9E9;font-size:15px;line-height:1.95;letter-spacing:0.25px;">经文出处：<a href="https://lumisum.github.io/wulai/classics/platform-sutra/" style="color:#62D9FF;font-weight:700;text-decoration:underline;text-decoration-color:#91ADC9;text-underline-offset:2px;">《六祖坛经·机缘品第七》</a>（宗宝本作“亡功”）；<a href="https://lumisum.github.io/wulai/classics/diamond-sutra/" style="color:#62D9FF;font-weight:700;text-decoration:underline;text-decoration-color:#91ADC9;text-underline-offset:2px;">《金刚经》</a>。“道法自然”出自《道德经》第二十五章，此处是我借来观照工作与生活的个人体会。</p>
-<p style="margin:14px auto 24px;text-align:center;line-height:0;"><img src="https://lumisum.github.io/wulai/assets/wulai-wechat-divider.png" alt="" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p><p style="margin:0 0 8px;color:#b7cce6;font-size:14px;line-height:1.8;text-align:center;">愿把所思所学，带回眼前的生活。</p><p style="margin:0;color:#A793FF;font-size:12px;letter-spacing:2px;text-align:center;">无来 · 修学随笔</p></div></section>
+<p style="margin:26px 0;border-top:1px solid #29415D;line-height:0;font-size:0;"></p><p style="margin:0 0 8px;color:#b7cce6;font-size:14px;line-height:1.8;text-align:center;">保持好奇，让思考继续。</p><p style="margin:0;color:#A793FF;font-size:12px;letter-spacing:2px;text-align:center;">无来 · 个人观察</p></div></section>

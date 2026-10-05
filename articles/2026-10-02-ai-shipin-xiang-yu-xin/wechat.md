@@ -5,12 +5,12 @@
 正文图片和装饰图为网站公开链接；粘贴后请检查图片，必要时在公众号后台重新上传。
 -->
 
-<section style="background-color:#0F1B2E;color:#CED9E9;padding:0 0 28px;font-family:PingFang SC,Microsoft YaHei,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;"><p style="margin:0 0 24px;line-height:0;"><img src="https://lumisum.github.io/wulai/articles/2026-10-02-ai-shipin-xiang-yu-xin/images/cover.png" alt="当“相”可以无限生成：从AI视频一直想到人类消失以后" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
+<section id="wechat-body" style="background-color:#0F1B2E;color:#CED9E9;padding:0 0 28px;font-family:PingFang SC,Microsoft YaHei,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;"><p style="margin:0 0 24px;line-height:0;"><img src="https://lumisum.github.io/wulai/articles/2026-10-02-ai-shipin-xiang-yu-xin/images/cover.png" alt="当“相”可以无限生成：从AI视频一直想到人类消失以后" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
 <div style="padding:0 24px 8px;">
-<p style="margin:2px 0 12px;color:#91ADC9;font-size:12px;line-height:1.5;letter-spacing:2px;text-align:center;">无来 · 修学随笔</p>
-<p style="margin:0 auto 12px;color:#E6EDF9;font-size:24px;font-weight:700;line-height:1.5;text-align:center;letter-spacing:0.4px;">当“相”可以无限生成：从AI视频一直想到人类消失以后</p>
-<p style="margin:0 auto 8px;color:#98ABC5;font-size:14px;line-height:1.8;text-align:center;">从不断生成的 AI 视频，想到虚拟世界、工业闭环与机器意识。十九层追问，最终回到相与心：能思考是否就会受苦，能造相是否就能不住相？</p>
-<p style="margin:14px auto 24px;text-align:center;line-height:0;"><img src="https://lumisum.github.io/wulai/assets/wulai-wechat-divider.png" alt="" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
+<p style="margin:2px 0 12px;color:#91ADC9;font-size:12px;line-height:1.5;letter-spacing:2px;text-align:left;">无来 · 个人观察</p>
+<p id="wechat-title" style="margin:0 auto 12px;color:#E6EDF9;font-size:24px;font-weight:700;line-height:1.5;text-align:left;letter-spacing:0.4px;">当“相”可以无限生成：从AI视频一直想到人类消失以后</p>
+<p style="margin:18px 0 26px;padding:14px 16px;background-color:#162B45;border-left:2px solid #62D9FF;color:#B7CCE6;font-size:14px;line-height:1.8;text-align:left;">从不断生成的 AI 视频，想到虚拟世界、工业闭环与机器意识。十九层追问，最终回到相与心：能思考是否就会受苦，能造相是否就能不住相？</p>
+<p style="margin:26px 0;border-top:1px solid #29415D;line-height:0;font-size:0;"></p>
 <p style="margin:0 0 20px;color:#CED9E9;font-size:15px;line-height:1.95;letter-spacing:0.25px;">有时候一个问题真的会越想越远。我一开始只是觉得，现在这些 AI 生成的视频越来越奇怪了：动物会说话，已经去世的人可以在画面里重新出现，历史人物可以生活在现代城市，一个根本不存在的人也可以拥有完整的一生。只要能够写进提示词，许多从未发生过的事情，都可以出现在眼前。</p>
 <p style="margin:0 0 20px;color:#CED9E9;font-size:15px;line-height:1.95;letter-spacing:0.25px;">刚开始觉得挺新鲜，看多了以后，我突然产生了另一个疑问：AI 视频这东西，对人到底是好处多，还是坏处多？至少对于今天这种不断争夺注意力的内容环境，我越来越担心后者。这是我的观察和担忧，还不是一项能够衡量全部利弊的结论；用它表达想象、辅助教学、模拟情境，当然也可以很有价值。</p>
 <p style="margin:0 0 20px;color:#CED9E9;font-size:15px;line-height:1.95;letter-spacing:0.25px;">让我在意的，不只是视频是假的。“假”可能只是最浅的一层，更深的问题是：人类获得了以很低成本、大规模制造“相”的能力。这里说的“无限”，不是算力和能源真的没有边界，而是相对于一个人的时间和注意力，生成内容的供给已经可能多到看不完。带着这个问题，我一直想到了虚拟世界、机器文明，甚至人类消失以后。</p>
@@ -113,4 +113,4 @@
 <p style="margin:0 0 20px;color:#CED9E9;font-size:15px;line-height:1.95;letter-spacing:0.25px;">但这个问题不能省略一个区别：如果它只是没有主观体验，就不能把“无从受苦”当成“已经觉悟”。一块石头不因得失烦恼，不等于石头修成了佛。没有形成执着的能力，与看清执着而不再被它困住，也不是同一回事。</p>
 <p style="margin:0 0 20px;color:#CED9E9;font-size:15px;line-height:1.95;letter-spacing:0.25px;">所以这个问题，我愿意先留着。能够不断造相，不等于能够看清相；能够说出无我，不等于已经放下我。至于今天的我们，也许不必等到机器有没有心被回答以后，才开始照看自己的心：画面可以不停生成，我却可以停下来，看一看此刻是谁在追，究竟在追什么。</p>
 <p style="margin:26px 0;"><img src="https://lumisum.github.io/wulai/articles/2026-10-02-ai-shipin-xiang-yu-xin/images/08.png" alt="窗边的人放下手机，回到眼前：相可以不停，心可以停下" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
-<p style="margin:14px auto 24px;text-align:center;line-height:0;"><img src="https://lumisum.github.io/wulai/assets/wulai-wechat-divider.png" alt="" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p><p style="margin:0 0 8px;color:#b7cce6;font-size:14px;line-height:1.8;text-align:center;">愿把所思所学，带回眼前的生活。</p><p style="margin:0;color:#A793FF;font-size:12px;letter-spacing:2px;text-align:center;">无来 · 修学随笔</p></div></section>
+<p style="margin:26px 0;border-top:1px solid #29415D;line-height:0;font-size:0;"></p><p style="margin:0 0 8px;color:#b7cce6;font-size:14px;line-height:1.8;text-align:center;">保持好奇，让思考继续。</p><p style="margin:0;color:#A793FF;font-size:12px;letter-spacing:2px;text-align:center;">无来 · 个人观察</p></div></section>

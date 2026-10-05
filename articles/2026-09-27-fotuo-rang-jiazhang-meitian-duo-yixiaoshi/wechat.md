@@ -5,12 +5,12 @@
 正文图片和装饰图为网站公开链接；粘贴后请检查图片，必要时在公众号后台重新上传。
 -->
 
-<section style="background-color:#0F1B2E;color:#CED9E9;padding:0 0 28px;font-family:PingFang SC,Microsoft YaHei,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;"><p style="margin:0 0 24px;line-height:0;"><img src="https://lumisum.github.io/wulai/articles/2026-09-27-fotuo-rang-jiazhang-meitian-duo-yixiaoshi/images/cover.png" alt="佛陀如何让家长每天多出一小时？" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
+<section id="wechat-body" style="background-color:#0F1B2E;color:#CED9E9;padding:0 0 28px;font-family:PingFang SC,Microsoft YaHei,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;"><p style="margin:0 0 24px;line-height:0;"><img src="https://lumisum.github.io/wulai/articles/2026-09-27-fotuo-rang-jiazhang-meitian-duo-yixiaoshi/images/cover.png" alt="佛陀如何让家长每天多出一小时？" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
 <div style="padding:0 24px 8px;">
-<p style="margin:2px 0 12px;color:#91ADC9;font-size:12px;line-height:1.5;letter-spacing:2px;text-align:center;">无来 · 修学随笔</p>
-<p style="margin:0 auto 12px;color:#E6EDF9;font-size:24px;font-weight:700;line-height:1.5;text-align:center;letter-spacing:0.4px;">佛陀如何让家长每天多出一小时？</p>
-<p style="margin:0 auto 8px;color:#98ABC5;font-size:14px;line-height:1.8;text-align:center;">从初中生独自上学的现实选择出发，借《金刚经》第二品重新看见父母的担心、责任与放手。</p>
-<p style="margin:14px auto 24px;text-align:center;line-height:0;"><img src="https://lumisum.github.io/wulai/assets/wulai-wechat-divider.png" alt="" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
+<p style="margin:2px 0 12px;color:#91ADC9;font-size:12px;line-height:1.5;letter-spacing:2px;text-align:left;">无来 · 个人观察</p>
+<p id="wechat-title" style="margin:0 auto 12px;color:#E6EDF9;font-size:24px;font-weight:700;line-height:1.5;text-align:left;letter-spacing:0.4px;">佛陀如何让家长每天多出一小时？</p>
+<p style="margin:18px 0 26px;padding:14px 16px;background-color:#162B45;border-left:2px solid #62D9FF;color:#B7CCE6;font-size:14px;line-height:1.8;text-align:left;">从初中生独自上学的现实选择出发，借《金刚经》第二品重新看见父母的担心、责任与放手。</p>
+<p style="margin:26px 0;border-top:1px solid #29415D;line-height:0;font-size:0;"></p>
 <p style="margin:0 0 20px;color:#CED9E9;font-size:15px;line-height:1.95;letter-spacing:0.25px;">孩子上了初中以后，很多家长都会碰到一个很现实的问题：还要不要每天接送？</p>
 <p style="margin:0 0 20px;color:#CED9E9;font-size:15px;line-height:1.95;letter-spacing:0.25px;">小学时接送很自然。孩子年纪小，过马路、坐公交、处理突发情况的能力有限，父母多照顾一些也很正常。到了初中，孩子已经十二三岁，如果仍然每天早晨送到学校、下午准时接回来，心里可能会冒出另一个念头：是不是应该开始让他自己走了？</p>
 <p style="margin:0 0 20px;color:#CED9E9;font-size:15px;line-height:1.95;letter-spacing:0.25px;">孩子的独立，不会等到十八岁那天突然出现。自己上学、看时间、判断路线、处理路上的小问题，这些看起来不起眼的事情，本身就是成长。接送往返如果每天要花一个小时，真正放手以后，家长可能多出一小时，孩子也得到一段属于自己的空间。</p>
@@ -32,4 +32,4 @@
 <p style="margin:0 0 20px;color:#CED9E9;font-size:15px;line-height:1.95;letter-spacing:0.25px;">表面看，佛陀好像真的帮家长每天多出了一小时：早晨不用送，下午不用接，时间回来了。但那一小时只是一个结果。更重要的变化，是父母把原来握在自己手里的一小段人生交还给孩子，也开始正视自己的心：当我不再抓得那么紧，还能不能安心？</p>
 <p style="margin:0 0 20px;color:#CED9E9;font-size:15px;line-height:1.95;letter-spacing:0.25px;">两千多年前，须菩提问：“应云何住？云何降伏其心？”这也可能是一个孩子第一次自己上学、一个父母第一次真正放手时会遇到的问题。我们总以为觉悟是突然明白了什么；可更难的，往往是明白以后，过去熟悉的自己已经不再适合，新的自己还没有完全长出来。</p>
 <p style="margin:0 0 20px;color:#CED9E9;font-size:15px;line-height:1.95;letter-spacing:0.25px;">《金刚经》第二品为这个时刻打开了一道门。佛陀后面给出的答案，不是替这颗心找一个更牢固的地方，而是慢慢学会：<strong style="color:#62D9FF;background-color:#162B45;font-weight:700;padding:1px 3px;">无所住。</strong></p>
-<p style="margin:14px auto 24px;text-align:center;line-height:0;"><img src="https://lumisum.github.io/wulai/assets/wulai-wechat-divider.png" alt="" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p><p style="margin:0 0 8px;color:#b7cce6;font-size:14px;line-height:1.8;text-align:center;">愿把所思所学，带回眼前的生活。</p><p style="margin:0;color:#A793FF;font-size:12px;letter-spacing:2px;text-align:center;">无来 · 修学随笔</p></div></section>
+<p style="margin:26px 0;border-top:1px solid #29415D;line-height:0;font-size:0;"></p><p style="margin:0 0 8px;color:#b7cce6;font-size:14px;line-height:1.8;text-align:center;">保持好奇，让思考继续。</p><p style="margin:0;color:#A793FF;font-size:12px;letter-spacing:2px;text-align:center;">无来 · 个人观察</p></div></section>

@@ -5,12 +5,12 @@
 正文图片和装饰图为网站公开链接；粘贴后请检查图片，必要时在公众号后台重新上传。
 -->
 
-<section style="background-color:#0F1B2E;color:#CED9E9;padding:0 0 28px;font-family:PingFang SC,Microsoft YaHei,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;"><p style="margin:0 0 24px;line-height:0;"><img src="https://lumisum.github.io/wulai/articles/2026-10-04-yanqian-wanxiang/images/cover-v3.png" alt="AI因注意力机制异常强大，而人类的注意力却涣散了" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
+<section id="wechat-body" style="background-color:#0F1B2E;color:#CED9E9;padding:0 0 28px;font-family:PingFang SC,Microsoft YaHei,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;"><p style="margin:0 0 24px;line-height:0;"><img src="https://lumisum.github.io/wulai/articles/2026-10-04-yanqian-wanxiang/images/cover-v3.png" alt="AI因注意力机制异常强大，而人类的注意力却涣散了" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
 <div style="padding:0 24px 8px;">
-<p style="margin:2px 0 12px;color:#91ADC9;font-size:12px;line-height:1.5;letter-spacing:2px;text-align:center;">无来 · 修学随笔</p>
-<p style="margin:0 auto 12px;color:#E6EDF9;font-size:24px;font-weight:700;line-height:1.5;text-align:center;letter-spacing:0.4px;">AI因注意力机制异常强大，而人类的注意力却涣散了</p>
-<p style="margin:0 auto 8px;color:#98ABC5;font-size:14px;line-height:1.8;text-align:center;">AI 能无限造相，我们的注意力却有限。刷不停的，究竟是视频，还是对下一个新相的执迷？从佛法的无住与阳明的心意之学出发，看清注意力如何被牵走，把一念留给真正认定的事。</p>
-<p style="margin:14px auto 24px;text-align:center;line-height:0;"><img src="https://lumisum.github.io/wulai/assets/wulai-wechat-divider.png" alt="" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
+<p style="margin:2px 0 12px;color:#91ADC9;font-size:12px;line-height:1.5;letter-spacing:2px;text-align:left;">无来 · 个人观察</p>
+<p id="wechat-title" style="margin:0 auto 12px;color:#E6EDF9;font-size:24px;font-weight:700;line-height:1.5;text-align:left;letter-spacing:0.4px;">AI因注意力机制异常强大，而人类的注意力却涣散了</p>
+<p style="margin:18px 0 26px;padding:14px 16px;background-color:#162B45;border-left:2px solid #62D9FF;color:#B7CCE6;font-size:14px;line-height:1.8;text-align:left;">AI 能无限造相，我们的注意力却有限。刷不停的，究竟是视频，还是对下一个新相的执迷？从佛法的无住与阳明的心意之学出发，看清注意力如何被牵走，把一念留给真正认定的事。</p>
+<p style="margin:26px 0;border-top:1px solid #29415D;line-height:0;font-size:0;"></p>
 <p style="margin:0 0 20px;color:#CED9E9;font-size:15px;line-height:1.95;letter-spacing:0.25px;">刷视频的时候，最容易被忽略的一件事，是我们正在怎样对待自己的心。</p>
 <p style="margin:0 0 20px;color:#CED9E9;font-size:15px;line-height:1.95;letter-spacing:0.25px;">一开始，可能只是想休息几分钟。看见一个有趣的，停下来；下一个更有趣，再看一会儿。等到终于放下手机，时间已经过去不少。可眼前那些原本要做的事情，并没有因此变得容易。有时反而更不想做了，还想再看一点。</p>
 <p style="margin:0 0 20px;color:#CED9E9;font-size:15px;line-height:1.95;letter-spacing:0.25px;">最近看见越来越多 AI 生成的视频，我更在意这个问题了。动物会说话，历史人物走进现代生活，不可能发生的事情，也能被做得像亲眼所见。画面越来越奇异，故事越来越出人意料，几乎总有一个新的场景等着我们。</p>
@@ -47,4 +47,4 @@
 <p style="margin:0 0 20px;color:#CED9E9;font-size:15px;line-height:1.95;letter-spacing:0.25px;">如果是后者，就可以练习把手机放下，让意回到一件已经认定的事上。把饭吃完，把这段文字读懂，把家人的话听完，或者回到那件需要长时间投入、暂时还没有结果的事情里。意在那里多停留一会儿，那个「物」就多生长一分。</p>
 <p style="margin:26px 0;"><img src="https://lumisum.github.io/wulai/articles/2026-10-04-yanqian-wanxiang/images/03-v3.png" alt="把一念留给认定的事：手机放在一旁，一个人在窗边认真阅读和写作。" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
 <p style="margin:0 0 20px;color:#CED9E9;font-size:15px;line-height:1.95;letter-spacing:0.25px;"><strong style="color:#62D9FF;background-color:#162B45;font-weight:700;padding:1px 3px;">万相可以无限生成，我这一念，却不能随便交出去。</strong></p>
-<p style="margin:14px auto 24px;text-align:center;line-height:0;"><img src="https://lumisum.github.io/wulai/assets/wulai-wechat-divider.png" alt="" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p><p style="margin:0 0 8px;color:#b7cce6;font-size:14px;line-height:1.8;text-align:center;">愿把所思所学，带回眼前的生活。</p><p style="margin:0;color:#A793FF;font-size:12px;letter-spacing:2px;text-align:center;">无来 · 修学随笔</p></div></section>
+<p style="margin:26px 0;border-top:1px solid #29415D;line-height:0;font-size:0;"></p><p style="margin:0 0 8px;color:#b7cce6;font-size:14px;line-height:1.8;text-align:center;">保持好奇，让思考继续。</p><p style="margin:0;color:#A793FF;font-size:12px;letter-spacing:2px;text-align:center;">无来 · 个人观察</p></div></section>

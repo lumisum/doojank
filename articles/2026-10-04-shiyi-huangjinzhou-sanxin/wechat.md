@@ -5,12 +5,12 @@
 正文图片和装饰图为网站公开链接；粘贴后请检查图片，必要时在公众号后台重新上传。
 -->
 
-<section style="background-color:#0F1B2E;color:#CED9E9;padding:0 0 28px;font-family:PingFang SC,Microsoft YaHei,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;"><p style="margin:0 0 24px;line-height:0;"><img src="https://lumisum.github.io/wulai/articles/2026-10-04-shiyi-huangjinzhou-sanxin/images/cover.png" alt="十一黄金周，为什么大家都出去散心？" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
+<section id="wechat-body" style="background-color:#0F1B2E;color:#CED9E9;padding:0 0 28px;font-family:PingFang SC,Microsoft YaHei,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;"><p style="margin:0 0 24px;line-height:0;"><img src="https://lumisum.github.io/wulai/articles/2026-10-04-shiyi-huangjinzhou-sanxin/images/cover.png" alt="十一黄金周，为什么大家都出去散心？" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
 <div style="padding:0 24px 8px;">
-<p style="margin:2px 0 12px;color:#91ADC9;font-size:12px;line-height:1.5;letter-spacing:2px;text-align:center;">无来 · 修学随笔</p>
-<p style="margin:0 auto 12px;color:#E6EDF9;font-size:24px;font-weight:700;line-height:1.5;text-align:center;letter-spacing:0.4px;">十一黄金周，为什么大家都出去散心？</p>
-<p style="margin:0 auto 8px;color:#98ABC5;font-size:14px;line-height:1.8;text-align:center;">旅行能让人暂时轻松，但如果平静只能依赖某个地方，心又住在哪里？从黄金周的散心，体会借境休息与无所住之间的分别。</p>
-<p style="margin:14px auto 24px;text-align:center;line-height:0;"><img src="https://lumisum.github.io/wulai/assets/wulai-wechat-divider.png" alt="" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
+<p style="margin:2px 0 12px;color:#91ADC9;font-size:12px;line-height:1.5;letter-spacing:2px;text-align:left;">无来 · 个人观察</p>
+<p id="wechat-title" style="margin:0 auto 12px;color:#E6EDF9;font-size:24px;font-weight:700;line-height:1.5;text-align:left;letter-spacing:0.4px;">十一黄金周，为什么大家都出去散心？</p>
+<p style="margin:18px 0 26px;padding:14px 16px;background-color:#162B45;border-left:2px solid #62D9FF;color:#B7CCE6;font-size:14px;line-height:1.8;text-align:left;">旅行能让人暂时轻松，但如果平静只能依赖某个地方，心又住在哪里？从黄金周的散心，体会借境休息与无所住之间的分别。</p>
+<p style="margin:26px 0;border-top:1px solid #29415D;line-height:0;font-size:0;"></p>
 <p style="margin:0 0 20px;color:#CED9E9;font-size:15px;line-height:1.95;letter-spacing:0.25px;">一到十一黄金周，大家都往外走。有人去看山，有人去看海，有人去古城，有人干脆找一个酒店住几天。堵在高速上也要走，景区里人挤人也要去。问一句为什么，很多人的回答都差不多：出去散散心。</p>
 <p style="margin:0 0 20px;color:#CED9E9;font-size:15px;line-height:1.95;letter-spacing:0.25px;">这句话以前我觉得再正常不过。工作累了，生活烦了，换个地方，看看不同的风景，吃点不同的东西，人自然会轻松一点。这几天我却开始琢磨：<strong style="color:#62D9FF;font-weight:700;">我们所谓的“散心”，到底是在散什么？</strong></p>
 <p style="margin:0 0 20px;color:#CED9E9;font-size:15px;line-height:1.95;letter-spacing:0.25px;">当然，我并不反对旅游。人工作久了需要休息，身体需要放松，生活环境长期重复，也确实容易疲惫。山川湖海、美食、陌生的城市，都可以让人暂时从原来的节奏中抽离出来。换环境当然有用，但它改变的究竟是心，还是只是心所面对的环境？</p>
@@ -36,4 +36,4 @@
 <p style="margin:0 0 20px;color:#CED9E9;font-size:15px;line-height:1.95;letter-spacing:0.25px;">所以我并不反对黄金周出去散心。恰恰相反，该出去就出去。只是旅游给我们的，往往是<strong style="color:#62D9FF;font-weight:700;">一时的散心</strong>；修行真正要做的，是让人慢慢获得<strong style="color:#62D9FF;font-weight:700;">一世的散心</strong>。</p>
 <p style="margin:0 0 20px;color:#CED9E9;font-size:15px;line-height:1.95;letter-spacing:0.25px;"><strong style="color:#62D9FF;font-weight:700;">旅游，是用几天时间换一个环境；修行，是用一生时间改变自己与所有环境之间的关系。</strong></p>
 <p style="margin:0 0 20px;color:#CED9E9;font-size:15px;line-height:1.95;letter-spacing:0.25px;">十一假期当然可以出发。只是看完山河以后，也许还可以顺便问自己一句：<strong style="color:#62D9FF;font-weight:700;">如果有一天哪里都不用去，我还能不能把这颗心安顿好？</strong></p>
-<p style="margin:14px auto 24px;text-align:center;line-height:0;"><img src="https://lumisum.github.io/wulai/assets/wulai-wechat-divider.png" alt="" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p><p style="margin:0 0 8px;color:#b7cce6;font-size:14px;line-height:1.8;text-align:center;">愿把所思所学，带回眼前的生活。</p><p style="margin:0;color:#A793FF;font-size:12px;letter-spacing:2px;text-align:center;">无来 · 修学随笔</p></div></section>
+<p style="margin:26px 0;border-top:1px solid #29415D;line-height:0;font-size:0;"></p><p style="margin:0 0 8px;color:#b7cce6;font-size:14px;line-height:1.8;text-align:center;">保持好奇，让思考继续。</p><p style="margin:0;color:#A793FF;font-size:12px;letter-spacing:2px;text-align:center;">无来 · 个人观察</p></div></section>

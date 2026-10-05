@@ -7,13 +7,14 @@
 </head>
 <body style="margin:0;background-color:#09111F;">
   <div style="max-width:677px;margin:0 auto;padding:0 0 36px;background-color:#0F1B2E;border:1px solid #29415D;border-radius:14px;overflow:hidden;font-family:PingFang SC,Microsoft YaHei,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;">
+<aside style="padding:18px 24px;border-bottom:1px solid #29415D;background:#13243A;"><p style="margin:0 0 12px;color:#98ABC5;font-size:12px;line-height:1.7;">标题、导读分别填写；点击下方按钮复制带内联样式的正文，再粘贴到公众号编辑器。</p><button id="copy-wechat-body" type="button" style="margin:0 8px 8px 0;padding:10px 15px;border:0;border-radius:7px;background:#62D9FF;color:#09111F;font-size:13px;cursor:pointer;">复制排版正文</button><button id="copy-wechat-title" type="button" style="padding:10px 15px;border:1px solid #29415D;border-radius:7px;background:#162B45;color:#CED9E9;font-size:13px;cursor:pointer;">复制标题</button><p id="wechat-copy-status" role="status" aria-live="polite" style="margin:6px 0 0;color:#B7CCE6;font-size:12px;"></p></aside>
 <aside style="padding:22px 28px;background:#162B45;border-bottom:1px solid #29415D;"><p style="margin:0 0 8px;color:#91ADC9;font-size:12px;letter-spacing:2px;">文章导读 · CAPTION</p><p id="article-caption" style="margin:0 0 14px;color:#CED9E9;font-size:15px;line-height:1.8;">四颗芯片、一千瓦的电，第一颗算力卫星已经入轨；把事实放回本来的大小，才看得清这一步走了多远，离太空数据中心还有多远。</p><button type="button" id="copy-caption" style="border:0;border-radius:6px;padding:9px 16px;background:#62D9FF;color:#09111F;font-size:14px;cursor:pointer;">复制导读 / Caption</button><p id="caption-status" role="status" aria-live="polite" style="margin:10px 0 0;color:#b7cce6;font-size:13px;"></p></aside>
-<section style="background-color:#0F1B2E;color:#CED9E9;padding:0 0 28px;font-family:PingFang SC,Microsoft YaHei,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;"><p style="margin:0 0 24px;line-height:0;"><img src="https://lumisum.github.io/wulai/articles/2026-10-03-yiqianwa-taikong-suanli-meng/images/cover.png" alt="一千瓦的太空算力梦" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
+<section id="wechat-body" style="background-color:#0F1B2E;color:#CED9E9;padding:0 0 28px;font-family:PingFang SC,Microsoft YaHei,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;"><p style="margin:0 0 24px;line-height:0;"><img src="https://lumisum.github.io/wulai/articles/2026-10-03-yiqianwa-taikong-suanli-meng/images/cover.png" alt="一千瓦的太空算力梦" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
 <div style="padding:0 24px 8px;">
-<p style="margin:2px 0 12px;color:#91ADC9;font-size:12px;line-height:1.5;letter-spacing:2px;text-align:center;">无来 · 修学随笔</p>
-<p style="margin:0 auto 12px;color:#E6EDF9;font-size:24px;font-weight:700;line-height:1.5;text-align:center;letter-spacing:0.4px;">一千瓦的太空算力梦</p>
-<p style="margin:0 auto 8px;color:#98ABC5;font-size:14px;line-height:1.8;text-align:center;">四颗芯片、一千瓦的电，第一颗算力卫星已经入轨；把事实放回本来的大小，才看得清这一步走了多远，离太空数据中心还有多远。</p>
-<p style="margin:14px auto 24px;text-align:center;line-height:0;"><img src="https://lumisum.github.io/wulai/assets/wulai-wechat-divider.png" alt="" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
+<p style="margin:2px 0 12px;color:#91ADC9;font-size:12px;line-height:1.5;letter-spacing:2px;text-align:left;">无来 · 个人观察</p>
+<p id="wechat-title" style="margin:0 auto 12px;color:#E6EDF9;font-size:24px;font-weight:700;line-height:1.5;text-align:left;letter-spacing:0.4px;">一千瓦的太空算力梦</p>
+<p style="margin:18px 0 26px;padding:14px 16px;background-color:#162B45;border-left:2px solid #62D9FF;color:#B7CCE6;font-size:14px;line-height:1.8;text-align:left;">四颗芯片、一千瓦的电，第一颗算力卫星已经入轨；把事实放回本来的大小，才看得清这一步走了多远，离太空数据中心还有多远。</p>
+<p style="margin:26px 0;border-top:1px solid #29415D;line-height:0;font-size:0;"></p>
 <p style="margin:0 0 20px;color:#CED9E9;font-size:15px;line-height:1.95;letter-spacing:0.25px;">四颗芯片，一千瓦的电，凭什么被讨论成“数据中心上天”？</p>
 <p style="margin:0 0 20px;color:#CED9E9;font-size:15px;line-height:1.95;letter-spacing:0.25px;">消息传来，最先带走注意力的并不是卫星本身，而是“太空数据中心”这个名字。名字往往比实物先到，也最容易带着注意力先跑。冷静下来再看实物，反而踏实了一点：上天的不是一座数据中心，只是一次很小、也很诚实的测试。</p>
 <p style="margin:34px 0 18px;padding-left:12px;border-left:3px solid #A793FF;color:#E6EDF9;font-size:18px;font-weight:700;line-height:1.65;"><span style="color:#A793FF;font-size:12px;">◦</span> 01 众缘和合，一星入轨</p>
@@ -40,7 +41,7 @@
 <p style="margin:0 0 20px;color:#CED9E9;font-size:15px;line-height:1.95;letter-spacing:0.25px;">所以这篇文章不给一个“看好”或者“看衰”的结论，时间还没到。接下来值得看的，是未来几周公布的在轨数据，芯片在真实辐射和温度循环里到底出了多少错，散热是不是和地面预估的一样。还有计划中的双星激光链路测试，因为一颗星只能单独运行，多颗星能不能连起来一起算，才是另一道完全不同的题。说到底，要看的都是后面的条件还会不会继续凑齐，缺了哪一样，后面的想象就还落不了地。</p>
 <p style="margin:0 0 20px;color:#CED9E9;font-size:15px;line-height:1.95;letter-spacing:0.25px;">再往远一点看，就是发射成本那条曲线，降得有多快，决定了前面的全部想象什么时候才需要被当真。在相关数据出来之前，先把这次入轨记成原本的样子：一个问题被认真地问了出来，答案还在路上。事情往后怎么变，今天定不下来，<strong style="color:#62D9FF;background-color:#162B45;font-weight:700;padding:1px 3px;">让事实慢慢显出样子，本身也是一种不急的看法。</strong></p>
 <p style="margin:0 0 20px;color:#CED9E9;font-size:15px;line-height:1.95;letter-spacing:0.25px;">机器越送越远。被躲开的到底是什么，被追赶的又到底是什么？这个问题还没有答案，先留在这里。</p>
-<p style="margin:14px auto 24px;text-align:center;line-height:0;"><img src="https://lumisum.github.io/wulai/assets/wulai-wechat-divider.png" alt="" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p><p style="margin:0 0 8px;color:#b7cce6;font-size:14px;line-height:1.8;text-align:center;">愿把所思所学，带回眼前的生活。</p><p style="margin:0;color:#A793FF;font-size:12px;letter-spacing:2px;text-align:center;">无来 · 修学随笔</p></div></section>
+<p style="margin:26px 0;border-top:1px solid #29415D;line-height:0;font-size:0;"></p><p style="margin:0 0 8px;color:#b7cce6;font-size:14px;line-height:1.8;text-align:center;">保持好奇，让思考继续。</p><p style="margin:0;color:#A793FF;font-size:12px;letter-spacing:2px;text-align:center;">无来 · 个人观察</p></div></section>
   </div>
 <script>
 (() => {
@@ -74,6 +75,43 @@
       ? (english ? 'Caption copied.' : '导读已复制，可粘贴到公众号摘要。')
       : (english ? 'Caption selected. Press ⌘C or Ctrl+C to copy.' : '导读已选中，请按 ⌘C 或 Ctrl+C 复制。');
   });
+})();
+</script>
+<script>
+(() => {
+  async function copy(body) {
+    const element = document.getElementById(body ? 'wechat-body' : 'wechat-title');
+    const status = document.getElementById('wechat-copy-status');
+    const text = element.innerText;
+    const markup = element.outerHTML;
+    let copied = false;
+    try {
+      if (!navigator.clipboard) throw new Error('Native copy');
+      if (body) await navigator.clipboard.write([new ClipboardItem({
+        'text/html': new Blob([markup], {type:'text/html'}),
+        'text/plain': new Blob([text], {type:'text/plain'})
+      })]);
+      else await navigator.clipboard.writeText(text);
+      copied = true;
+    } catch (_) {
+      const selection = window.getSelection();
+      const range = document.createRange();
+      range.selectNodeContents(element);
+      selection.removeAllRanges(); selection.addRange(range);
+      const listener = event => {
+        if (!event.clipboardData) return;
+        event.clipboardData.setData('text/plain', text);
+        if (body) event.clipboardData.setData('text/html', markup);
+        event.preventDefault();
+      };
+      document.addEventListener('copy', listener);
+      try { copied = document.execCommand('copy'); } catch (_) {}
+      finally { document.removeEventListener('copy', listener); }
+    }
+    status.textContent = copied ? (body ? '排版正文已复制，请粘贴后确认图片和样式。' : '标题已复制。') : '内容已选中，请按 ⌘C 或 Ctrl+C 复制。';
+  }
+  document.getElementById('copy-wechat-body').addEventListener('click', () => copy(true));
+  document.getElementById('copy-wechat-title').addEventListener('click', () => copy(false));
 })();
 </script>
 </body>

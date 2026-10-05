@@ -39,17 +39,16 @@ LINK_STYLE = (
 IMAGE_STYLE = "display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"
 KICKER_STYLE = (
     "margin:2px 0 12px;color:#91ADC9;font-size:12px;line-height:1.5;"
-    "letter-spacing:2px;text-align:center;"
+    "letter-spacing:2px;text-align:left;"
 )
 TITLE_STYLE = (
     "margin:0 auto 12px;color:#E6EDF9;font-size:24px;font-weight:700;"
-    "line-height:1.5;text-align:center;letter-spacing:0.4px;"
+    "line-height:1.5;text-align:left;letter-spacing:0.4px;"
 )
 SUMMARY_STYLE = (
-    "margin:0 auto 8px;color:#98ABC5;font-size:14px;line-height:1.8;"
-    "text-align:center;"
+    "margin:18px 0 26px;padding:14px 16px;background-color:#162B45;border-left:2px solid #62D9FF;color:#B7CCE6;font-size:14px;line-height:1.8;"
+    "text-align:left;"
 )
-DIVIDER_URL = urljoin(SITE_BASE, "assets/wulai-wechat-divider.png")
 
 HIGHLIGHTS = {
     "2026-10-04-yanqian-wanxiang": [
@@ -207,12 +206,7 @@ def render_image(block: str, article_base_url: str) -> str | None:
 
 
 def render_divider() -> str:
-    return (
-        '<p style="margin:14px auto 24px;text-align:center;line-height:0;">'
-        f'<img src="{html.escape(DIVIDER_URL, quote=True)}" alt="" '
-        'style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;">'
-        "</p>"
-    )
+    return '<p style="margin:26px 0;border-top:1px solid #29415D;line-height:0;font-size:0;"></p>'
 
 
 def render_article_header(title: str, summary: str, cover: str) -> str:
@@ -223,8 +217,8 @@ def render_article_header(title: str, summary: str, cover: str) -> str:
         'style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;">'
         "</p>",
         '<div style="padding:0 24px 8px;">',
-        f'<p style="{KICKER_STYLE}">无来 · 修学随笔</p>',
-        f'<p style="{TITLE_STYLE}">{html.escape(title, quote=False)}</p>',
+        f'<p style="{KICKER_STYLE}">无来 · 个人观察</p>',
+        f'<p id="wechat-title" style="{TITLE_STYLE}">{html.escape(title, quote=False)}</p>',
     ]
     if summary:
         blocks.append(f'<p style="{SUMMARY_STYLE}">{html.escape(summary, quote=False)}</p>')
@@ -236,9 +230,9 @@ def render_article_end() -> str:
     return (
         render_divider()
         + '<p style="margin:0 0 8px;color:#b7cce6;font-size:14px;line-height:1.8;'
-        'text-align:center;">愿把所思所学，带回眼前的生活。</p>'
+        'text-align:center;">保持好奇，让思考继续。</p>'
         '<p style="margin:0;color:#A793FF;font-size:12px;letter-spacing:2px;'
-        'text-align:center;">无来 · 修学随笔</p></div>'
+        'text-align:center;">无来 · 个人观察</p></div>'
     )
 
 
@@ -346,6 +340,46 @@ def caption_copy_script() -> str:
 </script>"""
 
 
+def wechat_copy_script() -> str:
+    return """<script>
+(() => {
+  async function copy(body) {
+    const element = document.getElementById(body ? 'wechat-body' : 'wechat-title');
+    const status = document.getElementById('wechat-copy-status');
+    const text = element.innerText;
+    const markup = element.outerHTML;
+    let copied = false;
+    try {
+      if (!navigator.clipboard) throw new Error('Native copy');
+      if (body) await navigator.clipboard.write([new ClipboardItem({
+        'text/html': new Blob([markup], {type:'text/html'}),
+        'text/plain': new Blob([text], {type:'text/plain'})
+      })]);
+      else await navigator.clipboard.writeText(text);
+      copied = true;
+    } catch (_) {
+      const selection = window.getSelection();
+      const range = document.createRange();
+      range.selectNodeContents(element);
+      selection.removeAllRanges(); selection.addRange(range);
+      const listener = event => {
+        if (!event.clipboardData) return;
+        event.clipboardData.setData('text/plain', text);
+        if (body) event.clipboardData.setData('text/html', markup);
+        event.preventDefault();
+      };
+      document.addEventListener('copy', listener);
+      try { copied = document.execCommand('copy'); } catch (_) {}
+      finally { document.removeEventListener('copy', listener); }
+    }
+    status.textContent = copied ? (body ? '排版正文已复制，请粘贴后确认图片和样式。' : '标题已复制。') : '内容已选中，请按 ⌘C 或 Ctrl+C 复制。';
+  }
+  document.getElementById('copy-wechat-body').addEventListener('click', () => copy(true));
+  document.getElementById('copy-wechat-title').addEventListener('click', () => copy(false));
+})();
+</script>"""
+
+
 def make_html_export(title: str, markup: str, summary: str = "") -> str:
     return "\n".join(
         [
@@ -358,6 +392,11 @@ def make_html_export(title: str, markup: str, summary: str = "") -> str:
             "</head>",
             '<body style="margin:0;background-color:#09111F;">',
             '  <div style="max-width:677px;margin:0 auto;padding:0 0 36px;background-color:#0F1B2E;border:1px solid #29415D;border-radius:14px;overflow:hidden;font-family:PingFang SC,Microsoft YaHei,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;">',
+            '<aside style="padding:18px 24px;border-bottom:1px solid #29415D;background:#13243A;">'
+            '<p style="margin:0 0 12px;color:#98ABC5;font-size:12px;line-height:1.7;">标题、导读分别填写；点击下方按钮复制带内联样式的正文，再粘贴到公众号编辑器。</p>'
+            '<button id="copy-wechat-body" type="button" style="margin:0 8px 8px 0;padding:10px 15px;border:0;border-radius:7px;background:#62D9FF;color:#09111F;font-size:13px;cursor:pointer;">复制排版正文</button>'
+            '<button id="copy-wechat-title" type="button" style="padding:10px 15px;border:1px solid #29415D;border-radius:7px;background:#162B45;color:#CED9E9;font-size:13px;cursor:pointer;">复制标题</button>'
+            '<p id="wechat-copy-status" role="status" aria-live="polite" style="margin:6px 0 0;color:#B7CCE6;font-size:12px;"></p></aside>',
             ('<aside style="padding:22px 28px;background:#162B45;border-bottom:1px solid #29415D;">'
              '<p style="margin:0 0 8px;color:#91ADC9;font-size:12px;letter-spacing:2px;">文章导读 · CAPTION</p>'
              f'<p id="article-caption" style="margin:0 0 14px;color:#CED9E9;font-size:15px;line-height:1.8;">{html.escape(summary)}</p>'
@@ -366,6 +405,7 @@ def make_html_export(title: str, markup: str, summary: str = "") -> str:
             f"{markup}",
             "  </div>",
             caption_copy_script() if summary else "",
+            wechat_copy_script(),
             "</body>",
             "</html>",
             "",
@@ -406,7 +446,7 @@ def export_article(source_path: Path) -> bool:
     metadata, body = parse_frontmatter(source_path.read_text(encoding="utf-8"))
     if metadata.get("status") != "published":
         return False
-    title = metadata.get("title", "无来修学随笔")
+    title = metadata.get("title", "无来个人观察")
     summary = metadata.get("summary", "")
     cover = metadata.get("cover", "")
     highlights = HIGHLIGHTS.get(source_path.parent.name, [])
@@ -422,7 +462,7 @@ def export_article(source_path: Path) -> bool:
     if metadata.get("visual_mode") == "cover-only":
         markup = markup.replace(render_divider(), "")
     markup = (
-        '<section style="background-color:#0F1B2E;color:#CED9E9;padding:0 0 28px;'
+        '<section id="wechat-body" style="background-color:#0F1B2E;color:#CED9E9;padding:0 0 28px;'
         'font-family:PingFang SC,Microsoft YaHei,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;">'
         + markup + "</section>"
     )

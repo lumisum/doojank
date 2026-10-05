@@ -10,9 +10,34 @@ import re
 from pathlib import Path
 from urllib.parse import urlsplit
 
-from export_wechat import caption_copy_script, parse_frontmatter, render_inline
+from export_wechat import caption_copy_script, parse_frontmatter
 
 ROOT = Path(__file__).resolve().parents[1]
+
+
+X_INLINE_RE = re.compile(r"\*\*(.+?)\*\*|\*(.+?)\*|~~(.+?)~~|`([^`]+)`|\[([^\]]+)\]\(([^)]+)\)")
+
+
+def render_inline(text: str) -> str:
+    """Platform-oriented semantics, independent of the WeChat colour renderer."""
+    parts = []
+    cursor = 0
+    for match in X_INLINE_RE.finditer(text):
+        parts.append(html.escape(text[cursor:match.start()], quote=False))
+        strong, emphasis, strike, code, label, url = match.groups()
+        if strong is not None:
+            parts.append(f"<strong>{html.escape(strong, quote=False)}</strong>")
+        elif emphasis is not None:
+            parts.append(f"<em>{html.escape(emphasis, quote=False)}</em>")
+        elif strike is not None:
+            parts.append(f"<s>{html.escape(strike, quote=False)}</s>")
+        elif code is not None:
+            parts.append(html.escape(code, quote=False))
+        else:
+            parts.append(f'<a href="{html.escape(url, quote=True)}">{html.escape(label, quote=False)}</a>')
+        cursor = match.end()
+    parts.append(html.escape(text[cursor:], quote=False))
+    return "".join(parts)
 
 
 def body_markup(body: str) -> str:
@@ -62,7 +87,11 @@ button:hover,.cover-link:hover{border-color:var(--pine);box-shadow:0 5px 16px #6
 button:focus-visible,a:focus-visible{outline:2px solid var(--pine);outline-offset:4px}
 #copy-status{min-height:22px;margin:12px 0 0;color:var(--pine);font-size:13px}
 h1{font-size:32px;line-height:1.3;margin:0 0 30px;color:var(--ink)}
-#article-body{font-size:17px;line-height:1.85}p{margin:0 0 20px}
+#article-body{font-size:17px;line-height:1.85}p{margin:0 0 22px}
+#article-body>p:first-child{font-size:19px;line-height:1.8;color:var(--ink)}
+#article-body>p:last-child{margin-bottom:0}
+ul,ol{padding-left:1.5em;margin:24px 0}li{padding-left:.25em;margin:0 0 10px}
+.copy-page-signature{margin-top:36px;padding-top:18px;border-top:1px solid var(--line);font-size:11px;color:var(--muted);letter-spacing:.08em}
 h2{font-size:23px;line-height:1.4;margin:36px 0 18px;color:var(--ink)}
 h3{font-size:20px;line-height:1.4;margin:28px 0 16px;color:var(--ink)}
 strong{font-weight:700;color:var(--pine)}a{color:var(--pine);text-decoration:underline}
@@ -71,7 +100,7 @@ blockquote{margin:24px 0;padding-left:18px;border-left:3px solid var(--copper)}
 @media print{.tools{display:none}body,main{background:#fff;color:#111}main{margin:0;border:0;padding:0;box-shadow:none}h1,h2,h3,strong,a{color:#111}}
 </style></head><body><main>
 <header class="tools">
-<p class="label">WULAI · X ARTICLES</p>
+<p class="label">WULAI · PERSONAL JOURNAL</p>
 <p class="instructions">Copy the title into the title field, then copy the formatted body into the X Articles editor. Upload the English cover separately (5:2). X controls the final typography; check headings and emphasis after pasting.</p>
 <div class="actions"><button type="button" id="copy-body">Copy formatted body</button>
 <button type="button" id="copy-title">Copy title</button>
@@ -84,6 +113,7 @@ blockquote{margin:24px 0;padding-left:18px;border-left:3px solid var(--copper)}
 <p class="label">ARTICLE CAPTION</p><p id="article-caption" style="margin-bottom:0;font-size:15px;line-height:1.7;">__CAPTION__</p>
 <p id="caption-status" role="status" aria-live="polite" style="margin:10px 0 0;font-size:13px;color:var(--pine);"></p></aside>
 <article id="article-body">__BODY__</article>
+<footer class="copy-page-signature">Stay curious. Keep thinking. · Wulai</footer>
 </main><script>
 const status = document.getElementById('copy-status');
 async function copyArticle(includeTitle) {

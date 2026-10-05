@@ -5,12 +5,12 @@
 正文图片和装饰图为网站公开链接；粘贴后请检查图片，必要时在公众号后台重新上传。
 -->
 
-<section style="background-color:#0F1B2E;color:#CED9E9;padding:0 0 28px;font-family:PingFang SC,Microsoft YaHei,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;"><p style="margin:0 0 24px;line-height:0;"><img src="https://lumisum.github.io/wulai/articles/2026-09-24-rulai-heyi-cheng-fozu/images/cover.png" alt="如来何以成佛祖？" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
+<section id="wechat-body" style="background-color:#0F1B2E;color:#CED9E9;padding:0 0 28px;font-family:PingFang SC,Microsoft YaHei,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;"><p style="margin:0 0 24px;line-height:0;"><img src="https://lumisum.github.io/wulai/articles/2026-09-24-rulai-heyi-cheng-fozu/images/cover.png" alt="如来何以成佛祖？" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
 <div style="padding:0 24px 8px;">
-<p style="margin:2px 0 12px;color:#91ADC9;font-size:12px;line-height:1.5;letter-spacing:2px;text-align:center;">无来 · 修学随笔</p>
-<p style="margin:0 auto 12px;color:#E6EDF9;font-size:24px;font-weight:700;line-height:1.5;text-align:center;letter-spacing:0.4px;">如来何以成佛祖？</p>
-<p style="margin:0 auto 8px;color:#98ABC5;font-size:14px;line-height:1.8;text-align:center;">佛陀如何把混杂的生命经验拆开、命名、连成一套认识路径？从智能体的分类，到无住与名相，我试着理解：定义世界，也可以是一种修行。</p>
-<p style="margin:14px auto 24px;text-align:center;line-height:0;"><img src="https://lumisum.github.io/wulai/assets/wulai-wechat-divider.png" alt="" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
+<p style="margin:2px 0 12px;color:#91ADC9;font-size:12px;line-height:1.5;letter-spacing:2px;text-align:left;">无来 · 个人观察</p>
+<p id="wechat-title" style="margin:0 auto 12px;color:#E6EDF9;font-size:24px;font-weight:700;line-height:1.5;text-align:left;letter-spacing:0.4px;">如来何以成佛祖？</p>
+<p style="margin:18px 0 26px;padding:14px 16px;background-color:#162B45;border-left:2px solid #62D9FF;color:#B7CCE6;font-size:14px;line-height:1.8;text-align:left;">佛陀如何把混杂的生命经验拆开、命名、连成一套认识路径？从智能体的分类，到无住与名相，我试着理解：定义世界，也可以是一种修行。</p>
+<p style="margin:26px 0;border-top:1px solid #29415D;line-height:0;font-size:0;"></p>
 <p style="margin:0 0 20px;color:#CED9E9;font-size:15px;line-height:1.95;letter-spacing:0.25px;">我最近越来越觉得，佛陀真正厉害的地方，可能不只是“悟”，还有一种能力：他特别会把世界说清楚。</p>
 <p style="margin:0 0 20px;color:#CED9E9;font-size:15px;line-height:1.95;letter-spacing:0.25px;">这句话听起来有点奇怪。佛学不是讲破相、无住、空吗？这里说的“定义”，不是给万物贴上永远不变的标签，而是从纷杂的生命经验中分出层次，看清它们怎样彼此关联。</p>
 <p style="margin:0 0 20px;color:#CED9E9;font-size:15px;line-height:1.95;letter-spacing:0.25px;">佛陀没有笼统地说“人生很难”，而是讲苦、集、灭、道；没有把人的存在只归结成一个“我”，而是分析色、受、想、行、识；认识世界，也分为六根、六尘、六识；烦恼有贪、嗔、痴，也有无明与执著；修行则谈八正道、戒定慧、四念处。佛教把许多混在一起、说不清楚的生命经验，一层一层拆开，再给出名称和关系。</p>
@@ -33,4 +33,4 @@
 <p style="margin:0 0 20px;color:#CED9E9;font-size:15px;line-height:1.95;letter-spacing:0.25px;">所以我现在觉得，<strong style="color:#62D9FF;background-color:#162B45;font-weight:700;padding:1px 3px;">定义世界本身也可以是一种修行。</strong>不是为了卖弄概念，而是为了少一点混乱，多一点清明。<strong style="color:#62D9FF;background-color:#162B45;font-weight:700;padding:1px 3px;">先靠定义看清，再靠无住，不被定义困死。</strong>这两步放在一起，才真正有力量。</p>
 <p style="margin:0 0 20px;color:#CED9E9;font-size:15px;line-height:1.95;letter-spacing:0.25px;">如果要问“如来何以成佛祖”，我现在会多加一个自己的理解：他能从混乱里看见结构，从结构里建立概念，从概念里理解因缘，最后又不执著于概念本身。这是一种极高水平的认知能力。</p>
 <p style="margin:0 0 20px;color:#CED9E9;font-size:15px;line-height:1.95;letter-spacing:0.25px;">普通人当然不能复制佛陀，但可以练习一件事：不只做问题的解决者，也试着成为问题的命名者。当你能把一件事说清楚，往往已经比原来更接近答案了。</p>
-<p style="margin:14px auto 24px;text-align:center;line-height:0;"><img src="https://lumisum.github.io/wulai/assets/wulai-wechat-divider.png" alt="" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p><p style="margin:0 0 8px;color:#b7cce6;font-size:14px;line-height:1.8;text-align:center;">愿把所思所学，带回眼前的生活。</p><p style="margin:0;color:#A793FF;font-size:12px;letter-spacing:2px;text-align:center;">无来 · 修学随笔</p></div></section>
+<p style="margin:26px 0;border-top:1px solid #29415D;line-height:0;font-size:0;"></p><p style="margin:0 0 8px;color:#b7cce6;font-size:14px;line-height:1.8;text-align:center;">保持好奇，让思考继续。</p><p style="margin:0;color:#A793FF;font-size:12px;letter-spacing:2px;text-align:center;">无来 · 个人观察</p></div></section>
