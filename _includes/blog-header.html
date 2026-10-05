@@ -1,0 +1,5 @@
+<header class="blog-header">
+  <a class="blog-brand" href="{{ home_path | relative_url }}" aria-label="{{ b.name }}"><svg class="ui-icon" aria-hidden="true"><use href="#icon-orbit"></use></svg><span>{{ b.name }}</span><small>PERSONAL JOURNAL</small></a>
+  <nav aria-label="{{ t.t97 }}"><a href="{{ home_path | relative_url }}#articles">{{ b.essays }}</a><a class="nav-secondary" href="{{ classics_path | relative_url }}">{{ b.shelf }}</a><a href="{{ home_path | relative_url }}#about">{{ b.about }}</a><a class="blog-language" href="{{ switch_path | relative_url }}" lang="{{ other_lang }}" hreflang="{{ other_lang }}">{% if current_lang == 'en' %}中文{% else %}EN{% endif %}<span aria-hidden="true">↗</span></a></nav>
+  {% if page.layout == 'article' %}<div class="reading-progress" aria-hidden="true"><span></span></div>{% endif %}
+</header>
