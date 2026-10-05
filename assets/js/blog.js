@@ -36,4 +36,32 @@
     addEventListener('load', queue);
     update();
   }
+  // Small pointer-driven depth; touch and reduced-motion users keep a static surface.
+  if (matchMedia('(hover: hover) and (pointer: fine)').matches && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    document.querySelectorAll('.exhibit-card, .orbit-book').forEach(card => {
+      let frame = 0;
+      let x = .5, y = .5;
+      const paint = () => {
+        card.style.setProperty('--rx', `${(0.5 - y) * 3}deg`);
+        card.style.setProperty('--ry', `${(x - 0.5) * 4}deg`);
+        card.style.setProperty('--px', `${x * 100}%`);
+        card.style.setProperty('--py', `${y * 100}%`);
+        frame = 0;
+      };
+      card.addEventListener('pointermove', event => {
+        const rect = card.getBoundingClientRect();
+        x = (event.clientX - rect.left) / rect.width;
+        y = (event.clientY - rect.top) / rect.height;
+        if (!frame) frame = requestAnimationFrame(paint);
+      });
+      card.addEventListener('pointerleave', () => {
+        if (frame) cancelAnimationFrame(frame);
+        frame = 0;
+        card.style.setProperty('--rx', '0deg');
+        card.style.setProperty('--ry', '0deg');
+        card.style.setProperty('--px', '50%');
+        card.style.setProperty('--py', '50%');
+      });
+    });
+  }
 })();

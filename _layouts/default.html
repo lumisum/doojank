@@ -9,14 +9,14 @@
     {% if classic_theme and page.cover == nil %}{% assign social_image = "/assets/wulai-readme-hero.png" | absolute_url %}{% endif %}
     {% assign social_image_alt = page.cover_alt | default: site.social_image_alt | default: page.title | default: site.title %}
     {% assign site_name = site.title %}{% if current_lang == 'en' %}{% assign site_name = 'Wulai' %}{% endif %}
-    {% if current_lang == 'en' and page.cover == nil and classic_theme == false %}{% assign social_image_alt = 'An impossible paper staircase and a cobalt glass orbit — Wulai, a personal journal' %}{% endif %}
+    {% if current_lang == 'en' and page.cover == nil and classic_theme == false %}{% assign social_image_alt = 'A folded glass portal opens onto an ice-blue ocean — Wulai, a personal journal' %}{% endif %}
     {% capture seo_title %}{% if page.title %}{{ page.title }} · {% endif %}{{ site_name }}{% endcapture %}
 {% assign counterpart = site.pages | where: 'translation_key', page.translation_key | where: 'lang', other_lang | first %}{% assign switch_path = counterpart.url | default: fallback_path %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ seo_description | escape }}">
     <meta name="robots" content="index,follow,max-image-preview:large">
-    <meta name="theme-color" content="{% if classic_theme %}#18372f{% else %}#f4f1eb{% endif %}">
+    <meta name="theme-color" content="{% if classic_theme %}#18372f{% else %}#09111f{% endif %}">
     {% unless classic_theme %}<link rel="icon" type="image/svg+xml" href="{{ "/assets/blog-mark.svg" | relative_url }}">{% endunless %}
     <title>{{ seo_title | strip | escape }}</title>
     <link rel="canonical" href="{{ canonical_url | escape }}">

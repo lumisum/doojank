@@ -1,7 +1,7 @@
 {
   "zh-CN": {
     "name": "无来",
-    "tagline": "一个人的思想标本馆",
+    "tagline": "好奇心的折叠空间",
     "essays": "文章",
     "shelf": "阅读书架",
     "about": "关于",
@@ -35,11 +35,12 @@
       "六祖坛经",
       "传习录"
     ],
-    "art_alt": "纸张折成不可能的阶梯与门廊，钴蓝玻璃环和橙色球体悬在其中，一位访客抬头观察。"
+    "art_alt": "烟色玻璃与金属折成不可能的环带，门内出现冰蓝海面，一位访客站在入口前。",
+    "shelf_heading": "在经典里，打开另一种视角。"
   },
   "en": {
     "name": "Wulai",
-    "tagline": "A personal museum of ideas",
+    "tagline": "A space for curious minds",
     "essays": "Essays",
     "shelf": "Bookshelf",
     "about": "About",
@@ -73,6 +74,7 @@
       "Platform Sutra",
       "Chuanxilu"
     ],
-    "art_alt": "A sculptural paper staircase opens onto a cobalt glass ring and an orange sphere, observed by a small museum visitor."
+    "art_alt": "An impossible smoked-glass and titanium loop opens onto an ice-blue ocean horizon, observed by a small visitor.",
+    "shelf_heading": "Another perspective, through the classics."
   }
 }

@@ -3,8 +3,8 @@ description: 无来的个人博客：关于技术、生活与自我的观察，�
 lang: zh-CN
 url: https://lumisum.github.io
 baseurl: /wulai
-social_image: /assets/blog-hero.png
-social_image_alt: 纸张阶梯与钴蓝玻璃轨道，无来的思想标本馆
+social_image: /assets/blog-hero-tech.png
+social_image_alt: 金属与玻璃的折叠空间，无来的个人博客
 markdown: kramdown
 permalink: pretty
 exclude:
