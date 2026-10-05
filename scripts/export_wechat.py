@@ -419,6 +419,8 @@ def export_article(source_path: Path) -> bool:
             render_article_end(),
         ] if part
     )
+    if metadata.get("visual_mode") == "cover-only":
+        markup = markup.replace(render_divider(), "")
     (source_path.parent / "wechat.md").write_text(
         make_markdown_export(title, summary, markup), encoding="utf-8"
     )

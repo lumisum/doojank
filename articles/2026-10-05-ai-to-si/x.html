@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>We’ve Gone from AI to SI · X article</title>
+<style>
+:root{color-scheme:light;--pine:#18372f;--ivory:#f6f3eb;--copper:#ab8966}
+*{box-sizing:border-box}body{margin:0;background:var(--ivory);color:#354039;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
+main{max-width:760px;margin:40px auto;padding:36px;background:#fff;border-top:4px solid var(--pine)}
+.tools{padding-bottom:26px;border-bottom:1px solid #e5e8e0;margin-bottom:30px}
+.label{font-size:12px;letter-spacing:2px;color:#826c51}.instructions{font-size:14px;line-height:1.7;color:#68736a}
+.actions{display:flex;gap:10px;flex-wrap:wrap}button,.cover-link{border:1px solid #c8d2c7;
+border-radius:6px;padding:10px 15px;background:#fff;color:var(--pine);font:inherit;font-size:14px;cursor:pointer}
+button:first-child{background:var(--pine);color:#fff;border-color:var(--pine)}
+button:hover,.cover-link:hover{box-shadow:0 2px 8px #17201818}.cover-link{text-decoration:none}
+#copy-status{min-height:22px;margin:12px 0 0;color:var(--pine);font-size:13px}
+h1{font-size:32px;line-height:1.25;margin:0 0 30px;color:var(--pine)}
+#article-body{font-size:17px;line-height:1.85}p{margin:0 0 20px}
+h2{font-size:23px;line-height:1.4;margin:36px 0 18px;color:var(--pine)}
+h3{font-size:20px;line-height:1.4;margin:28px 0 16px;color:var(--pine)}
+strong{font-weight:700;color:var(--pine)}a{color:var(--pine);text-decoration:underline}
+blockquote{margin:24px 0;padding-left:18px;border-left:3px solid var(--copper)}
+@media(max-width:600px){main{margin:0;padding:24px 20px}h1{font-size:27px}h2{font-size:21px}}
+@media print{.tools{display:none}body{background:#fff}main{margin:0;border:0;padding:0}}
+</style></head><body><main>
+<header class="tools">
+<p class="label">WULAI · X ARTICLES</p>
+<p class="instructions">Copy the title into the title field, then copy the formatted body into the X Articles editor. Upload the English cover separately (5:2). X controls the final typography; check headings and emphasis after pasting.</p>
+<div class="actions"><button type="button" id="copy-body">Copy formatted body</button>
+<button type="button" id="copy-title">Copy title</button>
+<button type="button" id="copy-caption">Copy caption</button>
+<a class="cover-link" href="images/cover-en.png" download>English cover · 5:2</a></div>
+<p id="copy-status" role="status" aria-live="polite"></p>
+<noscript><p class="instructions">Select the title or article body below and copy it using your browser.</p></noscript>
+</header><h1 id="article-title">We’ve Gone from AI to SI</h1>
+<aside style="padding:18px 20px;margin-bottom:28px;background:#eff2ea;border-left:3px solid var(--copper);">
+<p class="label">ARTICLE CAPTION</p><p id="article-caption" style="margin-bottom:0;font-size:15px;line-height:1.7;">As AI gives way to the idea of superintelligence, humanity’s position comes into question. Machines can expand our capabilities. Who chooses the goals and bears the consequences? Easier answers make better questions more important.</p>
+<p id="caption-status" role="status" aria-live="polite" style="margin:10px 0 0;font-size:13px;color:var(--pine);"></p></aside>
+<article id="article-body"><p>AI describes intelligence’s origin. SI describes what it surpasses. Artificial intelligence points to human creation; superintelligence points beyond human capability. As the discussion shifts, our own position comes into question: if machines consistently outperform us across cognitive tasks, how should we understand ourselves? That possibility still requires testing.</p>
+<p>Job loss is a visible consequence. A deeper change concerns who decides what work deserves doing. As machines become better at identifying problems, proposing strategies and comparing outcomes, delegation extends into judgment. The power to frame problems and select priorities may move with it.</p>
+<p>Our response can be conflicted. We want help with difficult problems, and we want our abilities to remain valuable. Someone who spent years acquiring expertise may welcome stronger tools while wondering what their accumulated knowledge will be worth when comparable capability becomes available to everyone.</p>
+<p>That concern cannot stop competition by itself. If stronger models reduce costs, shorten development or improve decisions, organizations have reasons to invest. Adoption by competitors adds pressure. Personal hesitation and commercial incentives can coexist, while technical limits, costs and practical constraints still shape progress.</p>
+<p>Cognitive capability begins to function as infrastructure when it can be repeatedly accessed and distributed. Chips, electricity, data centers and software determine availability and cost. Access matters alongside individual skill: different tools can change the problems one person can tackle and the scale of action they can organize.</p>
+<p>If capability keeps expanding, its effects may accumulate. Individuals could practice less independent judgment; organizations could rebuild processes around models; providers could gain influence. Once workflows depend on a system, leaving becomes harder, even when its advice deserves scrutiny. Convenience and switching costs can grow together.</p>
+<p>This raises questions about decision-making power. Who sets objectives, checks results, permits challenges and bears the consequences? A machine can recommend an excellent course of action. Implementing it still involves accepting costs and risks. The supply of capability and the allocation of responsibility need to be considered together.</p>
+<p>“Super” remains a human-centered description. Calling something more capable than us can tempt us to treat it as an authority. That leap deserves scrutiny. Superior calculation or planning cannot, by itself, determine which life is worth living. Choosing goals also involves values and consequences we are willing to accept.</p>
+<p>The SI narrative can also influence technological development. Expected returns attract investment and infrastructure; those investments may improve capability and reinforce expectations. This feedback can accelerate progress or amplify mistaken assumptions. Believing in a future can help create its conditions, but actual results still need to be examined.</p>
+<p>If reliable cognition becomes abundant and affordable, human value deserves a broader understanding. We can use machines to learn and create, keep practicing judgment, choose goals carefully and accept consequences. More capability opens more paths. <strong>As answers become easier to obtain, deciding what deserves to be asked becomes more important.</strong></p></article>
+</main><script>
+const status = document.getElementById('copy-status');
+async function copyArticle(includeTitle) {
+  const element = document.getElementById(includeTitle ? 'article-title' : 'article-body');
+  const plain = element.innerText;
+  const markup = element.innerHTML;
+  try {
+    if (!navigator.clipboard) throw new Error('Use browser copy');
+    if (includeTitle) await navigator.clipboard.writeText(plain);
+    else await navigator.clipboard.write([new ClipboardItem({
+      'text/html': new Blob([markup], {type:'text/html'}),
+      'text/plain': new Blob([plain], {type:'text/plain'})
+    })]);
+    status.textContent = includeTitle ? 'Title copied.' : 'Formatted body copied. Check formatting in X after pasting.';
+    return;
+  } catch (error) {
+    // Native copy supports locally opened files without the clipboard API.
+    const selection = window.getSelection();
+    const range = document.createRange();
+    range.selectNodeContents(element);
+    selection.removeAllRanges();
+    selection.addRange(range);
+    let copied = false;
+    const listener = event => {
+      if (!event.clipboardData) return;
+      event.clipboardData.setData('text/plain', plain);
+      if (!includeTitle) event.clipboardData.setData('text/html', markup);
+      event.preventDefault();
+      copied = true;
+    };
+    document.addEventListener('copy', listener);
+    try { copied = document.execCommand('copy') && copied; } catch (_) { copied = false; }
+    finally { document.removeEventListener('copy', listener); }
+    status.textContent = copied
+      ? (includeTitle ? 'Title copied.' : 'Formatted body copied. Check formatting in X after pasting.')
+      : 'Text selected. Press ⌘C on Mac or Ctrl+C on Windows to copy.';
+  }
+}
+document.getElementById('copy-body').addEventListener('click', () => copyArticle(false));
+document.getElementById('copy-title').addEventListener('click', () => copyArticle(true));
+</script><script>
+(() => {
+  const button = document.getElementById('copy-caption');
+  const caption = document.getElementById('article-caption');
+  const status = document.getElementById('caption-status');
+  if (!button || !caption || !status) return;
+  button.addEventListener('click', async () => {
+    const text = caption.textContent.trim();
+    const english = document.documentElement.lang === 'en';
+    let copied = false;
+    try {
+      await navigator.clipboard.writeText(text);
+      copied = true;
+    } catch (_) {
+      const selection = window.getSelection();
+      const range = document.createRange();
+      range.selectNodeContents(caption);
+      selection.removeAllRanges();
+      selection.addRange(range);
+      const listener = event => {
+        if (!event.clipboardData) return;
+        event.clipboardData.setData('text/plain', text);
+        event.preventDefault();
+      };
+      document.addEventListener('copy', listener);
+      try { copied = document.execCommand('copy'); } catch (_) {}
+      finally { document.removeEventListener('copy', listener); }
+    }
+    status.textContent = copied
+      ? (english ? 'Caption copied.' : '导读已复制，可粘贴到公众号摘要。')
+      : (english ? 'Caption selected. Press ⌘C or Ctrl+C to copy.' : '导读已选中，请按 ⌘C 或 Ctrl+C 复制。');
+  });
+})();
+</script></body></html>
