@@ -137,6 +137,8 @@ def export(slug: str) -> None:
     markup = body_markup(body)
     title = metadata["title"]
     summary = metadata.get("summary", "")
+    if len(summary) > 256:
+        raise ValueError(f"English caption must be at most 256 characters, including spaces and punctuation; got {len(summary)}.")
     directory = ROOT / "articles" / slug
     cover = metadata.get("cover", f"/articles/{slug}/images/cover-en.png")
     parsed_cover = urlsplit(cover)
