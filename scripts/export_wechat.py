@@ -347,7 +347,20 @@ def wechat_copy_script() -> str:
     const element = document.getElementById(body ? 'wechat-body' : 'wechat-title');
     const status = document.getElementById('wechat-copy-status');
     const text = element.innerText;
-    const markup = element.outerHTML;
+    const copyElement = element.cloneNode(true);
+    for (const node of [copyElement, ...copyElement.querySelectorAll('*')]) {
+      node.style.removeProperty('background');
+      node.style.removeProperty('background-color');
+      node.style.removeProperty('background-image');
+      node.removeAttribute('bgcolor');
+      if (node.style.color) {
+        const color = node.style.color;
+        node.style.color = color === 'rgb(98, 217, 255)' ? '#087EAA'
+          : color === 'rgb(167, 147, 255)' ? '#6951BD'
+          : '#253449';
+      }
+    }
+    const markup = copyElement.outerHTML;
     let copied = false;
     try {
       if (!navigator.clipboard) throw new Error('Native copy');
