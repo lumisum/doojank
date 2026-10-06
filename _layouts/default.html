@@ -1,7 +1,7 @@
 {% assign classic_theme = false %}{% if page.url contains "/classics/" %}{% assign classic_theme = true %}{% endif %}
 {% assign current_lang = page.lang | default: 'zh-CN' %}{% assign t = site.data.i18n[current_lang] %}{% assign home_path = '/' %}{% assign classics_path = '/classics/' %}{% assign other_lang = 'en' %}{% assign fallback_path = '/en/' %}{% if current_lang == 'en' %}{% assign home_path = '/en/' %}{% assign classics_path = '/en/classics/' %}{% assign other_lang = 'zh-CN' %}{% assign fallback_path = '/' %}{% endif %}
 <!doctype html>
-<html lang="{{ current_lang }}">
+<html lang="{{ current_lang }}"{% unless classic_theme %} data-blog-theme="light"{% endunless %}>
   <head>
     {% assign canonical_url = page.url | absolute_url %}
     {% assign seo_description = page.description | default: page.summary | default: site.description | strip_html | normalize_whitespace | truncate: 160 %}
@@ -16,7 +16,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ seo_description | escape }}">
     <meta name="robots" content="index,follow,max-image-preview:large">
-    <meta name="theme-color" content="{% if classic_theme %}#18372f{% else %}#09111f{% endif %}">
+    <meta name="theme-color" content="{% if classic_theme %}#18372f{% else %}#f5f5f7{% endif %}">
+    {% unless classic_theme %}<script>
+      (() => {
+        let theme = 'light';
+        try { if (localStorage.getItem('wulai-blog-theme') === 'dark') theme = 'dark'; } catch (_) {}
+        document.documentElement.dataset.blogTheme = theme;
+        document.querySelector('meta[name="theme-color"]').content = theme === 'dark' ? '#09111f' : '#f5f5f7';
+      })();
+    </script>{% endunless %}
     {% unless classic_theme %}<link rel="icon" type="image/svg+xml" href="{{ "/assets/blog-mark.svg" | relative_url }}">{% endunless %}
     <title>{{ seo_title | strip | escape }}</title>
     <link rel="canonical" href="{{ canonical_url | escape }}">
@@ -78,7 +86,7 @@
       <script type="application/ld+json">{{ structured_data | strip }}</script>
     {% endif %}
     <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}?v={{ site.time | date: '%s' }}">
-    {% unless classic_theme %}<link rel="stylesheet" href="{{ "/assets/css/blog.css" | relative_url }}?v={{ site.time | date: "%s" }}">{% endunless %}
+    {% unless classic_theme %}<link rel="stylesheet" href="{{ "/assets/css/blog.css" | relative_url }}?v={{ site.time | date: "%s" }}"><link rel="stylesheet" href="{{ "/assets/css/blog-light.css" | relative_url }}?v={{ site.time | date: "%s" }}">{% endunless %}
   </head>
   <body class="{% if classic_theme %}classic-theme{% else %}blog-theme{% endif %}">
     {% assign b = site.data.blog[current_lang] %}

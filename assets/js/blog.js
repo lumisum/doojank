@@ -1,4 +1,31 @@
 (() => {
+  const themeButton = document.querySelector('.blog-theme-toggle');
+  const applyTheme = theme => {
+    const dark = theme === 'dark';
+    document.documentElement.dataset.blogTheme = dark ? 'dark' : 'light';
+    const meta = document.querySelector('meta[name="theme-color"]');
+    if (meta) meta.content = dark ? '#09111f' : '#f5f5f7';
+    if (themeButton) {
+      const en = document.documentElement.lang === 'en';
+      const label = en ? (dark ? 'Switch to light theme' : 'Switch to dark theme')
+        : (dark ? '切换为亮色主题' : '切换为暗色主题');
+      themeButton.setAttribute('aria-pressed', String(dark));
+      themeButton.setAttribute('aria-label', label);
+      themeButton.title = label;
+    }
+  };
+  if (themeButton) {
+    applyTheme(document.documentElement.dataset.blogTheme);
+    themeButton.hidden = false;
+    themeButton.addEventListener('click', () => {
+      const theme = document.documentElement.dataset.blogTheme === 'dark' ? 'light' : 'dark';
+      applyTheme(theme);
+      try { localStorage.setItem('wulai-blog-theme', theme); } catch (_) {}
+    });
+    addEventListener('storage', event => {
+      if (event.key === 'wulai-blog-theme') applyTheme(event.newValue);
+    });
+  }
   const tools = document.querySelector('.archive-tools');
   if (tools) {
     tools.hidden = false;
