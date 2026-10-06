@@ -19,17 +19,18 @@ html[data-blog-theme="light"] .blog-brand>.ui-icon{color:#0066cc;filter:none}
 html[data-blog-theme="light"] .blog-header nav{font-size:12px}
 html[data-blog-theme="light"] .blog-header .nav-secondary{color:#515763}
 html[data-blog-theme="light"] .blog-language{background:transparent;border-color:rgba(29,29,31,.12)}
-/* A cinematic dark island preserves the original artwork in both editions. */
-html[data-blog-theme="light"] .idea-hero{color:#e6edf9;border:0;border-radius:0 0 28px 28px;min-height:560px;box-shadow:0 16px 40px rgba(37,49,72,.08)}
-html[data-blog-theme="light"] .idea-hero::after{background:linear-gradient(90deg,rgba(7,17,32,.75),rgba(7,17,32,.1) 60%,transparent),linear-gradient(0deg,rgba(7,17,32,.6),transparent 25%)}
-html[data-blog-theme="light"] .idea-hero .blog-eyebrow{color:#b6c5d9}
-html[data-blog-theme="light"] .idea-copy h1{color:#f5f7fb;letter-spacing:-.035em}
-html[data-blog-theme="light"] .idea-intro{color:#c1ccdc}
-html[data-blog-theme="light"] .idea-hero .orange-dot{background:#62d9ff}
-html[data-blog-theme="light"] .blog-button{background:#f5f7fb;color:#162236;border:1px solid #fff9;border-radius:30px;box-shadow:0 5px 16px #0002;gap:28px;font-weight:600}
-html[data-blog-theme="light"] .blog-button:hover{background:#fff;color:#0066cc;box-shadow:0 8px 22px #0003}
-html[data-blog-theme="light"] .hero-coordinate{color:#aebfd5}
-html[data-blog-theme="light"] .hero-coordinate span{color:#62d9ff}
+/* A white introduction makes the default unmistakable; keep the original art below. */
+html[data-blog-theme="light"] .idea-hero{color:var(--ink);background:#f5f5f7;border:0;border-radius:0;min-height:0;display:flex;flex-direction:column;box-shadow:none}
+html[data-blog-theme="light"] .idea-hero::after{display:none}
+html[data-blog-theme="light"] .idea-art{position:relative;inset:auto;order:2;z-index:0;display:block;width:min(1280px,calc(100% - 80px));height:auto;aspect-ratio:2.35/1;object-fit:cover;object-position:center;border-radius:24px;margin:0 auto 30px;box-shadow:0 16px 40px rgba(37,49,72,.1)}
+html[data-blog-theme="light"] .idea-copy{order:1;text-align:center;padding:60px 0 42px}
+html[data-blog-theme="light"] .idea-hero .blog-eyebrow{color:#646a73;justify-content:center;margin-bottom:16px}
+html[data-blog-theme="light"] .idea-copy h1{color:#1d1d1f;letter-spacing:-.035em;text-shadow:none;max-width:18em;margin:0 auto 20px;font-size:clamp(38px,4.5vw,64px)}
+html[data-blog-theme="light"] .idea-intro{color:#646a73;max-width:600px;margin:0 auto 24px;font-size:16px;line-height:1.85}
+html[data-blog-theme="light"] .idea-hero .orange-dot{background:#0066cc;box-shadow:none}
+html[data-blog-theme="light"] .blog-button{background:#0071e3;color:#fff;border:1px solid #0071e3;border-radius:30px;box-shadow:none;gap:28px;font-weight:500;font-size:13px}
+html[data-blog-theme="light"] .blog-button:hover{background:#0077ed;color:#fff;box-shadow:0 6px 18px #0071e320}
+html[data-blog-theme="light"] .hero-coordinate{display:none}
 html[data-blog-theme="light"] .orbit-shelf{padding:44px 0 36px}
 html[data-blog-theme="light"] .shelf-heading h2{color:#3c4149;font-size:20px;font-weight:600}
 html[data-blog-theme="light"] .orbit-books{gap:22px}
@@ -82,8 +83,11 @@ html[data-blog-theme="light"] .blog-theme .article-toc{background:#f5f7fa;border
   html[data-blog-theme="light"] .blog-header{min-height:62px}
   html[data-blog-theme="light"] .blog-header nav{font-size:11px;gap:12px}
   .blog-theme-toggle{width:32px;height:32px}
-  html[data-blog-theme="light"] .idea-hero{min-height:600px;border-radius:0 0 20px 20px}
-  html[data-blog-theme="light"] .idea-hero::after{background:linear-gradient(180deg,#071120 0,#071120 12%,#071120d9 38%,transparent 65%,#071120 100%)}
+  html[data-blog-theme="light"] .idea-hero{min-height:0;align-items:center}
+  html[data-blog-theme="light"] .idea-copy{padding:38px 0 30px}
+  html[data-blog-theme="light"] .idea-copy h1,html[lang="en"][data-blog-theme="light"] .blog-theme .idea-copy h1{font-size:36px;max-width:18em}
+  html[data-blog-theme="light"] .idea-intro{font-size:14px}
+  html[data-blog-theme="light"] .idea-art{width:calc(100% - 36px);height:auto;top:auto;border-radius:16px;margin-bottom:16px}
   html[data-blog-theme="light"] .orbit-shelf{padding:30px 0}
   html[data-blog-theme="light"] .orbit-books{gap:14px}
   html[data-blog-theme="light"] .shelf-heading h2{font-size:17px}

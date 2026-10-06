@@ -20,7 +20,7 @@
     {% unless classic_theme %}<script>
       (() => {
         let theme = 'light';
-        try { if (localStorage.getItem('wulai-blog-theme') === 'dark') theme = 'dark'; } catch (_) {}
+        try { if (localStorage.getItem('wulai-blog-theme-apple-v1') === 'dark') theme = 'dark'; } catch (_) {}
         document.documentElement.dataset.blogTheme = theme;
         document.querySelector('meta[name="theme-color"]').content = theme === 'dark' ? '#09111f' : '#f5f5f7';
       })();
@@ -144,7 +144,7 @@
       </div>
       <a class="back-top" href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">{{ t.t96 }} ↑</a>
     </footer>
-    {% else %}{% include blog-footer.html %}<script defer src="{{ "/assets/js/blog.js" | relative_url }}"></script>{% endif %}
+    {% else %}{% include blog-footer.html %}<script defer src="{{ "/assets/js/blog.js" | relative_url }}?v={{ site.time | date: "%s" }}"></script>{% endif %}
     <script defer src="{{ '/assets/js/visitor-counter.js' | relative_url }}"></script>
   </body>
 </html>

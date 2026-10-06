@@ -20,10 +20,10 @@
     themeButton.addEventListener('click', () => {
       const theme = document.documentElement.dataset.blogTheme === 'dark' ? 'light' : 'dark';
       applyTheme(theme);
-      try { localStorage.setItem('wulai-blog-theme', theme); } catch (_) {}
+      try { localStorage.setItem('wulai-blog-theme-apple-v1', theme); } catch (_) {}
     });
     addEventListener('storage', event => {
-      if (event.key === 'wulai-blog-theme') applyTheme(event.newValue);
+      if (event.key === 'wulai-blog-theme-apple-v1') applyTheme(event.newValue);
     });
   }
   const tools = document.querySelector('.archive-tools');
