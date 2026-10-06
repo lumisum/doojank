@@ -4,6 +4,7 @@
 
 | 日期 | 文章 | 原文 Markdown | 公众号 HTML | 排版 Markdown | X 英文复制稿 |
 | --- | --- | --- | --- | --- | --- |
+| 2026-10-06 | 假期的聚会与分离，让我明白空亦是空 | [article.md](2026-10-06-jiaqi-juhe-yu-fenli/article.md) | [wechat.html](2026-10-06-jiaqi-juhe-yu-fenli/wechat.html) | [wechat.md](2026-10-06-jiaqi-juhe-yu-fenli/wechat.md) | [x.html](2026-10-06-jiaqi-juhe-yu-fenli/x.html) · [x.md](2026-10-06-jiaqi-juhe-yu-fenli/x.md) |
 | 2026-10-05 | 我们从AI走到了SI | [2026-10-05-ai-to-si/article.md](2026-10-05-ai-to-si/article.md) | [2026-10-05-ai-to-si/wechat.html](2026-10-05-ai-to-si/wechat.html) | [2026-10-05-ai-to-si/wechat.md](2026-10-05-ai-to-si/wechat.md) | [x.html](2026-10-05-ai-to-si/x.html) · [x.md](2026-10-05-ai-to-si/x.md) |
 | 2026-10-04 | AI因注意力机制异常强大，而人类的注意力却涣散了 | [2026-10-04-yanqian-wanxiang/article.md](2026-10-04-yanqian-wanxiang/article.md) | [2026-10-04-yanqian-wanxiang/wechat.html](2026-10-04-yanqian-wanxiang/wechat.html) | [2026-10-04-yanqian-wanxiang/wechat.md](2026-10-04-yanqian-wanxiang/wechat.md) | [x.html](2026-10-04-yanqian-wanxiang/x.html) · [x.md](2026-10-04-yanqian-wanxiang/x.md) |
 | 2026-10-04 | 十一黄金周，为什么大家都出去散心？ | [2026-10-04-shiyi-huangjinzhou-sanxin/article.md](2026-10-04-shiyi-huangjinzhou-sanxin/article.md) | [2026-10-04-shiyi-huangjinzhou-sanxin/wechat.html](2026-10-04-shiyi-huangjinzhou-sanxin/wechat.html) | [2026-10-04-shiyi-huangjinzhou-sanxin/wechat.md](2026-10-04-shiyi-huangjinzhou-sanxin/wechat.md) | — |
