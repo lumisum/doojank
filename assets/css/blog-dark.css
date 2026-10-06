@@ -1,0 +1,63 @@
+/* Smoked glass, silver ink, and restrained spectral edges. Classic pages are excluded. */
+html[data-blog-theme="dark"] .blog-theme{
+  --stone:#162438;--muted:#a1b2c8;--line:rgba(183,208,240,.14);
+  background:radial-gradient(ellipse at 0% 35%,rgba(74,118,174,.09),transparent 36%),radial-gradient(ellipse at 95% 65%,rgba(133,99,199,.08),transparent 35%),#09111f;
+  -webkit-font-smoothing:antialiased;
+}
+html[data-blog-theme="dark"] .blog-header{min-height:68px;background:rgba(9,17,31,.68);backdrop-filter:blur(26px) saturate(140%);border-bottom:1px solid #c5dbf11a;box-shadow:0 1px 0 #ffffff04,0 10px 36px #02081220}
+html[data-blog-theme="dark"] .blog-brand{font-size:21px;letter-spacing:.03em}
+html[data-blog-theme="dark"] .blog-brand>.ui-icon{filter:drop-shadow(0 0 10px #62d9ff30)}
+html[data-blog-theme="dark"] .blog-header nav{gap:26px;font-size:12px}
+html[data-blog-theme="dark"] .blog-header nav>a:not(.blog-language){color:#b8c7dc;transition:color .2s}
+html[data-blog-theme="dark"] .blog-header nav>a:hover{color:#eff7ff}
+html[data-blog-theme="dark"] .blog-language{background:linear-gradient(130deg,#bce5ff09,#a793ff06);border-color:#b9dcff22;box-shadow:inset 0 1px #ffffff09}
+html[data-blog-theme="dark"] .idea-hero{border-bottom:1px solid #c4e6ff12}
+html[data-blog-theme="dark"] .idea-hero::after{background:linear-gradient(90deg,#071120d9,rgba(7,17,32,.18) 60%,transparent),linear-gradient(0deg,#09111f,transparent 18%)}
+html[data-blog-theme="dark"] .idea-copy h1{font-weight:650;letter-spacing:-.035em;text-shadow:0 4px 30px #030a1366}
+html[data-blog-theme="dark"] .idea-intro{color:#bcc9db;font-size:15px}
+html[data-blog-theme="dark"] .blog-button{border-radius:30px;background:linear-gradient(140deg,#c7edff15,#8cadde08);border-color:#b9e6ff44;box-shadow:inset 0 1px #fff2,0 8px 22px #0002;backdrop-filter:blur(12px);gap:30px}
+html[data-blog-theme="dark"] .blog-button:hover{background:linear-gradient(140deg,#c7edff25,#8cadde12);box-shadow:inset 0 1px #fff3,0 10px 28px #4baaff18}
+html[data-blog-theme="dark"] .hero-coordinate{color:#a5bad0}
+html[data-blog-theme="dark"] .orbit-shelf{padding-top:36px}
+html[data-blog-theme="dark"] .shelf-heading h2{color:#c8d5e8;letter-spacing:.01em}
+html[data-blog-theme="dark"] .orbit-book,
+html[data-blog-theme="dark"] .exhibit-card{background:linear-gradient(145deg,rgba(33,49,70,.64),rgba(16,28,45,.76));border:1px solid #c6e2ff1c;border-radius:19px;box-shadow:inset 0 1px #ffffff12,inset 0 -1px #02081244,0 12px 30px #00000024;backdrop-filter:blur(12px)}
+html[data-blog-theme="dark"] .orbit-book:hover,
+html[data-blog-theme="dark"] .exhibit-card:hover{border-color:#b5deff55;box-shadow:inset 0 1px #fff3,0 22px 42px #0004,0 0 24px #69baff0a}
+html[data-blog-theme="dark"] .orbit-book::after,
+html[data-blog-theme="dark"] .exhibit-card::after{background:radial-gradient(circle at var(--px) var(--py),#c1e7ff17,transparent 60%)}
+html[data-blog-theme="dark"] .orbit-book{padding:9px}
+html[data-blog-theme="dark"] .orbit-book-image{border-radius:12px}
+html[data-blog-theme="dark"] .orbit-book>span{padding:12px 8px 5px}
+html[data-blog-theme="dark"] .exhibit-card{padding:8px 8px 0}
+html[data-blog-theme="dark"] .exhibit-image{border-radius:12px;box-shadow:0 1px 0 #fff1,0 8px 20px #0002}
+html[data-blog-theme="dark"] .exhibit-open{background:#12213988;backdrop-filter:blur(12px);border-color:#c4eaff44;color:#ecf9ff}
+html[data-blog-theme="dark"] .exhibit-copy{padding:21px 16px 23px}
+html[data-blog-theme="dark"] .exhibit-copy h3{color:#eaf0f9;font-weight:600;line-height:1.65;margin:14px 0 12px}
+html[data-blog-theme="dark"] .exhibit-copy>p{color:#a8bad0;font-size:13px;line-height:1.85}
+html[data-blog-theme="dark"] .exhibit-meta{font-size:10px;color:#9db1ca}
+html[data-blog-theme="dark"] .exhibit-card:first-child .exhibit-meta>span{padding:1px 7px;border:1px solid #62d9ff22;border-radius:30px;background:#62d9ff08}
+html[data-blog-theme="dark"] .exhibit-read{border-top-color:#c6e2ff12;padding-top:15px;font-size:11px;color:#a4dfff}
+html[data-blog-theme="dark"] .exhibit-read>span{transition:transform .25s}
+html[data-blog-theme="dark"] .exhibit-card:hover .exhibit-read>span{transform:translate(3px,-2px)}
+html[data-blog-theme="dark"] .archive-tools label{background:rgba(22,35,53,.55);border:1px solid #c5ddff1a;border-radius:30px;box-shadow:inset 0 1px #ffffff08}
+html[data-blog-theme="dark"] .archive-tools label:focus-within{border-color:#62d9ff66;box-shadow:0 0 0 3px #62d9ff09}
+html[data-blog-theme="dark"] .about-manifesto>p:not(.blog-eyebrow){color:#b4c3d6;font-size:15px}
+html[data-blog-theme="dark"] .blog-community{background:linear-gradient(145deg,#c6e2ff0b,#9e8cd606);border:1px solid #c6e2ff22;border-radius:22px;box-shadow:inset 0 1px #ffffff12,0 16px 40px #0002;backdrop-filter:blur(16px)}
+html[data-blog-theme="dark"] .blog-community>small{line-height:1.9}
+html[data-blog-theme="dark"] .blog-footer{background:rgba(6,13,23,.65);border-top:1px solid #c6e2ff14}
+html[data-blog-theme="dark"] .blog-theme .article-cover{border-radius:19px;border-color:#c6e2ff22;box-shadow:0 16px 50px #0004}
+html[data-blog-theme="dark"] .blog-theme .article-content{color:#d0dceb}
+html[data-blog-theme="dark"] .blog-theme .article-summary{color:#b2c4dd;border-color:#a793ff66}
+html[data-blog-theme="dark"] .blog-theme .article-content blockquote{background:#bedbff06;border-color:#a793ff66;border-radius:0 12px 12px 0;padding:16px 22px;color:#c0cfe3}
+html[data-blog-theme="dark"] .blog-theme .article-toc{background:#132238a6;backdrop-filter:blur(12px);border-radius:14px}
+@media(max-width:700px){
+  html[data-blog-theme="dark"] .blog-header{min-height:62px}
+  html[data-blog-theme="dark"] .blog-header nav{gap:12px;font-size:11px}
+  html[data-blog-theme="dark"] .idea-hero::after{background:linear-gradient(180deg,#071120 0,#071120 12%,#071120d9 38%,transparent 65%,#09111f 100%)}
+  html[data-blog-theme="dark"] .idea-intro{font-size:13px}
+  html[data-blog-theme="dark"] .orbit-book{border-radius:14px;padding:7px}
+  html[data-blog-theme="dark"] .exhibit-copy{padding:18px 12px 21px}
+  html[data-blog-theme="dark"] .blog-theme .article-cover{border-radius:12px}
+}
+@media(prefers-reduced-motion:reduce){html[data-blog-theme="dark"] .exhibit-read>span{transition:none}}

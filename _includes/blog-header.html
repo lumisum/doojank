@@ -1,7 +1,7 @@
 <header class="blog-header">
   <a class="blog-brand" href="{{ home_path | relative_url }}" aria-label="{{ b.name }}"><svg class="ui-icon" aria-hidden="true"><use href="#icon-orbit"></use></svg><span>{{ b.name }}</span><small>PERSONAL JOURNAL</small></a>
   <nav aria-label="{{ t.t97 }}"><a href="{{ home_path | relative_url }}#articles">{{ b.essays }}</a><a class="nav-secondary" href="{{ classics_path | relative_url }}">{{ b.shelf }}</a><a href="{{ home_path | relative_url }}#about">{{ b.about }}</a><a class="blog-language" href="{{ switch_path | relative_url }}" lang="{{ other_lang }}" hreflang="{{ other_lang }}">{% if current_lang == 'en' %}中文{% else %}EN{% endif %}<span aria-hidden="true">↗</span></a>
-    <button class="blog-theme-toggle" type="button" hidden aria-pressed="false" aria-label="{% if current_lang == 'en' %}Switch to dark theme{% else %}切换为暗色主题{% endif %}">
+    <button class="blog-theme-toggle" type="button" hidden aria-pressed="true" aria-label="{% if current_lang == 'en' %}Switch to light theme{% else %}切换为亮色主题{% endif %}">
       <svg class="theme-moon ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 13.5A8.5 8.5 0 0 1 10.5 3.5a8.5 8.5 0 1 0 10 10Z"></path></svg>
       <svg class="theme-sun ui-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"></path></svg>
     </button>

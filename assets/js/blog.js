@@ -1,7 +1,7 @@
 (() => {
   const themeButton = document.querySelector('.blog-theme-toggle');
   const applyTheme = theme => {
-    const dark = theme === 'dark';
+    const dark = theme !== 'light';
     document.documentElement.dataset.blogTheme = dark ? 'dark' : 'light';
     const meta = document.querySelector('meta[name="theme-color"]');
     if (meta) meta.content = dark ? '#09111f' : '#f5f5f7';
@@ -20,10 +20,10 @@
     themeButton.addEventListener('click', () => {
       const theme = document.documentElement.dataset.blogTheme === 'dark' ? 'light' : 'dark';
       applyTheme(theme);
-      try { localStorage.setItem('wulai-blog-theme-apple-v1', theme); } catch (_) {}
+      try { localStorage.setItem('wulai-blog-theme-glass-v1', theme); } catch (_) {}
     });
     addEventListener('storage', event => {
-      if (event.key === 'wulai-blog-theme-apple-v1') applyTheme(event.newValue);
+      if (event.key === 'wulai-blog-theme-glass-v1') applyTheme(event.newValue);
     });
   }
   const tools = document.querySelector('.archive-tools');

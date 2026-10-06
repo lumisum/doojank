@@ -1,4 +1,4 @@
-/* The original blue design remains intact; light is the default blog edition. */
+/* The original blue design remains intact; light remains an optional blog edition. */
 .blog-theme-toggle{display:grid;place-items:center;flex-shrink:0;width:36px;height:36px;padding:0;border:1px solid var(--line);border-radius:50%;background:transparent;color:var(--ink);cursor:pointer;transition:background .2s,border-color .2s}
 .blog-theme-toggle:hover{background:var(--stone);border-color:var(--blue)}
 .blog-theme-toggle .ui-icon{width:18px;height:18px;stroke-width:1.6}
