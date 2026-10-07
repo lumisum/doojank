@@ -17,7 +17,7 @@ reading_minutes: 11
 
 There is an old Chinese saying: **“When a person is near death, their words are kind.”** I have been wondering why this might be true. Why do people approaching the end of life often speak more gently, more honestly, sometimes with unexpected clarity? What have they understood in that moment? Increasingly, I think death may not suddenly make someone kinder. Perhaps, at that point, they no longer need to keep “managing themselves.”
 
-## 1. Why do we manage ourselves?
+## Roles Connect Us
 
 In ordinary life, we assume we have a long future ahead. There will be another year, another decade. So we continually manage ourselves: our work, relationships, income, social standing, other people's opinions, and the “self” we hold in our own minds.
 
@@ -27,7 +27,7 @@ Everyone therefore wears many masks. But a mask here does not mean dishonesty. I
 
 Parenthood connects you to your child. Management connects you to your team. Employment connects you to an organization. Being a creator connects you to an audience. Friendship connects you to another relationship. Different relationships need different interfaces. This is a practical requirement of social life, not hypocrisy. Unless we live entirely alone, roles are almost unavoidable.
 
-## 2. The problem begins when we forget a mask is a mask
+## A Role Is Not the Self
 
 Having roles is not the real problem. Wearing them long enough, we begin to mistake them for ourselves. After ten years in charge, someone starts to think, **“I am the leader.”** After making a great deal of money: **“My wealth is my worth.”** After career success: **“Success is who I am.”** A father places all his attention on his child, until the child's failure becomes **“I have failed.”**
 
@@ -35,7 +35,7 @@ A role begins as an interface with the world and becomes internalized as “me.�
 
 It is not the role itself that causes this suffering. The underlying problem is that **we have forgotten a role is only a role.**
 
-## 3. Why might death make us more honest?
+## Why Honesty Near Death?
 
 Return to the saying about kind words near death, and it becomes intriguing. Death abruptly ends the need to keep managing ourselves. Suppose someone knows they have one hour left. What remains to manage? Does their position still matter? Next year's promotion? Other people's opinions? Must they keep fighting for something they have contested for ten years? How much reason remains to hate someone they have refused to forgive for decades?
 
@@ -43,7 +43,7 @@ There is no future left. Many behaviors built around that future suddenly lose t
 
 Why do people ordinarily disguise what they think or feel? Often because there is still a future to manage. As that future approaches zero, the payoff from pretending approaches zero too. I am tempted to extend the saying: **“When a person is near death, their words are kind—and true.”** They may not have become a saint. They may simply have fewer reasons to keep pretending. Death brings a person from managing themselves back to seeing themselves.
 
-## 4. Death takes things away
+## The Supports of Identity
 
 There is another interesting feature of the clarity people sometimes experience near death. It often comes without a sudden gain in knowledge. Instead, many things are taken away. For decades we add things to ourselves: my job, my identity, my income, my house, my reputation, my relationships, my opinions, my abilities, my plans, my future. Through countless instances of “mine,” we reinforce a sense of “me.”
 
@@ -51,13 +51,13 @@ With death, these things begin to lose their function. We cannot take a position
 
 That does not mean everyone gains wisdom before dying. Some remain afraid, angry, or unwilling to let go. Death does not automatically bring a genuine realization of not-self. But it does something remarkably thorough: **it rapidly dismantles the supports we have spent a lifetime using to maintain “me.”** That raises a question. If these things eventually fall away, why must we wait until the final moment?
 
-## 5. Can we recognize the mask while we are still alive?
+## Why Wait Until the End?
 
 This may be where practice becomes truly meaningful. Practice does not require us to withdraw from society, do nothing, or live without desire, a career, a family, or competition. Such an interpretation can easily turn practice into escape. Someone living in the real world needs roles, and should fulfill them well. Be a good father. Take responsibility as a manager. Create seriously. Even an ordinary employee should meet the responsibilities of their position.
 
 The question is therefore not **“Should I enter the role?”** It is **“Once inside, can I step out again?”** This brings a phrase to mind: **life is a play.** But not the kind of play we usually mean.
 
-## 6. Life is a play, without pretending
+## Commit Without Pretending
 
 Calling someone an actor in everyday life usually implies something negative: dishonesty, putting on a show, thinking one thing while displaying another. That is not what I mean here. A good performance should be deeply real. An actor entering a role must enter that world: cry when it calls for tears, feel anger, love, and pain. Someone constantly reminding themselves, “I'm only acting,” may perform badly precisely for that reason.
 
@@ -67,7 +67,7 @@ This suggests the title: **Life Is a Play. No Acting Required.**
 
 Why no acting? Because no pretense is necessary. You are not pretending to become a father; you are genuinely being one in this moment. You are not pretending to become a manager; you are taking on the responsibilities of that relationship. The role is real. The commitment is real. You simply know that **the role is not your permanent, unchanging identity.**
 
-## 7. Enter fully, leave promptly
+## Enter Fully. Leave Promptly.
 
 Perhaps practice trains two capacities together, rather than teaching us to enter fewer roles: **enter promptly, and leave promptly too.** Commit one hundred percent while in the role. When it ends, step out. Leave the manager at the office when the workday finishes. At home, do not manage your partner and children as if they were employees.
 
@@ -75,7 +75,7 @@ If a project fails, accept that the project failed. Do not extend it into “I a
 
 I increasingly like this simple expression: **inside the role, one hundred percent commitment; outside it, zero attachment.** This may be what makes “life is a play” interesting. You do not have to stand below the stage. You can enter wholeheartedly and take a clear-eyed bow whenever it is time to leave.
 
-## 8. A role is like the raft in the Diamond Sutra
+## Set Down the Raft
 
 Thinking further, I find roles very close to the raft metaphor in the Diamond Sutra. Buddhist scripture uses a raft for crossing a river as an analogy. While you need to cross, the raft matters enormously. Without it, you may not make it. But once across, carrying it on your back turns a tool into a burden. Roles work similarly. **A role is a raft.**
 
@@ -83,19 +83,19 @@ You use the manager's role to achieve an organizational goal during a particular
 
 The difficulty is **reaching the other bank and still carrying the raft.** A project ends, but you keep carrying “I am the person in charge.” You retire for twenty years, but still carry “I used to be a leader.” A child becomes an adult, but you carry “You should do everything I say.” A relationship ends, yet you continue living according to your role within it. The role has lost its original function. It no longer serves as an interface; it becomes a fixation. In this sense, **entering the role means boarding the raft; leaving means setting it down.** Practice does not mean refusing to board. It means knowing when to put the raft down after crossing.
 
-## 9. Death is the final compulsory exit
+## Death Ends Every Role
 
 Return to death, and the thought comes full circle. Death is life's final and most complete compulsory exit from its roles. Over a lifetime, we may be children, students, employees, leaders, husbands, wives, fathers, mothers, rich, poor, successful, unsuccessful, experts, or ordinary people.
 
 When death arrives, every role ultimately takes its final bow. It does not ask whether you want to keep performing. It simply says, **“This performance is over.”** Perhaps the clarity death sometimes brings comes from all these roles losing their function together for the first time. You no longer need to maintain any of them. The person long enclosed by roles briefly sees themselves. This may also explain why speech sometimes becomes more truthful near death. The last scene is here. The audience is leaving. The stage lights are going out. There is no longer a need to maintain a persona.
 
-## 10. Practice need not wait for the final curtain
+## Practice Letting Go Now
 
 I increasingly see an interesting relationship between death and practice. **Death forces an exit at the final moment. Practice teaches us to leave freely while we are alive.** It does not ask us to reject roles. It asks us to recognize that roles are necessary in real life but never constitute our whole existence. Enter seriously when needed, and leave when no longer needed. Work hard, compete, accept responsibility, and express yourself when appropriate. But do not weld any win, loss, identity, or role permanently to “me.”
 
 Such a person may live more fully, rather than less. Without constantly spending part of their attention protecting a fragile self-image, they can give more attention to what they are doing. A person practicing need not be a spectator of life. They may be an excellent actor: entering more deeply than many people, yet leaving more promptly. Knowing that a scene will end gives them reason to take it seriously, rather than treat it carelessly. Knowing a flower will fade does not stop us from looking. It may make us look more closely.
 
-## 11. Life is a play. No acting required.
+## Freedom Within the Role
 
 I find myself drawn to this paradoxical title: **Life Is a Play. No Acting Required.** Life does resemble a play. Yet the best way to live it involves neither putting on a show nor deception. When a role needs you, genuinely become that role. When it is time to leave, set it down. A role is an interface connecting you to the world. It is not your defining identity; it is a raft. While crossing, paddle well. Once ashore, put it down.
 
