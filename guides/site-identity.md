@@ -48,3 +48,7 @@ Create a square editorial portrait illustration for a philosophical personal jou
 
 Create a fine-art editorial image for the about section of DooJank ('a traveler crossing the river'), a personal philosophy and life journal. View from a high aerial TOP-DOWN perspective over a broad calm slate-blue river. A single small wooden ferry carrying one anonymous cloaked traveler is crossing diagonally from lower left toward upper right. Its restrained golden lantern makes a tiny warm mark and a faint elegant wake. Misty limestone islands and riverbanks form an organic imperfect circular opening around the boat, suggesting a wider view, a crossing, and room for questions. A small late-day golden reflection brushes the water on one side, atmospheric pearl fog, muted ink navy, soft river grey, ochre warmth. Thoughtful quiet photographic realism with subtle painterly grain, high-end literary magazine, no fantasy structures, no futuristic elements. Vertical 4:5 composition, beautiful negative space and tactile natural water. NO words, NO letters, NO logos, NO watermark.
 
+
+## 首页图片加载
+
+首页文章与经典封面采用从现有原图等比缩小的WebP缩略图，按语言保留画面对应关系，不修改或覆盖原图。映射记录在 `_data/doojank_covers.json`，未收录的新文章自动回退到原封面。经典阅读页和文章内部仍使用原始高质量图片。
