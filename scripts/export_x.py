@@ -158,10 +158,10 @@ document.getElementById('copy-title').addEventListener('click', () => copyArticl
 """
 
 
-def export(slug: str) -> None:
+def export(slug: str, source_path: Path | None = None) -> None:
     if Path(slug).name != slug:
         raise ValueError("Provide an article directory name, not a path.")
-    source = ROOT / "en" / "articles" / slug / "index.md"
+    source = source_path or ROOT / "en" / "articles" / slug / "index.md"
     metadata, body = parse_frontmatter(source.read_text(encoding="utf-8"))
     if metadata.get("lang") != "en":
         raise ValueError("X exports require the English edition.")
@@ -191,7 +191,9 @@ def export(slug: str) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("slug", help="Article directory name, e.g. YYYY-MM-DD-short-title")
-    export(parser.parse_args().slug)
+    parser.add_argument("--source", type=Path, help="Optional English draft source; leaves the published Pages edition intact.")
+    args = parser.parse_args()
+    export(args.slug, args.source)
 
 
 if __name__ == "__main__":
