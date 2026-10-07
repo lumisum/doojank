@@ -2,7 +2,7 @@
 layout: article
 lang: en
 translation_key: 2026-10-07-ai-yu-ziji-de-zhexue
-title: "The Better AI Gets, the Less You Should Outsource Your Life"
+title: "AI Has Started the Engine. Where Are You Taking Your Life?"
 date: "2026-10-07T20:32:16+08:00"
 summary: "AI can expand what you can do. Your philosophy helps you decide what is worth doing, what you will not sacrifice, and when to stop. Delegate more work without delegating your reasons for living."
 status: published

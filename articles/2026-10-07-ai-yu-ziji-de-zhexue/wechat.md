@@ -1,14 +1,14 @@
 <!--
 渡江客微信公众号图文排版稿。封面已置于正文开头；公众号标题和摘要字段可另行填写。
-标题：AI 越强，越别外包你的人生
+标题：AI 已经点火，你的人生往哪开？
 摘要：AI 可以替你寻找路径，却不能替你承担选择。执行越来越容易，什么值得做反而更重要。自己的哲学，是在强大工具面前仍能选择人生的判断系统。
 正文图片和装饰图为网站公开链接；粘贴后请检查图片，必要时在公众号后台重新上传。
 -->
 
-<section id="wechat-body" style="background-color:#FFFCF5;color:#35464E;padding:0 0 28px;font-family:PingFang SC,Microsoft YaHei,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;"><p style="margin:0 0 24px;line-height:0;"><img src="https://lumisum.github.io/doojank/articles/2026-10-07-ai-yu-ziji-de-zhexue/images/cover.png" alt="AI 越强，越别外包你的人生" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
+<section id="wechat-body" style="background-color:#FFFCF5;color:#35464E;padding:0 0 28px;font-family:PingFang SC,Microsoft YaHei,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;"><p style="margin:0 0 24px;line-height:0;"><img src="https://lumisum.github.io/doojank/articles/2026-10-07-ai-yu-ziji-de-zhexue/images/cover.png" alt="AI 已经点火，你的人生往哪开？" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
 <div style="padding:0 24px 8px;">
 <p style="margin:2px 0 12px;color:#687478;font-size:12px;line-height:1.5;letter-spacing:2px;text-align:left;">渡江客 · 个人手记</p>
-<p id="wechat-title" style="margin:0 auto 12px;color:#24343B;font-size:24px;font-weight:700;line-height:1.5;text-align:left;letter-spacing:0.4px;">AI 越强，越别外包你的人生</p>
+<p id="wechat-title" style="margin:0 auto 12px;color:#24343B;font-size:24px;font-weight:700;line-height:1.5;text-align:left;letter-spacing:0.4px;">AI 已经点火，你的人生往哪开？</p>
 <p style="margin:18px 0 26px;padding:14px 16px;background-color:#EFEADF;border-left:2px solid #996B34;color:#687478;font-size:14px;line-height:1.8;text-align:left;">AI 可以替你寻找路径，却不能替你承担选择。执行越来越容易，什么值得做反而更重要。自己的哲学，是在强大工具面前仍能选择人生的判断系统。</p>
 
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">我最近越来越觉得，现在可能正是普通人最应该认真接触哲学的时候。不是因为世界突然变得更文艺了，也不是因为每个人都该研究康德、黑格尔或者佛学，而是因为 AI 太强了。过去需要花很多时间才能完成的事情，如今可能只需要说清需求，再检查和修改结果。执行的门槛正在降低，选择的分量却在上升。</p>

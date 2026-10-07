@@ -1,4 +1,4 @@
-# The Better AI Gets, the Less You Should Outsource Your Life
+# AI Has Started the Engine. Where Are You Taking Your Life?
 
 I increasingly think this may be one of the most practical moments for ordinary people to engage seriously with philosophy. Not because the world has suddenly become more literary, or because everyone needs to study Kant, Hegel, or Buddhism. It is because AI is getting so capable. Work that once required considerable time can sometimes be advanced by explaining a need, then reviewing and improving the result. As execution becomes more accessible, our choices carry more weight.
 

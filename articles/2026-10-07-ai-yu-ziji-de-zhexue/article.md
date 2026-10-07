@@ -2,7 +2,7 @@
 layout: article
 lang: zh-CN
 translation_key: 2026-10-07-ai-yu-ziji-de-zhexue
-title: "AI 越强，越别外包你的人生"
+title: "AI 已经点火，你的人生往哪开？"
 date: "2026-10-07T20:32:16+08:00"
 summary: "AI 可以替你寻找路径，却不能替你承担选择。执行越来越容易，什么值得做反而更重要。自己的哲学，是在强大工具面前仍能选择人生的判断系统。"
 status: published
