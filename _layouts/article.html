@@ -6,7 +6,7 @@ layout: default
 <article class="article-page">
   {% if page.cover %}
   <figure class="article-cover{% if page.cover_ratio == '5:2' %} article-cover-wide{% endif %}">
-    <img src="{{ page.cover | relative_url }}" alt="{{ page.cover_alt | default: page.title | escape }}">
+    <img src="{{ page.cover | relative_url }}" alt="{{ page.cover_alt | default: page.title | escape }}" fetchpriority="high" decoding="async" width="{% if page.cover_ratio == '5:2' %}2000{% else %}1880{% endif %}" height="800">
   </figure>
   {% endif %}
   <div class="article-reader">
@@ -19,18 +19,24 @@ layout: default
       {% if page.summary %}<p class="article-summary">{{ page.summary | escape }}</p>{% endif %}
       {% if page.date %}<p class="article-meta"><time datetime="{{ page.date | date_to_xmlschema }}">{% if current_lang == 'en' %}{{ page.date | date: '%B %d, %Y' }}{% else %}{{ page.date | date: '%Y年%m月%d日' }}{% endif %}</time><span aria-hidden="true">·</span><span>{{ b.name }} · {{ b.essays }}</span>{% if page.reading_minutes %}<span aria-hidden="true">·</span><span>{{ t.t111 }}{{ page.reading_minutes }} {{ t.t110 }}</span>{% endif %}</p>{% endif %}
     </header>
-    {% if page.longform %}
     <details class="article-toc" hidden>
-      <summary><svg class="ui-icon" aria-hidden="true"><use href="#icon-sutra"></use></svg>{{ t.t109 }} <span>{{ t.t105 }}</span></summary>
-      <nav aria-label="{{ t.t107 }}"><ol></ol></nav>
+      <summary><span>{{ b.contents }}</span><span class="toc-count"></span><span class="toc-chevron" aria-hidden="true">⌄</span></summary>
+      <nav aria-label="{{ b.contents }}"><ol></ol></nav>
     </details>
-    {% endif %}
     <div class="article-content">{% if page.longform %}{{ content | replace: '<img ', '<img loading="lazy" decoding="async" ' }}{% else %}{{ content }}{% endif %}</div>
     <footer class="article-end">
       <span class="article-end-mark" aria-hidden="true"><svg class="ui-icon"><use href="#icon-ferry"></use></svg></span>
       <p>{{ b.end }}</p>
       <a href="{{ home_path | relative_url }}#articles">{{ b.explore }} <span aria-hidden="true">↗</span></a>
     </footer>
+    {% assign journal = site.pages | where: 'layout', 'article' | where: 'status', 'published' | where: 'lang', current_lang | sort: 'date' | reverse %}
+    {% for entry in journal %}{% if entry.translation_key == page.translation_key %}{% assign current_index = forloop.index0 %}{% break %}{% endif %}{% endfor %}
+    {% assign older_index = current_index | plus: 1 %}{% assign older = journal[older_index] %}
+    {% assign newer = nil %}{% if current_index > 0 %}{% assign newer_index = current_index | minus: 1 %}{% assign newer = journal[newer_index] %}{% endif %}
+    {% if newer or older %}<nav class="article-journey" aria-label="{{ b.next_journey }}"><p class="blog-eyebrow">{{ b.next_journey }}</p><div class="journey-grid">
+      {% if newer %}<a href="{{ newer.url | relative_url }}"><img src="{{ site.data.doojank_covers[newer.translation_key][current_lang] | default: newer.cover | relative_url }}" alt="" loading="lazy" width="180" height="80"><span><small>{{ b.newer }}</small><strong>{{ newer.title | escape }}</strong></span><span aria-hidden="true">↗</span></a>{% endif %}
+      {% if older %}<a href="{{ older.url | relative_url }}"><img src="{{ site.data.doojank_covers[older.translation_key][current_lang] | default: older.cover | relative_url }}" alt="" loading="lazy" width="180" height="80"><span><small>{{ b.older }}</small><strong>{{ older.title | escape }}</strong></span><span aria-hidden="true">↗</span></a>{% endif %}
+    </div></nav>{% endif %}
   </div>
 </article>
-{% if page.longform %}<script defer src="{{ '/assets/js/article-reader.js' | relative_url }}"></script>{% endif %}
+<script defer src="{{ '/assets/js/article-reader.js' | relative_url }}"></script>

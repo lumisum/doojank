@@ -3,7 +3,7 @@
 {% assign language_prefix = '' %}{% if current_lang == 'en' %}{% assign language_prefix = '/en' %}{% endif %}
 {% assign all_articles = site.pages | where: 'layout', 'article' | where: 'status', 'published' | where: 'lang', current_lang | sort: 'date' | reverse %}
 <section class="river-hero" aria-labelledby="river-title">
-  <img class="river-art" src="{{ '/assets/doojank/river-hero.webp' | relative_url }}" alt="{{ b.art_alt }}" fetchpriority="high" width="2400" height="800">
+  <img class="river-art" src="{{ '/assets/doojank/river-hero.webp' | relative_url }}" alt="{{ b.art_alt }}" fetchpriority="high" width="2160" height="720">
   <div class="river-hero-inner"><div class="river-title-block"><p class="blog-eyebrow">{{ b.tagline }}</p><h1 id="river-title">{{ b.name }}</h1><p class="river-subname">{{ b.subname }}</p><p class="river-motto">{{ b.hero }}</p><a class="river-link" href="#articles">{{ b.explore }} <span aria-hidden="true">↘</span></a></div></div>
   <span class="river-caption">{{ b.crossing }}</span>
 </section>
@@ -22,7 +22,7 @@
   <div class="exhibit-grid" id="essay-grid">
     {% for article in all_articles %}<a class="exhibit-card" href="{{ article.url | relative_url }}" data-search="{{ article.title | append: ' ' | append: article.summary | escape }}">
       <div class="exhibit-image{% if article.cover_ratio == '5:2' %} exhibit-wide{% endif %}"><img src="{{ site.data.doojank_covers[article.translation_key][current_lang] | default: article.cover | relative_url }}" alt="{{ article.cover_alt | default: article.title | escape }}" loading="lazy"><span class="exhibit-open" aria-hidden="true">↗</span></div>
-      <div class="exhibit-copy"><div class="exhibit-meta"><span>{% if forloop.first %}{{ b.latest }}{% else %}{{ b.essays }}{% endif %}</span><time datetime="{{ article.date | date_to_xmlschema }}">{% if current_lang == 'en' %}{{ article.date | date: '%b %d, %Y' }}{% else %}{{ article.date | date: '%Y.%m.%d' }}{% endif %}</time></div><h3>{{ article.title | escape }}</h3><p>{{ article.summary | escape }}</p><span class="exhibit-read">{{ b.read }} <span aria-hidden="true">→</span></span></div>
+      <div class="exhibit-copy"><div class="exhibit-meta"><span>{% if forloop.first %}{{ b.latest }}{% elsif article.reading_minutes %}{{ article.reading_minutes }} {{ b.read_time }}{% else %}{{ b.essays }}{% endif %}</span><time datetime="{{ article.date | date_to_xmlschema }}">{% if current_lang == 'en' %}{{ article.date | date: '%b %d, %Y' }}{% else %}{{ article.date | date: '%Y.%m.%d' }}{% endif %}</time></div><h3>{{ article.title | escape }}</h3><p>{{ article.summary | escape }}</p><span class="exhibit-read">{{ b.read }} <span aria-hidden="true">→</span></span></div>
     </a>{% endfor %}
   </div><p class="search-empty" hidden role="status">{{ b.empty }}</p>
 </section>

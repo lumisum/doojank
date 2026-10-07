@@ -44,7 +44,13 @@
     "colophon": "一份仍在生长的个人手记。",
     "avatar_alt": "披着斗篷的旅人提灯立于木舟，望向夕照中的江面。",
     "perspective_alt": "从高处俯瞰，一叶小舟穿过薄雾与河岸围出的开阔水面。",
-    "image_note": "退开一点，看见更多。"
+    "image_note": "退开一点，看见更多。",
+    "contents": "本文脉络",
+    "chapter_count": "节",
+    "next_journey": "继续这一程",
+    "newer": "较新手记",
+    "older": "更早手记",
+    "read_time": "分钟阅读"
   },
   "en": {
     "name": "DooJank",
@@ -91,6 +97,12 @@
     "colophon": "A personal journal, still becoming.",
     "avatar_alt": "A cloaked traveler with a lantern, aboard a wooden ferry at sunset.",
     "perspective_alt": "Seen from above, a small ferry passes through an opening between misty riverbanks.",
-    "image_note": "A little distance. A wider view."
+    "image_note": "A little distance. A wider view.",
+    "contents": "In this essay",
+    "chapter_count": "sections",
+    "next_journey": "Continue the journey",
+    "newer": "Newer essay",
+    "older": "Earlier essay",
+    "read_time": "min read"
   }
 }
