@@ -49,6 +49,7 @@ DooJank takes its name from 渡江客—a traveler crossing a river. I write fro
 
 | 日期 | 文章 |
 | --- | --- |
+| 2026.10.07 | [AI 越强，越别外包你的人生](https://lumisum.github.io/doojank/articles/2026-10-07-ai-yu-ziji-de-zhexue/) · [English](https://lumisum.github.io/doojank/en/articles/2026-10-07-ai-yu-ziji-de-zhexue/) |
 | 2026.10.07 | [人生如戏，零演技](https://lumisum.github.io/doojank/articles/2026-10-07-rensheng-ruxi/) · [English](https://lumisum.github.io/doojank/en/articles/2026-10-07-rensheng-ruxi/) |
 | 2026.10.06 | [假期的聚会与分离，让我明白空亦是空](https://lumisum.github.io/doojank/articles/2026-10-06-jiaqi-juhe-yu-fenli/) · [English](https://lumisum.github.io/doojank/en/articles/2026-10-06-jiaqi-juhe-yu-fenli/) |
 | 2026.10.05 | [我们从AI走到了SI](https://lumisum.github.io/doojank/articles/2026-10-05-ai-to-si/) · [English](https://lumisum.github.io/doojank/en/articles/2026-10-05-ai-to-si/) |

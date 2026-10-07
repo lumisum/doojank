@@ -4,6 +4,7 @@
 
 | 日期 | 文章 | 原文 Markdown | 公众号 HTML | 排版 Markdown | X 英文复制稿 |
 | --- | --- | --- | --- | --- | --- |
+| 2026-10-07 | AI 越强，越别外包你的人生 | [article.md](2026-10-07-ai-yu-ziji-de-zhexue/article.md) | [wechat.html](2026-10-07-ai-yu-ziji-de-zhexue/wechat.html) | [wechat.md](2026-10-07-ai-yu-ziji-de-zhexue/wechat.md) | [x.html](2026-10-07-ai-yu-ziji-de-zhexue/x.html) · [x.md](2026-10-07-ai-yu-ziji-de-zhexue/x.md) |
 | 2026-10-07 | 人生如戏，零演技 | [article.md](2026-10-07-rensheng-ruxi/article.md) | [wechat.html](2026-10-07-rensheng-ruxi/wechat.html) | [wechat.md](2026-10-07-rensheng-ruxi/wechat.md) | [x.html](2026-10-07-rensheng-ruxi/x.html) · [x.md](2026-10-07-rensheng-ruxi/x.md) |
 | 2026-10-06 | 假期的聚会与分离，让我明白空亦是空 | [article.md](2026-10-06-jiaqi-juhe-yu-fenli/article.md) | [wechat.html](2026-10-06-jiaqi-juhe-yu-fenli/wechat.html) | [wechat.md](2026-10-06-jiaqi-juhe-yu-fenli/wechat.md) | [x.html](2026-10-06-jiaqi-juhe-yu-fenli/x.html) · [x.md](2026-10-06-jiaqi-juhe-yu-fenli/x.md) |
 | 2026-10-05 | 我们从AI走到了SI | [2026-10-05-ai-to-si/article.md](2026-10-05-ai-to-si/article.md) | [2026-10-05-ai-to-si/wechat.html](2026-10-05-ai-to-si/wechat.html) | [2026-10-05-ai-to-si/wechat.md](2026-10-05-ai-to-si/wechat.md) | [x.html](2026-10-05-ai-to-si/x.html) · [x.md](2026-10-05-ai-to-si/x.md) |
