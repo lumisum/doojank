@@ -22,7 +22,7 @@ This makes me think of vectors. A vector has direction as well as magnitude. Our
 
 If we head east today, west tomorrow, and north the next day, great effort may leave us with very little net movement. Years of busyness can amount to surprisingly little distance. Different paths, however, can accumulate when they point broadly toward a worthwhile direction. The effect may be hard to see after a year, yet substantial after five or ten.
 
-![Small streams pass through a pine forest and join a river flowing toward the morning light](https://lumisum.github.io/wulai/articles/2026-09-24-musk-de-yuanli/images/01.png)
+![Small streams pass through a pine forest and join a river flowing toward the morning light](https://lumisum.github.io/doojank/articles/2026-09-24-musk-de-yuanli/images/01.png)
 
 *Small streams pass through a pine forest and join a river flowing toward the morning light.*
 
@@ -34,7 +34,7 @@ I developed my own four-part account of moving something forward: understanding,
 
 It is not one of those four steps. Within an aspiration, understanding, judgment, action, and verification can change repeatedly. Old knowledge can be overturned, methods replaced, and action even paused. If our choices still return to the larger aspiration, the new approach is another way of refocusing.
 
-![Different technical prototypes share the same quiet workspace and morning light](https://lumisum.github.io/wulai/articles/2026-09-24-musk-de-yuanli/images/02.png)
+![Different technical prototypes share the same quiet workspace and morning light](https://lumisum.github.io/doojank/articles/2026-09-24-musk-de-yuanli/images/02.png)
 
 *Different technical prototypes share the same quiet workspace and morning light.*
 
@@ -52,7 +52,7 @@ Aspiration changes the alignment among countless actions, rather than the intens
 
 This helps me understand why Buddhist practice can emphasize aspiration while also warning against attachment to outcomes. Not clinging to a result does not mean refusing results. It means returning attention from the distant outcome to today's small vector: is this choice still pointing broadly in that direction?
 
-![A next step on a forest path: aspiration guides, action follows](https://lumisum.github.io/wulai/articles/2026-09-24-musk-de-yuanli/images/03.png)
+![A next step on a forest path: aspiration guides, action follows](https://lumisum.github.io/doojank/articles/2026-09-24-musk-de-yuanli/images/03.png)
 
 *A next step on a forest path: aspiration guides, action follows.*
 

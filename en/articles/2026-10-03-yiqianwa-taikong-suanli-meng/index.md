@@ -26,7 +26,7 @@ The coming weeks are about basic data: how chips withstand launch vibration, rad
 
 The satellite's path was a chain of contributions. Planet built it; SpaceX launched it; the mission carried other payloads. Ground tests, a suitable orbit, and sunlight all mattered. Without any essential link, that launch could not have occurred as it did. “Google's satellite” is the result of many conditions, rather than credit that any one participant can claim alone.
 
-![Remove an essential condition, and this result is no longer there](https://lumisum.github.io/wulai/articles/2026-10-03-yiqianwa-taikong-suanli-meng/images/01.png)
+![Remove an essential condition, and this result is no longer there](https://lumisum.github.io/doojank/articles/2026-10-03-yiqianwa-taikong-suanli-meng/images/01.png)
 
 *Remove an essential condition, and this result is no longer there.*
 
@@ -40,7 +40,7 @@ The other side of the ledger is real too. A vacuum provides no air convection. H
 
 [Google Research's cost model](https://research.google/blog/exploring-a-space-based-scalable-ai-infrastructure-system-design/) suggests that, under an assumed learning curve, launch prices might fall below $200 per kilogram in the mid-2030s, potentially bringing some costs near terrestrial energy costs. This is a conditional forecast, not a settled schedule or a threshold guaranteeing the whole project. Space offers advantages and imposes costs. A small prototype that asks one clear question before all conditions are ready seems the most dependable part of the story.
 
-![The difficulty has changed its face: orbital computation needs heat to leave through radiation](https://lumisum.github.io/wulai/articles/2026-10-03-yiqianwa-taikong-suanli-meng/images/02.png)
+![The difficulty has changed its face: orbital computation needs heat to leave through radiation](https://lumisum.github.io/doojank/articles/2026-10-03-yiqianwa-taikong-suanli-meng/images/02.png)
 
 *The difficulty has changed its face: orbital computation needs heat to leave through radiation.*
 
@@ -54,7 +54,7 @@ At present this is a small seed: an experimental investment in a possibility sti
 
 Launch services, satellite manufacturing, and computing hardware also come from different parts of the chain. Cooperation may change as the technology develops. A working arrangement today does not establish permanently aligned interests. Commercial relationships have stages and conditions too.
 
-![Look where the money goes: today's investment reveals the scale of the commitment](https://lumisum.github.io/wulai/articles/2026-10-03-yiqianwa-taikong-suanli-meng/images/03.png)
+![Look where the money goes: today's investment reveals the scale of the commitment](https://lumisum.github.io/doojank/articles/2026-10-03-yiqianwa-taikong-suanli-meng/images/03.png)
 
 *Look where the money goes: today's investment reveals the scale of the commitment.*
 

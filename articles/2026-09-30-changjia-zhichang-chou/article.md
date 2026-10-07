@@ -25,7 +25,7 @@ cover_alt: "青松庭院里，职场人放下公文包，走向暖光；两行�
 
 上班为了赚钱，没有什么不好意思承认的。让我难受的，是我把尚未约定的回报，在心里提前变成了一笔应收款。我觉得公司欠了我，公司却未必知道这笔账。
 
-![图片文字“功劳可以记，心不必背”，职场人坐在深松绿书桌前，凝视手边的笔记本](https://lumisum.github.io/wulai/articles/2026-09-30-changjia-zhichang-chou/images/01.png)
+![图片文字“功劳可以记，心不必背”，职场人坐在深松绿书桌前，凝视手边的笔记本](https://lumisum.github.io/doojank/articles/2026-09-30-changjia-zhichang-chou/images/01.png)
 
 职场里还有一个熟悉的现象。大家只讨论实际工作时，问题怎么解决，任务怎么推进，人往往挺投入，同事之间也容易合作得融洽。
 
@@ -57,7 +57,7 @@ cover_alt: "青松庭院里，职场人放下公文包，走向暖光；两行�
 
 这也是“不要把工作情绪带回家”对我的提醒：公司的判断，管不到我整个生活；在公司没得到的认可，也不能转头向家人索取补偿。
 
-![图片文字“工作归工作，生活归生活”，归家的人把公文包留在玄关，与家人围坐暖光中的餐桌](https://lumisum.github.io/wulai/articles/2026-09-30-changjia-zhichang-chou/images/02.png)
+![图片文字“工作归工作，生活归生活”，归家的人把公文包留在玄关，与家人围坐暖光中的餐桌](https://lumisum.github.io/doojank/articles/2026-09-30-changjia-zhichang-chou/images/02.png)
 
 我愿意把“法自然”用在这里：进入哪一种关系，就依照那种关系的实际条件行事。上班时承担岗位职责，离开岗位后退出职场中的计较。工作的事在工作关系里处理，家庭生活依照家庭的道展开。
 
@@ -77,7 +77,7 @@ cover_alt: "青松庭院里，职场人放下公文包，走向暖光；两行�
 
 心不被功劳、认可和回报困住，便是我在这些生活场景里理解的“无所住”；仍然认真做事、关心他人、承担责任、作出选择，便是我对“生其心”的体会。
 
-![图片文字“心能放下，事仍做得起来”，清晨窗前的人安静翻开书，松枝与暖光映入室内](https://lumisum.github.io/wulai/articles/2026-09-30-changjia-zhichang-chou/images/03.png)
+![图片文字“心能放下，事仍做得起来”，清晨窗前的人安静翻开书，松枝与暖光映入室内](https://lumisum.github.io/doojank/articles/2026-09-30-changjia-zhichang-chou/images/03.png)
 
 “有我罪即生，亡功福无比”，照见了付出之后的执着；“应无所住而生其心”，又让放下执着的心，继续有所作为。于我而言，这正是佛法最打动人的精髓：**心能放下，事仍做得起来。**
 
@@ -85,4 +85,4 @@ cover_alt: "青松庭院里，职场人放下公文包，走向暖光；两行�
 
 ---
 
-经文出处：[《六祖坛经·机缘品第七》](https://lumisum.github.io/wulai/classics/platform-sutra/)（宗宝本作“亡功”）；[《金刚经》](https://lumisum.github.io/wulai/classics/diamond-sutra/)。“道法自然”出自《道德经》第二十五章，此处是我借来观照工作与生活的个人体会。
+经文出处：[《六祖坛经·机缘品第七》](https://lumisum.github.io/doojank/classics/platform-sutra/)（宗宝本作“亡功”）；[《金刚经》](https://lumisum.github.io/doojank/classics/diamond-sutra/)。“道法自然”出自《道德经》第二十五章，此处是我借来观照工作与生活的个人体会。

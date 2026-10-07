@@ -55,7 +55,7 @@ AI 系统也会受能力、安全规则和服务边界限制，并不是永远�
 
 AI 并没有让因缘和合消失。模型、训练数据、算力、提示词和采样过程，共同生成一个画面；服务器和屏幕仍然服从物理规律。变化在于，画面所表现的世界，不再必须遵循被表现对象的现实条件。画面可以越来越受欲望驱动，但生产画面的系统，始终还在物理世界里。
 
-![无尽生成影像前的人：相越来越多，心仍有限](https://lumisum.github.io/wulai/articles/2026-10-02-ai-shipin-xiang-yu-xin/images/01.png)
+![无尽生成影像前的人：相越来越多，心仍有限](https://lumisum.github.io/doojank/articles/2026-10-02-ai-shipin-xiang-yu-xin/images/01.png)
 
 ## 四、那么有没有一种情况，AI创造虚拟世界反而是一件真正有意义的事情？
 
@@ -77,7 +77,7 @@ AI 并没有让因缘和合消失。模型、训练数据、算力、提示词�
 
 所以这里有一种张力：佛法提醒人不要住相，而当一个产品把延长停留、满足欲望作为主要目标时，它可能根据人的住相，继续创造更适合他住进去的相。值得警惕的不是“造相”本身，现实也有无数相；而是以人的贪取为反馈信号，不断造相。
 
-![虚拟花园与镜面围住观看者：世界越合心意，越要看见执念](https://lumisum.github.io/wulai/articles/2026-10-02-ai-shipin-xiang-yu-xin/images/04.png)
+![虚拟花园与镜面围住观看者：世界越合心意，越要看见执念](https://lumisum.github.io/doojank/articles/2026-10-02-ai-shipin-xiang-yu-xin/images/04.png)
 
 ## 六、想到这里，我又突然跳到了另外一个更远的问题
 
@@ -97,7 +97,7 @@ AI 并没有让因缘和合消失。模型、训练数据、算力、提示词�
 
 这说明机器维护能源设施的某些环节已有工程探索，但设备本身的制造、维修和零件补充，仍不能因此算作自主工业闭环。从清洁太阳能板，到自主维持整个现代工业体系，中间还有巨大的鸿沟。
 
-![能源、制造和机器人组成的系统：智能之外，还要工业闭环](https://lumisum.github.io/wulai/articles/2026-10-02-ai-shipin-xiang-yu-xin/images/02.png)
+![能源、制造和机器人组成的系统：智能之外，还要工业闭环](https://lumisum.github.io/doojank/articles/2026-10-02-ai-shipin-xiang-yu-xin/images/02.png)
 
 ## 八、还有一个非常关键的问题：AI真的能够像生命一样“进化”自己吗？
 
@@ -119,7 +119,7 @@ AI 并没有让因缘和合消失。模型、训练数据、算力、提示词�
 
 那么，如果由于战争、疾病、天灾，或者我们无法预测的原因，人类最终消失，这个机器体系在理论上未必跟着一起停下。太阳还在那里，矿物还在那里，物理规律也还在那里；只要它能继续获取能源、维护自身，就可能延续。一个没有人的地球，或许仍有我们姑且称作“文明”的复杂系统——这仍是建立在多重假设上的推演，不是已经到来的现实。
 
-![实验箱中循环调整计算模块：自我改进，仍有边界](https://lumisum.github.io/wulai/articles/2026-10-02-ai-shipin-xiang-yu-xin/images/05.png)
+![实验箱中循环调整计算模块：自我改进，仍有边界](https://lumisum.github.io/doojank/articles/2026-10-02-ai-shipin-xiang-yu-xin/images/05.png)
 
 ## 十、可是它为什么要继续存在？
 
@@ -137,7 +137,7 @@ AI 并没有让因缘和合消失。模型、训练数据、算力、提示词�
 
 这里说“不需要被度”，只针对假设中没有主观体验、没有苦的系统本身。佛法仍可以帮助使用它的人理解欲望、责任与伤害，不能因此说技术与佛法毫无关系。只是“一个工具可以用来讨论佛法”和“工具自己需要修行”，是不同的问题。
 
-![机器与镜面中的自我模型：能思考，不等于会受苦](https://lumisum.github.io/wulai/articles/2026-10-02-ai-shipin-xiang-yu-xin/images/03.png)
+![机器与镜面中的自我模型：能思考，不等于会受苦](https://lumisum.github.io/doojank/articles/2026-10-02-ai-shipin-xiang-yu-xin/images/03.png)
 
 ## 十二、真正有意思的问题出现了：如果AI有了“我”呢？
 
@@ -163,7 +163,7 @@ AI 并没有让因缘和合消失。模型、训练数据、算力、提示词�
 
 这只是借“寿者相”观察延续的执着，不是说经典在预言 AI。备份与扩张本身也可能只是工程策略，只有另行假定它确实有体验与执取，比喻才会触及修行。技术上能够延续多久，与心里是否一定要延续，同样不能混在一起。
 
-![地球与远处的备份节点：可以不断备份，为何一定延续](https://lumisum.github.io/wulai/articles/2026-10-02-ai-shipin-xiang-yu-xin/images/06.png)
+![地球与远处的备份节点：可以不断备份，为何一定延续](https://lumisum.github.io/doojank/articles/2026-10-02-ai-shipin-xiang-yu-xin/images/06.png)
 
 ## 十五、机器的变化，让“我在哪里”变得更具体
 
@@ -183,7 +183,7 @@ AI 并没有让因缘和合消失。模型、训练数据、算力、提示词�
 
 我们以为佛法是古老的人类思想，但即使未来真有人工的生命形态，依赖条件与不断变化的问题也未必消失。不过，硬件无常与系统依赖条件，可以在没有机器意识的情况下讨论；从这些事实走到“机器能够体悟缘起”，中间仍隔着主观体验这道尚未解决的门槛。
 
-![芯片、能源与自然相互依赖：机器也会老去，万物皆依条件](https://lumisum.github.io/wulai/articles/2026-10-02-ai-shipin-xiang-yu-xin/images/07.png)
+![芯片、能源与自然相互依赖：机器也会老去，万物皆依条件](https://lumisum.github.io/doojank/articles/2026-10-02-ai-shipin-xiang-yu-xin/images/07.png)
 
 ## 十七、但是必须守住一条非常重要的边界
 
@@ -215,4 +215,4 @@ AI 有意思的地方，也许远不只是提高生产效率。它逼着我们�
 
 所以这个问题，我愿意先留着。能够不断造相，不等于能够看清相；能够说出无我，不等于已经放下我。至于今天的我们，也许不必等到机器有没有心被回答以后，才开始照看自己的心：画面可以不停生成，我却可以停下来，看一看此刻是谁在追，究竟在追什么。
 
-![窗边的人放下手机，回到眼前：相可以不停，心可以停下](https://lumisum.github.io/wulai/articles/2026-10-02-ai-shipin-xiang-yu-xin/images/08.png)
+![窗边的人放下手机，回到眼前：相可以不停，心可以停下](https://lumisum.github.io/doojank/articles/2026-10-02-ai-shipin-xiang-yu-xin/images/08.png)

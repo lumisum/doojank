@@ -18,7 +18,7 @@ My child's first response was to find a similar project online and redraw it alm
 
 Eventually I understood that the issue was not drawing skill or the mere use of a reference. The child had bypassed almost everything that made the task valuable. The task was completed without really being entered into.
 
-![Copying accurately is not the same as understanding: a child pauses before a book and blank page](https://lumisum.github.io/wulai/articles/2026-09-29-fufa-zhuanzhu-dangxia/images/01.png)
+![Copying accurately is not the same as understanding: a child pauses before a book and blank page](https://lumisum.github.io/doojank/articles/2026-09-29-fufa-zhuanzhu-dangxia/images/01.png)
 
 *Copying accurately is not the same as understanding: a child pauses before a book and blank page.*
 
@@ -36,7 +36,7 @@ My child's project is a small example. Reading some Lu Xun carefully, noticing m
 
 More importantly, the process trains reading, understanding, judgment, expression, and concentration. Those abilities do not disappear when the assignment is handed in. They remain available for the next text, essay, exam, or unfamiliar problem.
 
-![Each step becomes a cause: a child reads and writes attentively beside a new shoot](https://lumisum.github.io/wulai/articles/2026-09-29-fufa-zhuanzhu-dangxia/images/02.png)
+![Each step becomes a cause: a child reads and writes attentively beside a new shoot](https://lumisum.github.io/doojank/articles/2026-09-29-fufa-zhuanzhu-dangxia/images/02.png)
 
 *Each step becomes a cause: a child reads and writes attentively beside a new shoot.*
 
@@ -56,7 +56,7 @@ Buddhist practice does not ask us to stop trying or pretend results are irreleva
 
 Give the task your care, then meet the result. Not clinging to an outcome can return energy from worrying about it to the work itself.
 
-![Give the task your care; allow the result its conditions: parent and child work quietly together](https://lumisum.github.io/wulai/articles/2026-09-29-fufa-zhuanzhu-dangxia/images/03.png)
+![Give the task your care; allow the result its conditions: parent and child work quietly together](https://lumisum.github.io/doojank/articles/2026-09-29-fufa-zhuanzhu-dangxia/images/03.png)
 
 *Give the task your care; allow the result its conditions: parent and child work quietly together.*
 

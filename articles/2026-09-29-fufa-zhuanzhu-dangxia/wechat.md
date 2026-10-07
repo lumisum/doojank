@@ -5,7 +5,7 @@
 正文图片和装饰图为网站公开链接；粘贴后请检查图片，必要时在公众号后台重新上传。
 -->
 
-<section id="wechat-body" style="background-color:#FFFCF5;color:#35464E;padding:0 0 28px;font-family:PingFang SC,Microsoft YaHei,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;"><p style="margin:0 0 24px;line-height:0;"><img src="https://lumisum.github.io/wulai/articles/2026-09-29-fufa-zhuanzhu-dangxia/images/cover.png" alt="傻孩童误把抄袭当捷径 积善果当下步步皆修行。" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
+<section id="wechat-body" style="background-color:#FFFCF5;color:#35464E;padding:0 0 28px;font-family:PingFang SC,Microsoft YaHei,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;"><p style="margin:0 0 24px;line-height:0;"><img src="https://lumisum.github.io/doojank/articles/2026-09-29-fufa-zhuanzhu-dangxia/images/cover.png" alt="傻孩童误把抄袭当捷径 积善果当下步步皆修行。" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
 <div style="padding:0 24px 8px;">
 <p style="margin:2px 0 12px;color:#687478;font-size:12px;line-height:1.5;letter-spacing:2px;text-align:left;">渡江客 · 个人手记</p>
 <p id="wechat-title" style="margin:0 auto 12px;color:#24343B;font-size:24px;font-weight:700;line-height:1.5;text-align:left;letter-spacing:0.4px;">傻孩童误把抄袭当捷径 积善果当下步步皆修行。</p>
@@ -15,7 +15,7 @@
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">但孩子的第一反应很简单。他从网上找了一张类似的作业，然后基本照着那张图重新画了一遍。</p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">作业当然也能交。表面上看，这件事情完成了。但我看着那张画，总觉得哪里不对。</p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">后来我慢慢想明白了：问题其实不在于他画得好不好，也不在于是不是参考了别人，而在于他几乎绕过了这件事情真正有价值的部分。他完成了任务，却没有真正进入这个任务。</p>
-<p style="margin:26px 0;"><img src="https://lumisum.github.io/wulai/articles/2026-09-29-fufa-zhuanzhu-dangxia/images/01.png" alt="图片文字“抄得像，不等于读懂”，孩子面对书本与自己的空白页面，停下来思考" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
+<p style="margin:26px 0;"><img src="https://lumisum.github.io/doojank/articles/2026-09-29-fufa-zhuanzhu-dangxia/images/01.png" alt="图片文字“抄得像，不等于读懂”，孩子面对书本与自己的空白页面，停下来思考" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">这让我又想起《金刚经》第一品。佛陀到了吃饭的时候，著衣持钵，进入舍卫城乞食。乞食回来以后吃饭，收好衣钵，洗足，然后敷座而坐。</p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">这一段看起来实在太普通了。没有讲大道理，没有讲什么玄妙境界，甚至连佛法都还没有正式开始说。但我现在越来越觉得，这种普通，可能恰恰是佛法最容易被忽略的一部分。</p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">吃饭的时候，就把饭吃好；走路的时候，就把路走好；洗足的时候，就把脚洗好。眼前是什么事，心就进入什么事，不急着逃开，也不急着赶到下一件事。这听起来很简单，可真正做到并不容易。</p>
@@ -23,7 +23,7 @@
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">事情虽然一件接一件地完成了，但人的心很少真正进入其中。久而久之，就形成了一种很奇怪的生活方式：每天都很忙，但真正沉淀下来的东西并不多。</p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">孩子的那张《朝花夕拾》作业，其实只是一个很小的例子。如果他愿意真正把这件事情做进去，先认真读一点鲁迅，想一想《朝花夕拾》里哪些人物、哪些故事让自己印象最深，再决定画什么、写什么，那么最后那张图也许未必比网上的模板漂亮，但那会是一张真正属于他的作品。</p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">更重要的是，在这个过程中，他训练的并不只是一次作业。他训练的是阅读、理解、判断、表达和专注。这几种能力不会随着作业交上去以后就消失。下一次读课文的时候还会用到，下一次写作文的时候还会用到，再往后做题、考试、处理问题，也会继续调用。</p>
-<p style="margin:26px 0;"><img src="https://lumisum.github.io/wulai/articles/2026-09-29-fufa-zhuanzhu-dangxia/images/02.png" alt="图片文字“每一步，都是因”，孩子在书桌前专心读写，窗边有一株新芽" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
+<p style="margin:26px 0;"><img src="https://lumisum.github.io/doojank/articles/2026-09-29-fufa-zhuanzhu-dangxia/images/02.png" alt="图片文字“每一步，都是因”，孩子在书桌前专心读写，窗边有一株新芽" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">所以我越来越觉得，一个人真正的“复利”，很多时候并不是多学了一个技巧，而是每一次做事情的时候，都在悄悄塑造下一次做事情的自己。今天认真完成一次阅读，明天理解能力就多了一点；今天认真思考一道题，下一次面对陌生问题时，就多了一点耐心；今天习惯了遇到事情先自己想，而不是先找答案，以后就更容易形成独立判断。</p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">反过来也一样。今天糊弄一次，明天遇到类似问题，还会想怎么最快绕过去。时间长了，“敷衍”也会形成自己的复利。</p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">这其实很像佛法里讲的因果。我们经常把因果想得很远，好像一定要等很久以后才会显现。其实很多因果每天都在发生。你做一件事情的方式，本身就在成为下一件事情的因。</p>
@@ -33,7 +33,7 @@
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">这样的人反而容易平静。因为真正让人焦虑的，很多时候并不是学习本身，而是心总在提前追逐那个还没有到来的结果。怕成绩下降，怕老师批评，怕父母失望，怕以后考不上好学校。结果还没有发生，心已经被未来拉走了。</p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">佛法真正有意思的地方就在这里。它并不是告诉我们不要努力，也不是说结果完全不重要。而是把顺序重新摆正。<strong style="color:#996B34;background-color:#EFEADF;font-weight:700;padding:1px 3px;">先把因做好，再让果自然发生。</strong></p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">做事情的时候尽心，结果来的时候接受。这和“无住”并不矛盾。<strong style="color:#996B34;background-color:#EFEADF;font-weight:700;padding:1px 3px;">不住于结果，不等于不认真做事；恰恰相反，它让一个人可以把原本花在焦虑结果上的精力，重新放回当下。</strong></p>
-<p style="margin:26px 0;"><img src="https://lumisum.github.io/wulai/articles/2026-09-29-fufa-zhuanzhu-dangxia/images/03.png" alt="图片文字“事上尽心，果上随缘”，家长陪孩子安静完成读后感图文" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
+<p style="margin:26px 0;"><img src="https://lumisum.github.io/doojank/articles/2026-09-29-fufa-zhuanzhu-dangxia/images/03.png" alt="图片文字“事上尽心，果上随缘”，家长陪孩子安静完成读后感图文" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">我越来越喜欢一句很简单的理解：<strong style="color:#996B34;background-color:#EFEADF;font-weight:700;padding:1px 3px;">事上尽心，果上随缘。</strong>“随缘”不是敷衍，更不是“差不多就行”。真正的随缘，是该做的事情已经认真做了以后，不再死死抓住结果。孩子认真复习了，考试的时候就认真考；考完以后，九十分也好，八十分也好，再去看哪里还能进步。不是因为一次成绩，就否定自己，也不是因为一次好成绩，就以为从此万事大吉。</p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">这其实是一种非常稳定的学习状态。而这种状态，我觉得比单纯追求高分更珍贵。因为学校阶段最终会结束，可一个人怎样面对眼前的事情，会跟他很多年。</p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">以后进入大学、进入工作、进入家庭，依然如此。认真听一个人说话，认真做一份工作，认真处理一个问题，认真完成一个承诺。</p>

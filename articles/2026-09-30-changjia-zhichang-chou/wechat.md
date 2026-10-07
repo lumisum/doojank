@@ -5,7 +5,7 @@
 正文图片和装饰图为网站公开链接；粘贴后请检查图片，必要时在公众号后台重新上传。
 -->
 
-<section id="wechat-body" style="background-color:#FFFCF5;color:#35464E;padding:0 0 28px;font-family:PingFang SC,Microsoft YaHei,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;"><p style="margin:0 0 24px;line-height:0;"><img src="https://lumisum.github.io/wulai/articles/2026-09-30-changjia-zhichang-chou/images/cover.png" alt="趁长假暂卸一身劳，借佛法照见职场愁" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
+<section id="wechat-body" style="background-color:#FFFCF5;color:#35464E;padding:0 0 28px;font-family:PingFang SC,Microsoft YaHei,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;"><p style="margin:0 0 24px;line-height:0;"><img src="https://lumisum.github.io/doojank/articles/2026-09-30-changjia-zhichang-chou/images/cover.png" alt="趁长假暂卸一身劳，借佛法照见职场愁" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
 <div style="padding:0 24px 8px;">
 <p style="margin:2px 0 12px;color:#687478;font-size:12px;line-height:1.5;letter-spacing:2px;text-align:left;">渡江客 · 个人手记</p>
 <p id="wechat-title" style="margin:0 auto 12px;color:#24343B;font-size:24px;font-weight:700;line-height:1.5;text-align:left;letter-spacing:0.4px;">趁长假暂卸一身劳，借佛法照见职场愁</p>
@@ -18,7 +18,7 @@
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">《坛经》记载，法达诵《法华经》三千部，见六祖时行礼，头却没有落到地上。六祖看出了他的自负，用这两句话点醒他。诵经本是修行，可一旦揣着“我已经诵了三千部”，修行的成果就成了抬高自己的凭据。</p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">我的工资按时发放，待遇稳定，却仍期待多做了一些、做得好了一些，就该再有物质激励。甚至变成：先看到额外回报，才有动力继续投入。自己的动力，就这样握到了别人手里。</p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">上班为了赚钱，没有什么不好意思承认的。让我难受的，是我把尚未约定的回报，在心里提前变成了一笔应收款。我觉得公司欠了我，公司却未必知道这笔账。</p>
-<p style="margin:26px 0;"><img src="https://lumisum.github.io/wulai/articles/2026-09-30-changjia-zhichang-chou/images/01.png" alt="图片文字“功劳可以记，心不必背”，职场人坐在深松绿书桌前，凝视手边的笔记本" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
+<p style="margin:26px 0;"><img src="https://lumisum.github.io/doojank/articles/2026-09-30-changjia-zhichang-chou/images/01.png" alt="图片文字“功劳可以记，心不必背”，职场人坐在深松绿书桌前，凝视手边的笔记本" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">职场里还有一个熟悉的现象。大家只讨论实际工作时，问题怎么解决，任务怎么推进，人往往挺投入，同事之间也容易合作得融洽。</p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">可一旦谈起组织调整、绩效排名、加薪和奖金，烦恼便冒出来了。事情还是那些事情，为什么心情突然变了？</p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">讨论的重心变了。此前，注意力落在事情上；此刻，注意力落在自己的位置上。谁被重视，谁得到更多，我的成绩算不算数，我会不会吃亏？共同处理的问题，变成了彼此比较的依据。</p>
@@ -34,7 +34,7 @@
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">家庭生活则有它自己的道。亲人的感受、彼此的陪伴、日常的安稳，有各自的分量。家人之间的相处，不能套用职场里的绩效尺度；亲情也不该被放进功劳账本，反复计算谁做得更多、谁欠了谁。</p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">两种生态的边界需要分清。工作中的评价、比较和失落，一旦支配家庭里的言语与态度，职场的烦恼就会在家里再生一遍。</p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">这也是“不要把工作情绪带回家”对我的提醒：公司的判断，管不到我整个生活；在公司没得到的认可，也不能转头向家人索取补偿。</p>
-<p style="margin:26px 0;"><img src="https://lumisum.github.io/wulai/articles/2026-09-30-changjia-zhichang-chou/images/02.png" alt="图片文字“工作归工作，生活归生活”，归家的人把公文包留在玄关，与家人围坐暖光中的餐桌" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
+<p style="margin:26px 0;"><img src="https://lumisum.github.io/doojank/articles/2026-09-30-changjia-zhichang-chou/images/02.png" alt="图片文字“工作归工作，生活归生活”，归家的人把公文包留在玄关，与家人围坐暖光中的餐桌" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">我愿意把“法自然”用在这里：进入哪一种关系，就依照那种关系的实际条件行事。上班时承担岗位职责，离开岗位后退出职场中的计较。工作的事在工作关系里处理，家庭生活依照家庭的道展开。</p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">职场的功劳账、评价尺度和情绪，需要与家庭生活明确隔离。当然，失信的承诺、不公平的安排，仍然需要面对和争取。修心让我更清楚地作出选择，少用委屈替代决定。</p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">再往深处看，“有我罪即生，亡功福无比”的作用，并不限于职场。凡是涉及付出与回报的生存生态，都能借这两句话，照见一种共同的烦恼。</p>
@@ -44,9 +44,9 @@
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;"><strong style="color:#996B34;background-color:#EFEADF;font-weight:700;padding:1px 3px;">付出有它的价值，回报有它的条件。</strong>把两者看清，才能决定怎样继续参与这段关系。</p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">绕了一圈，最终还是回到《金刚经》里的那句话：“应无所住而生其心。”</p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">心不被功劳、认可和回报困住，便是我在这些生活场景里理解的“无所住”；仍然认真做事、关心他人、承担责任、作出选择，便是我对“生其心”的体会。</p>
-<p style="margin:26px 0;"><img src="https://lumisum.github.io/wulai/articles/2026-09-30-changjia-zhichang-chou/images/03.png" alt="图片文字“心能放下，事仍做得起来”，清晨窗前的人安静翻开书，松枝与暖光映入室内" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
+<p style="margin:26px 0;"><img src="https://lumisum.github.io/doojank/articles/2026-09-30-changjia-zhichang-chou/images/03.png" alt="图片文字“心能放下，事仍做得起来”，清晨窗前的人安静翻开书，松枝与暖光映入室内" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">“有我罪即生，亡功福无比”，照见了付出之后的执着；“应无所住而生其心”，又让放下执着的心，继续有所作为。于我而言，这正是佛法最打动人的精髓：<strong style="color:#996B34;background-color:#EFEADF;font-weight:700;padding:1px 3px;">心能放下，事仍做得起来。</strong></p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">这个长假，身体歇下来，心也可以歇一歇。看看自己还背着哪些功劳，又在等待谁的回音。松开之后，再自在地生起自己的心。</p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">---</p>
-<p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">经文出处：<a href="https://lumisum.github.io/wulai/classics/platform-sutra/" style="color:#996B34;font-weight:700;text-decoration:underline;text-decoration-color:#687478;text-underline-offset:2px;">《六祖坛经·机缘品第七》</a>（宗宝本作“亡功”）；<a href="https://lumisum.github.io/wulai/classics/diamond-sutra/" style="color:#996B34;font-weight:700;text-decoration:underline;text-decoration-color:#687478;text-underline-offset:2px;">《金刚经》</a>。“道法自然”出自《道德经》第二十五章，此处是我借来观照工作与生活的个人体会。</p>
+<p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">经文出处：<a href="https://lumisum.github.io/doojank/classics/platform-sutra/" style="color:#996B34;font-weight:700;text-decoration:underline;text-decoration-color:#687478;text-underline-offset:2px;">《六祖坛经·机缘品第七》</a>（宗宝本作“亡功”）；<a href="https://lumisum.github.io/doojank/classics/diamond-sutra/" style="color:#996B34;font-weight:700;text-decoration:underline;text-decoration-color:#687478;text-underline-offset:2px;">《金刚经》</a>。“道法自然”出自《道德经》第二十五章，此处是我借来观照工作与生活的个人体会。</p>
 <p style="margin:26px 0;border-top:1px solid #DCD6CA;line-height:0;font-size:0;"></p><p style="margin:0 0 8px;color:#687478;font-size:14px;line-height:1.8;text-align:center;">保持好奇，让思考继续。</p><p style="margin:0;color:#B88D52;font-size:12px;letter-spacing:2px;text-align:center;">渡江客 · 个人手记</p></div></section>

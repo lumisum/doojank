@@ -2,7 +2,7 @@ title: DooJank
 description: DooJank — a personal journal on philosophy, attention, and everyday life.
 lang: en
 url: https://lumisum.github.io
-baseurl: /wulai
+baseurl: /doojank
 social_image: /assets/doojank/river-hero.webp
 social_image_alt: A traveler crosses a misty river at sunset — DooJank
 markdown: kramdown

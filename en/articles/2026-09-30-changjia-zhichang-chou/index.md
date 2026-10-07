@@ -24,7 +24,7 @@ My salary arrives regularly and my benefits are stable. Still, I expect extra ma
 
 There is nothing shameful about working for money. What hurts is turning an unagreed reward into an account receivable in my mind. I think the company owes me, though it may know nothing about that debt.
 
-![Record your contribution without carrying it as a burden: a worker examines a notebook](https://lumisum.github.io/wulai/articles/2026-09-30-changjia-zhichang-chou/images/01.png)
+![Record your contribution without carrying it as a burden: a worker examines a notebook](https://lumisum.github.io/doojank/articles/2026-09-30-changjia-zhichang-chou/images/01.png)
 
 *Record your contribution without carrying it as a burden: a worker examines a notebook.*
 
@@ -52,7 +52,7 @@ Family has another way. Feelings, companionship, and everyday stability have the
 
 When rankings, comparisons, and disappointments begin governing how we speak to family, workplace distress is reproduced at home. A company's judgment does not extend over my whole life. Recognition missing at work cannot be extracted as compensation from those close to me.
 
-![Work belongs to work; life belongs to life: a briefcase stays by the door as a family gathers](https://lumisum.github.io/wulai/articles/2026-09-30-changjia-zhichang-chou/images/02.png)
+![Work belongs to work; life belongs to life: a briefcase stays by the door as a family gathers](https://lumisum.github.io/doojank/articles/2026-09-30-changjia-zhichang-chou/images/02.png)
 
 *Work belongs to work; life belongs to life: a briefcase stays by the door as a family gathers.*
 
@@ -70,7 +70,7 @@ Forgetting merit gives me room to loosen that insistence. Returns can be discuss
 
 I return, finally, to the Diamond Sutra's teaching of bringing forth the mind without clinging. In these situations, not being confined by credit, recognition, and reward is how I understand non-clinging. Continuing to act, care, accept responsibility, and choose is how I understand bringing forth the mind.
 
-![The mind can let go while the work continues: a quiet morning by a window and an open book](https://lumisum.github.io/wulai/articles/2026-09-30-changjia-zhichang-chou/images/03.png)
+![The mind can let go while the work continues: a quiet morning by a window and an open book](https://lumisum.github.io/doojank/articles/2026-09-30-changjia-zhichang-chou/images/03.png)
 
 *The mind can let go while the work continues: a quiet morning by a window and an open book.*
 

@@ -10,7 +10,7 @@ from urllib.parse import urljoin
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SITE_BASE = "https://lumisum.github.io/wulai/"
+SITE_BASE = "https://lumisum.github.io/doojank/"
 
 PARAGRAPH_STYLE = (
     "margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;"

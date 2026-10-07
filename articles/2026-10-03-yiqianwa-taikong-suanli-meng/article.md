@@ -25,7 +25,7 @@ cover_alt: "青松绿山野与云海之上，一颗小型卫星展开太阳能�
 
 细看这颗星的来路，颇有意思，并非任何一家单独做成的事。Planet 造星，SpaceX 负责发射，同一任务还搭载了许多其他载荷，再加上地面提前做完的测试、刚好合适的轨道和日照，少了哪一样，2026 年 10 月 1 日都不会有这样一次入轨。所谓“谷歌的卫星”，说到底是一大串条件凑在一起才有的结果，没有哪一环能单独把功劳拿走。
 
-![少了哪一样，都不在那里](https://lumisum.github.io/wulai/articles/2026-10-03-yiqianwa-taikong-suanli-meng/images/01.png)
+![少了哪一样，都不在那里](https://lumisum.github.io/doojank/articles/2026-10-03-yiqianwa-taikong-suanli-meng/images/01.png)
 
 ## 02 地有地的难，天有天的难
 
@@ -35,7 +35,7 @@ cover_alt: "青松绿山野与云海之上，一颗小型卫星展开太阳能�
 
 可是另一面的账同样实在：太空是真空，没有空气对流，芯片产生的热需要先通过导热结构、热管等转移到散热器，再通过热辐射排向太空。阳光充足并不等于持续计算所需的散热能力也充足。辐射会让芯片出错，发射成本更是横在最前面的一道门槛，[谷歌研究团队的成本模型](https://research.google/blog/exploring-a-space-based-scalable-ai-infrastructure-system-design/)提出：若发射价格沿设定的学习曲线下降，到 2030 年代中期可能低于每公斤 200 美元，使部分成本有机会接近地面能源成本。这是依赖假设的预测，不是整个项目必然成立的门槛，也不是已经确定的时间表。难题并不会因为换了地方就被消灭，条件一变，只是换一副面孔又出现，太空有方便，也有代价。条件还没有齐的时候，先用小规模原型把一个问题问清楚，想来正是这件事里最靠谱的部分。
 
-![难题换了一副面孔](https://lumisum.github.io/wulai/articles/2026-10-03-yiqianwa-taikong-suanli-meng/images/02.png)
+![难题换了一副面孔](https://lumisum.github.io/doojank/articles/2026-10-03-yiqianwa-taikong-suanli-meng/images/02.png)
 
 ## 03 钱种何处，心在何处
 
@@ -45,7 +45,7 @@ cover_alt: "青松绿山野与云海之上，一颗小型卫星展开太阳能�
 
 还有一个细节颇有意思：发射服务、卫星制造和计算硬件，分别来自不同环节。技术路线往后发展，合作条件也可能改变；眼前的分工成立，不代表长期利益永远一致。商业关系同样需要放回阶段与条件中看，不能只凭一次合作，就替未来下结论。
 
-![看钱投向哪里](https://lumisum.github.io/wulai/articles/2026-10-03-yiqianwa-taikong-suanli-meng/images/03.png)
+![看钱投向哪里](https://lumisum.github.io/doojank/articles/2026-10-03-yiqianwa-taikong-suanli-meng/images/03.png)
 
 ## 04 狂热嘲讽，皆是住相
 

@@ -27,7 +27,7 @@ permalink: /en/classics/chuanxilu/
     </div>
     <div class="scripture-intro-copy">
       <p>Wang Yangming’s students recorded and compiled the Chuanxilu in three volumes of exchanges, letters, and other writings. The unity of knowing and acting, innate moral knowing, and the investigation of things unfold through concrete questions and disagreements. Reading by exchange helps show what each passage addresses. Text and personal study notes remain in Chinese; the notes are not scholarly annotations.</p>
-      <p>The source is the three-volume Chinese Wikisource edition of Wang Shouren’s Chuanxilu. The prepared text follows its volume and record headings, converts characters to simplified Chinese, and removes webpage footnote markers. Adapted text is shared under CC BY-SA 4.0, with attribution and share-alike requirements. <a href="https://github.com/lumisum/wulai/blob/main/classics/chuanxilu/SOURCE.md">Preparation and licensing notes</a> · <a href="https://zh.wikisource.org/wiki/傳習錄">Wikisource edition</a>.</p>
+      <p>The source is the three-volume Chinese Wikisource edition of Wang Shouren’s Chuanxilu. The prepared text follows its volume and record headings, converts characters to simplified Chinese, and removes webpage footnote markers. Adapted text is shared under CC BY-SA 4.0, with attribution and share-alike requirements. <a href="https://github.com/lumisum/doojank/blob/main/classics/chuanxilu/SOURCE.md">Preparation and licensing notes</a> · <a href="https://zh.wikisource.org/wiki/傳習錄">Wikisource edition</a>.</p>
       <p class="translation-note">The original text and study notes are intentionally preserved in Chinese. This page provides an English reading interface, not a translation of the classic.</p>
     </div>
   </section>

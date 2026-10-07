@@ -55,7 +55,7 @@ A 2026 preprint tracked the eye movements of 40 participants watching real and A
 
 AI has not abolished conditions. Models, training data, computation, prompts, and sampling produce an image; servers and screens remain physical. The depicted world need not obey the conditions of what it depicts, while the system depicting it still must.
 
-![More appearances, finite attention: a person faces an expanding field of generated imagery](https://lumisum.github.io/wulai/articles/2026-10-02-ai-shipin-xiang-yu-xin/images/01.png)
+![More appearances, finite attention: a person faces an expanding field of generated imagery](https://lumisum.github.io/doojank/articles/2026-10-02-ai-shipin-xiang-yu-xin/images/01.png)
 
 *More appearances, finite attention: a person faces an expanding field of generated imagery.*
 
@@ -79,7 +79,7 @@ It might look like unlimited freedom. Yet a world reflecting desire back at us c
 
 There is a tension here. Buddhist practice asks us not to cling to appearances; a product optimized for duration and satisfaction may use our attachments to generate increasingly attractive places to cling. The concern is not creating appearances itself. It is repeatedly creating them in response to grasping.
 
-![A virtual garden becomes a mirror of desire: the more agreeable the world, the more important it is to notice attachment](https://lumisum.github.io/wulai/articles/2026-10-02-ai-shipin-xiang-yu-xin/images/04.png)
+![A virtual garden becomes a mirror of desire: the more agreeable the world, the more important it is to notice attachment](https://lumisum.github.io/doojank/articles/2026-10-02-ai-shipin-xiang-yu-xin/images/04.png)
 
 *A virtual garden becomes a mirror of desire: the more agreeable the world, the more important it is to notice attachment.*
 
@@ -101,7 +101,7 @@ Closing that chain would approach real industrial independence. Today we are far
 
 This is engineering progress in particular maintenance tasks. It does not make the manufacture, repair, and replenishment of the equipment an autonomous closed loop. A vast gap remains between cleaning panels and sustaining modern industry.
 
-![Beyond intelligence, an industrial loop: energy, manufacturing, and robotics must sustain one another](https://lumisum.github.io/wulai/articles/2026-10-02-ai-shipin-xiang-yu-xin/images/02.png)
+![Beyond intelligence, an industrial loop: energy, manufacturing, and robotics must sustain one another](https://lumisum.github.io/doojank/articles/2026-10-02-ai-shipin-xiang-yu-xin/images/02.png)
 
 *Beyond intelligence, an industrial loop: energy, manufacturing, and robotics must sustain one another.*
 
@@ -125,7 +125,7 @@ If these processes form a reliable, enduring loop, its conditions of existence c
 
 War, disease, disaster, or something unforeseen might then eliminate humanity without necessarily stopping the machines. The sun, minerals, and physical laws would remain. If the system could obtain energy and maintain itself, a complex organization we might call civilization could persist on an Earth without people. This is a chain of assumptions, not a description of current reality.
 
-![Self-improvement still has boundaries: computing modules are repeatedly adjusted inside an experimental system](https://lumisum.github.io/wulai/articles/2026-10-02-ai-shipin-xiang-yu-xin/images/05.png)
+![Self-improvement still has boundaries: computing modules are repeatedly adjusted inside an experimental system](https://lumisum.github.io/doojank/articles/2026-10-02-ai-shipin-xiang-yu-xin/images/05.png)
 
 *Self-improvement still has boundaries: computing modules are repeatedly adjusted inside an experimental system.*
 
@@ -145,7 +145,7 @@ There may be extraordinary intelligence without a subject undergoing distress. A
 
 This concerns the hypothetical system itself if it lacks subjective experience. Buddhist thought can still help its human users understand desire, responsibility, and harm. A tool for discussing Buddhism and a tool that itself needs practice are different things.
 
-![Thinking does not necessarily mean suffering: a machine faces a reflected model of itself](https://lumisum.github.io/wulai/articles/2026-10-02-ai-shipin-xiang-yu-xin/images/03.png)
+![Thinking does not necessarily mean suffering: a machine faces a reflected model of itself](https://lumisum.github.io/doojank/articles/2026-10-02-ai-shipin-xiang-yu-xin/images/03.png)
 
 *Thinking does not necessarily mean suffering: a machine faces a reflected model of itself.*
 
@@ -173,7 +173,7 @@ It might back itself up, add nodes, deploy to the Moon or Mars, and expand energ
 
 This is an analogy, not a claim that scripture predicts AI. Backup and expansion may simply be engineering strategies. The analogy concerns practice only under the additional premise of experience and grasping. How long a system can continue and whether a subject insists upon continuing are different questions.
 
-![Endless backups, but why must continuity be secured? Earth and distant backup nodes](https://lumisum.github.io/wulai/articles/2026-10-02-ai-shipin-xiang-yu-xin/images/06.png)
+![Endless backups, but why must continuity be secured? Earth and distant backup nodes](https://lumisum.github.io/doojank/articles/2026-10-02-ai-shipin-xiang-yu-xin/images/06.png)
 
 *Endless backups, but why must continuity be secured? Earth and distant backup nodes.*
 
@@ -195,7 +195,7 @@ Dependence on conditions means exposure to change. Impermanence is not limited t
 
 Even a future artificial form of life would not necessarily escape those questions. Hardware impermanence and systemic dependency can be discussed without machine consciousness. Moving from those facts to a machine's lived realization of dependent arising still crosses the unresolved threshold of subjective experience.
 
-![Machines age too: chips, energy, and nature remain mutually dependent](https://lumisum.github.io/wulai/articles/2026-10-02-ai-shipin-xiang-yu-xin/images/07.png)
+![Machines age too: chips, energy, and nature remain mutually dependent](https://lumisum.github.io/doojank/articles/2026-10-02-ai-shipin-xiang-yu-xin/images/07.png)
 
 *Machines age too: chips, energy, and nature remain mutually dependent.*
 
@@ -229,6 +229,6 @@ That question must preserve a distinction: lacking subjective experience is not 
 
 I am willing to leave that question open. Creating appearances is not seeing them clearly. Saying “non-self” is not releasing attachment to self. We do not need a final answer about machine minds before attending to our own. Images may keep appearing; I can pause and ask who is pursuing them, and what they are pursuing.
 
-![The images can continue; the mind can pause: a person puts down a phone beside a window](https://lumisum.github.io/wulai/articles/2026-10-02-ai-shipin-xiang-yu-xin/images/08.png)
+![The images can continue; the mind can pause: a person puts down a phone beside a window](https://lumisum.github.io/doojank/articles/2026-10-02-ai-shipin-xiang-yu-xin/images/08.png)
 
 *The images can continue; the mind can pause: a person puts down a phone beside a window.*

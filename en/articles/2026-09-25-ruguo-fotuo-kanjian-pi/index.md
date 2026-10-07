@@ -30,7 +30,7 @@ The medicine works, but it is difficult to identify a self-contained “essence 
 
 **Effectiveness does not establish intrinsic existence. Neither does certainty.**
 
-![Certainty does not equal intrinsic existence: a brass compass traces a circle over still water](https://lumisum.github.io/wulai/articles/2026-09-25-ruguo-fotuo-kanjian-pi/images/01.png)
+![Certainty does not equal intrinsic existence: a brass compass traces a circle over still water](https://lumisum.github.io/doojank/articles/2026-09-25-ruguo-fotuo-kanjian-pi/images/01.png)
 
 *Certainty does not equal intrinsic existence: a brass compass traces a circle over still water.*
 
@@ -44,7 +44,7 @@ The Buddhist warning is precisely against clinging even to the absence of intrin
 
 First we assume a thing has a fixed essence, then ask what it depends on. Seeing its conditions, we say it lacks intrinsic existence. If we then grip that concept tightly, it too becomes a tool we need to release.
 
-![Arising through conditions: roots and water sustain plants growing from stone and soil](https://lumisum.github.io/wulai/articles/2026-09-25-ruguo-fotuo-kanjian-pi/images/02.png)
+![Arising through conditions: roots and water sustain plants growing from stone and soil](https://lumisum.github.io/doojank/articles/2026-09-25-ruguo-fotuo-kanjian-pi/images/02.png)
 
 *Arising through conditions: roots and water sustain plants growing from stone and soil.*
 
@@ -52,7 +52,7 @@ First we assume a thing has a fixed essence, then ask what it depends on. Seeing
 
 Where did the medicine come from? Leaves. Where did the leaves come from? A tree. The tree? Soil, water, sunlight. Further questions reveal further conditions. The world begins to look less like a collection of isolated objects and more like a network of relationships.
 
-![Beyond an answer, inquiry can continue: ripples spread from a stone through a mountain lake](https://lumisum.github.io/wulai/articles/2026-09-25-ruguo-fotuo-kanjian-pi/images/03.png)
+![Beyond an answer, inquiry can continue: ripples spread from a stone through a mountain lake](https://lumisum.github.io/doojank/articles/2026-09-25-ruguo-fotuo-kanjian-pi/images/03.png)
 
 *Beyond an answer, inquiry can continue: ripples spread from a stone through a mountain lake.*
 

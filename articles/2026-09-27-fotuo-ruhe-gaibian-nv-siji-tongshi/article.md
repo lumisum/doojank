@@ -21,7 +21,7 @@ cover_alt: "封面写着“佛陀如何改变了我的女司机同事？”，�
 
 更有意思的是，下了高速以后，这个“静音模式”马上又消失了。她又开始聊天，好像刚才一路沉默的人根本不是她。
 
-![图片文字“高速之上，安全第一”，从后排看向专注驾驶的女同事，车窗外是青松绿山路](https://lumisum.github.io/wulai/articles/2026-09-27-fotuo-ruhe-gaibian-nv-siji-tongshi/images/01.png)
+![图片文字“高速之上，安全第一”，从后排看向专注驾驶的女同事，车窗外是青松绿山路](https://lumisum.github.io/doojank/articles/2026-09-27-fotuo-ruhe-gaibian-nv-siji-tongshi/images/01.png)
 
 第一次我还觉得可能只是巧合，后来返程的时候，同样的事情又发生了一遍。上高速以后，她再次安静下来；等下了高速，话又重新多了起来。
 
@@ -59,7 +59,7 @@ cover_alt: "封面写着“佛陀如何改变了我的女司机同事？”，�
 
 没有一件事情因为“我要讲一部伟大的经典”而被省略，也没有因为自己已经是佛陀，穿衣、吃饭、走路、洗脚这些小事就变得不重要。
 
-![图片文字“佛陀的生活，先把法讲了一遍”，一件朴素僧衣、一只钵与洗足的水盆置于清晨的暖光里](https://lumisum.github.io/wulai/articles/2026-09-27-fotuo-ruhe-gaibian-nv-siji-tongshi/images/02.png)
+![图片文字“佛陀的生活，先把法讲了一遍”，一件朴素僧衣、一只钵与洗足的水盆置于清晨的暖光里](https://lumisum.github.io/doojank/articles/2026-09-27-fotuo-ruhe-gaibian-nv-siji-tongshi/images/02.png)
 
 佛法甚至还没有正式开始讲，但佛陀的生活已经先把一种状态摆在了那里。
 
@@ -77,7 +77,7 @@ cover_alt: "封面写着“佛陀如何改变了我的女司机同事？”，�
 
 无住不是不做事，更不是对什么都无所谓。佛陀一样要穿衣、吃饭、走路、乞食，这些现实里的事情一件都没有少。真正不同的，也许是**事情发生的时候全然去做，事情过去以后，不再让心继续抓着它。**
 
-![图片文字“此刻，先把车开好”，双手稳稳握住方向盘，前方道路穿过层叠的青松绿山林，晨光落在路面](https://lumisum.github.io/wulai/articles/2026-09-27-fotuo-ruhe-gaibian-nv-siji-tongshi/images/03.png)
+![图片文字“此刻，先把车开好”，双手稳稳握住方向盘，前方道路穿过层叠的青松绿山林，晨光落在路面](https://lumisum.github.io/doojank/articles/2026-09-27-fotuo-ruhe-gaibian-nv-siji-tongshi/images/03.png)
 
 现在再回头想那个女同事，我反而觉得，她那天其实已经回答了我一开始的问题。
 

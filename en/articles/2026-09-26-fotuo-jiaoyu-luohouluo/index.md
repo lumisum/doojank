@@ -20,7 +20,7 @@ That made me wonder: the Buddha had a son, Rāhula. How did he teach him?
 
 In the discourse advising Rāhula, the Buddha uses a mirror as an analogy. Asked what a mirror is for, Rāhula answers that it is for reflection. Before acting, one should examine whether the action will harm oneself, others, or both. One should keep examining during the action and reflect afterward. Harm calls for stopping, acknowledging, and correcting; actions that cause no harm and bring good results should be maintained.
 
-![First look at yourself: Rāhula studies a mirror as the Buddha offers gentle guidance](https://lumisum.github.io/wulai/articles/2026-09-26-fotuo-jiaoyu-luohouluo/images/01.png)
+![First look at yourself: Rāhula studies a mirror as the Buddha offers gentle guidance](https://lumisum.github.io/doojank/articles/2026-09-26-fotuo-jiaoyu-luohouluo/images/01.png)
 
 *First look at yourself: Rāhula studies a mirror as the Buddha offers gentle guidance.*
 
@@ -34,7 +34,7 @@ Seen this way, disagreements between spouses become clearer. On the surface we d
 
 The question of helping the child then becomes “Why don't you understand me?” and eventually “Which of us knows more about education?” The child slips out of the center. Two adults' versions of correctness remain.
 
-![Has control slipped into goodwill? Parents discuss their child's education while the child listens](https://lumisum.github.io/wulai/articles/2026-09-26-fotuo-jiaoyu-luohouluo/images/02.png)
+![Has control slipped into goodwill? Parents discuss their child's education while the child listens](https://lumisum.github.io/doojank/articles/2026-09-26-fotuo-jiaoyu-luohouluo/images/02.png)
 
 *Has control slipped into goodwill? Parents discuss their child's education while the child listens.*
 
@@ -44,7 +44,7 @@ Both people may sincerely say, “I only want what is best for our child.” Wha
 
 Returning to the mirror suggests another route: argue less about who is always right and examine actual results together. After six months, is the child more independent or dependent? More honest, or more skilled at reading the parents' moods? Better able to accept consequences, or more afraid of mistakes? If the results are poor, either person's method can change—including mine.
 
-![Return judgment to the child: parents stay nearby while their child thinks independently](https://lumisum.github.io/wulai/articles/2026-09-26-fotuo-jiaoyu-luohouluo/images/03.png)
+![Return judgment to the child: parents stay nearby while their child thinks independently](https://lumisum.github.io/doojank/articles/2026-09-26-fotuo-jiaoyu-luohouluo/images/03.png)
 
 *Return judgment to the child: parents stay nearby while their child thinks independently.*
 

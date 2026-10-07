@@ -18,7 +18,7 @@ She is normally very talkative. There is plenty to discuss at the office and on 
 
 But I noticed a curious change. As soon as we entered the expressway, it was as if someone had pressed mute. She stopped starting conversations and kept her eyes on the road. When we spoke to her, she answered briefly. Once we left the expressway, she resumed talking as though the quiet person had never been there.
 
-![On the expressway, safety comes first: our colleague concentrates on driving](https://lumisum.github.io/wulai/articles/2026-09-27-fotuo-ruhe-gaibian-nv-siji-tongshi/images/01.png)
+![On the expressway, safety comes first: our colleague concentrates on driving](https://lumisum.github.io/doojank/articles/2026-09-27-fotuo-ruhe-gaibian-nv-siji-tongshi/images/01.png)
 
 *On the expressway, safety comes first: our colleague concentrates on driving.*
 
@@ -36,7 +36,7 @@ I had always wondered why such an important scripture began with ordinary detail
 
 When the Buddha sought alms, he sought alms. When he ate, he ate. Afterward he put things away and washed his feet. Only then did he sit down to teach. None of these acts was skipped because a great scripture was about to be taught; none became unimportant because he was the Buddha.
 
-![Before the teaching began, the Buddha's ordinary life had already expressed it](https://lumisum.github.io/wulai/articles/2026-09-27-fotuo-ruhe-gaibian-nv-siji-tongshi/images/02.png)
+![Before the teaching began, the Buddha's ordinary life had already expressed it](https://lumisum.github.io/doojank/articles/2026-09-27-fotuo-ruhe-gaibian-nv-siji-tongshi/images/02.png)
 
 *Before the teaching began, the Buddha's ordinary life had already expressed it.*
 
@@ -50,7 +50,7 @@ The Buddha's ordinary sequence feels remarkably uncluttered by comparison. Do wh
 
 This connects with non-clinging. The Buddha still dressed, ate, walked, and sought alms. The practical tasks remained. The difference may be this: **enter fully into the task while it is happening, and stop holding it when it has passed.**
 
-![For now, drive well: steady hands guide the car through pine-green hills](https://lumisum.github.io/wulai/articles/2026-09-27-fotuo-ruhe-gaibian-nv-siji-tongshi/images/03.png)
+![For now, drive well: steady hands guide the car through pine-green hills](https://lumisum.github.io/doojank/articles/2026-09-27-fotuo-ruhe-gaibian-nv-siji-tongshi/images/03.png)
 
 *For now, drive well: steady hands guide the car through pine-green hills.*
 

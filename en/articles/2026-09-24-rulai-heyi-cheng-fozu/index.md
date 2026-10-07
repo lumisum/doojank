@@ -24,7 +24,7 @@ A name does not replace an answer. Its usefulness is that it gives observation a
 
 Often we are confused not because we feel nothing, but because we cannot say what is happening. “I am exhausted” might mean physical fatigue, anxiety, too many desires, or constant comparison. “I am irritated” might come from losing control, fixating on an outcome, or feeling judged. While those experiences remain tangled, they push us around. Distinguishing and naming them gives us a chance to see what we are actually facing.
 
-![Sorting scattered stones suggests making tangled experiences recognizable](https://lumisum.github.io/wulai/articles/2026-09-24-rulai-heyi-cheng-fozu/images/01.png)
+![Sorting scattered stones suggests making tangled experiences recognizable](https://lumisum.github.io/doojank/articles/2026-09-24-rulai-heyi-cheng-fozu/images/01.png)
 
 *Sorting scattered stones suggests making tangled experiences recognizable.*
 
@@ -34,7 +34,7 @@ Recently, while building an AI agent, I focused on connecting business data, ans
 
 Then I heard someone distinguish three kinds of agents: those that assist with work, those that take over the work, and those entrusted with responsibility for outcomes. Suddenly I could locate what I was building. Mine was an assisting agent; the next questions concerned taking over work, and eventually taking responsibility. The system and code had not changed. A classification had simply helped me see where I stood and where I might go.
 
-![Ideas on a desk become an organized set of levels, bringing a sense of direction](https://lumisum.github.io/wulai/articles/2026-09-24-rulai-heyi-cheng-fozu/images/02.png)
+![Ideas on a desk become an organized set of levels, bringing a sense of direction](https://lumisum.github.io/doojank/articles/2026-09-24-rulai-heyi-cheng-fozu/images/02.png)
 
 *Ideas on a desk become an organized set of levels, bringing a sense of direction.*
 
@@ -50,7 +50,7 @@ At work, is this a delivery task or a longer-term product issue? A temporary rep
 
 Of course, reality does not always fit one category. A conflict can involve both boundaries and emotions. A project can require delivery now while revealing a deeper product problem. Classification should help us see the parts before deciding where to begin, rather than rush to a final verdict.
 
-![A hand releases a stone beside flowing water: concepts are tools to use without clinging](https://lumisum.github.io/wulai/articles/2026-09-24-rulai-heyi-cheng-fozu/images/03.png)
+![A hand releases a stone beside flowing water: concepts are tools to use without clinging](https://lumisum.github.io/doojank/articles/2026-09-24-rulai-heyi-cheng-fozu/images/03.png)
 
 *A hand releases a stone beside flowing water: concepts are tools to use without clinging.*
 

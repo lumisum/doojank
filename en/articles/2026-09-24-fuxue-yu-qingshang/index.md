@@ -24,7 +24,7 @@ Increasingly, I feel that the hardest part is in the mind rather than the techni
 
 Seen this way, the Buddhist idea of non-clinging becomes quite ordinary. The other person finished speaking an hour ago, but you are still thinking about it. A day has passed, yet you replay the scene in bed and wish you had answered differently. The person has gone, the words have faded, the event is over. Only the mind is still staying there. Perhaps that is one form of clinging.
 
-![The disagreement has ended, but the mind is still caught in a single remark](https://lumisum.github.io/wulai/articles/2026-09-24-fuxue-yu-qingshang/images/01.png)
+![The disagreement has ended, but the mind is still caught in a single remark](https://lumisum.github.io/doojank/articles/2026-09-24-fuxue-yu-qingshang/images/01.png)
 
 *The disagreement has ended, but the mind is still caught in a single remark.*
 
@@ -38,7 +38,7 @@ Why does someone dominate, control, belittle, or shift blame? Such behavior can 
 
 Compassion is not making excuses or abandoning boundaries. It is seeing a little more than the behavior alone. “How could they treat me like this?” may then be joined by another question: “What is making them act this way?” That small opening is already close to what I understand as emotional intelligence.
 
-![A difficult conversation can still leave room for understanding and boundaries](https://lumisum.github.io/wulai/articles/2026-09-24-fuxue-yu-qingshang/images/02.png)
+![A difficult conversation can still leave room for understanding and boundaries](https://lumisum.github.io/doojank/articles/2026-09-24-fuxue-yu-qingshang/images/02.png)
 
 *A difficult conversation can still leave room for understanding and boundaries.*
 
@@ -46,7 +46,7 @@ Many conflicts stop being about solving a problem and become a way of passing em
 
 A more mature emotional intelligence may include refusing to be that relay point. I can feel another person's anxiety without throwing it at someone else. I can protect myself from harm without needing to hurt them in return just to make them feel it too.
 
-![Pause before coming home, so the day's frustration need not reach those beside you](https://lumisum.github.io/wulai/articles/2026-09-24-fuxue-yu-qingshang/images/03.png)
+![Pause before coming home, so the day's frustration need not reach those beside you](https://lumisum.github.io/doojank/articles/2026-09-24-fuxue-yu-qingshang/images/03.png)
 
 *Pause before coming home, so the day's frustration need not reach those beside you.*
 

@@ -20,7 +20,7 @@ Independence does not arrive suddenly on an eighteenth birthday. Keeping time, c
 
 The reasoning is straightforward; the first morning alone may feel very different. Have they arrived? Will they look at their phone while crossing? What if they miss the stop? What if something happens? You understand the need for autonomy, yet want to accompany them a little further. The mind does not know where to settle.
 
-![Letting go does not mean abandoning responsibility: a parent watches a child leave along a safe pavement](https://lumisum.github.io/wulai/articles/2026-09-27-fotuo-rang-jiazhang-meitian-duo-yixiaoshi/images/01.png)
+![Letting go does not mean abandoning responsibility: a parent watches a child leave along a safe pavement](https://lumisum.github.io/doojank/articles/2026-09-27-fotuo-rang-jiazhang-meitian-duo-yixiaoshi/images/01.png)
 
 *Letting go does not mean abandoning responsibility: a parent watches a child leave along a safe pavement.*
 
@@ -32,7 +32,7 @@ Often the difficult part is not knowing what to do. It is recognizing that an ol
 
 The mind had a familiar resting place: I drive, collect, arrange, and confirm; therefore I feel secure. Letting go unsettles that place. We seek substitutes: checking location, asking whether they have arrived, imagining trouble after a few minutes without a reply. The parent stayed home, but the mind followed the child all the way to school.
 
-![The mind is still following the child: a parent watches from a window, phone close at hand](https://lumisum.github.io/wulai/articles/2026-09-27-fotuo-rang-jiazhang-meitian-duo-yixiaoshi/images/02.png)
+![The mind is still following the child: a parent watches from a window, phone close at hand](https://lumisum.github.io/doojank/articles/2026-09-27-fotuo-rang-jiazhang-meitian-duo-yixiaoshi/images/02.png)
 
 *The mind is still following the child: a parent watches from a window, phone close at hand.*
 
@@ -48,7 +48,7 @@ We are caring for the child while also attending to our own mind. **Working with
 
 Both child and parent are growing. The child gradually becomes able to protect themselves. The parent gradually shifts from managing everything to teaching judgment and allowing the child to use it. This is a stepwise transfer of choice and responsibility within safe boundaries.
 
-![Learning not to cling: the parent returns to their day as the child continues toward school](https://lumisum.github.io/wulai/articles/2026-09-27-fotuo-rang-jiazhang-meitian-duo-yixiaoshi/images/03.png)
+![Learning not to cling: the parent returns to their day as the child continues toward school](https://lumisum.github.io/doojank/articles/2026-09-27-fotuo-rang-jiazhang-meitian-duo-yixiaoshi/images/03.png)
 
 *Learning not to cling: the parent returns to their day as the child continues toward school.*
 

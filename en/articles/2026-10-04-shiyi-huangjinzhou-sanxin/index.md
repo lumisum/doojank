@@ -24,7 +24,7 @@ What happens a few days later? The holiday ends, the suitcase returns home, the 
 
 There may even be a new comparison: recently I was feeling the sea breeze, and now I am back in the office; recently I woke naturally, and now I am rushing. “It was better when I was away,” the mind says.
 
-![A change of scenery offers a pause: a traveler rests among mountains and the sea](https://lumisum.github.io/wulai/articles/2026-10-04-shiyi-huangjinzhou-sanxin/images/01.png)
+![A change of scenery offers a pause: a traveler rests among mountains and the sea](https://lumisum.github.io/doojank/articles/2026-10-04-shiyi-huangjinzhou-sanxin/images/01.png)
 
 *A change of scenery offers a pause: a traveler rests among mountains and the sea.*
 
@@ -40,7 +40,7 @@ What once sounded like a distant spiritual state now feels practical. Clinging m
 
 Buddhist practice invites me to examine how I hold mountains, cities, work, and family. I put it into a phrase for myself: **See circumstances as empty of a fixed essence; see the mind the same way.** This is my learning note, not a newly coined scriptural quotation.
 
-![The mind need not be handed over to its surroundings: return to an ordinary desk with care](https://lumisum.github.io/wulai/articles/2026-10-04-shiyi-huangjinzhou-sanxin/images/02.png)
+![The mind need not be handed over to its surroundings: return to an ordinary desk with care](https://lumisum.github.io/doojank/articles/2026-10-04-shiyi-huangjinzhou-sanxin/images/02.png)
 
 *The mind need not be handed over to its surroundings: return to an ordinary desk with care.*
 
@@ -52,7 +52,7 @@ So the mind, too, deserves observation. Notice distress when it arises, quiet wh
 
 Read this way, non-clinging does not require abandoning travel, work, or life. Travel when appropriate, visit mountains or temples, eat, and return to work after the holiday. Gradually stop asking these activities to secure the entire mind for you.
 
-![Circumstances change, and so does the mind: tea and pine shadows beside a quiet window](https://lumisum.github.io/wulai/articles/2026-10-04-shiyi-huangjinzhou-sanxin/images/03.png)
+![Circumstances change, and so does the mind: tea and pine shadows beside a quiet window](https://lumisum.github.io/doojank/articles/2026-10-04-shiyi-huangjinzhou-sanxin/images/03.png)
 
 *Circumstances change, and so does the mind: tea and pine shadows beside a quiet window.*
 

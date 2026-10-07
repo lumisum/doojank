@@ -26,7 +26,7 @@ permalink: /classics/chuanxilu/
     </div>
     <div class="scripture-intro-copy">
       <p>《传习录》由王守仁的门人记录、整理，包含问答、书信、序跋等，分为上、中、下三卷。知行合一、致良知、格物等概念在具体对话和论辩中展开；按问题与记录分节阅读，更容易看见每段话在回应什么。白话释义是无来的个人读书笔记，不是学术校注。</p>
-      <p>原文底本：维基文库《传习录》三卷本，作者王守仁（明）。网页文本依原有卷次和记录标题转换为简体并分段，移除网页脚注标记；改编文本依 CC BY-SA 4.0 分享，请注明来源并以相同方式共享。<a href="https://github.com/lumisum/wulai/blob/main/classics/chuanxilu/SOURCE.md" target="_blank" rel="noopener noreferrer">查看底本、整理方式与许可说明</a> · <a href="https://zh.wikisource.org/wiki/傳習錄" target="_blank" rel="noopener noreferrer">维基文库原作</a></p>
+      <p>原文底本：维基文库《传习录》三卷本，作者王守仁（明）。网页文本依原有卷次和记录标题转换为简体并分段，移除网页脚注标记；改编文本依 CC BY-SA 4.0 分享，请注明来源并以相同方式共享。<a href="https://github.com/lumisum/doojank/blob/main/classics/chuanxilu/SOURCE.md" target="_blank" rel="noopener noreferrer">查看底本、整理方式与许可说明</a> · <a href="https://zh.wikisource.org/wiki/傳習錄" target="_blank" rel="noopener noreferrer">维基文库原作</a></p>
     </div>
   </section>
 
