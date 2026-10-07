@@ -51,7 +51,7 @@
 
 | 日期 | 文章 |
 | --- | --- |
-| 2026.10.07 | [人生如戏，但此戏非彼戏](https://lumisum.github.io/wulai/articles/2026-10-07-rensheng-ruxi/) · [English](https://lumisum.github.io/wulai/en/articles/2026-10-07-rensheng-ruxi/) |
+| 2026.10.07 | [人生如戏，零演技](https://lumisum.github.io/wulai/articles/2026-10-07-rensheng-ruxi/) · [English](https://lumisum.github.io/wulai/en/articles/2026-10-07-rensheng-ruxi/) |
 | 2026.10.06 | [假期的聚会与分离，让我明白空亦是空](https://lumisum.github.io/wulai/articles/2026-10-06-jiaqi-juhe-yu-fenli/) · [English](https://lumisum.github.io/wulai/en/articles/2026-10-06-jiaqi-juhe-yu-fenli/) |
 | 2026.10.05 | [我们从AI走到了SI](https://lumisum.github.io/wulai/articles/2026-10-05-ai-to-si/) · [English](https://lumisum.github.io/wulai/en/articles/2026-10-05-ai-to-si/) |
 | 2026.10.04 | [AI因注意力机制异常强大，而人类的注意力却涣散了](https://lumisum.github.io/wulai/articles/2026-10-04-yanqian-wanxiang/) · [English](https://lumisum.github.io/wulai/en/articles/2026-10-04-yanqian-wanxiang/) |

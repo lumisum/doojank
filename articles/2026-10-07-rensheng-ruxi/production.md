@@ -31,3 +31,12 @@
 ### 最终生成提示词
 
 Create a premium surreal editorial photograph / tactile 3D sculpture for a personal philosophical essay: fully inhabit the roles of life, yet be able to leave a role without abandoning responsibility. A single miniature theatrical stage is constructed INSIDE a large freestanding hollow brushed-silver theater mask lying upright sideways like an architectural pavilion on a broad dark plum floor. The mask is clearly a removable object, not a person's flesh, not creepy. Inside its open interior a small ordinary human actor in warm terracotta clothing is fully engaged under an amber spotlight. An open passage at the side of this mask-stage lets a continuous warm terracotta ribbon walkway gently lead into wide calm open space with cool daylight. One stage, one person, one exit; no duplicated people, no collage of occupations. Novel impossible scale but highly legible, human warmth, philosophical freedom rather than despair. The mask has softly abstract sculptural facial contours, not horror, not carnival. Wide editorial landscape exactly 5:2, main metaphor within central 82 percent safe area to also crop to 2.35:1. Three-quarter eye-level view, beautiful physical soft shadows, subtle pale cyan reflections on silver, muted aubergine background, amber and clay warmth, restrained cinematic lighting, airy polished composition with ample negative space. NO text, NO letters, NO numbers, NO title, NO logos, NO watermark. Render as a finished distinctive sophisticated article cover.
+
+## 作者最新稿排版更新
+
+- 采用2026-10-07作者提供的《人生如戏，零演技》完整新版，替换上一版正文。
+- 本次为排版任务：保留原句顺序、措辞、判断与原有十一节标题，不扩写、不缩写，不将上一版的编辑补充带回正文。原稿正文内重复的一级标题改为行内加粗，并补一个句号以衔接阅读。
+- 相连短句按语义合为33个自然段；原有强调保留在段内，减少独立金句段。
+- 原稿章节属于作者最新稿结构，按本次仅排版的要求保留，不强制套用详解式默认无章节规定。
+- “社会接口”与“筏”是最新稿的新增内容；英文全文、标题、导读、公众号与X复制稿同步到新版。封面继续适合面具与角色主旨。
+- 前述4080汉字与31段记录属于上一版制作历史；新版正文3579汉字（不含小标题）。
