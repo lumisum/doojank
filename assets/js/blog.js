@@ -1,31 +1,4 @@
 (() => {
-  const themeButton = document.querySelector('.blog-theme-toggle');
-  const applyTheme = theme => {
-    const dark = theme !== 'light';
-    document.documentElement.dataset.blogTheme = dark ? 'dark' : 'light';
-    const meta = document.querySelector('meta[name="theme-color"]');
-    if (meta) meta.content = dark ? '#09111f' : '#f5f5f7';
-    if (themeButton) {
-      const en = document.documentElement.lang === 'en';
-      const label = en ? (dark ? 'Switch to light theme' : 'Switch to dark theme')
-        : (dark ? '切换为亮色主题' : '切换为暗色主题');
-      themeButton.setAttribute('aria-pressed', String(dark));
-      themeButton.setAttribute('aria-label', label);
-      themeButton.title = label;
-    }
-  };
-  if (themeButton) {
-    applyTheme(document.documentElement.dataset.blogTheme);
-    themeButton.hidden = false;
-    themeButton.addEventListener('click', () => {
-      const theme = document.documentElement.dataset.blogTheme === 'dark' ? 'light' : 'dark';
-      applyTheme(theme);
-      try { localStorage.setItem('wulai-blog-theme-glass-v1', theme); } catch (_) {}
-    });
-    addEventListener('storage', event => {
-      if (event.key === 'wulai-blog-theme-glass-v1') applyTheme(event.newValue);
-    });
-  }
   const tools = document.querySelector('.archive-tools');
   if (tools) {
     tools.hidden = false;
@@ -62,33 +35,5 @@
     addEventListener('resize', queue);
     addEventListener('load', queue);
     update();
-  }
-  // Small pointer-driven depth; touch and reduced-motion users keep a static surface.
-  if (matchMedia('(hover: hover) and (pointer: fine)').matches && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    document.querySelectorAll('.exhibit-card, .orbit-book').forEach(card => {
-      let frame = 0;
-      let x = .5, y = .5;
-      const paint = () => {
-        card.style.setProperty('--rx', `${(0.5 - y) * 3}deg`);
-        card.style.setProperty('--ry', `${(x - 0.5) * 4}deg`);
-        card.style.setProperty('--px', `${x * 100}%`);
-        card.style.setProperty('--py', `${y * 100}%`);
-        frame = 0;
-      };
-      card.addEventListener('pointermove', event => {
-        const rect = card.getBoundingClientRect();
-        x = (event.clientX - rect.left) / rect.width;
-        y = (event.clientY - rect.top) / rect.height;
-        if (!frame) frame = requestAnimationFrame(paint);
-      });
-      card.addEventListener('pointerleave', () => {
-        if (frame) cancelAnimationFrame(frame);
-        frame = 0;
-        card.style.setProperty('--rx', '0deg');
-        card.style.setProperty('--ry', '0deg');
-        card.style.setProperty('--px', '50%');
-        card.style.setProperty('--py', '50%');
-      });
-    });
   }
 })();

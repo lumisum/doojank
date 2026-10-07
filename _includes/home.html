@@ -1,32 +1,39 @@
-{% assign current_lang = page.lang | default: 'zh-CN' %}{% assign t = site.data.i18n[current_lang] %}{% assign home_path = '/' %}{% assign classics_path = '/classics/' %}{% if current_lang == 'en' %}{% assign home_path = '/en/' %}{% assign classics_path = '/en/classics/' %}{% endif %}
+{% assign current_lang = page.lang | default: 'en' %}{% assign t = site.data.i18n[current_lang] %}{% assign home_path = '/zh/' %}{% assign classics_path = '/classics/' %}{% if current_lang == 'en' %}{% assign home_path = '/' %}{% assign classics_path = '/en/classics/' %}{% endif %}
 {% assign b = site.data.blog[current_lang] %}
 {% assign language_prefix = '' %}{% if current_lang == 'en' %}{% assign language_prefix = '/en' %}{% endif %}
 {% assign all_articles = site.pages | where: 'layout', 'article' | where: 'status', 'published' | where: 'lang', current_lang | sort: 'date' | reverse %}
-<section class="idea-hero" aria-labelledby="idea-title">
-  <img class="idea-art" src="{{ '/assets/blog-hero-tech.png' | relative_url }}" alt="{{ b.art_alt }}" fetchpriority="high" width="1923" height="818">
-  <div class="idea-copy"><p class="blog-eyebrow"><span class="orange-dot" aria-hidden="true"></span>{{ b.tagline }}</p><h1 id="idea-title">{{ b.hero }}</h1><p class="idea-intro">{{ b.intro }}</p><a class="blog-button" href="#articles">{{ b.explore }} <span aria-hidden="true">↗</span></a></div>
-  <div class="hero-coordinate" aria-hidden="true">THOUGHT / LIFE / POSSIBILITY <span>∞</span></div>
+<section class="river-hero" aria-labelledby="river-title">
+  <img class="river-art" src="{{ '/assets/doojank/river-hero.webp' | relative_url }}" alt="{{ b.art_alt }}" fetchpriority="high" width="2400" height="800">
+  <div class="river-hero-inner"><div class="river-title-block"><p class="blog-eyebrow">{{ b.tagline }}</p><h1 id="river-title">{{ b.name }}</h1><p class="river-subname">{{ b.subname }}</p><p class="river-motto">{{ b.hero }}</p><a class="river-link" href="#articles">{{ b.explore }} <span aria-hidden="true">↘</span></a></div></div>
+  <span class="river-caption">{{ b.crossing }}</span>
+</section>
+<section class="blog-shell landing-note" aria-label="{{ b.introduction }}">
+  <img class="traveler-avatar" src="{{ '/assets/doojank/traveler.webp' | relative_url }}" alt="{{ b.avatar_alt }}" width="144" height="144">
+  <div class="landing-copy"><p class="blog-eyebrow">{{ b.introduction }}</p><p>{{ b.intro }}</p></div>
+  <a class="quiet-link" href="#about">{{ b.about }} <span aria-hidden="true">↗</span></a>
 </section>
 <section id="classics" class="blog-shell orbit-shelf" aria-labelledby="shelf-title">
-  <div class="shelf-heading"><div><p class="blog-eyebrow">{{ b.shelf }}</p><h2 id="shelf-title">{{ b.shelf_heading }}</h2></div><a href="{{ classics_path | relative_url }}">{{ b.shelf_link }} <span aria-hidden="true">↗</span></a></div>
-  <div class="orbit-books">{% assign slugs = 'diamond-sutra,heart-sutra,platform-sutra,chuanxilu' | split: ',' %}{% for slug in slugs %}<a class="orbit-book" href="{{ slug | prepend: '/classics/' | append: '/' | prepend: language_prefix | relative_url }}"><div class="orbit-book-image"><img src="{{ slug | prepend: '/assets/scriptures/' | append: '-banner.png' | relative_url }}" alt="{{ b.book_names[forloop.index0] }}" loading="lazy"></div><span>{{ b.book_names[forloop.index0] }} <span aria-hidden="true">↗</span></span></a>{% endfor %}</div>
+  <div class="shelf-heading"><div><p class="blog-eyebrow">{{ b.shelf }}</p><h2 id="shelf-title">{{ b.shelf_heading }}</h2></div><a class="quiet-link" href="{{ classics_path | relative_url }}">{{ b.shelf_link }} <span aria-hidden="true">↗</span></a></div>
+  <div class="orbit-books">{% assign slugs = 'diamond-sutra,heart-sutra,platform-sutra,chuanxilu' | split: ',' %}{% for slug in slugs %}<a class="orbit-book" href="{{ slug | prepend: '/classics/' | append: '/' | prepend: language_prefix | relative_url }}"><div class="orbit-book-image"><img src="{{ slug | prepend: '/assets/scriptures/' | append: '-banner.png' | relative_url }}" alt="{{ b.book_names[forloop.index0] }}" loading="lazy" width="940" height="400"></div><span>{{ b.book_names[forloop.index0] }} <span aria-hidden="true">↗</span></span></a>{% endfor %}</div>
 </section>
-<section id="articles" class="blog-shell exhibition">
-  <div class="exhibition-heading"><div><p class="blog-eyebrow">{{ b.essays }} / {{ all_articles.size }} {{ b.count }}</p><h2>{{ b.archive }}</h2></div><p>{{ b.archive_note }}</p></div>
+<section id="articles" class="blog-shell exhibition" aria-labelledby="essays-title">
+  <div class="exhibition-heading"><div><p class="blog-eyebrow">{{ b.essays }} <span class="eyebrow-rule" aria-hidden="true"></span> {{ all_articles.size }} {{ b.count }}</p><h2 id="essays-title">{{ b.archive }}</h2></div><p>{{ b.archive_note }}</p></div>
   <div class="archive-tools" hidden><label for="essay-search"><svg class="ui-icon" aria-hidden="true"><use href="#icon-search"></use></svg><span class="visually-hidden">{{ b.search }}</span><input id="essay-search" type="search" placeholder="{{ b.placeholder }}" autocomplete="off" aria-controls="essay-grid"></label><span id="search-count" aria-live="polite"></span></div>
   <div class="exhibit-grid" id="essay-grid">
     {% for article in all_articles %}<a class="exhibit-card" href="{{ article.url | relative_url }}" data-search="{{ article.title | append: ' ' | append: article.summary | escape }}">
       <div class="exhibit-image{% if article.cover_ratio == '5:2' %} exhibit-wide{% endif %}"><img src="{{ article.cover | relative_url }}" alt="{{ article.cover_alt | default: article.title | escape }}" loading="lazy"><span class="exhibit-open" aria-hidden="true">↗</span></div>
-      <div class="exhibit-copy"><div class="exhibit-meta"><span>{% if forloop.first %}{{ b.latest }}{% else %}{{ forloop.index | prepend: '00' | slice: -2, 2 }} / {{ b.essays }}{% endif %}</span><time datetime="{{ article.date | date_to_xmlschema }}">{{ article.date | date: '%Y.%m.%d' }}</time></div><h3>{{ article.title | escape }}</h3><p>{{ article.summary | escape }}</p><span class="exhibit-read">{{ b.read }} <span aria-hidden="true">↗</span></span></div>
+      <div class="exhibit-copy"><div class="exhibit-meta"><span>{% if forloop.first %}{{ b.latest }}{% else %}{{ b.essays }}{% endif %}</span><time datetime="{{ article.date | date_to_xmlschema }}">{% if current_lang == 'en' %}{{ article.date | date: '%b %d, %Y' }}{% else %}{{ article.date | date: '%Y.%m.%d' }}{% endif %}</time></div><h3>{{ article.title | escape }}</h3><p>{{ article.summary | escape }}</p><span class="exhibit-read">{{ b.read }} <span aria-hidden="true">→</span></span></div>
     </a>{% endfor %}
   </div><p class="search-empty" hidden role="status">{{ b.empty }}</p>
 </section>
-<section id="about" class="blog-shell blog-about">
-  <div class="about-manifesto"><p class="blog-eyebrow">{{ b.about }} / {{ b.name }}</p><h2>{{ b.about_title }}</h2><p>{{ b.about_copy }}</p><p>{{ b.about_second }}</p></div>
-  <aside class="blog-community"><p class="blog-eyebrow">{{ b.connect }}</p><div class="blog-qr-pair">
-    <figure><button class="qr-preview" type="button" data-qr-src="{{ '/assets/wechat-qr.jpg' | relative_url }}" data-qr-title="{{ b.wechat }}" aria-label="{{ b.wechat }} · {{ t.t21 }}"><img src="{{ '/assets/wechat-qr.jpg' | relative_url }}" alt="{{ b.wechat }}" width="108" height="108" loading="lazy"></button><figcaption>{{ b.wechat }}</figcaption></figure>
-    <figure><button class="qr-preview" type="button" data-qr-src="{{ '/assets/wechat-group-qr.jpg' | relative_url }}" data-qr-title="{{ b.group }}" aria-label="{{ b.group }} · {{ t.t22 }}"><img src="{{ '/assets/wechat-group-qr.jpg' | relative_url }}" alt="{{ b.group }}" width="108" height="108" loading="lazy"></button><figcaption>{{ b.group }}</figcaption></figure>
-  </div><small>{{ b.qr_hint }}</small></aside>
+<section id="about" class="blog-shell blog-about" aria-labelledby="about-title">
+  <figure class="about-river"><img src="{{ '/assets/doojank/river-perspective.webp' | relative_url }}" alt="{{ b.perspective_alt }}" width="800" height="1000" loading="lazy"><figcaption>{{ b.image_note }}</figcaption></figure>
+  <div class="about-manifesto"><p class="blog-eyebrow">{{ b.about }} <span class="eyebrow-rule" aria-hidden="true"></span> {{ b.name }}</p><h2 id="about-title">{{ b.about_title }}</h2><p>{{ b.about_copy }}</p><p>{{ b.about_second }}</p>
+    <aside class="blog-community"><p class="blog-eyebrow">{{ b.connect }}</p><div class="blog-qr-pair">
+      <figure><button class="qr-preview" type="button" data-qr-src="{{ '/assets/wechat-qr.jpg' | relative_url }}" data-qr-title="{{ b.wechat }}" aria-label="{{ b.wechat }} · {{ t.t21 }}"><img src="{{ '/assets/wechat-qr.jpg' | relative_url }}" alt="{{ b.wechat }}" width="96" height="96" loading="lazy"></button><figcaption>{{ b.wechat }}</figcaption></figure>
+      <figure><button class="qr-preview" type="button" data-qr-src="{{ '/assets/wechat-group-qr.jpg' | relative_url }}" data-qr-title="{{ b.group }}" aria-label="{{ b.group }} · {{ t.t22 }}"><img src="{{ '/assets/wechat-group-qr.jpg' | relative_url }}" alt="{{ b.group }}" width="96" height="96" loading="lazy"></button><figcaption>{{ b.group }}</figcaption></figure>
+    </div><small>{{ b.qr_hint }}</small></aside>
+  </div>
 </section>
 <dialog class="qr-dialog" id="qr-dialog" aria-labelledby="qr-dialog-title"><button class="qr-dialog-close" type="button" aria-label="{{ t.t50 }}">×</button><p class="blog-eyebrow">{{ b.connect }}</p><h2 id="qr-dialog-title"></h2><img id="qr-dialog-image" alt="" width="320" height="320"><p>{{ t.t7 }}</p></dialog>
 <script defer src="{{ '/assets/js/home-community.js' | relative_url }}"></script>

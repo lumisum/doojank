@@ -13,40 +13,40 @@ ROOT = Path(__file__).resolve().parents[1]
 SITE_BASE = "https://lumisum.github.io/wulai/"
 
 PARAGRAPH_STYLE = (
-    "margin:0 0 20px;color:#CED9E9;font-size:15px;line-height:1.95;"
+    "margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;"
     "letter-spacing:0.25px;"
 )
 HEADING_STYLE = (
-    "margin:34px 0 18px;padding-left:12px;border-left:3px solid #A793FF;"
-    "color:#E6EDF9;font-size:18px;font-weight:700;line-height:1.65;"
+    "margin:34px 0 18px;padding-left:12px;border-left:3px solid #B88D52;"
+    "color:#24343B;font-size:18px;font-weight:700;line-height:1.65;"
 )
 SUBHEADING_STYLE = (
-    "margin:26px 0 14px;color:#b7cce6;font-size:16px;font-weight:700;"
+    "margin:26px 0 14px;color:#687478;font-size:16px;font-weight:700;"
     "line-height:1.6;"
 )
 QUOTE_STYLE = (
-    "margin:24px 0;padding:15px 17px;border-left:3px solid #A793FF;"
-    "background-color:#182B45;color:#b7cce6;font-size:15px;line-height:1.9;"
+    "margin:24px 0;padding:15px 17px;border-left:3px solid #B88D52;"
+    "background-color:#EFEADF;color:#687478;font-size:15px;line-height:1.9;"
 )
-STRONG_STYLE = "color:#62D9FF;font-weight:700;"
+STRONG_STYLE = "color:#996B34;font-weight:700;"
 HIGHLIGHT_STYLE = (
-    "color:#62D9FF;background-color:#162B45;font-weight:700;padding:1px 3px;"
+    "color:#996B34;background-color:#EFEADF;font-weight:700;padding:1px 3px;"
 )
 LINK_STYLE = (
-    "color:#62D9FF;font-weight:700;text-decoration:underline;"
-    "text-decoration-color:#91ADC9;text-underline-offset:2px;"
+    "color:#996B34;font-weight:700;text-decoration:underline;"
+    "text-decoration-color:#687478;text-underline-offset:2px;"
 )
 IMAGE_STYLE = "display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"
 KICKER_STYLE = (
-    "margin:2px 0 12px;color:#91ADC9;font-size:12px;line-height:1.5;"
+    "margin:2px 0 12px;color:#687478;font-size:12px;line-height:1.5;"
     "letter-spacing:2px;text-align:left;"
 )
 TITLE_STYLE = (
-    "margin:0 auto 12px;color:#E6EDF9;font-size:24px;font-weight:700;"
+    "margin:0 auto 12px;color:#24343B;font-size:24px;font-weight:700;"
     "line-height:1.5;text-align:left;letter-spacing:0.4px;"
 )
 SUMMARY_STYLE = (
-    "margin:18px 0 26px;padding:14px 16px;background-color:#162B45;border-left:2px solid #62D9FF;color:#B7CCE6;font-size:14px;line-height:1.8;"
+    "margin:18px 0 26px;padding:14px 16px;background-color:#EFEADF;border-left:2px solid #996B34;color:#687478;font-size:14px;line-height:1.8;"
     "text-align:left;"
 )
 
@@ -175,7 +175,7 @@ def render_inline(text: str) -> str:
             parts.append(f"<em>{html.escape(emphasis, quote=False)}</em>")
         elif code is not None:
             parts.append(
-                f'<span style="color:#C9DEEF;background-color:#182B45;">'
+                f'<span style="color:#35464E;background-color:#EFEADF;">'
                 f"{html.escape(code, quote=False)}</span>"
             )
         else:
@@ -206,7 +206,7 @@ def render_image(block: str, article_base_url: str) -> str | None:
 
 
 def render_divider() -> str:
-    return '<p style="margin:26px 0;border-top:1px solid #29415D;line-height:0;font-size:0;"></p>'
+    return '<p style="margin:26px 0;border-top:1px solid #DCD6CA;line-height:0;font-size:0;"></p>'
 
 
 def render_article_header(title: str, summary: str, cover: str) -> str:
@@ -217,7 +217,7 @@ def render_article_header(title: str, summary: str, cover: str) -> str:
         'style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;">'
         "</p>",
         '<div style="padding:0 24px 8px;">',
-        f'<p style="{KICKER_STYLE}">无来 · 个人观察</p>',
+        f'<p style="{KICKER_STYLE}">渡江客 · 个人手记</p>',
         f'<p id="wechat-title" style="{TITLE_STYLE}">{html.escape(title, quote=False)}</p>',
     ]
     if summary:
@@ -229,10 +229,10 @@ def render_article_header(title: str, summary: str, cover: str) -> str:
 def render_article_end() -> str:
     return (
         render_divider()
-        + '<p style="margin:0 0 8px;color:#b7cce6;font-size:14px;line-height:1.8;'
+        + '<p style="margin:0 0 8px;color:#687478;font-size:14px;line-height:1.8;'
         'text-align:center;">保持好奇，让思考继续。</p>'
-        '<p style="margin:0;color:#A793FF;font-size:12px;letter-spacing:2px;'
-        'text-align:center;">无来 · 个人观察</p></div>'
+        '<p style="margin:0;color:#B88D52;font-size:12px;letter-spacing:2px;'
+        'text-align:center;">渡江客 · 个人手记</p></div>'
     )
 
 
@@ -254,7 +254,7 @@ def render_body(markdown: str, article_base_url: str, highlights: list[str]) -> 
                 continue
             style = HEADING_STYLE if len(heading.group(1)) == 1 or len(heading.group(1)) == 2 else SUBHEADING_STYLE
             blocks.append(
-                f'<p style="{style}"><span style="color:#A793FF;font-size:12px;">◦</span> '
+                f'<p style="{style}"><span style="color:#B88D52;font-size:12px;">◦</span> '
                 f'{render_inline(label)}</p>'
             )
             continue
@@ -265,7 +265,7 @@ def render_body(markdown: str, article_base_url: str, highlights: list[str]) -> 
                 f'<li style="{PARAGRAPH_STYLE}">{render_inline(item)}</li>' for item in items
             )
             blocks.append(
-                f'<ul style="margin:0 0 20px;padding-left:1.4em;color:#CED9E9;">{rendered_items}</ul>'
+                f'<ul style="margin:0 0 20px;padding-left:1.4em;color:#35464E;">{rendered_items}</ul>'
             )
             continue
 
@@ -275,7 +275,7 @@ def render_body(markdown: str, article_base_url: str, highlights: list[str]) -> 
                 f'<li style="{PARAGRAPH_STYLE}">{render_inline(item)}</li>' for item in items
             )
             blocks.append(
-                f'<ol style="margin:0 0 20px;padding-left:1.4em;color:#CED9E9;">{rendered_items}</ol>'
+                f'<ol style="margin:0 0 20px;padding-left:1.4em;color:#35464E;">{rendered_items}</ol>'
             )
             continue
 
@@ -294,7 +294,7 @@ def render_body(markdown: str, article_base_url: str, highlights: list[str]) -> 
 def make_markdown_export(title: str, summary: str, markup: str) -> str:
     return (
         "<!--\n"
-        "无来微信公众号图文排版稿。封面已置于正文开头；公众号标题和摘要字段可另行填写。\n"
+        "渡江客微信公众号图文排版稿。封面已置于正文开头；公众号标题和摘要字段可另行填写。\n"
         f"标题：{title}\n"
         f"摘要：{summary}\n"
         "正文图片和装饰图为网站公开链接；粘贴后请检查图片，必要时在公众号后台重新上传。\n"
@@ -355,9 +355,9 @@ def wechat_copy_script() -> str:
       node.removeAttribute('bgcolor');
       if (node.style.color) {
         const color = node.style.color;
-        node.style.color = color === 'rgb(98, 217, 255)' ? '#087EAA'
-          : color === 'rgb(167, 147, 255)' ? '#6951BD'
-          : '#253449';
+        node.style.color = color === 'rgb(153, 107, 52)' ? '#996B34'
+          : color === 'rgb(184, 141, 82)' ? '#8F602B'
+          : '#35464E';
       }
     }
     const markup = copyElement.outerHTML;
@@ -403,18 +403,18 @@ def make_html_export(title: str, markup: str, summary: str = "") -> str:
             '  <meta name="viewport" content="width=device-width, initial-scale=1">',
             f"  <title>{html.escape(title)}</title>",
             "</head>",
-            '<body style="margin:0;background-color:#09111F;">',
-            '  <div style="max-width:677px;margin:0 auto;padding:0 0 36px;background-color:#0F1B2E;border:1px solid #29415D;border-radius:14px;overflow:hidden;font-family:PingFang SC,Microsoft YaHei,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;">',
-            '<aside style="padding:18px 24px;border-bottom:1px solid #29415D;background:#13243A;">'
-            '<p style="margin:0 0 12px;color:#98ABC5;font-size:12px;line-height:1.7;">标题、导读分别填写；点击下方按钮复制带内联样式的正文，再粘贴到公众号编辑器。</p>'
-            '<button id="copy-wechat-body" type="button" style="margin:0 8px 8px 0;padding:10px 15px;border:0;border-radius:7px;background:#62D9FF;color:#09111F;font-size:13px;cursor:pointer;">复制排版正文</button>'
-            '<button id="copy-wechat-title" type="button" style="padding:10px 15px;border:1px solid #29415D;border-radius:7px;background:#162B45;color:#CED9E9;font-size:13px;cursor:pointer;">复制标题</button>'
-            '<p id="wechat-copy-status" role="status" aria-live="polite" style="margin:6px 0 0;color:#B7CCE6;font-size:12px;"></p></aside>',
-            ('<aside style="padding:22px 28px;background:#162B45;border-bottom:1px solid #29415D;">'
-             '<p style="margin:0 0 8px;color:#91ADC9;font-size:12px;letter-spacing:2px;">文章导读 · CAPTION</p>'
-             f'<p id="article-caption" style="margin:0 0 14px;color:#CED9E9;font-size:15px;line-height:1.8;">{html.escape(summary)}</p>'
-             '<button type="button" id="copy-caption" style="border:0;border-radius:6px;padding:9px 16px;background:#62D9FF;color:#09111F;font-size:14px;cursor:pointer;">复制导读 / Caption</button>'
-             '<p id="caption-status" role="status" aria-live="polite" style="margin:10px 0 0;color:#b7cce6;font-size:13px;"></p></aside>') if summary else "",
+            '<body style="margin:0;background-color:#F7F4ED;">',
+            '  <div style="max-width:677px;margin:0 auto;padding:0 0 36px;background-color:#FFFCF5;border:1px solid #DCD6CA;border-radius:14px;overflow:hidden;font-family:PingFang SC,Microsoft YaHei,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;">',
+            '<aside style="padding:18px 24px;border-bottom:1px solid #DCD6CA;background:#EFEADF;">'
+            '<p style="margin:0 0 12px;color:#687478;font-size:12px;line-height:1.7;">标题、导读分别填写；点击下方按钮复制带内联样式的正文，再粘贴到公众号编辑器。</p>'
+            '<button id="copy-wechat-body" type="button" style="margin:0 8px 8px 0;padding:10px 15px;border:0;border-radius:7px;background:#996B34;color:#FFFCF5;font-size:13px;cursor:pointer;">复制排版正文</button>'
+            '<button id="copy-wechat-title" type="button" style="padding:10px 15px;border:1px solid #DCD6CA;border-radius:7px;background:#EFEADF;color:#35464E;font-size:13px;cursor:pointer;">复制标题</button>'
+            '<p id="wechat-copy-status" role="status" aria-live="polite" style="margin:6px 0 0;color:#687478;font-size:12px;"></p></aside>',
+            ('<aside style="padding:22px 28px;background:#EFEADF;border-bottom:1px solid #DCD6CA;">'
+             '<p style="margin:0 0 8px;color:#687478;font-size:12px;letter-spacing:2px;">文章导读 · CAPTION</p>'
+             f'<p id="article-caption" style="margin:0 0 14px;color:#35464E;font-size:15px;line-height:1.8;">{html.escape(summary)}</p>'
+             '<button type="button" id="copy-caption" style="border:0;border-radius:6px;padding:9px 16px;background:#996B34;color:#FFFCF5;font-size:14px;cursor:pointer;">复制导读 / Caption</button>'
+             '<p id="caption-status" role="status" aria-live="polite" style="margin:10px 0 0;color:#687478;font-size:13px;"></p></aside>') if summary else "",
             f"{markup}",
             "  </div>",
             caption_copy_script() if summary else "",
@@ -459,7 +459,7 @@ def export_article(source_path: Path) -> bool:
     metadata, body = parse_frontmatter(source_path.read_text(encoding="utf-8"))
     if metadata.get("status") != "published":
         return False
-    title = metadata.get("title", "无来个人观察")
+    title = metadata.get("title", "渡江客个人手记")
     summary = metadata.get("summary", "")
     cover = metadata.get("cover", "")
     highlights = HIGHLIGHTS.get(source_path.parent.name, [])
@@ -475,7 +475,7 @@ def export_article(source_path: Path) -> bool:
     if metadata.get("visual_mode") == "cover-only":
         markup = markup.replace(render_divider(), "")
     markup = (
-        '<section id="wechat-body" style="background-color:#0F1B2E;color:#CED9E9;padding:0 0 28px;'
+        '<section id="wechat-body" style="background-color:#FFFCF5;color:#35464E;padding:0 0 28px;'
         'font-family:PingFang SC,Microsoft YaHei,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;">'
         + markup + "</section>"
     )

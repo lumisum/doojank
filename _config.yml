@@ -1,10 +1,10 @@
-title: 无来
-description: 无来的个人博客：关于技术、生活与自我的观察，换个角度看见世界。
-lang: zh-CN
+title: DooJank
+description: DooJank — a personal journal on philosophy, attention, and everyday life.
+lang: en
 url: https://lumisum.github.io
 baseurl: /wulai
-social_image: /assets/blog-hero-tech.png
-social_image_alt: 金属与玻璃的折叠空间，无来的个人博客
+social_image: /assets/doojank/river-hero.webp
+social_image_alt: A traveler crosses a misty river at sunset — DooJank
 markdown: kramdown
 permalink: pretty
 exclude:

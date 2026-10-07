@@ -1,27 +1,25 @@
 <p align="center">
-  <img src="assets/wulai-readme-hero.png" alt="清晨寺院中的禅修者与八辐法轮，远处是层叠山色" width="100%" />
+  <img src="assets/doojank/river-hero.webp" alt="A traveler crossing a misty river at sunset" width="100%" />
 </p>
 
-<h1 align="center">无来</h1>
+<h1 align="center">DooJank · 渡江客</h1>
 
-<p align="center">在日常里修行，在体会中写下佛法</p>
+<p align="center">Notes from the crossing. Philosophy, attention, and everyday life.</p>
 
-<p align="center"><a href="https://lumisum.github.io/wulai/">进入「无来」阅读网站 ↗</a> · <a href="https://lumisum.github.io/wulai/en/">Read in English ↗</a></p>
+<p align="center"><a href="https://lumisum.github.io/wulai/">Read the journal ↗</a> · <a href="https://lumisum.github.io/wulai/zh/">中文阅读 ↗</a></p>
 
 ---
 
-## 关于无来
+## About this journal
 
-这里记录我修行、学习佛法的过程，也记录佛法如何回到真实的日常。
+DooJank takes its name from 渡江客—a traveler crossing a river. I write from everyday experience, using philosophy to see familiar things more carefully. These essays hold observations and judgments that remain open to revision.
 
-我相信，修学不只是寻找现成的答案，也是在每一次观照、选择与实践中，慢慢看清自己的心。文章从个人经历与理解出发，尽量以真诚、平实的文字分享体会；所写是持续学习中的阶段记录，愿与有缘人一起思考、一起前行。
+渡江客，是渡江的客人。这里留下关于人生、专注与变化的个人手记，在真实的日常里，慢慢看清自己与世界的关系。
 
 <div align="center">
-
-<img src="assets/wechat-qr.jpg" alt="微信公众号「无来」二维码" width="148" />
-
-<p><strong>微信公众号：无来</strong></p>
-
+<img src="assets/wechat-qr.jpg" alt="微信公众号无来二维码" width="112" />
+<img src="assets/wechat-group-qr.jpg" alt="佛法研习群二维码" width="112" />
+<p>WeChat publication「无来」 · Buddhist study group</p>
 </div>
 
 ---
