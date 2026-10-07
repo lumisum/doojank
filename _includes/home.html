@@ -3,7 +3,10 @@
 {% assign language_prefix = '' %}{% if current_lang == 'en' %}{% assign language_prefix = '/en' %}{% endif %}
 {% assign all_articles = site.pages | where: 'layout', 'article' | where: 'status', 'published' | where: 'lang', current_lang | sort: 'date' | reverse %}
 <section class="river-hero" aria-labelledby="river-title">
-  <img class="river-art" src="{{ '/assets/doojank/river-hero.webp' | relative_url }}" alt="{{ b.art_alt }}" fetchpriority="high" width="2160" height="720">
+  <picture class="river-artwork">
+    <source media="(orientation: portrait) and (max-width: 1024px)" srcset="{{ '/assets/doojank/river-hero-portrait.webp' | relative_url }}" width="900" height="1200">
+    <img class="river-art" src="{{ '/assets/doojank/river-hero.webp' | relative_url }}" alt="{{ b.art_alt }}" fetchpriority="high" decoding="async" width="2160" height="720">
+  </picture>
   <div class="river-hero-inner"><div class="river-title-block"><p class="blog-eyebrow">{{ b.tagline }}</p><h1 id="river-title">{{ b.name }}</h1><p class="river-subname">{{ b.subname }}</p><p class="river-motto">{{ b.hero }}</p><a class="river-link" href="#articles">{{ b.explore }} <span aria-hidden="true">↘</span></a></div></div>
   <span class="river-caption">{{ b.crossing }}</span>
 </section>

@@ -18,7 +18,8 @@
 .eyebrow-rule{display:inline-block;flex:none;width:24px;height:1px;background:currentColor;opacity:.6}
 .quiet-link{display:inline-flex;align-items:center;gap:20px;font-size:12px;color:var(--brass);white-space:nowrap}
 .river-hero{position:relative;isolation:isolate;overflow:hidden;min-height:clamp(430px,35vw,600px);display:flex;align-items:center;color:#fbf3e4;background:#263b46}
-.river-art{position:absolute;inset:0;z-index:-2;width:100%;height:100%;object-fit:cover;object-position:center 54%}
+.river-artwork{position:absolute;inset:0;z-index:-2;display:block}
+.river-art{display:block;width:100%;height:100%;object-fit:cover;object-position:center 54%}
 .river-hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,transparent 36%,#142b383b 55%,#12293699 100%),linear-gradient(0deg,#182b394d,transparent 25%);pointer-events:none}
 .river-hero-inner{width:min(1200px,calc(100% - 80px));margin:0 auto;padding:55px 0 70px;display:flex;justify-content:flex-end}
 .river-title-block{width:44%;max-width:550px;text-shadow:0 2px 14px #10232c66}
@@ -157,6 +158,36 @@ html[lang="zh-CN"] .blog-theme .shelf-heading h2{font:500 20px/1.5 var(--sans)}
 .journey-grid>a>span:last-child{margin-left:auto;color:var(--brass)}
 html[lang="zh-CN"] .journey-grid strong{font:500 15px/1.6 var(--sans)}
 @media(max-width:600px){.exhibit-card{padding:8px}.journey-grid{grid-template-columns:1fr}.article-journey{margin:35px auto 40px}.blog-theme .article-toc summary span{display:inline;margin-left:0}.blog-theme .article-toc .toc-count{margin-left:auto}.blog-theme .article-toc .toc-chevron{margin-left:0}.blog-theme .article-content h2{font-size:1.2em}.blog-theme .article-toc{padding:12px 14px}.river-hero::after{background:linear-gradient(180deg,#142b38b3,transparent 80%,#182d3b55)}}
+
+/* Art direction follows orientation, rather than cropping a panorama into a phone. */
+@media(orientation:portrait) and (max-width:1024px){
+  .river-hero{height:clamp(560px,140vw,960px);min-height:0;align-items:flex-start}
+  .river-art{object-position:center 68%}
+  .river-hero::after{background:linear-gradient(180deg,#142b3838,transparent 62%,#182d3b33)}
+  .river-hero-inner{width:calc(100% - 40px);justify-content:center;padding:32px 0 0}
+  .river-title-block{width:100%;max-width:480px;text-align:center}
+  .river-title-block .blog-eyebrow{justify-content:center;font-size:9px;letter-spacing:.13em}
+  .river-title-block h1{font-size:clamp(66px,16vw,104px);margin:15px 0 12px}
+  .river-subname{font-size:11px;margin-bottom:18px}
+  .river-motto{font-size:clamp(24px,4.2vw,32px);margin-bottom:18px}
+  .river-caption{right:20px;bottom:24px;font-size:9px}
+  html[lang="zh-CN"] .blog-theme .river-title-block h1{font-size:clamp(59px,14vw,92px)}
+  html[lang="zh-CN"] .blog-theme .river-motto{font-size:clamp(22px,3.8vw,30px)}
+}
+@media(orientation:landscape) and (max-width:1024px) and (max-height:600px){
+  .river-hero{height:clamp(330px,46vw,450px);min-height:0;align-items:center}
+  .river-art{object-position:center 54%}
+  .river-hero::after{background:linear-gradient(90deg,transparent 32%,#142b3850 55%,#12293699)}
+  .river-hero-inner{width:calc(100% - 44px);justify-content:flex-end;padding:24px 0 40px}
+  .river-title-block{width:48%;max-width:480px;text-align:left}
+  .river-title-block .blog-eyebrow{justify-content:flex-start;font-size:8px}
+  .river-title-block h1{font-size:clamp(54px,9vw,80px);margin:12px 0}
+  .river-subname{margin-bottom:14px}
+  .river-motto{font-size:24px;margin-bottom:16px}
+  .river-caption{bottom:14px;font-size:8px}
+  html[lang="zh-CN"] .blog-theme .river-title-block h1{font-size:58px}
+  html[lang="zh-CN"] .blog-theme .river-motto{font-size:22px}
+}
 
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.blog-theme *{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
 
