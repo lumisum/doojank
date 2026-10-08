@@ -53,6 +53,8 @@ Create a fine-art editorial image for the about section of DooJank ('a traveler 
 
 首页文章与经典封面采用从现有原图等比缩小的WebP缩略图，按语言保留画面对应关系，不修改或覆盖原图。映射记录在 `_data/doojank_covers.json`，未收录的新文章自动回退到原封面。经典阅读页和文章内部仍使用原始高质量图片。
 
+新增或替换文章封面时，运行 `python3 scripts/sync_cover_thumbnails.py <文章目录名>`，从当前中英文元数据指定的封面等比例生成缩略图并更新映射。新文件名含缩略图内容哈希，图片变化时 URL 随之变化；首页与文章前后导航共用该映射。提交对应新文件与映射，不能只替换文章目录中的原图。
+
 ## 仓库更名后的地址
 
 发布期间检测到GitHub仓库已更名为 `lumisum/doojank`。网站正式地址为 `https://lumisum.github.io/doojank/`，中文首页为 `/doojank/zh/`。配置baseurl、Git远端、README及文章中的站内图片地址已同步；文章相对路径保留。GitHub Pages不会为旧 `/wulai/` 自动保留站点跳转，因此对外分享使用新地址。
