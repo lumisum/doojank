@@ -217,7 +217,7 @@ def render_article_header(title: str, summary: str, cover: str) -> str:
         'style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;">'
         "</p>",
         '<div style="padding:0 24px 8px;">',
-        f'<p style="{KICKER_STYLE}">踱江客 · 个人手记</p>',
+        f'<p style="{KICKER_STYLE}">渡江客 · 个人手记</p>',
         f'<p id="wechat-title" style="{TITLE_STYLE}">{html.escape(title, quote=False)}</p>',
     ]
     if summary:
@@ -232,7 +232,7 @@ def render_article_end() -> str:
         + '<p style="margin:0 0 8px;color:#687478;font-size:14px;line-height:1.8;'
         'text-align:center;">保持好奇，让思考继续。</p>'
         '<p style="margin:0;color:#B88D52;font-size:12px;letter-spacing:2px;'
-        'text-align:center;">踱江客 · 个人手记</p></div>'
+        'text-align:center;">渡江客 · 个人手记</p></div>'
     )
 
 
@@ -294,7 +294,7 @@ def render_body(markdown: str, article_base_url: str, highlights: list[str]) -> 
 def make_markdown_export(title: str, summary: str, markup: str) -> str:
     return (
         "<!--\n"
-        "踱江客微信公众号图文排版稿。封面已置于正文开头；公众号标题和摘要字段可另行填写。\n"
+        "渡江客微信公众号图文排版稿。封面已置于正文开头；公众号标题和摘要字段可另行填写。\n"
         f"标题：{title}\n"
         f"摘要：{summary}\n"
         "正文图片和装饰图为网站公开链接；粘贴后请检查图片，必要时在公众号后台重新上传。\n"
@@ -459,7 +459,7 @@ def export_article(source_path: Path) -> bool:
     metadata, body = parse_frontmatter(source_path.read_text(encoding="utf-8"))
     if metadata.get("status") != "published":
         return False
-    title = metadata.get("title", "踱江客个人手记")
+    title = metadata.get("title", "渡江客个人手记")
     summary = metadata.get("summary", "")
     cover = metadata.get("cover", "")
     highlights = HIGHLIGHTS.get(source_path.parent.name, [])

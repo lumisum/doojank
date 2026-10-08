@@ -1,5 +1,5 @@
 <!--
-踱江客微信公众号图文排版稿。封面已置于正文开头；公众号标题和摘要字段可另行填写。
+渡江客微信公众号图文排版稿。封面已置于正文开头；公众号标题和摘要字段可另行填写。
 标题：马斯克的佛性是什么？
 摘要：我不是判断马斯克是否信佛，而是借“愿力”思考一个问题：是什么让不同的行动长期朝向值得投入的方向，并在时间里形成合力？
 正文图片和装饰图为网站公开链接；粘贴后请检查图片，必要时在公众号后台重新上传。
@@ -7,7 +7,7 @@
 
 <section id="wechat-body" style="background-color:#FFFCF5;color:#35464E;padding:0 0 28px;font-family:PingFang SC,Microsoft YaHei,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;"><p style="margin:0 0 24px;line-height:0;"><img src="https://lumisum.github.io/doojank/articles/2026-09-24-musk-de-yuanli/images/cover.png" alt="马斯克的佛性是什么？" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
 <div style="padding:0 24px 8px;">
-<p style="margin:2px 0 12px;color:#687478;font-size:12px;line-height:1.5;letter-spacing:2px;text-align:left;">踱江客 · 个人手记</p>
+<p style="margin:2px 0 12px;color:#687478;font-size:12px;line-height:1.5;letter-spacing:2px;text-align:left;">渡江客 · 个人手记</p>
 <p id="wechat-title" style="margin:0 auto 12px;color:#24343B;font-size:24px;font-weight:700;line-height:1.5;text-align:left;letter-spacing:0.4px;">马斯克的佛性是什么？</p>
 <p style="margin:18px 0 26px;padding:14px 16px;background-color:#EFEADF;border-left:2px solid #996B34;color:#687478;font-size:14px;line-height:1.8;text-align:left;">我不是判断马斯克是否信佛，而是借“愿力”思考一个问题：是什么让不同的行动长期朝向值得投入的方向，并在时间里形成合力？</p>
 <p style="margin:26px 0;border-top:1px solid #DCD6CA;line-height:0;font-size:0;"></p>
@@ -34,4 +34,4 @@
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">愿力因此不再像一个玄妙的概念。它是让细小行动持续聚焦，并最终在时间里形成合力的原动力。愿可以有多个，人生不同阶段也可以有不同的愿。重要的不是一辈子只能朝一个方向，而是在一个值得投入的愿之下，能不能让自己的力少一些相互抵消，多一些持续叠加。</p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">不执于果，不等于不创造结果。也许正因为不被结果绑住，我们才能把注意力放回一次又一次真实的行动。一支箭很小，千万支箭大体同向，就完全不同。</p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;"><strong style="color:#996B34;background-color:#EFEADF;font-weight:700;padding:1px 3px;">愿力不是让人更拼命。它是让一个人的力，开始形成合力。</strong></p>
-<p style="margin:26px 0;border-top:1px solid #DCD6CA;line-height:0;font-size:0;"></p><p style="margin:0 0 8px;color:#687478;font-size:14px;line-height:1.8;text-align:center;">保持好奇，让思考继续。</p><p style="margin:0;color:#B88D52;font-size:12px;letter-spacing:2px;text-align:center;">踱江客 · 个人手记</p></div></section>
+<p style="margin:26px 0;border-top:1px solid #DCD6CA;line-height:0;font-size:0;"></p><p style="margin:0 0 8px;color:#687478;font-size:14px;line-height:1.8;text-align:center;">保持好奇，让思考继续。</p><p style="margin:0;color:#B88D52;font-size:12px;letter-spacing:2px;text-align:center;">渡江客 · 个人手记</p></div></section>

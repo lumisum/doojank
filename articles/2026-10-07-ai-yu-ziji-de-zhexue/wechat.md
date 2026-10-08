@@ -1,5 +1,5 @@
 <!--
-踱江客微信公众号图文排版稿。封面已置于正文开头；公众号标题和摘要字段可另行填写。
+渡江客微信公众号图文排版稿。封面已置于正文开头；公众号标题和摘要字段可另行填写。
 标题：AI 已经点火，你的人生往哪开？
 摘要：AI 可以替你寻找路径，却不能替你承担选择。执行越来越容易，什么值得做反而更重要。自己的哲学，是在强大工具面前仍能选择人生的判断系统。
 正文图片和装饰图为网站公开链接；粘贴后请检查图片，必要时在公众号后台重新上传。
@@ -7,7 +7,7 @@
 
 <section id="wechat-body" style="background-color:#FFFCF5;color:#35464E;padding:0 0 28px;font-family:PingFang SC,Microsoft YaHei,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;"><p style="margin:0 0 24px;line-height:0;"><img src="https://lumisum.github.io/doojank/articles/2026-10-07-ai-yu-ziji-de-zhexue/images/cover.png" alt="AI 已经点火，你的人生往哪开？" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
 <div style="padding:0 24px 8px;">
-<p style="margin:2px 0 12px;color:#687478;font-size:12px;line-height:1.5;letter-spacing:2px;text-align:left;">踱江客 · 个人手记</p>
+<p style="margin:2px 0 12px;color:#687478;font-size:12px;line-height:1.5;letter-spacing:2px;text-align:left;">渡江客 · 个人手记</p>
 <p id="wechat-title" style="margin:0 auto 12px;color:#24343B;font-size:24px;font-weight:700;line-height:1.5;text-align:left;letter-spacing:0.4px;">AI 已经点火，你的人生往哪开？</p>
 <p style="margin:18px 0 26px;padding:14px 16px;background-color:#EFEADF;border-left:2px solid #996B34;color:#687478;font-size:14px;line-height:1.8;text-align:left;">AI 可以替你寻找路径，却不能替你承担选择。执行越来越容易，什么值得做反而更重要。自己的哲学，是在强大工具面前仍能选择人生的判断系统。</p>
 
@@ -41,4 +41,4 @@
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">所以，我不再把学习哲学理解为与 AI 拉开距离。我更愿意把它理解为一种持续的准备：让自己有能力与强大的智能合作，也有能力接受、质疑和拒绝它的建议。AI 可以帮助我寻找目的地，比较路线，推进旅程；而我要在这个过程中，确认哪些选择值得用自己的时间、关系和生命去承担。</p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">人的智慧与 AI 的智能，可以一起发挥作用。前者也需要学习和修正，后者也需要约束和检查。我们不用把谁神化，更不必把它们变成对手。我想要的，是事情能够做得更好，同时自己对生活的选择也变得更清楚。</p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">当 AI 问我“接下来要做什么”的时候，我不必立刻拥有一个宏大的答案。但我希望自己至少能够认真回答：眼前什么值得做，为什么值得，有哪些代价我愿意承担。如果还没有想清楚，也能暂时停下来。拥有越来越强的 AI，应该让人获得更多选择，而自己的哲学，帮助我们知道如何使用这份选择。</p>
-<p style="margin:0 0 8px;color:#687478;font-size:14px;line-height:1.8;text-align:center;">保持好奇，让思考继续。</p><p style="margin:0;color:#B88D52;font-size:12px;letter-spacing:2px;text-align:center;">踱江客 · 个人手记</p></div></section>
+<p style="margin:0 0 8px;color:#687478;font-size:14px;line-height:1.8;text-align:center;">保持好奇，让思考继续。</p><p style="margin:0;color:#B88D52;font-size:12px;letter-spacing:2px;text-align:center;">渡江客 · 个人手记</p></div></section>
