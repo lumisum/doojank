@@ -66,3 +66,5 @@ Radically simplify and art-direct the referenced theater essay cover. Retain the
 ## 2026-10-08 作者确定中文标题
 
 中文标题改为「人生如戏：入戏要真，出戏要快」。同步文章元数据、README目录及公众号排版文件的标题和封面替代文字。正文、封面图与英文标题保留当前版本。
+
+作者随后要求英文标题同步调整，最终采用「Life Is a Play: Commit Fully, Let Go Quickly」，以 Commit Fully 表达真实投入，以 Let Go Quickly 保留及时放下的含义；同步英文页面与 X 排版文件。

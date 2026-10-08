@@ -1,4 +1,4 @@
-# Life Is a Play. No Acting Required.
+# Life Is a Play: Commit Fully, Let Go Quickly
 
 A woman stands beside a curtain, a mask hanging from her hand. Her own face is uncovered. The stage is lit, and the audience ahead is applauding. She has not stepped into the light yet. Looking at this cover, I keep returning to a question: can she give the performance her full commitment, then put the mask down when it ends?
 

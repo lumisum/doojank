@@ -2,7 +2,7 @@
 layout: "article"
 lang: "en"
 translation_key: "2026-10-07-rensheng-ruxi"
-title: "Life Is a Play. No Acting Required."
+title: "Life Is a Play: Commit Fully, Let Go Quickly"
 date: "2026-10-07"
 summary: "A mask, a stage, an applauding audience: roles ask for real commitment, not a permanent identity. Enter sincerely. Leave promptly. Keep the responsibility; leave the last scene’s struggle out of the next."
 status: "published"
