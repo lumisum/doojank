@@ -1,5 +1,5 @@
 <!--
-渡江客微信公众号图文排版稿。封面已置于正文开头；公众号标题和摘要字段可另行填写。
+踱江客微信公众号图文排版稿。封面已置于正文开头；公众号标题和摘要字段可另行填写。
 标题：佛陀如何教育自己的儿子？
 摘要：从《教诫罗睺罗经》的镜子譬喻出发，重新看孩子的独立、夫妻的教育分歧，以及父母如何先照见自己的控制与执着。
 正文图片和装饰图为网站公开链接；粘贴后请检查图片，必要时在公众号后台重新上传。
@@ -7,7 +7,7 @@
 
 <section id="wechat-body" style="background-color:#FFFCF5;color:#35464E;padding:0 0 28px;font-family:PingFang SC,Microsoft YaHei,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;"><p style="margin:0 0 24px;line-height:0;"><img src="https://lumisum.github.io/doojank/articles/2026-09-26-fotuo-jiaoyu-luohouluo/images/cover.png" alt="佛陀如何教育自己的儿子？" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
 <div style="padding:0 24px 8px;">
-<p style="margin:2px 0 12px;color:#687478;font-size:12px;line-height:1.5;letter-spacing:2px;text-align:left;">渡江客 · 个人手记</p>
+<p style="margin:2px 0 12px;color:#687478;font-size:12px;line-height:1.5;letter-spacing:2px;text-align:left;">踱江客 · 个人手记</p>
 <p id="wechat-title" style="margin:0 auto 12px;color:#24343B;font-size:24px;font-weight:700;line-height:1.5;text-align:left;letter-spacing:0.4px;">佛陀如何教育自己的儿子？</p>
 <p style="margin:18px 0 26px;padding:14px 16px;background-color:#EFEADF;border-left:2px solid #996B34;color:#687478;font-size:14px;line-height:1.8;text-align:left;">从《教诫罗睺罗经》的镜子譬喻出发，重新看孩子的独立、夫妻的教育分歧，以及父母如何先照见自己的控制与执着。</p>
 <p style="margin:26px 0;border-top:1px solid #DCD6CA;line-height:0;font-size:0;"></p>
@@ -31,4 +31,4 @@
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">佛陀给罗睺罗的那面镜子，也应该先放在父母面前。每当我们确信“我都是为了孩子好”，不妨问问自己：<strong style="color:#996B34;background-color:#EFEADF;font-weight:700;padding:1px 3px;">我是在帮助孩子形成自己的判断，还是努力让他成为我认为正确的样子？</strong></p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;"><strong style="color:#996B34;background-color:#EFEADF;font-weight:700;padding:1px 3px;">这两件事，也许就是教育和控制之间最重要的分界线。</strong>家庭之所以成为修行场，不是因为佛法在家庭里失效了，而是因为在最亲近的人面前，我们更容易看见自己究竟住在什么地方。</p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">经文参考：中部第 61 经<a href="https://theravadacn.com/Sutta/Ambalatthikarahulovada2.htm" style="color:#996B34;font-weight:700;text-decoration:underline;text-decoration-color:#687478;text-underline-offset:2px;">《芒果石教诫罗睺罗经》（中英对照）</a>。本文为个人理解与生活联想。</p>
-<p style="margin:26px 0;border-top:1px solid #DCD6CA;line-height:0;font-size:0;"></p><p style="margin:0 0 8px;color:#687478;font-size:14px;line-height:1.8;text-align:center;">保持好奇，让思考继续。</p><p style="margin:0;color:#B88D52;font-size:12px;letter-spacing:2px;text-align:center;">渡江客 · 个人手记</p></div></section>
+<p style="margin:26px 0;border-top:1px solid #DCD6CA;line-height:0;font-size:0;"></p><p style="margin:0 0 8px;color:#687478;font-size:14px;line-height:1.8;text-align:center;">保持好奇，让思考继续。</p><p style="margin:0;color:#B88D52;font-size:12px;letter-spacing:2px;text-align:center;">踱江客 · 个人手记</p></div></section>

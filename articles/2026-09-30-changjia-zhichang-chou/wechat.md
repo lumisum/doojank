@@ -1,5 +1,5 @@
 <!--
-渡江客微信公众号图文排版稿。封面已置于正文开头；公众号标题和摘要字段可另行填写。
+踱江客微信公众号图文排版稿。封面已置于正文开头；公众号标题和摘要字段可另行填写。
 标题：趁长假暂卸一身劳，借佛法照见职场愁
 摘要：长假离开了工位，心却还在等待认可与回报。借《六祖坛经》照见功劳背后的执着，分清工作与生活，让心放下，让事继续。
 正文图片和装饰图为网站公开链接；粘贴后请检查图片，必要时在公众号后台重新上传。
@@ -7,7 +7,7 @@
 
 <section id="wechat-body" style="background-color:#FFFCF5;color:#35464E;padding:0 0 28px;font-family:PingFang SC,Microsoft YaHei,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;"><p style="margin:0 0 24px;line-height:0;"><img src="https://lumisum.github.io/doojank/articles/2026-09-30-changjia-zhichang-chou/images/cover.png" alt="趁长假暂卸一身劳，借佛法照见职场愁" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
 <div style="padding:0 24px 8px;">
-<p style="margin:2px 0 12px;color:#687478;font-size:12px;line-height:1.5;letter-spacing:2px;text-align:left;">渡江客 · 个人手记</p>
+<p style="margin:2px 0 12px;color:#687478;font-size:12px;line-height:1.5;letter-spacing:2px;text-align:left;">踱江客 · 个人手记</p>
 <p id="wechat-title" style="margin:0 auto 12px;color:#24343B;font-size:24px;font-weight:700;line-height:1.5;text-align:left;letter-spacing:0.4px;">趁长假暂卸一身劳，借佛法照见职场愁</p>
 <p style="margin:18px 0 26px;padding:14px 16px;background-color:#EFEADF;border-left:2px solid #996B34;color:#687478;font-size:14px;line-height:1.8;text-align:left;">长假离开了工位，心却还在等待认可与回报。借《六祖坛经》照见功劳背后的执着，分清工作与生活，让心放下，让事继续。</p>
 <p style="margin:26px 0;border-top:1px solid #DCD6CA;line-height:0;font-size:0;"></p>
@@ -49,4 +49,4 @@
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">这个长假，身体歇下来，心也可以歇一歇。看看自己还背着哪些功劳，又在等待谁的回音。松开之后，再自在地生起自己的心。</p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">---</p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">经文出处：<a href="https://lumisum.github.io/doojank/classics/platform-sutra/" style="color:#996B34;font-weight:700;text-decoration:underline;text-decoration-color:#687478;text-underline-offset:2px;">《六祖坛经·机缘品第七》</a>（宗宝本作“亡功”）；<a href="https://lumisum.github.io/doojank/classics/diamond-sutra/" style="color:#996B34;font-weight:700;text-decoration:underline;text-decoration-color:#687478;text-underline-offset:2px;">《金刚经》</a>。“道法自然”出自《道德经》第二十五章，此处是我借来观照工作与生活的个人体会。</p>
-<p style="margin:26px 0;border-top:1px solid #DCD6CA;line-height:0;font-size:0;"></p><p style="margin:0 0 8px;color:#687478;font-size:14px;line-height:1.8;text-align:center;">保持好奇，让思考继续。</p><p style="margin:0;color:#B88D52;font-size:12px;letter-spacing:2px;text-align:center;">渡江客 · 个人手记</p></div></section>
+<p style="margin:26px 0;border-top:1px solid #DCD6CA;line-height:0;font-size:0;"></p><p style="margin:0 0 8px;color:#687478;font-size:14px;line-height:1.8;text-align:center;">保持好奇，让思考继续。</p><p style="margin:0;color:#B88D52;font-size:12px;letter-spacing:2px;text-align:center;">踱江客 · 个人手记</p></div></section>

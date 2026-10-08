@@ -1,5 +1,5 @@
 <!--
-渡江客微信公众号图文排版稿。封面已置于正文开头；公众号标题和摘要字段可另行填写。
+踱江客微信公众号图文排版稿。封面已置于正文开头；公众号标题和摘要字段可另行填写。
 标题：只差一点，为什么困住了你？
 摘要：努力之后只差一点，为什么反而难以释怀？放大缺口，不等于补足条件。注意力向因原则（ACP）：以目标定方向，以注意力作用于因，以结果检验行动，但不住于果。
 正文图片和装饰图为网站公开链接；粘贴后请检查图片，必要时在公众号后台重新上传。
@@ -7,7 +7,7 @@
 
 <section id="wechat-body" style="background-color:#FFFCF5;color:#35464E;padding:0 0 28px;font-family:PingFang SC,Microsoft YaHei,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;"><p style="margin:0 0 24px;line-height:0;"><img src="https://lumisum.github.io/doojank/articles/2026-10-08-zhangda-yu-zizai/images/cover.png" alt="只差一点，为什么困住了你？" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
 <div style="padding:0 24px 8px;">
-<p style="margin:2px 0 12px;color:#687478;font-size:12px;line-height:1.5;letter-spacing:2px;text-align:left;">渡江客 · 个人手记</p>
+<p style="margin:2px 0 12px;color:#687478;font-size:12px;line-height:1.5;letter-spacing:2px;text-align:left;">踱江客 · 个人手记</p>
 <p id="wechat-title" style="margin:0 auto 12px;color:#24343B;font-size:24px;font-weight:700;line-height:1.5;text-align:left;letter-spacing:0.4px;">只差一点，为什么困住了你？</p>
 <p style="margin:18px 0 26px;padding:14px 16px;background-color:#EFEADF;border-left:2px solid #996B34;color:#687478;font-size:14px;line-height:1.8;text-align:left;">努力之后只差一点，为什么反而难以释怀？放大缺口，不等于补足条件。注意力向因原则（ACP）：以目标定方向，以注意力作用于因，以结果检验行动，但不住于果。</p>
 
@@ -42,4 +42,4 @@
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">“尽人事，听天命”“因上努力，果上随缘”，因此对我有了具体含义。尽人事，是把有限注意力有效地投入可促成目标的条件；听天命，是承认结果受到多种条件影响。因上努力，是认真处理当下步骤；果上随缘，是不要求结果必须按照个人预想出现，并以真实结果继续检验行动。</p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">再看封面，放大镜没有错，缺口也确实需要看清。问题在于，我们什么时候应该放下镜片，把注意力交回手中的拼块。如果观察仍能发现新问题，就继续观察；如果已经知道下一步，却只是在同一个缺口上越看越不甘，就该改变注意力的用途。</p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;"><strong style="color:#996B34;font-weight:700;">只差一点，可以是下一步的线索，不必成为反复折磨自己的判决。</strong>长大带来的判断力，应该帮助我们更准确地行动，而不只是提供更多责备自己的理由。目标留在前方，结果用来检验，注意力落在能够创造条件的地方。拼图可以继续完成，心不必一直关在那块空白里。</p>
-<p style="margin:0 0 8px;color:#687478;font-size:14px;line-height:1.8;text-align:center;">保持好奇，让思考继续。</p><p style="margin:0;color:#B88D52;font-size:12px;letter-spacing:2px;text-align:center;">渡江客 · 个人手记</p></div></section>
+<p style="margin:0 0 8px;color:#687478;font-size:14px;line-height:1.8;text-align:center;">保持好奇，让思考继续。</p><p style="margin:0;color:#B88D52;font-size:12px;letter-spacing:2px;text-align:center;">踱江客 · 个人手记</p></div></section>

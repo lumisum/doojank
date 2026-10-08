@@ -1,5 +1,5 @@
 <!--
-渡江客微信公众号图文排版稿。封面已置于正文开头；公众号标题和摘要字段可另行填写。
+踱江客微信公众号图文排版稿。封面已置于正文开头；公众号标题和摘要字段可另行填写。
 标题：当“相”可以无限生成：从AI视频一直想到人类消失以后
 摘要：从不断生成的 AI 视频，想到虚拟世界、工业闭环与机器意识。十九层追问，最终回到相与心：能思考是否就会受苦，能造相是否就能不住相？
 正文图片和装饰图为网站公开链接；粘贴后请检查图片，必要时在公众号后台重新上传。
@@ -7,7 +7,7 @@
 
 <section id="wechat-body" style="background-color:#FFFCF5;color:#35464E;padding:0 0 28px;font-family:PingFang SC,Microsoft YaHei,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;"><p style="margin:0 0 24px;line-height:0;"><img src="https://lumisum.github.io/doojank/articles/2026-10-02-ai-shipin-xiang-yu-xin/images/cover.png" alt="当“相”可以无限生成：从AI视频一直想到人类消失以后" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
 <div style="padding:0 24px 8px;">
-<p style="margin:2px 0 12px;color:#687478;font-size:12px;line-height:1.5;letter-spacing:2px;text-align:left;">渡江客 · 个人手记</p>
+<p style="margin:2px 0 12px;color:#687478;font-size:12px;line-height:1.5;letter-spacing:2px;text-align:left;">踱江客 · 个人手记</p>
 <p id="wechat-title" style="margin:0 auto 12px;color:#24343B;font-size:24px;font-weight:700;line-height:1.5;text-align:left;letter-spacing:0.4px;">当“相”可以无限生成：从AI视频一直想到人类消失以后</p>
 <p style="margin:18px 0 26px;padding:14px 16px;background-color:#EFEADF;border-left:2px solid #996B34;color:#687478;font-size:14px;line-height:1.8;text-align:left;">从不断生成的 AI 视频，想到虚拟世界、工业闭环与机器意识。十九层追问，最终回到相与心：能思考是否就会受苦，能造相是否就能不住相？</p>
 <p style="margin:26px 0;border-top:1px solid #DCD6CA;line-height:0;font-size:0;"></p>
@@ -113,4 +113,4 @@
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">但这个问题不能省略一个区别：如果它只是没有主观体验，就不能把“无从受苦”当成“已经觉悟”。一块石头不因得失烦恼，不等于石头修成了佛。没有形成执着的能力，与看清执着而不再被它困住，也不是同一回事。</p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">所以这个问题，我愿意先留着。能够不断造相，不等于能够看清相；能够说出无我，不等于已经放下我。至于今天的我们，也许不必等到机器有没有心被回答以后，才开始照看自己的心：画面可以不停生成，我却可以停下来，看一看此刻是谁在追，究竟在追什么。</p>
 <p style="margin:26px 0;"><img src="https://lumisum.github.io/doojank/articles/2026-10-02-ai-shipin-xiang-yu-xin/images/08.png" alt="窗边的人放下手机，回到眼前：相可以不停，心可以停下" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
-<p style="margin:26px 0;border-top:1px solid #DCD6CA;line-height:0;font-size:0;"></p><p style="margin:0 0 8px;color:#687478;font-size:14px;line-height:1.8;text-align:center;">保持好奇，让思考继续。</p><p style="margin:0;color:#B88D52;font-size:12px;letter-spacing:2px;text-align:center;">渡江客 · 个人手记</p></div></section>
+<p style="margin:26px 0;border-top:1px solid #DCD6CA;line-height:0;font-size:0;"></p><p style="margin:0 0 8px;color:#687478;font-size:14px;line-height:1.8;text-align:center;">保持好奇，让思考继续。</p><p style="margin:0;color:#B88D52;font-size:12px;letter-spacing:2px;text-align:center;">踱江客 · 个人手记</p></div></section>

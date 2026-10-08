@@ -2,7 +2,7 @@
   <img src="assets/doojank/river-hero.webp" alt="A traveler crossing a misty river at sunset" width="100%" />
 </p>
 
-<h1 align="center">DooJank · 渡江客</h1>
+<h1 align="center">DooJank · 踱江客</h1>
 
 <p align="center">Notes from the crossing. Philosophy, attention, and everyday life.</p>
 
@@ -12,9 +12,9 @@
 
 ## About this journal
 
-DooJank takes its name from 渡江客—a traveler crossing a river. I write from everyday experience, using philosophy to see familiar things more carefully. These essays hold observations and judgments that remain open to revision.
+DooJank takes its name from 踱江客—an unhurried traveler, with the river as a recurring image. I write from everyday experience, using philosophy to see familiar things more carefully. These essays hold observations and judgments that remain open to revision.
 
-渡江客，是渡江的客人。这里留下关于人生、专注与变化的个人手记，在真实的日常里，慢慢看清自己与世界的关系。
+踱，是缓步而行；江，是这里的意象。这里留下关于人生、专注与变化的个人手记，在真实的日常里，慢慢看清自己与世界的关系。
 
 <div align="center">
 <img src="assets/wechat-qr.jpg" alt="微信公众号无来二维码" width="112" />

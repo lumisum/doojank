@@ -8,7 +8,7 @@
     {% assign social_image = page.cover | default: site.social_image | absolute_url %}
     {% if classic_theme and page.cover == nil %}{% assign social_image = "/assets/wulai-readme-hero.png" | absolute_url %}{% endif %}
     {% assign social_image_alt = page.cover_alt | default: site.social_image_alt | default: page.title | default: site.title %}
-    {% assign site_name = 'DooJank' %}{% if current_lang == 'zh-CN' %}{% assign site_name = '渡江客' %}{% endif %}
+    {% assign site_name = 'DooJank' %}{% if current_lang == 'zh-CN' %}{% assign site_name = '踱江客' %}{% endif %}
     {% if current_lang == 'en' and page.cover == nil and classic_theme == false %}{% assign social_image_alt = 'A traveler crosses a misty river at sunset — DooJank' %}{% endif %}
     {% capture seo_title %}{% if page.title %}{{ page.title }} · {% endif %}{{ site_name }}{% endcapture %}
 {% assign counterpart = site.pages | where: 'translation_key', page.translation_key | where: 'lang', other_lang | first %}{% assign switch_path = counterpart.url | default: fallback_path %}
@@ -111,7 +111,7 @@
     <header class="site-header">
       <a class="brand" href="{{ home_path | relative_url }}" aria-label="{{ t.t89 }}">
         <span class="brand-mark" aria-hidden="true"><svg class="ui-icon"><use href="#icon-dharma"></use></svg></span>
-        <span>{% if current_lang == 'en' %}DooJank{% else %}渡江客{% endif %}</span>
+        <span>{% if current_lang == 'en' %}DooJank{% else %}踱江客{% endif %}</span>
       </a>
       <nav class="site-nav" aria-label="{{ t.t97 }}">
         <a href="{{ home_path | relative_url }}#articles" aria-label="{{ t.t87 }}"><svg class="ui-icon" aria-hidden="true"><use href="#icon-bodhi"></use></svg><span class="nav-label">{{ t.t87 }}</span><span class="nav-short" aria-hidden="true">{{ t.t98 }}</span></a>
@@ -126,7 +126,7 @@
 
     {% if classic_theme %}
     <footer class="site-footer">
-      <a class="footer-brand" href="{{ home_path | relative_url }}"><svg class="ui-icon" aria-hidden="true"><use href="#icon-dharma"></use></svg>{% if current_lang == 'en' %}DooJank{% else %}渡江客{% endif %}</a>
+      <a class="footer-brand" href="{{ home_path | relative_url }}"><svg class="ui-icon" aria-hidden="true"><use href="#icon-dharma"></use></svg>{% if current_lang == 'en' %}DooJank{% else %}踱江客{% endif %}</a>
       <div class="footer-center">
         <p>{{ t.t85 }}</p>
         {% if page.translation_key == 'home' %}

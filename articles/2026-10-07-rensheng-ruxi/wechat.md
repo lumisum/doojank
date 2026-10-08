@@ -1,5 +1,5 @@
 <!--
-渡江客微信公众号图文排版稿。封面已置于正文开头；公众号标题和摘要字段可另行填写。
+踱江客微信公众号图文排版稿。封面已置于正文开头；公众号标题和摘要字段可另行填写。
 标题：人生如戏，完全不需要演技
 摘要：角色需要真实投入，却不必永久占住你。面具、舞台与掌声，照见身份怎样从接口变成执念。入戏要真，出戏要快；责任照样承担，上一场的输赢不必带进下一场。
 正文图片和装饰图为网站公开链接；粘贴后请检查图片，必要时在公众号后台重新上传。
@@ -7,7 +7,7 @@
 
 <section id="wechat-body" style="background-color:#FFFCF5;color:#35464E;padding:0 0 28px;font-family:PingFang SC,Microsoft YaHei,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;"><p style="margin:0 0 24px;line-height:0;"><img src="https://lumisum.github.io/doojank/articles/2026-10-07-rensheng-ruxi/images/cover.png" alt="人生如戏，完全不需要演技" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
 <div style="padding:0 24px 8px;">
-<p style="margin:2px 0 12px;color:#687478;font-size:12px;line-height:1.5;letter-spacing:2px;text-align:left;">渡江客 · 个人手记</p>
+<p style="margin:2px 0 12px;color:#687478;font-size:12px;line-height:1.5;letter-spacing:2px;text-align:left;">踱江客 · 个人手记</p>
 <p id="wechat-title" style="margin:0 auto 12px;color:#24343B;font-size:24px;font-weight:700;line-height:1.5;text-align:left;letter-spacing:0.4px;">人生如戏，完全不需要演技</p>
 <p style="margin:18px 0 26px;padding:14px 16px;background-color:#EFEADF;border-left:2px solid #996B34;color:#687478;font-size:14px;line-height:1.8;text-align:left;">角色需要真实投入，却不必永久占住你。面具、舞台与掌声，照见身份怎样从接口变成执念。入戏要真，出戏要快；责任照样承担，上一场的输赢不必带进下一场。</p>
 
@@ -42,4 +42,4 @@
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">这份清醒甚至有助于把角色做好。一个管理者不需要时时证明威信，就更容易听见坏消息；一个父亲不需要孩子证明自己的教育成功，就更容易看见孩子真实的困难；一个创作者不需要每篇都赢得掌声，就更愿意修正尚未讲清的判断。注意力从保护身份回到处理事情，投入才有了更可靠的落点。</p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">封面里的人还站在帷幕旁。她可以把面具戴上，走进光里，认真完成属于自己的演出；观众的掌声可以听见，也可以感谢。等这一场结束，她仍然能够拿下面具，继续以一个普通人的方式走入下一段关系。舞台需要她真实的参与，却不需要把她永久留住。</p>
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">人生如戏，完全不需要演技。需要的是进入角色时真实地承担，转换角色时清楚地调整。我们不必等到最后一次谢幕，才发现手中的道具与自己的脸还有距离。<strong style="color:#996B34;font-weight:700;">戏可以一场接着一场，心不必永远留在上一场。</strong></p>
-<p style="margin:0 0 8px;color:#687478;font-size:14px;line-height:1.8;text-align:center;">保持好奇，让思考继续。</p><p style="margin:0;color:#B88D52;font-size:12px;letter-spacing:2px;text-align:center;">渡江客 · 个人手记</p></div></section>
+<p style="margin:0 0 8px;color:#687478;font-size:14px;line-height:1.8;text-align:center;">保持好奇，让思考继续。</p><p style="margin:0;color:#B88D52;font-size:12px;letter-spacing:2px;text-align:center;">踱江客 · 个人手记</p></div></section>
