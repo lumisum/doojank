@@ -3,7 +3,7 @@
 ## 定稿与写法
 
 - 中文：人为什么越长大越不自在？（保留作者标题）
-- 原稿副题：从二相分别，到注意力相因原则。其核心概念保留在正文，不另加章节标题。
+- 原稿副题：从二相分别，到注意力向因原则。其核心概念保留在正文，不另加章节标题。
 - 英文：Why Do We Feel Less Free as We Grow Up?
 - writing_mode: detailed。连续自然段，无章节、列表与单句金句串。
 - 中文正文约 3653 汉字；英文约 2243 words。
@@ -12,11 +12,11 @@
 
 ## 核心理解与编辑
 
-保留作者完整逻辑：相对判断帮助产生方向，趋避产生动力，目标与结果差距本可指导行动；把结果变成必须兑现的心理条件，容易增加额外烦恼。无住并非取消分别、追求和责任。作者提出的注意力相因原则，使方向、注意力投入与结果反馈成为可实践的过程。
+保留作者完整逻辑：相对判断帮助产生方向，趋避产生动力，目标与结果差距本可指导行动；把结果变成必须兑现的心理条件，容易增加额外烦恼。无住并非取消分别、追求和责任。作者提出的注意力向因原则，使方向、注意力投入与结果反馈成为可实践的过程。
 
-以相定方向，以因承载注意力；以果检验行动，但不住于果。完整保留软件开发和辅导孩子两个案例，以及尽人事、听天命、因上努力、果上随缘的含义。
+以目标定方向，以注意力作用于因，以结果检验行动，但不住于果。完整保留软件开发和辅导孩子两个案例，以及尽人事、听天命、因上努力、果上随缘的含义。
 
-补清边界：成年人的不自在并非年龄必然规律；孩童也有烦恼；二相是本篇讨论中的简化命名，不表示佛学只承认两个相或现实只有两个极端；注意力相因原则是作者的实践总结，不是既有佛教术语或已证实的科学定律。
+补清边界：成年人的不自在并非年龄必然规律；孩童也有烦恼；二相是本篇讨论中的简化命名，不表示佛学只承认两个相或现实只有两个极端；注意力向因原则是作者的实践总结，不是既有佛教术语或已证实的科学定律。
 
 区分客观不合格与自我否定。规划、风险评估、必要复盘、休息和求助都可以参与创造条件，不把专注误写成只顾眼前动手或每分钟产出。现实伤害、疾病、资源限制和不公平不能都归因于个人执着。接纳不等于赞同，随缘不取消责任与争取；情绪需要被承认，放下是渐进练习。
 
@@ -54,3 +54,12 @@ Create one striking surreal sculptural scene: an ordinary adult in a simple rust
 A distinctive gallery sculpture photographed in a vast muted lavender-grey architectural space, warm ivory stone floor, brushed brass trophy with rich realistic material texture, a small coral accent in the clothing. Strong sculptural silhouette, unexpected scale, humane rather than dystopian. Three-quarter side view, all of the trophy and person visible. Main subjects within central 80% of a wide 5:2 landscape frame, safe margin top and bottom so 2.35:1 crop preserves the whole metaphor. Airy negative space. Elegant editorial conceptual photography, subtle film grain, sophisticated soft directional light.
 NO TEXT, letters, numerals, symbols, signage, logo, watermark. No robot, Buddha, lotus, neon, data network, trophy engraving. Only the person, oversized trophy backpack, stone and unfinished walkway.
 
+
+## 作者正式命名（2026-10-08 更新）
+
+- 中文：注意力向因原则。
+- 英文：Attention-to-Cause Principle (ACP)，Cause 使用单数，简称 ACP，不写 ACP Principle。
+- “向”表示把有限注意力从对结果的执着转向促成结果的具体行动与条件。
+- 核心定义：以目标定方向，以注意力作用于因，以结果检验行动，但不住于果。
+- English: Set your direction through goals, direct your attention toward causes, learn from outcomes, but never become attached to results.
+- 英文正文仅使用英文名称与解释，不夹入中文术语。
