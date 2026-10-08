@@ -2,7 +2,7 @@
 layout: "article"
 lang: "zh-CN"
 translation_key: "2026-10-07-rensheng-ruxi"
-title: "人生如戏，完全不需要演技"
+title: "人生如戏：入戏要真，出戏要快"
 date: "2026-10-07"
 summary: "角色需要真实投入，却不必永久占住你。面具、舞台与掌声，照见身份怎样从接口变成执念。入戏要真，出戏要快；责任照样承担，上一场的输赢不必带进下一场。"
 status: "published"

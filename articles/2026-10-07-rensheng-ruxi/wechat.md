@@ -1,14 +1,14 @@
 <!--
 渡江客微信公众号图文排版稿。封面已置于正文开头；公众号标题和摘要字段可另行填写。
-标题：人生如戏，完全不需要演技
+标题：人生如戏：入戏要真，出戏要快
 摘要：角色需要真实投入，却不必永久占住你。面具、舞台与掌声，照见身份怎样从接口变成执念。入戏要真，出戏要快；责任照样承担，上一场的输赢不必带进下一场。
 正文图片和装饰图为网站公开链接；粘贴后请检查图片，必要时在公众号后台重新上传。
 -->
 
-<section id="wechat-body" style="background-color:#FFFCF5;color:#35464E;padding:0 0 28px;font-family:PingFang SC,Microsoft YaHei,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;"><p style="margin:0 0 24px;line-height:0;"><img src="https://lumisum.github.io/doojank/articles/2026-10-07-rensheng-ruxi/images/cover.png" alt="人生如戏，完全不需要演技" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
+<section id="wechat-body" style="background-color:#FFFCF5;color:#35464E;padding:0 0 28px;font-family:PingFang SC,Microsoft YaHei,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;"><p style="margin:0 0 24px;line-height:0;"><img src="https://lumisum.github.io/doojank/articles/2026-10-07-rensheng-ruxi/images/cover.png" alt="人生如戏：入戏要真，出戏要快" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;"></p>
 <div style="padding:0 24px 8px;">
 <p style="margin:2px 0 12px;color:#687478;font-size:12px;line-height:1.5;letter-spacing:2px;text-align:left;">渡江客 · 个人手记</p>
-<p id="wechat-title" style="margin:0 auto 12px;color:#24343B;font-size:24px;font-weight:700;line-height:1.5;text-align:left;letter-spacing:0.4px;">人生如戏，完全不需要演技</p>
+<p id="wechat-title" style="margin:0 auto 12px;color:#24343B;font-size:24px;font-weight:700;line-height:1.5;text-align:left;letter-spacing:0.4px;">人生如戏：入戏要真，出戏要快</p>
 <p style="margin:18px 0 26px;padding:14px 16px;background-color:#EFEADF;border-left:2px solid #996B34;color:#687478;font-size:14px;line-height:1.8;text-align:left;">角色需要真实投入，却不必永久占住你。面具、舞台与掌声，照见身份怎样从接口变成执念。入戏要真，出戏要快；责任照样承担，上一场的输赢不必带进下一场。</p>
 
 <p style="margin:0 0 20px;color:#35464E;font-size:15px;line-height:1.95;letter-spacing:0.25px;">帷幕旁站着一个人，手里垂着一张面具。她的脸露在外面，舞台上的光已经亮了，前方的观众正在鼓掌。她还没有走进去。面具是准备登台时使用的道具，此刻仍在她手中。看着这张封面，我想到一个问题：走上舞台以后，她能不能认真完成自己的演出，又在演出结束时，把面具放下来？</p>
