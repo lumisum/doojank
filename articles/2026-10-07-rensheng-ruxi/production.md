@@ -46,3 +46,19 @@ Create a premium surreal editorial photograph / tactile 3D sculpture for a perso
 - 按作者要求，中英文十一节标题改为简短的核心判断、定位或疑问，去掉序号与重复解释。
 - 保留原有十一节顺序、正文、主标题、导读和封面；公众号与X复制稿同步更新。
 - 本次章节安排遵循作者明确要求，不套用详解式默认无章节规则。
+
+## 2026-10-08：以图立意法改版（当前定稿）
+
+- 作者已确认封面，明确要求重写中英文并更新 Pages；本次保留原日期、文章目录与永久链接。
+- 创作方式：`creative_method: image-led`；正文 `writing_mode: detailed`，连续自然段，不分章节，降低一句一段的比例。
+- 中文标题：人生如戏，完全不需要演技；英文标题：Life Is a Play. No Acting Required.。
+- 标题候选与选择：人生如戏，完全不需要演技（采用，承接作者新版）／掌声停了，面具还戴着？（突出退出，但容易把全文缩为认可焦虑）／入戏要真，出戏要快（准确，但画面疑问与点击欲较弱）。
+- 标题、封面与正文关系：帷幕旁等待登台的人、手中的面具、前方光区与少量鼓掌观众。面具是角色接口，登台是责任投入，掌声是外部反馈；保持可放下面具的清醒，不把反馈与身份永久绑定。
+- 核心判断从实际画面引出，正文通过理由、生活案例、逆向检验与边界展开，结尾回扣同一画面。图像不作为事实证据。
+- 正文计数：中文 3207 汉字，英文 1888 words；导读 72 中文字符，英文 204 字符（含空格与标点）。
+- 封面由内置 image_gen 生成；中文 1880×800（2.35:1），英文 2000×800（5:2），按确认原图居中安全裁切并等比例缩放，不叠字、不拉伸。
+- 更新中文 Pages、英文 Pages、wechat.html、wechat.md、x.html、x.md 及文章索引。先前制作记录为历史版本，不代表当前正文与封面。
+
+### 当前封面生成／编辑提示词
+
+Radically simplify and art-direct the referenced theater essay cover. Retain the ideas of a person waiting to enter the stage holding a removable mask, and an applauding audience, but REBUILD the scene as a minimalist contemporary black-box theater editorial photograph. Horizontal 5:2. One clear primary subject at center-left: an ordinary adult woman in simple charcoal clothing, seen in three-quarter side view, standing just outside one narrow matte-black curtain at the edge of the stage, waiting to step into light. Her uncovered face and ONE ivory theatrical mask held low in her visible hand must be distinct; softly illuminate both. Her whole silhouette fits inside frame. Most of the image is a calm nearly seamless warm light-gray stage floor and pale gray background with ample EMPTY SPACE. A single restrained oval pool of warm-white stage light is in front of her. At far right in the background show ONLY five seated audience members in one small row, with a few clearly legible clapping hands, subdued and gently out of focus but not erased. They occupy at most 15 percent of image area, face the stage, and never compete with the woman and mask. Use a physically coherent oblique angle from the wing. Minimal light ivory, charcoal, soft muted skin color palette; a small warm accent only. Gallery-quality realistic photography with elegant quiet negative space, human warmth and obvious hierarchy. Remove every decorative theater balcony, gilded ornament, glowing bulb, equipment rope, trunk, busy wooden texture, extra curtain folds and crowd. No multiple rows, no extra waiting actors, no 3D sculpture, no collage, no mystical glow. One person, one mask, a stage threshold and a small applauding audience. The mask is the brightest small focal object. Strong simple silhouette readable at thumbnail scale; all important subjects within central 85 percent width and safely away from top/bottom edges for 2.35:1 crop. NO text, NO letters, NO title, NO logo, NO watermark.

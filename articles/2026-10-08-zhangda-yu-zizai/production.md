@@ -73,3 +73,19 @@ NO TEXT, letters, numerals, symbols, signage, logo, watermark. No robot, Buddha,
 有依据的逆向推理：若烦恼仅来自不得，得到后应结束，但不足与怕失去仍会出现；若反复思考在改善事情，应当形成新信息、新判断或下一步；把安心完全押在未来结果上，会挤占当前行动的注意力。中英文同样有力度，不夸大为全部努力无效或全部痛苦来自执着。
 
 标题与无字封面保持：巨大奖杯成为负担，俯身铺石代表向因投入注意力。封面不重新生成。平台复制稿与导读随正文更新。
+
+## 2026-10-08：以图立意法改版（当前定稿）
+
+- 作者已确认封面，明确要求重写中英文并更新 Pages；本次保留原日期、文章目录与永久链接。
+- 创作方式：`creative_method: image-led`；正文 `writing_mode: detailed`，连续自然段，不分章节，降低一句一段的比例。
+- 中文标题：只差一点，为什么困住了你？；英文标题：One Piece Short. Why Does It Keep You Stuck?。
+- 标题候选与选择：只差一点，为什么困住了你？（采用，作者确认，兼顾缺口与心理困境）／你在补缺口，还是放大它？（图像联动强，但容易误读为批评有效复盘）／缺的只是一块，困住的却是你（张力清楚，但有夸大现实问题只是小缺口的风险）。
+- 标题、封面与正文关系：几乎完成的拼图、放大镜中的单一缺口、另一只手里的拼块。镜片引出对预期落差的持续关注，手中拼块引出 ACP 的注意力转向。比喻不证明所有落差都有现成解法，不否定检查缺陷的必要性。
+- 核心判断从实际画面引出，正文通过理由、生活案例、逆向检验与边界展开，结尾回扣同一画面。图像不作为事实证据。
+- 正文计数：中文 3187 汉字，英文 1970 words；导读 75 中文字符，英文 233 字符（含空格与标点）。
+- 封面由内置 image_gen 生成；中文 1880×800（2.35:1），英文 2000×800（5:2），按确认原图居中安全裁切并等比例缩放，不叠字、不拉伸。
+- 更新中文 Pages、英文 Pages、wechat.html、wechat.md、x.html、x.md 及文章索引。先前制作记录为历史版本，不代表当前正文与封面。
+
+### 当前封面生成／编辑提示词
+
+Use case: photorealistic-natural, conceptual editorial still-life photograph for an essay about attention trapped in unmet expectations instead of creating the conditions for the next action. Wide horizontal 5:2, elegant minimalist close-up taken from a high oblique overhead viewpoint. On a smooth matte warm ivory table lies ONE large nearly completed rectangular jigsaw puzzle of thick plain warm-white pieces, no printed image, no words, no numbers. Only ONE small piece-shaped hole remains slightly right of center, the dark tabletop recess shows through. An adult's left hand entering from the upper left holds ONE simple black-rimmed optical magnifying glass just above that single hole: glass visibly magnifies the empty hole and its surrounding puzzle edges; physically coherent lens, hole seen once through lens, not a duplicate hole. The hole inside the lens is the strongest high-contrast focal point. An adult's other hand enters from lower right, holding ONE matching ivory jigsaw piece between thumb and finger, clearly available to place yet paused away from the gap. Only hands and forearms, no person face. The completed puzzle extends calmly into the left and middle frame; abundant uncluttered ivory negative space around it. Visual relationship legible at thumbnail size: much is completed, yet the gaze enlarges the one absent part while the next action waits in the other hand. Sophisticated real studio macro photography, authentic subtle cardboard fibers, natural skin and hands, matte black magnifier rim, soft directional window light, subdued warm gray shadows, tactile realism, crisp selective focus on lens and loose piece. Restrained human warmth, calm and curious, not scolding, not doom. No additional props, no coffee, no desk clutter, no symbols, no decorative objects, no text, no title, no letters, no watermark, no logos. All important lens/hole/hand-held-piece within central 85 percent and fully inside frame for 2.35:1 cropping. No impossible floating pieces or puzzle patterns, no 3D render, no collage.

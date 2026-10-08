@@ -1,89 +1,63 @@
 # Life Is a Play. No Acting Required.
 
-There is an old Chinese saying: **“When a person is near death, their words are kind.”** I have been wondering why this might be true. Why do people approaching the end of life often speak more gently, more honestly, sometimes with unexpected clarity? What have they understood in that moment? Increasingly, I think death may not suddenly make someone kinder. Perhaps, at that point, they no longer need to keep “managing themselves.”
+A woman stands beside a curtain, a mask hanging from her hand. Her own face is uncovered. The stage is lit, and the audience ahead is applauding. She has not stepped into the light yet. Looking at this cover, I keep returning to a question: can she give the performance her full commitment, then put the mask down when it ends?
 
-## Roles Connect Us
+In a theater, the distinction seems straightforward. Actors know they are entering a role. They know applause responds to a performance, and that the stage is somewhere they eventually leave. At work and at home, we often lose those distinctions. A position changes, but we still expect the same obedience. A project ends, but we keep arguing inwardly about credit. We return home carrying a manager's voice. The setting has changed. The role has not stepped aside.
 
-In ordinary life, we assume we have a long future ahead. There will be another year, another decade. So we continually manage ourselves: our work, relationships, income, social standing, other people's opinions, and the “self” we hold in our own minds.
+**Much of our exhaustion comes from an event ending while the identity attached to it keeps running.** A criticism might call for checking what is accurate and explaining what is not. Instead, we repeatedly try to prove that we were never wrong. A disappointing project calls for investigation and repair, but becomes a judgment on everything we are. We take on an additional task: protecting a role that must never be questioned.
 
-At work, we present ourselves as competent. With a supervisor, we choose what to say. With employees, we take on the manager's role. With our children, we are parents; with our partners, husbands or wives. With friends, we enter another mode. Even with a complete stranger, we quickly establish a new set of boundaries.
+This is why I want to reconsider the expression “life is a play.” The responsibilities are real, and so are the relationships. Enter a role and fulfill it sincerely. “No acting required” means there is no need to pretend to care, pretend to be responsible, or pretend to be engaged. Do the actual work. Carry the actual responsibility. Know, at the same time, that no single role needs to occupy you permanently.
 
-Everyone therefore wears many masks. But a mask here does not mean dishonesty. It is more like a social interface. Unless we live in complete isolation, we relate to others through roles. I increasingly agree with this judgment: **a role is not a disguise; it is an interface connecting a person to the world.**
+We need roles because relationships have different needs. A child needs care, explanation, and support. A team needs priorities, coordination, and someone accountable for decisions. A customer needs clear commitments that are kept. The same person cannot use exactly the same behavior or carry exactly the same responsibilities in all three settings.
 
-Parenthood connects you to your child. Management connects you to your team. Employment connects you to an organization. Being a creator connects you to an audience. Friendship connects you to another relationship. Different relationships need different interfaces. This is a practical requirement of social life, not hypocrisy. Unless we live entirely alone, roles are almost unavoidable.
+**A role is an interface connecting us to the world.** It makes cooperation possible and tells other people what they can reasonably ask of us. Children cannot be treated as employees, partners as customers, or every team decision as a casual conversation among friends. Distinguishing roles reduces confusion. Their usefulness depends, in part, on having a defined scope.
 
-## A Role Is Not the Self
+Trouble begins when that scope expands without limit. Someone with authority at work assumes they should decide everything at home. Someone with past achievements hears every new objection as an attempt to erase those achievements. A role that once helped them navigate relationships becomes a reason to make every relationship revolve around them.
 
-Having roles is not the real problem. Wearing them long enough, we begin to mistake them for ourselves. After ten years in charge, someone starts to think, **“I am the leader.”** After making a great deal of money: **“My wealth is my worth.”** After career success: **“Success is who I am.”** A father places all his attention on his child, until the child's failure becomes **“I have failed.”**
+The change can be subtle. “I am responsible for this project” becomes “I am the person who must succeed.” “I have responsibilities toward my child” becomes “My child must develop according to my judgment.” Once a responsibility becomes a fixed definition of the self, changes in circumstances begin to feel like attacks on the person.
 
-A role begins as an interface with the world and becomes internalized as “me.” Then things get difficult. Criticism of your work, originally an assessment of a project, becomes a rejection of you. A change in position, originally the end of a role, can feel like the collapse of your life's value. An investment loss, originally a mistaken decision, becomes the question, “Am I simply not capable?”
+In the cover, the mask is still in the woman's hand. There is a visible distance between it and her face. After wearing an identity for years, we can forget that distance. Position, income, reputation, expertise, even an opinion can become evidence of who we are. Criticizing a decision feels like rejecting the whole person. Losing a position feels like losing permission to participate.
 
-It is not the role itself that causes this suffering. The underlying problem is that **we have forgotten a role is only a role.**
+Turn the question around: if a role is all of you, what remains when it ends? You can still learn after retirement, improve after a failed project, and care after your child becomes independent. A change in the role does not erase your capacity for judgment, action, or connection. You can enter new settings if you allow the old way of participating to change.
 
-## Why Honesty Near Death?
+An old Chinese saying comes to mind: “When a person is near death, their words are kind.” Why might someone approaching the end say things they have long withheld? Gratitude, an apology, affection, even a simple “I was wrong”—why do these sometimes emerge so late?
 
-Return to the saying about kind words near death, and it becomes intriguing. Death abruptly ends the need to keep managing ourselves. Suppose someone knows they have one hour left. What remains to manage? Does their position still matter? Next year's promotion? Other people's opinions? Must they keep fighting for something they have contested for ten years? How much reason remains to hate someone they have refused to forgive for decades?
+One explanation is that there is less future left to manage. In ordinary circumstances, we weigh words against tomorrow's cooperation, interests, reputation, and position. Admitting an error might appear to threaten authority. Expressing affection might feel like exposing weakness. As the future shortens, some reasons to protect a public image weaken, allowing feelings more room to be expressed.
 
-There is no future left. Many behaviors built around that future suddenly lose their payoff. Competition loses its purpose. Calculation loses its purpose. Maintaining an identity, making long-term plans, and tending to social judgments begin to lose theirs too.
+Death does not automatically make anyone kind or clear-eyed. People can remain afraid, angry, or unwilling to let go. Their concern for loved ones does not suddenly become meaningless. The saying is not a psychological law about everyone who is dying. It points me toward a possibility: clarity can sometimes come from having fewer reasons to maintain an image, rather than from acquiring new knowledge.
 
-Why do people ordinarily disguise what they think or feel? Often because there is still a future to manage. As that future approaches zero, the payoff from pretending approaches zero too. I am tempted to extend the saying: **“When a person is near death, their words are kind—and true.”** They may not have become a saint. They may simply have fewer reasons to keep pretending. Death brings a person from managing themselves back to seeing themselves.
+I would add my own thought to the saying: near death, words may become kind—and true. “True” is my interpretation. Feelings long constrained by identity, interests, and public judgment can finally be voiced. A person turns from managing how others see them toward recognizing their own feelings and choices. Why must that wait until the final moment?
 
-## The Supports of Identity
+Having time ahead gives us more reason to practice this distinction. We can continue working and sustaining relationships without tying every factual judgment to protecting an identity. Acknowledging a flawed decision does not abandon a manager's responsibility. Accepting that a child has a different view does not end parental care. Releasing what must constantly be proved can make the situation easier to understand.
 
-There is another interesting feature of the clarity people sometimes experience near death. It often comes without a sudden gain in knowledge. Instead, many things are taken away. For decades we add things to ourselves: my job, my identity, my income, my house, my reputation, my relationships, my opinions, my abilities, my plans, my future. Through countless instances of “mine,” we reinforce a sense of “me.”
+This is where practice becomes useful to me. Listen to what a criticism actually says. In a conflict, separate the issue requiring attention from the impulse to win. When the setting changes, adjust your way of speaking rather than importing the power and emotion of the previous relationship. Clarity has to work in these ordinary situations to be worth anything.
 
-With death, these things begin to lose their function. We cannot take a position, wealth, or reputation with us. Social relationships lose their previous meaning. Plans for the future lapse. Eventually, even “my body” must be relinquished. From this perspective, death can force a person into a state where attachment to the self begins to loosen.
+Entering a role sincerely also takes practice. If your attention remains on work messages while you sit with your child, the child receives repeatedly interrupted companionship. If you spend a meeting anticipating what comes afterward, the team gets a leader who is only partly present. Knowing that roles have boundaries cannot excuse neglecting them.
 
-That does not mean everyone gains wisdom before dying. Some remain afraid, angry, or unwilling to let go. Death does not automatically bring a genuine realization of not-self. But it does something remarkably thorough: **it rapidly dismantles the supports we have spent a lifetime using to maintain “me.”** That raises a question. If these things eventually fall away, why must we wait until the final moment?
+**Commit fully within the role; release your grip beyond it.** Full commitment does not mean every result must be perfect. It means giving attention to what the situation asks of you. Understand the circumstances, make decisions, accept responsibility, and correct mistakes. Genuine commitment includes learning, acknowledging limitations, and taking necessary rest.
 
-## Why Wait Until the End?
+Applause has a place too. It offers encouragement and can indicate whether a work has reached its audience. Enjoy it. But applause cannot replace your judgment of the work. Constantly accommodating an audience to secure the next round of approval can gradually displace what you intended to express. A performance without much response does not prove that you have nothing more worth saying.
 
-This may be where practice becomes truly meaningful. Practice does not require us to withdraw from society, do nothing, or live without desire, a career, a family, or competition. Such an interpretation can easily turn practice into escape. Someone living in the real world needs roles, and should fulfill them well. Be a good father. Take responsibility as a manager. Create seriously. Even an ordinary employee should meet the responsibilities of their position.
+If commitment depends on the promise of applause, you have handed it to the audience. Feedback can guide improvement without becoming the only reason to do your part. The work on stage needs care before the applause begins. Other people's judgments can contain useful information without acquiring unlimited control over your attention.
 
-The question is therefore not **“Should I enter the role?”** It is **“Once inside, can I step out again?”** This brings a phrase to mind: **life is a play.** But not the kind of play we usually mean.
+Leaving a role is often harder than entering it. Entry comes with external cues: arriving at work, receiving an assignment, becoming a parent. Departure often requires a judgment of your own. Who tells you to leave the managerial tone behind when you return home? Who tells you to stop rehearsing an argument after it ends? A door can close in the world without closing in the mind.
 
-## Commit Without Pretending
+A practical question helps: am I still fulfilling a responsibility, or am I only defending an identity? Investigating a project's problems, repairing damage, and explaining the situation serve real purposes. Once the necessary work is done, repeatedly imagining how to prove you did not lose is a different activity. It consumes energy without creating new conditions for improvement.
 
-Calling someone an actor in everyday life usually implies something negative: dishonesty, putting on a show, thinking one thing while displaying another. That is not what I mean here. A good performance should be deeply real. An actor entering a role must enter that world: cry when it calls for tears, feel anger, love, and pain. Someone constantly reminding themselves, “I'm only acting,” may perform badly precisely for that reason.
+“Enter sincerely. Leave promptly” offers a direction for practice. What you leave is an inappropriate claim to identity or a pointless continuation of the contest. Duties do not vanish at the end of a workday. Feelings do not reset on command. A father remains a father, but as a child grows, his participation can move from deciding on the child's behalf toward supporting the child's judgment.
 
-A person practicing should not remain forever outside their roles, watching coldly. They should be better able to enter them. Once inside, commit fully. In this moment, be a father. In this relationship, carry the manager's responsibilities. While creating, give your attention to the work. That is concentration, not dishonesty.
+“One hundred percent commitment within the role, zero attachment beyond it” describes where attention should go. It is not an emotional performance standard. Failure can hurt. A changing relationship can bring grief. Misunderstanding can feel unfair. Acknowledge those responses, address what needs attention, and allow time where time is needed. Demanding immediate composure only adds another performance to maintain.
 
-This suggests the title: **Life Is a Play. No Acting Required.**
+This gives the Buddhist idea of non-attachment a practical meaning for me: do not fix yourself permanently to one identity, judgment, or result. Take responsibility and remain able to adjust. Enjoy success without requiring it to last forever. After leaving a setting, do not give it authority over every other setting. Attention then has room for what comes next.
 
-Why no acting? Because no pretense is necessary. You are not pretending to become a father; you are genuinely being one in this moment. You are not pretending to become a manager; you are taking on the responsibilities of that relationship. The role is real. The commitment is real. You simply know that **the role is not your permanent, unchanging identity.**
+Another image I find useful is a raft. Use it carefully when crossing a river. Carrying it afterward can turn a useful tool into a burden. The Diamond Sutra uses the raft analogy to caution against clinging even to teachings. Applying it to social roles is my own practical interpretation; I am not claiming the scripture was written specifically about professional or family identities.
 
-## Enter Fully. Leave Promptly.
+Some roles last a long time. The point is not to discard them after one use, but to recognize that their function changes. Management serves organizational work; a title does not entitle its holder to deference everywhere. Parents retain duties while adjusting their involvement as children become more capable. What needs releasing is an approach that has outlived its purpose, along with the insistence that a role prove who we are.
 
-Perhaps practice trains two capacities together, rather than teaching us to enter fewer roles: **enter promptly, and leave promptly too.** Commit one hundred percent while in the role. When it ends, step out. Leave the manager at the office when the workday finishes. At home, do not manage your partner and children as if they were employees.
+Seen this way, death resembles a final compulsory curtain call. Many identities can no longer be maintained in their old form. Practice lets us recognize their function and scope while we still have a future. We can participate seriously in each scene and acknowledge that another follows, without leaving all our energy in an earlier contest.
 
-If a project fails, accept that the project failed. Do not extend it into “I am a failed person.” When something succeeds, you can be happy without fixing it into “I am a success.” A successful person is also a role belonging to a particular period of life.
+This clarity can improve how we fulfill roles. A manager who need not constantly prove authority can hear bad news sooner. A parent who does not need a child to demonstrate educational success can notice the child's actual difficulty. A creator who does not need applause for every piece can revise an argument that remains unclear. Attention returns from defending identity to addressing the work.
 
-I increasingly like this simple expression: **inside the role, one hundred percent commitment; outside it, zero attachment.** This may be what makes “life is a play” interesting. You do not have to stand below the stage. You can enter wholeheartedly and take a clear-eyed bow whenever it is time to leave.
+The woman in the cover is still beside the curtain. She can lift the mask, enter the light, and give the performance her care. She can hear the applause and be grateful. When the scene ends, she can remove the mask and enter the next relationship as an ordinary person. The stage asks for her sincere participation. It does not need to keep her forever.
 
-## Set Down the Raft
-
-Thinking further, I find roles very close to the raft metaphor in the Diamond Sutra. Buddhist scripture uses a raft for crossing a river as an analogy. While you need to cross, the raft matters enormously. Without it, you may not make it. But once across, carrying it on your back turns a tool into a burden. Roles work similarly. **A role is a raft.**
-
-You use the manager's role to achieve an organizational goal during a particular period. You use the father's role to provide care and companionship. You use the creator's role to express something, and the student's role to complete a period of learning. Roles serve concrete purposes. When needed, they should be used fully. You should even build the raft well.
-
-The difficulty is **reaching the other bank and still carrying the raft.** A project ends, but you keep carrying “I am the person in charge.” You retire for twenty years, but still carry “I used to be a leader.” A child becomes an adult, but you carry “You should do everything I say.” A relationship ends, yet you continue living according to your role within it. The role has lost its original function. It no longer serves as an interface; it becomes a fixation. In this sense, **entering the role means boarding the raft; leaving means setting it down.** Practice does not mean refusing to board. It means knowing when to put the raft down after crossing.
-
-## Death Ends Every Role
-
-Return to death, and the thought comes full circle. Death is life's final and most complete compulsory exit from its roles. Over a lifetime, we may be children, students, employees, leaders, husbands, wives, fathers, mothers, rich, poor, successful, unsuccessful, experts, or ordinary people.
-
-When death arrives, every role ultimately takes its final bow. It does not ask whether you want to keep performing. It simply says, **“This performance is over.”** Perhaps the clarity death sometimes brings comes from all these roles losing their function together for the first time. You no longer need to maintain any of them. The person long enclosed by roles briefly sees themselves. This may also explain why speech sometimes becomes more truthful near death. The last scene is here. The audience is leaving. The stage lights are going out. There is no longer a need to maintain a persona.
-
-## Practice Letting Go Now
-
-I increasingly see an interesting relationship between death and practice. **Death forces an exit at the final moment. Practice teaches us to leave freely while we are alive.** It does not ask us to reject roles. It asks us to recognize that roles are necessary in real life but never constitute our whole existence. Enter seriously when needed, and leave when no longer needed. Work hard, compete, accept responsibility, and express yourself when appropriate. But do not weld any win, loss, identity, or role permanently to “me.”
-
-Such a person may live more fully, rather than less. Without constantly spending part of their attention protecting a fragile self-image, they can give more attention to what they are doing. A person practicing need not be a spectator of life. They may be an excellent actor: entering more deeply than many people, yet leaving more promptly. Knowing that a scene will end gives them reason to take it seriously, rather than treat it carelessly. Knowing a flower will fade does not stop us from looking. It may make us look more closely.
-
-## Freedom Within the Role
-
-I find myself drawn to this paradoxical title: **Life Is a Play. No Acting Required.** Life does resemble a play. Yet the best way to live it involves neither putting on a show nor deception. When a role needs you, genuinely become that role. When it is time to leave, set it down. A role is an interface connecting you to the world. It is not your defining identity; it is a raft. While crossing, paddle well. Once ashore, put it down.
-
-Practice may therefore give us a rare kind of freedom within life's play: **the ability to enter any scene without becoming trapped in it.** Enter sincerely. Leave promptly. Inside the role, one hundred percent commitment. Outside it, zero attachment.
-
-When a person is near death, their words may be kind and true, because death brings them from managing themselves back to seeing themselves. Perhaps practice seeks only this: **not to wait for death.** To begin seeing while we are still alive.
+Life is a play. No acting required. Enter a role with real responsibility; change roles with a clear understanding of what changes. We do not have to wait for the final curtain to discover the distance between the prop in our hand and our own face. **The scenes can keep coming. The mind does not have to stay in the last one.**
