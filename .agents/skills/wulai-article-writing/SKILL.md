@@ -36,7 +36,7 @@ description: 以无来以图立意法构思封面、标题和正文联动，按�
 3. 中文审定后按 [英文指南](../../../guides/english-edition.md) 创建对应英文 Pages；英文 Pages 与 X 共用定稿。讨论稿不自动翻译或上线。
 4. 需要公众号交稿时按 [排版规范](../../../guides/wechat-formatting.md) 运行 `python3 scripts/export_wechat.py`，生成 `wechat.html` 与 `wechat.md`，保留 15px、顶部中文封面与复制 caption 工具。
 5. 需要 X 交稿时运行 `python3 scripts/export_x.py <文章目录名>`，生成 `x.html` 与 `x.md`；标题、英文封面和 caption 单独复制或上传。需要单帖或 Thread 时按 [X 指南](../../../guides/x-formatting.md) 另准备发布稿，不保证粘贴保留全部样式。
-6. 图片使用 [配图技能](../wulai-wechat-visuals/SKILL.md)：默认中英文正文均不配图，只制作无字封面，以新奇图形关系表达主旨；中文公众号封面 2.35:1，英文 X/Pages 封面 5:2。配色依文章主旨；正文图与带字图仅按当前明确要求制作。
+6. 图片使用 [配图技能](../wulai-wechat-visuals/SKILL.md)：默认中英文正文均不插图，主封面无字；中文公众号封面 2.35:1，英文 X/Pages 封面 5:2。另按[分享素材规范](../../../guides/share-pack.md)交付3–6张3:4独立分享图和约300字精华段落，与HTML同目录。分享素材不替代短导读或caption，不自动插入正文。配色与独特视觉关系依文章主旨确定。
 7. 新增或替换封面后运行 `python3 scripts/sync_cover_thumbnails.py <文章目录名>`，同步两种语言的首页及上一篇／下一篇缩略图。提交新缩略图与 `_data/doojank_covers.json`；缩略图文件名包含内容版本，避免继续显示缓存旧图。只处理本次文章，不扫描其他未发布草稿。
 
 方法更新不自动授权批量改稿、制图、发布或推送；发布依当前任务要求执行。
