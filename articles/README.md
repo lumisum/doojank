@@ -4,6 +4,7 @@
 
 | 日期 | 文章 | 原文 Markdown | 公众号 HTML | 排版 Markdown | X 英文复制稿 |
 | --- | --- | --- | --- | --- | --- |
+| 2026-10-10 | GrokBot 邮箱一上线，我的一人公司就开张了 | [article.md](2026-10-10-grokbot-youxiang/article.md) | [wechat.html](2026-10-10-grokbot-youxiang/wechat.html) | [wechat.md](2026-10-10-grokbot-youxiang/wechat.md) | [x.html](2026-10-10-grokbot-youxiang/x.html) · [x.md](2026-10-10-grokbot-youxiang/x.md) |
 | 2026-10-08 | 只差一点，为什么困住了你？ | [article.md](2026-10-08-zhangda-yu-zizai/article.md) | [wechat.html](2026-10-08-zhangda-yu-zizai/wechat.html) | [wechat.md](2026-10-08-zhangda-yu-zizai/wechat.md) | [x.html](2026-10-08-zhangda-yu-zizai/x.html) · [x.md](2026-10-08-zhangda-yu-zizai/x.md) |
 | 2026-10-07 | 油门交给 AI，方向交给谁？ | [article.md](2026-10-07-ai-yu-ziji-de-zhexue/article.md) | [wechat.html](2026-10-07-ai-yu-ziji-de-zhexue/wechat.html) | [wechat.md](2026-10-07-ai-yu-ziji-de-zhexue/wechat.md) | [x.html](2026-10-07-ai-yu-ziji-de-zhexue/x.html) · [x.md](2026-10-07-ai-yu-ziji-de-zhexue/x.md) |
 | 2026-10-07 | 人生如戏，完全不需要演技 | [article.md](2026-10-07-rensheng-ruxi/article.md) | [wechat.html](2026-10-07-rensheng-ruxi/wechat.html) | [wechat.md](2026-10-07-rensheng-ruxi/wechat.md) | [x.html](2026-10-07-rensheng-ruxi/x.html) · [x.md](2026-10-07-rensheng-ruxi/x.md) |

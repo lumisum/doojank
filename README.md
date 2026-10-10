@@ -49,6 +49,7 @@ DooJank takes its name from 渡江客—a traveler crossing a river. I write fro
 
 | 日期 | 文章 |
 | --- | --- |
+| 2026.10.10 | [GrokBot 邮箱一上线，我的一人公司就开张了](https://lumisum.github.io/doojank/articles/2026-10-10-grokbot-youxiang/) · [English](https://lumisum.github.io/doojank/en/articles/2026-10-10-grokbot-youxiang/) |
 | 2026.10.08 | [只差一点，为什么困住了你？](https://lumisum.github.io/doojank/articles/2026-10-08-zhangda-yu-zizai/) · [English](https://lumisum.github.io/doojank/en/articles/2026-10-08-zhangda-yu-zizai/) |
 | 2026.10.07 | [油门交给 AI，方向交给谁？](https://lumisum.github.io/doojank/articles/2026-10-07-ai-yu-ziji-de-zhexue/) · [English](https://lumisum.github.io/doojank/en/articles/2026-10-07-ai-yu-ziji-de-zhexue/) |
 | 2026.10.07 | [人生如戏：入戏要真，出戏要快](https://lumisum.github.io/doojank/articles/2026-10-07-rensheng-ruxi/) · [English](https://lumisum.github.io/doojank/en/articles/2026-10-07-rensheng-ruxi/) |
