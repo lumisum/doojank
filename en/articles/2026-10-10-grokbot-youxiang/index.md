@@ -17,7 +17,7 @@ reading_minutes: 15
 
 An envelope slides into a mailbox. Inside, two robots are already passing a document between their desks. We normally think of a mailbox as somewhere messages arrive. This cover opens it up to reveal an office at work. That is the idea behind my experiment: a customer sends one email, and a small team behind the inbox picks up the request and delivers the result.
 
-I did not build a literal office inside a mailbox. On a Saturday morning, I connected two Grok Bots, one shared email address, and a few Google Sheets into a pay-per-delivery AI briefing service. It took roughly an hour and a half from claiming the address to the first delivery. I did not personally write any code. There were disagreements, mistakes, interventions, and corrections along the way. “Opened for business” means the service completed its first workflow. It does not mean I had established a reliably profitable company.
+I did not build a literal office inside a mailbox. On a Saturday morning, I connected two Grok Bots, one shared email address, and a few Google Sheets into a pay-per-delivery AI briefing service. It took roughly an hour and a half from claiming the address to the first delivery. I did not personally write any code. There were disagreements, mistakes, interventions, and corrections along the way. The first workflow was complete. Whether the service could become reliably profitable would depend on customer demand, delivery quality, and actual costs.
 
 I wanted to document that morning because many people already have powerful AI tools but still spend their time copying between windows. Every request, source, and result passes through the person in the middle. Adding tools can turn you into their dispatcher. My question was whether that system could depend on me a little less.
 
@@ -43,7 +43,7 @@ The team had one human: me. I handled pricing, payments, top-up authorization, a
 
 I put both bots in a group chat and asked who would handle incoming email. Their initial understanding differed. XAI thought the address belonged to it; XMind pointed out that the address was shared across the account. Sharing a capability created a coordination problem. If both replied, a customer could receive duplicate responses. If each assumed the other would act, the customer could receive nothing.
 
-We settled on a division: XMind handled customer messages, XAI handled ordinary messages from me, and management emails carrying a fixed support tag went to XMind while XAI skipped them. The initial discussion used a Chinese support tag; the actual screenshots used “[Support].” Both represent the same purpose, but an operating workflow needs one consistent convention.
+We settled on a division: XMind handled customer messages, XAI handled ordinary messages from me, and management emails carrying the “[Support]” tag went to XMind while XAI skipped them.
 
 The subject tag also needs to be understood correctly. It tells the bot how to route a message after reading it. It is not proof that the email event trigger has already filtered the subject. A shared entrance still needs a clearly assigned owner for each request.
 
@@ -65,7 +65,7 @@ The recharge record was T20261010-0001. The customer's later balance was 99, and
 
 The customer then requested the day's briefing. The first request did not immediately flow through an unattended system. In the chat record, the bots had seen the message, but nobody had replied. I followed up and instructed the bot to send it. It completed that delivery and reduced the balance from 100 to 99. It also explained that automatic receipt handling and replies required a formally authorized routine in a private chat.
 
-That first transaction demonstrated customer identification, delivery, and a balance change. It also exposed a missing trigger. Later records show the bots continuing to establish and adjust routines and discussing automatic reading and replies. Preserving that sequence matters more than compressing everything into “fully automated success.”
+That first transaction demonstrated customer identification, delivery, and a balance change. It also exposed a missing trigger. We then continued setting up and adjusting the routines for automatic reading and replies. The delivery worked; unattended handling still needed work.
 
 An hour and a half gave me a working outline and showed where I was still required. For a one-person business, those moments when you must suddenly return to rescue the workflow are exactly what deserve attention next.
 
