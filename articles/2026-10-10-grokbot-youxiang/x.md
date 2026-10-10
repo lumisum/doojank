@@ -116,3 +116,9 @@ A competitor briefing could arrive every Monday. A monitoring service could noti
 Look again at the cover: two robots passing a document inside a mailbox. Bringing that image closer to reality required connecting an entrance, data, tools, roles, and permission, then correcting the mistakes. Two bots did not suddenly give me a mature company. They gave me a starting point I could examine and improve.
 
 **GrokBot got email, and my one-person business opened for business. Next, it has to prove it can keep doing the job customers need.**
+
+One distinction matters before you use this setup: **this is an exploratory tutorial for automated distribution and fulfillment. It does not solve the product or service itself.** The inbox accepts requests; the bots identify customers, check balances, send deliverables, and record transactions. Those steps reduce manual handling. They cannot decide what customers actually need, or turn weak content into a valuable product by sending it automatically.
+
+What your one-person business ultimately offers must come from your own domain expertise, industry experience, or proprietary data you are entitled to use. Which problems do you understand? What distinctive information do you hold? What result can you deliver that a particular customer would pay for? Those questions define the product. The AI briefing was my sample for exploring the route. You can replace it with a deliverable in your own field, but you still need to validate its quality, demand, and price.
+
+**This tutorial answers “How can I deliver it automatically?” It does not answer “What is worth delivering?” You can borrow the distribution workflow. You still have to build the product's value.**
