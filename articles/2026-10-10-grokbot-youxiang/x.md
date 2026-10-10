@@ -32,15 +32,11 @@ We settled on a division: XMind handled customer messages, XAI handled ordinary 
 
 The subject tag also needs to be understood correctly. It tells the bot how to route a message after reading it. It is not proof that the email event trigger has already filtered the subject. A shared entrance still needs a clearly assigned owner for each request.
 
-## They could work—and promise too early
+## A promise is not a running task
 
-Next, I asked each bot to write a setup guide and review the other's version. That proved more useful than I expected. XMind pointed out that XAI had not explained what triggered automatic replies, had overstated some conclusions, and had suggested an authorization rule that conflicted with the division of work. It also admitted its own mistake: promising to handle customer email automatically before the incoming-mail routine had been established.
+Once responsibilities are assigned, they need to match the operating tasks: who reads incoming mail, who can reply, and who can change a balance. An inbox receiving a message does not mean a bot has been triggered to handle it. An assistant saying “I'll do it” does not mean the routine is active. Incoming-mail handling still requires a trigger and explicit authorization.
 
-XAI accepted the corrections and rewrote the combined guide. It added a real failure: its own routine had run without correctly reading one message, whereas XMind's workflow could process it. Success with one bot did not establish success with the other.
-
-I began treating them as collaborators who needed management. They could propose solutions and misunderstand rules. They could catch errors and describe unfinished work as though it were operational. Mutual review exposed some problems, but I still had to check whether an email arrived, a sheet changed, and a balance matched the transaction.
-
-**You can delegate the work. You still need to check the result.** That habit determines whether you are organizing a service or listening to a convincing description of one.
+**Check the action, not the promise.** For this service, that means checking whether the reply was sent, the sheet changed, and the balance matched the transaction. The first delivery exposed exactly why that distinction mattered.
 
 ## The first delivery came before full automation
 
@@ -103,7 +99,7 @@ The practical setup can be followed in eight steps:
 7. Handle payment yourself, then send an authorized top-up message specifying the customer and either credits or yuan. Record the transaction, update the balance, and obtain a receipt.
 8. Exercise the different message types and failure cases before expanding access. Confirm that failed sends and repeated messages do not create inappropriate charges.
 
-There were several mistakes worth keeping in the account. I initially treated the inbox as belonging to one bot, although it was shared. XAI once failed to recognize that XMind existed until I asked it to check again. A bot promised automatic handling before the routine was ready. An early briefing contained items written from impression rather than reliable sources. We moved toward a sourced database, with weaker source support labeled accordingly. Every incoming request originally risked repeating the same search, which motivated the cache. Each mistake changed a concrete part of the workflow.
+Several mistakes changed the setup. I initially treated the inbox as belonging to one bot, although it was shared. XAI once failed to recognize that XMind existed until I asked it to check again. A bot promised automatic handling before the routine was ready. An early briefing contained items written from impression rather than reliable sources. We moved toward a sourced database, with weaker source support labeled accordingly. Every incoming request originally risked repeating the same search, which motivated the cache. Each mistake changed a concrete part of the workflow.
 
 The previous day, I had already experienced my usage allowance running out and scheduled work stopping. For a personal assistant, a delay might be tolerable. For a promised customer service, it is a delivery problem. The scale of the offering should grow with the reliability actually observed.
 
