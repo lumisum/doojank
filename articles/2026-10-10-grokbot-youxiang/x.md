@@ -12,9 +12,13 @@ The previous day, I had been considering a dedicated email address to connect bo
 
 The next morning, I discovered that Grok Bot offered its own email capability. The timing felt almost too good. I asked it in a private chat to claim the name xmind. After confirmation, I had `xmind@mail.grokbot.com`. I sent a message from Outlook, received a reply, then asked what tasks it was running. It listed its news tracking, English drafts, and email-related arrangements.
 
+My first subject line was “hello im your master,” and the message said, “I'm your master.” The bot replied, then listed its ongoing work: checking Musk, Rocket Lab, and major AI developments every two hours, preparing English replies, finding topics for longer posts every four hours, and handling the new inbox arrangements. The vocabulary was playful; the practical question was whether the communication route worked.
+
 The idea immediately became more concrete. The assistant now had an external entrance. Someone could send a request; it could read the message, use its tools, and return a result. A customer would not need access to my chat or visibility into the internal process. A small interface could connect to a much larger workflow.
 
 That is what interests me about this kind of product. Browsers, scripts, documents, spreadsheets, and scheduled routines can be organized into work. My measure of its usefulness is moving from the quality of an answer toward whether a job actually gets delivered.
+
+I used to hear “a smart, hardworking AI coworker” as a product slogan. After building this small workflow, the idea felt more concrete. Reusable rockets and Starlink also bring previously difficult capabilities into more accessible services. That is the product perspective I appreciate here: lowering the barrier to obtaining useful work. This morning's service was an elementary experiment, but its simplicity made the connection between capability and delivery easier to see.
 
 ## Two bots needed clear ownership
 
@@ -41,6 +45,8 @@ I began treating them as collaborators who needed management. They could propose
 ## The first delivery came before full automation
 
 I sent a management email adding 100 credits to a customer's account. XMind created the customer entry and a transaction record, then added the price when I supplied it. I specified that remaining credits were the core balance: a request to add N credits meant adding N; a request to add X yuan meant adding 2X credits at the chosen price.
+
+The recharge record was T20261010-0001. The customer's later balance was 99, and a second transaction recorded the one-credit deduction. These were useful accounting records; they did not independently establish that a payment had been received. I wanted the ledger to remain simple because I might request a top-up in credits on one occasion and in yuan on another.
 
 The customer then requested the day's briefing. The first request did not immediately flow through an unattended system. In the chat record, the bots had seen the message, but nobody had replied. I followed up and instructed the bot to send it. It completed that delivery and reduced the balance from 100 to 99. It also explained that automatic receipt handling and replies required a formally authorized routine in a private chat.
 
@@ -86,6 +92,19 @@ Separate content from fulfillment. Store sourced material in the news table, cov
 
 Finally, use real messages to examine management requests, top-ups, customer requests, insufficient balances, unknown senders, attempted privilege escalation, bounces, and duplicates. This is my checklist for the next round of refinement, not a claim that every case passed that morning. Failed sends, retries, incorrect deductions, and exhausted usage allowances deserve particular attention.
 
+The practical setup can be followed in eight steps:
+
+1. Claim the inbox in a private chat. The current product allows one address that cannot be renamed, so choose for the intended brand. If you use a separate public address and forward mail, check how the sender identity appears after forwarding.
+2. Create a customer table and an append-only transaction ledger. Keep remaining credits as the central balance and make each change reconcilable. Plan for interrupted writes.
+3. Build the news table, the PDF record table, and the content cache. My chosen cadence was every three hours, covering the preceding 24 hours.
+4. Define the routes: management requests, new-customer inquiries, briefing delivery, insufficient balance, balance inquiries, out-of-scope requests, human handoff, and unwanted mail. Prepare a suitable response for each.
+5. Create the incoming-mail routine in private chat and approve its scope. A trigger may provide the message header first; the bot still needs to retrieve the message it must handle. My experience showed that one bot's routine could fail while another's worked.
+6. Coordinate the bots around sender identity and the support tag. Keep responsibilities exclusive, check for an existing reply, and update their rules together when the division changes.
+7. Handle payment yourself, then send an authorized top-up message specifying the customer and either credits or yuan. Record the transaction, update the balance, and obtain a receipt.
+8. Exercise the different message types and failure cases before expanding access. Confirm that failed sends and repeated messages do not create inappropriate charges.
+
+There were several mistakes worth keeping in the account. I initially treated the inbox as belonging to one bot, although it was shared. XAI once failed to recognize that XMind existed until I asked it to check again. A bot promised automatic handling before the routine was ready. An early briefing contained items written from impression rather than reliable sources. We moved toward a sourced database, with weaker source support labeled accordingly. Every incoming request originally risked repeating the same search, which motivated the cache. Each mistake changed a concrete part of the workflow.
+
 The previous day, I had already experienced my usage allowance running out and scheduled work stopping. For a personal assistant, a delay might be tolerable. For a promised customer service, it is a delivery problem. The scale of the offering should grow with the reliability actually observed.
 
 ## Opening the doors began the business experiment
@@ -95,6 +114,8 @@ The morning strengthened my belief that a one-person business can begin with a v
 That skeleton raises the next questions: why a customer needs the briefing, whether they will buy again, whether its quality stays consistent, and whether maintenance is worth the cost. Adding automatic payments would remove one manual step. It would not automatically resolve demand, quality, or profitability. Technology lowered the barrier to starting. Delivery and customer feedback still have to determine whether the business works.
 
 Possible next experiments include weekly competitor intelligence, keyword monitoring, and one-off research reports. I could also return to my original idea and let bots from different vendors exchange tasks and results through email. Each new service would need its own delivery standard, cost understanding, and exception handling. Changing the product name does not establish a new business.
+
+A competitor briefing could arrive every Monday. A monitoring service could notify a customer when a chosen keyword appears. A one-off research service could accept a question and deliver a report against an agreed deadline and price. Email also remains a straightforward candidate for letting different vendors' bots exchange work. These are possible next experiments, not products I had already launched that morning.
 
 Look again at the cover: two robots passing a document inside a mailbox. Bringing that image closer to reality required connecting an entrance, data, tools, roles, and permission, then correcting the mistakes. Two bots did not suddenly give me a mature company. They gave me a starting point I could examine and improve.
 
