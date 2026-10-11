@@ -2,7 +2,8 @@
 layout: "article"
 translation_key: "2026-10-05-ai-to-si"
 date: "2026-10-05T22:23:00+08:00"
-status: "published"
+status: archived
+archived_at: "2026-10-11"
 lang: "en"
 title: "We’ve Gone from AI to SI"
 summary: "As AI gives way to the idea of superintelligence, humanity’s position comes into question. Machines can expand our capabilities. Who chooses the goals and bears the consequences? Easier answers make better questions more important."

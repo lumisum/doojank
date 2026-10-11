@@ -2,7 +2,8 @@
 layout: "article"
 translation_key: "2026-10-04-yanqian-wanxiang"
 date: "2026-10-04T23:14:42+08:00"
-status: "published"
+status: archived
+archived_at: "2026-10-11"
 lang: "zh-CN"
 title: "AI因注意力机制异常强大，而人类的注意力却涣散了"
 summary: "AI 能无限造相，我们的注意力却有限。刷不停的，究竟是视频，还是对下一个新相的执迷？从佛法的无住与阳明的心意之学出发，看清注意力如何被牵走，把一念留给真正认定的事。"

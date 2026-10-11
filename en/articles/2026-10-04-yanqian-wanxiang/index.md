@@ -2,7 +2,8 @@
 layout: "article"
 translation_key: "2026-10-04-yanqian-wanxiang"
 date: "2026-10-04T23:14:42+08:00"
-status: "published"
+status: archived
+archived_at: "2026-10-11"
 lang: "en"
 title: "AI Has Attention Now. Ours Has Scattered."
 summary: "AI creates endless images. Your attention is finite. Are you watching videos—or chasing novelty? Through Buddhist non-clinging and Wang Yangming’s view of intention, reclaim your attention for what truly matters."

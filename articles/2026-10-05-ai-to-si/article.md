@@ -2,7 +2,8 @@
 layout: "article"
 translation_key: "2026-10-05-ai-to-si"
 date: "2026-10-05T22:23:00+08:00"
-status: "published"
+status: archived
+archived_at: "2026-10-11"
 lang: "zh-CN"
 title: "我们从AI走到了SI"
 summary: "当讨论从人工智能走向超级智能，人类的位置也开始被重新审视。能力可以借助机器放大，但目标由谁选择，后果由谁承担？答案越来越容易获得，什么值得追问反而更重要。"
