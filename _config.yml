@@ -7,7 +7,12 @@ social_image: /assets/doojank/river-hero.webp
 social_image_alt: A traveler crosses a misty river at sunset — DooJank
 markdown: kramdown
 permalink: pretty
+# Articles are offline during the content rebuild (2026-10-11).
+# Keep source files in Git; remove these three exclusions when publishing the new catalogue.
 exclude:
+  - articles
+  - en/articles
+  - assets/doojank/essay-thumbs
   - .agents
   - articles/README.md
   - articles/**/wechat.md
