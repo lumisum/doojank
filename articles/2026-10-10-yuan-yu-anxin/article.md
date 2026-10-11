@@ -5,7 +5,8 @@ translation_key: 2026-10-10-yuan-yu-anxin
 title: "别逼苹果树结橘子"
 date: "2026-10-10T16:00:00+08:00"
 summary: "目标要经常擦亮，行动要遵循现实条件。今天听《金刚经》第三品，我终于找到一条把发愿、行动与安心连进日常的路径：想要橘子，就种橘子树，别让强求牵着心走。"
-status: published
+status: archived
+archived_at: "2026-10-11"
 permalink: /articles/2026-10-10-yuan-yu-anxin/
 cover: /articles/2026-10-10-yuan-yu-anxin/images/cover.png
 cover_alt: "苹果树上挂着两颗红苹果，一只手把一颗橘子举到树前。"

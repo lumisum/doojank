@@ -5,7 +5,8 @@ translation_key: 2026-10-07-ai-yu-ziji-de-zhexue
 title: "油门交给 AI，方向交给谁？"
 date: "2026-10-07T20:32:16+08:00"
 summary: "AI 能让你更快实现目标，却不会让每个目标都值得追求。把执行交给工具之前，先看清目的、代价与停止条件。自己的哲学，就是让强大的能力服务于真正重要的事。"
-status: published
+status: archived
+archived_at: "2026-10-11"
 permalink: /articles/2026-10-07-ai-yu-ziji-de-zhexue/
 cover: /articles/2026-10-07-ai-yu-ziji-de-zhexue/images/cover.png
 cover_alt: "一辆以青蓝芯片为动力的车抓地起步，车后有轮胎印与烟尘，驾驶者握着方向盘，前方道路分成两支。"

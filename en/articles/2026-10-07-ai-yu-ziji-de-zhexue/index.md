@@ -5,7 +5,8 @@ translation_key: 2026-10-07-ai-yu-ziji-de-zhexue
 title: "AI Takes the Accelerator. Who Holds the Wheel?"
 date: "2026-10-07T20:32:16+08:00"
 summary: "AI can accelerate your goals. It cannot make every goal worth pursuing. Before delegating execution, examine the purpose, the costs, and when to stop. Better tools need clearer judgment, not an ever-growing list of tasks."
-status: published
+status: archived
+archived_at: "2026-10-11"
 permalink: /en/articles/2026-10-07-ai-yu-ziji-de-zhexue/
 cover: /articles/2026-10-07-ai-yu-ziji-de-zhexue/images/cover-en.png
 cover_ratio: "5:2"

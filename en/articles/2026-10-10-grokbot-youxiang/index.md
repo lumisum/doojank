@@ -5,7 +5,8 @@ translation_key: 2026-10-10-grokbot-youxiang
 title: "GrokBot Got Email. My One-Person Business Opened."
 date: "2026-10-10T10:30:00+08:00"
 summary: "One inbox, two AI coworkers, one morning. I built a pay-per-delivery briefing service—and learned what makes it work: clear roles, explicit permission, reusable content, and a way to catch mistakes."
-status: published
+status: archived
+archived_at: "2026-10-11"
 permalink: /en/articles/2026-10-10-grokbot-youxiang/
 cover: /articles/2026-10-10-grokbot-youxiang/images/cover-en.png
 cover_alt: "A hand slides an envelope into a blue mailbox containing a miniature office where two robots exchange a document."

@@ -5,7 +5,8 @@ layout: article
 title: "佛陀如何教育自己的儿子？"
 date: "2026-09-26T12:00:00+08:00"
 summary: "从《教诫罗睺罗经》的镜子譬喻出发，重新看孩子的独立、夫妻的教育分歧，以及父母如何先照见自己的控制与执着。"
-status: published
+status: archived
+archived_at: "2026-10-11"
 permalink: /articles/insights/2026-09-26-fotuo-jiaoyu-luohouluo/
 cover: /articles/2026-09-26-fotuo-jiaoyu-luohouluo/images/cover.png
 cover_alt: "封面写着“佛陀如何教育自己的儿子？”，佛陀与少年罗睺罗在青松绿山水间共看一面镜子"

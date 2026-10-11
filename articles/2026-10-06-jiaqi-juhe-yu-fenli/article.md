@@ -5,7 +5,8 @@ translation_key: 2026-10-06-jiaqi-juhe-yu-fenli
 title: "假期的聚会与分离，让我明白空亦是空"
 date: "2026-10-06"
 summary: "五天相聚散去，屋里的安静让人落寞。但相聚在变，分别后的心也在变。空，不是让亲情失去意义；空亦是空，是连那份空落落，也不必当成永远。"
-status: published
+status: archived
+archived_at: "2026-10-11"
 permalink: /articles/2026-10-06-jiaqi-juhe-yu-fenli/
 cover: /articles/2026-10-06-jiaqi-juhe-yu-fenli/images/cover.png
 cover_alt: "暖琥珀色玻璃带汇成摆着茶杯的圆桌，又穿过敞开的门延伸向不同方向，表现亲人的相聚与分离。"

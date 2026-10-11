@@ -5,7 +5,8 @@ layout: article
 title: "傻孩童误把抄袭当捷径 积善果当下步步皆修行。"
 date: "2026-09-29T10:45:00+08:00"
 summary: "从孩子制作《朝花夕拾》读后感图文的一次经历说起，体会专注当下如何种下能力之因，让结果随因缘成熟。"
-status: published
+status: archived
+archived_at: "2026-10-11"
 permalink: /articles/insights/2026-09-29-fufa-zhuanzhu-dangxia/
 cover: /articles/2026-09-29-fufa-zhuanzhu-dangxia/images/cover.png
 cover_alt: "青松绿书桌前，孩子从临摹走向专注，封面以创意书法分两行写出文章标题"

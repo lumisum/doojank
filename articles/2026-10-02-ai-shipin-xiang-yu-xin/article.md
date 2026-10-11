@@ -5,7 +5,8 @@ layout: article
 title: "当“相”可以无限生成：从AI视频一直想到人类消失以后"
 date: "2026-10-02T18:30:50+08:00"
 summary: "从不断生成的 AI 视频，想到虚拟世界、工业闭环与机器意识。十九层追问，最终回到相与心：能思考是否就会受苦，能造相是否就能不住相？"
-status: published
+status: archived
+archived_at: "2026-10-11"
 longform: true
 reading_minutes: 22
 permalink: /articles/insights/2026-10-02-ai-shipin-xiang-yu-xin/

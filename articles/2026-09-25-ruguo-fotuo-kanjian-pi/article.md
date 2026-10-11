@@ -5,7 +5,8 @@ layout: article
 title: "如果佛陀看见π"
 date: "2026-09-25T12:00:00+08:00"
 summary: "从《金刚经》“无有定法”出发，我借数学中的 π 思考：确定性与自性是否相同？答案再精确，也还可以继续追问它依什么而成立。"
-status: published
+status: archived
+archived_at: "2026-10-11"
 permalink: /articles/insights/2026-09-25-ruguo-fotuo-kanjian-pi/
 cover: /articles/2026-09-25-ruguo-fotuo-kanjian-pi/images/cover.png
 cover_alt: "封面写着“如果佛陀看见π”，青松绿水面中央是一枚刻有π的深色石盘，周围荡开圆形水纹"

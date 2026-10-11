@@ -5,7 +5,8 @@ layout: article
 title: "趁长假暂卸一身劳，借佛法照见职场愁"
 date: "2026-09-30T12:35:00+08:00"
 summary: "长假离开了工位，心却还在等待认可与回报。借《六祖坛经》照见功劳背后的执着，分清工作与生活，让心放下，让事继续。"
-status: published
+status: archived
+archived_at: "2026-10-11"
 permalink: /articles/insights/2026-09-30-changjia-zhichang-chou/
 cover: /articles/2026-09-30-changjia-zhichang-chou/images/cover.png
 cover_alt: "青松庭院里，职场人放下公文包，走向暖光；两行创意书法写出完整文章标题"

@@ -5,7 +5,8 @@ translation_key: 2026-10-10-yuan-yu-anxin
 title: "Don't Ask an Apple Tree for Oranges"
 date: "2026-10-10T16:00:00+08:00"
 summary: "Keep your goal clear. Work with the conditions that can bring it about. A talk on the Diamond Sutra helped me connect aspiration, action, and a steadier mind: if you want oranges, plant an orange tree."
-status: published
+status: archived
+archived_at: "2026-10-11"
 permalink: /en/articles/2026-10-10-yuan-yu-anxin/
 cover: /articles/2026-10-10-yuan-yu-anxin/images/cover-en.png
 cover_alt: "Two red apples hang from an apple branch while a hand holds an orange beside them."

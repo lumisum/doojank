@@ -5,7 +5,8 @@ translation_key: 2026-10-06-jiaqi-juhe-yu-fenli
 title: "Reunion and Farewell: Even Emptiness Is Empty"
 date: "2026-10-06"
 summary: "A family reunion ends, and a quiet house feels hollow. But the sadness changes too. This holiday helped me understand emptiness: cherish the gathering without asking it to last forever, and let even the feeling of absence change."
-status: published
+status: archived
+archived_at: "2026-10-11"
 permalink: /en/articles/2026-10-06-jiaqi-juhe-yu-fenli/
 cover: /articles/2026-10-06-jiaqi-juhe-yu-fenli/images/cover-en.png
 cover_alt: "An amber glass ribbon forms a tea table before flowing through an open doorway toward separate paths, suggesting family reunion and farewell."

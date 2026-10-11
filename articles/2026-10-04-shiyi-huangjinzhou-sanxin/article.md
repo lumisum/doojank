@@ -3,7 +3,8 @@ layout: article
 title: "十一黄金周，为什么大家都出去散心？"
 date: "2026-10-04T12:00:00+08:00"
 summary: "旅行能让人暂时轻松，但如果平静只能依赖某个地方，心又住在哪里？从黄金周的散心，体会借境休息与无所住之间的分别。"
-status: published
+status: archived
+archived_at: "2026-10-11"
 lang: zh-CN
 translation_key: 2026-10-04-shiyi-huangjinzhou-sanxin
 permalink: /articles/2026-10-04-shiyi-huangjinzhou-sanxin/

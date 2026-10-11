@@ -5,7 +5,8 @@ layout: article
 title: "一千瓦的太空算力梦"
 date: "2026-10-03T11:03:31+08:00"
 summary: "四颗芯片、一千瓦的电，第一颗算力卫星已经入轨；把事实放回本来的大小，才看得清这一步走了多远，离太空数据中心还有多远。"
-status: published
+status: archived
+archived_at: "2026-10-11"
 permalink: /articles/2026-10-03-yiqianwa-taikong-suanli-meng/
 cover: /articles/2026-10-03-yiqianwa-taikong-suanli-meng/images/cover.png
 cover_alt: "青松绿山野与云海之上，一颗小型卫星展开太阳能板，暖象牙色标题：一千瓦的太空算力梦"

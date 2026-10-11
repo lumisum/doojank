@@ -5,7 +5,8 @@ layout: article
 title: "佛陀如何改变了我的女司机同事？"
 date: "2026-09-27T12:00:00+08:00"
 summary: "从一位女同事在高速上专心驾驶的细节出发，重新理解《金刚经》第一品：修行不在生活之外，而在每一刻做好眼前该做的事。"
-status: published
+status: archived
+archived_at: "2026-10-11"
 permalink: /articles/insights/2026-09-27-fotuo-ruhe-gaibian-nv-siji-tongshi/
 cover: /articles/2026-09-27-fotuo-ruhe-gaibian-nv-siji-tongshi/images/cover.png
 cover_alt: "封面写着“佛陀如何改变了我的女司机同事？”，从后排望向一位专注驾驶的女同事，前方高速公路穿过青松绿山林"

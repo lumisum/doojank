@@ -5,7 +5,8 @@ layout: article
 title: "佛陀如何让家长每天多出一小时？"
 date: "2026-09-27T17:15:00+08:00"
 summary: "从初中生独自上学的现实选择出发，借《金刚经》第二品重新看见父母的担心、责任与放手。"
-status: published
+status: archived
+archived_at: "2026-10-11"
 permalink: /articles/insights/2026-09-27-fotuo-rang-jiazhang-meitian-duo-yixiaoshi/
 cover: /articles/2026-09-27-fotuo-rang-jiazhang-meitian-duo-yixiaoshi/images/cover.png
 cover_alt: "封面呈现家长站在晨光中的路口，看着背书包的孩子独自走向学校，画面写有文章标题"

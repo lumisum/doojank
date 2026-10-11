@@ -5,7 +5,8 @@ translation_key: 2026-10-10-grokbot-youxiang
 title: "GrokBot 邮箱一上线，我的一人公司就开张了"
 date: "2026-10-10T10:30:00+08:00"
 summary: "一个邮箱，两个 AI，一个上午。我把新闻采集、客户回信、次数账本和 PDF 交付串成了一个服务，也发现：真正让机器人开工的，是分工、授权、缓存和纠错。"
-status: published
+status: archived
+archived_at: "2026-10-11"
 permalink: /articles/2026-10-10-grokbot-youxiang/
 cover: /articles/2026-10-10-grokbot-youxiang/images/cover.png
 cover_alt: "蓝色邮箱侧面打开，里面两个机器人在微型办公室交接文件，一只手正在投进信封。"
