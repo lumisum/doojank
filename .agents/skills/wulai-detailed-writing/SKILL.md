@@ -3,6 +3,8 @@ name: wulai-detailed-writing
 description: 对较长口述或详细原稿进行最小措辞润色与口述重复清理，保留全部思考和论证；用于长稿整理，不扩写、不重构、不按字数压缩。
 ---
 
+
+当前分工：作者给成文时只处理视觉任务，不调用本技能改稿；以下文字编辑或研究功能仅在作者另行明确请求时使用。制图转[配图技能](../wulai-wechat-visuals/SKILL.md)，同时交付中英文封面和正文图。
 # 无来长口述轻润色
 
 执行[口述规范](../../../guides/writing-style.md)与[长稿规范](../../../guides/detailed-writing-style.md)。原“详解式”不再是代写格式。
