@@ -1,5 +1,5 @@
 {% assign classic_theme = false %}{% if page.url contains "/classics/" %}{% assign classic_theme = true %}{% endif %}
-{% assign current_lang = page.lang | default: 'zh-CN' %}{% assign t = site.data.i18n[current_lang] %}{% assign home_path = '/zh/' %}{% assign classics_path = '/classics/' %}{% assign other_lang = 'en' %}{% assign fallback_path = '/' %}{% if current_lang == 'en' %}{% assign home_path = '/' %}{% assign classics_path = '/en/classics/' %}{% assign other_lang = 'zh-CN' %}{% assign fallback_path = '/zh/' %}{% endif %}
+{% assign current_lang = page.lang | default: 'zh-CN' %}{% assign t = site.data.i18n[current_lang] %}{% assign home_path = '/' %}{% assign classics_path = '/classics/' %}{% assign other_lang = 'en' %}{% assign fallback_path = '/en/' %}{% if current_lang == 'en' %}{% assign home_path = '/en/' %}{% assign classics_path = '/en/classics/' %}{% assign other_lang = 'zh-CN' %}{% assign fallback_path = '/' %}{% endif %}
 <!doctype html>
 <html lang="{{ current_lang }}"{% unless classic_theme %} data-blog-theme="river"{% endunless %}>
   <head>
@@ -22,7 +22,7 @@
     <link rel="canonical" href="{{ canonical_url | escape }}">
     <link rel="alternate" hreflang="{{ current_lang }}" href="{{ canonical_url }}">
     {% if counterpart %}<link rel="alternate" hreflang="{{ other_lang }}" href="{{ counterpart.url | absolute_url }}">{% endif %}
-    <link rel="alternate" hreflang="x-default" href="{% if current_lang == 'en' %}{{ canonical_url }}{% elsif counterpart %}{{ counterpart.url | absolute_url }}{% else %}{{ '/' | absolute_url }}{% endif %}">
+    <link rel="alternate" hreflang="x-default" href="{% if current_lang == 'zh-CN' %}{{ canonical_url }}{% elsif counterpart %}{{ counterpart.url | absolute_url }}{% else %}{{ '/' | absolute_url }}{% endif %}">
     <link rel="sitemap" type="application/xml" href="{{ '/sitemap.xml' | absolute_url }}">
 
     <meta property="og:locale" content="{% if current_lang == 'en' %}en_US{% else %}zh_CN{% endif %}">

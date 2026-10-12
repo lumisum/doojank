@@ -1,4 +1,4 @@
-{% assign current_lang = page.lang | default: 'en' %}{% assign t = site.data.i18n[current_lang] %}{% assign home_path = '/zh/' %}{% assign classics_path = '/classics/' %}{% if current_lang == 'en' %}{% assign home_path = '/' %}{% assign classics_path = '/en/classics/' %}{% endif %}
+{% assign current_lang = page.lang | default: 'zh-CN' %}{% assign t = site.data.i18n[current_lang] %}{% assign home_path = '/' %}{% assign classics_path = '/classics/' %}{% if current_lang == 'en' %}{% assign home_path = '/en/' %}{% assign classics_path = '/en/classics/' %}{% endif %}
 {% assign b = site.data.blog[current_lang] %}
 {% assign language_prefix = '' %}{% if current_lang == 'en' %}{% assign language_prefix = '/en' %}{% endif %}
 {% assign all_articles = site.pages | where: 'layout', 'article' | where: 'status', 'published' | where: 'lang', current_lang | sort: 'date' | reverse %}

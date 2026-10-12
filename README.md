@@ -43,10 +43,12 @@ DooJank takes its name from 渡江客—a traveler crossing a river. I write fro
 
 ---
 
-## 内容重构中 · Journal rebuild
+## 文章
 
-所有已发布文章已从网站下架，正在重新构建内容体系。四部经典仍可阅读。
+旧文章保持下架归档；新的内容逐篇发布。网站默认中文，四部经典仍可阅读。
 
-All previously published essays have been taken offline while the journal is being rebuilt. The reading shelf remains available.
+Previously published essays remain archived. New essays are published individually. Chinese is now the default site language.
 
 文章原稿、中英文版本、平台 HTML 和图片保留在仓库中，供后续整理使用。
+
+- [代码越写越快，为什么交付反而卡死？三步判定你的项目上 AI 是赚是亏](https://lumisum.github.io/doojank/articles/2026-10-12-ai-biancheng-yanzheng-shui/)

@@ -26,3 +26,7 @@
 | 2026-09-24 | 马斯克的佛性是什么？ | [2026-09-24-musk-de-yuanli/article.md](2026-09-24-musk-de-yuanli/article.md) | [2026-09-24-musk-de-yuanli/wechat.html](2026-09-24-musk-de-yuanli/wechat.html) | [2026-09-24-musk-de-yuanli/wechat.md](2026-09-24-musk-de-yuanli/wechat.md) | — |
 | 2026-09-24 | 如来何以成佛祖？ | [2026-09-24-rulai-heyi-cheng-fozu/article.md](2026-09-24-rulai-heyi-cheng-fozu/article.md) | [2026-09-24-rulai-heyi-cheng-fozu/wechat.html](2026-09-24-rulai-heyi-cheng-fozu/wechat.html) | [2026-09-24-rulai-heyi-cheng-fozu/wechat.md](2026-09-24-rulai-heyi-cheng-fozu/wechat.md) | — |
 | 2026-09-24 | 有了佛学基础，情商会不会提高？ | [2026-09-24-fuxue-yu-qingshang/article.md](2026-09-24-fuxue-yu-qingshang/article.md) | [2026-09-24-fuxue-yu-qingshang/wechat.html](2026-09-24-fuxue-yu-qingshang/wechat.html) | [2026-09-24-fuxue-yu-qingshang/wechat.md](2026-09-24-fuxue-yu-qingshang/wechat.md) | — |
+
+## 新内容发布范围
+
+归档目录整体保持排除。2026-10-12起，经作者授权的单篇在journal/<目录名>/index.md发布，permalink仍为/articles/<目录名>/；公开图片仅复制到assets/articles/<目录名>/。新旧源稿均在articles保存，制作文件不发布。当前仅AI编程验证税率一篇中文稿上线。

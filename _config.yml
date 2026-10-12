@@ -1,6 +1,6 @@
 title: DooJank
 description: DooJank — a personal journal on philosophy, attention, and everyday life.
-lang: en
+lang: zh-CN
 url: https://lumisum.github.io
 baseurl: /doojank
 social_image: /assets/doojank/river-hero.webp
@@ -8,7 +8,7 @@ social_image_alt: A traveler crosses a misty river at sunset — DooJank
 markdown: kramdown
 permalink: pretty
 # Articles are offline during the content rebuild (2026-10-11).
-# Keep source files in Git; remove these three exclusions when publishing the new catalogue.
+# Keep archives excluded. Publish selected new pages in journal/ and assets in assets/articles/.
 exclude:
   - articles
   - en/articles
