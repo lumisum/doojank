@@ -1,0 +1,11 @@
+# 简洁芯片动力起步版 · 2026-10-09
+
+作者否决机翼云海版，要求回到刚将芯片作为发动机的 v3，只加入弹射起步感。内置 image_gen 编辑 v3，保留灰白薄雾、地面岔路、人物与芯片，加入贴地烟尘、轮胎印和地面运动纹理；不使用机翼、云桥或弹射轨道。
+
+成品：`images/cover-proposal-image-led-v5.png`。当前未替换正式图片，文章改写尚未执行；须依据作者最终确认的这版画面引题。画面显示驾驶者握着方向盘、青蓝芯片动力、车后轮胎印及贴地烟尘、前方分岔路。不能写成飞行汽车或云端跑道。
+
+标题保留作者指定「油门交给 AI，方向交给谁？」。开头聚焦动力已推动起步、前方仍有方向选择；然后讨论能力扩大与价值判断、代价、停止条件，不能以画面代替事实论证。
+
+## 完整编辑提示词
+
+EDIT THIS EXACT supplied photograph, with minimal changes. Preserve the original simple grey mist environment, the empty Y-shaped road fork, car position and scale, rear three-quarter camera view, all the original generous negative space and panoramic 5:2 framing. Preserve the prominent square rear-mounted AI chip engine and its cyan core, circuit board, graphite heatsinks and metal frame; preserve the single driver and hand on steering wheel. ONLY change the car from parked to the precise instant of a hard standing-start launch, extremely convincing traction. Rear suspension squats under load, rear tire sidewalls subtly compress at the asphalt contact patches; front remains on ground. Place two SHORT dark fresh tire marks directly behind the rear wheels, a LOW thin localized puff of pale tyre smoke/dust trailing backward from each contact patch. Ground texture in the immediate foreground has restrained directional motion streaking backwards, while car, human and AI chip remain crisp. The slight body pitch and tactile tire contact must communicate explosive acceleration, NOT cruising and NOT a stationary burnout. Keep forward road fork perfectly readable and sharp enough. The chip core may brighten subtly but no beams and no additional futuristic decorations. All wheels firmly contact the road; no car floating, no wheels lifting. DO NOT add wings. DO NOT change the road architecture. NO cloud bridges, no aircraft carrier, no catapult rail, no additional objects, no new landscape. No fire, no thick smoke hiding the tires or vehicle, no dramatic huge dust cloud. Premium restrained photographic realism, graphite and pearl grey with only original cyan chip accent. User wants the same clean AI-chip-engine picture with a sense of launching, NOT a redesigned spectacle. No text, letters, numbers, signs, logos, watermark.
